@@ -1,0 +1,77 @@
+name: Refresh news
+run-name: Refresh news (${{ inputs.requestId || github.run_id }})
+
+on:
+  schedule:
+    - cron: '17 6 * * *'
+      timezone: America/New_York
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'active: all active subscriptions; selected: queryIds; custom: query or queries'
+        type: choice
+        options: [active, selected, custom]
+        default: active
+      queryIds:
+        description: 'JSON array of saved IDs, for example ["kashmir"]'
+        type: string
+        default: '[]'
+      query:
+        description: 'One custom Google News search string'
+        type: string
+        default: ''
+      queries:
+        description: 'Custom JSON array of objects with id and query; use instead of query'
+        type: string
+        default: '[]'
+      requestId:
+        description: 'Unique lowercase request ID; blank generates run-<run-id>-<attempt>'
+        type: string
+        default: ''
+      maxTotal:
+        description: 'Maximum unique articles across all topics (1–100)'
+        type: string
+        default: '100'
+      maxArticles:
+        description: 'Per-query article limit for the single custom query input (1–100)'
+        type: string
+        default: '25'
+      forceResolve:
+        description: 'Resolve known Google links again instead of using successful mappings'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    # Updates config and generated files on the default branch only.
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - name: Fetch feeds, resolve links, and publish JSON
+        run: node src/refresh-news.mjs --publish
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          SCS_DATA_BRANCH: ${{ github.event.repository.default_branch }}
+          SCS_MODE: ${{ inputs.mode || 'active' }}
+          SCS_QUERY_IDS: ${{ inputs.queryIds || '[]' }}
+          SCS_QUERY: ${{ inputs.query }}
+          SCS_QUERIES: ${{ inputs.queries || '[]' }}
+          SCS_REQUEST_ID: ${{ inputs.requestId }}
+          SCS_MAX_TOTAL: ${{ inputs.maxTotal || '100' }}
+          SCS_MAX_ARTICLES: ${{ inputs.maxArticles || '25' }}
+          SCS_FORCE_RESOLVE: ${{ inputs.forceResolve || false }}

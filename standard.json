@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "timezone": "America/New_York",
+  "defaults": {
+    "language": "en-US",
+    "country": "US",
+    "edition": "US:en",
+    "maxArticles": 25
+  },
+  "queries": [
+    {
+      "id": "kashmir",
+      "label": "Kashmir",
+      "query": "Kashmir when:1d",
+      "revision": 1,
+      "enabled": false
+    }
+  ]
+}
