@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 2,
+  "requestId": "20261103170602-41680875644-1",
+  "queryId": "minusca",
+  "query": "(((MINUSCA OR munisca OR \"mi-nu-sca\" OR MINUSCA OR \"Valentine Rugwabiza\" OR \"m-i-n-u-s-c-a\") OR ((\"United Nations Multidimensional Integrated Stabilization Mission in the Central African Republic\" OR (peacekeeper OR peacekeepers) OR peacekeeping OR contingent OR \"united nations\") (\"central african republic\" OR bangui OR Obo OR \"Haut-Mbomou\" OR Bambouti OR Zangba OR Dembia OR Zemio OR Batangafo OR Birao OR Ndele OR Vakaga OR \"Haute-Kotto\" OR Yade)))) when:1d",
+  "label": "MINUSCA / CAR",
+  "queryRevision": 3,
+  "configHash": "1bbe441f3e14739ff71a920cfcf3a323f00846bc65b2b081d88820ace917a58c",
+  "source": "standard",
+  "lookbackHours": 24,
+  "locale": {
+    "language": "en-US",
+    "country": "US",
+    "edition": "US:en"
+  },
+  "startedAt": "2026-11-03T17:06:15.611Z",
+  "feedFetchedAt": "2026-11-03T17:06:29.738Z",
+  "generatedAt": "2026-11-03T17:10:46.214Z",
+  "status": "completed",
+  "error": null,
+  "truncated": true,
+  "counts": {
+    "selected": 18,
+    "resolved": 18,
+    "unresolved": 0,
+    "cacheHits": 0
+  },
+  "articles": [
+    {
+      "title": "Central African Republic establishes first integrated criminal database with United Nations Multidimensional Integrated Stabilization Mission in the Central African Republic (MINUSCA) and United Nations Office on Drugs and Crime (UNODC) support - Zawya",
+      "publisher": "Zawya",
+      "publishedAt": "2026-10-09T10:31:00.000Z",
+      "rssDescription": "Central African Republic establishes first integrated criminal database with United Nations Multidimensional Integrated Stabilization Mission in the Central African Republic (MINUSCA) and United Nations Office on Drugs and Crime (UNODC) support Zawya",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiuANBVV95cUxNMUNGdEFlWUl0dGJ4c0hMMHF4RmhfZjVNWmFQU0dWeWZIYkwzUDZBbUxFdWR4Zlh4RjRRazY5RERxN1NzWlFBMFdrZnZRQlhoTkxkb2lsejliMFlsNUc5VjBMc2xNUDgzTlVBMXNpWkRZMUhHUjliTm1SRm0zREp0SXVxdHBNMVNUa0xrVFJ5bmJUeTVDQmFwQVI1bHdfbzlKXzlGMVNod3BkR2JQaHQ4SnZabDRfUWw1LXFhTkluNkFWUVhwbU1iWnI1OE1uSmVIMVl6REFrMHBkWkE1MVItaE9yMmtMbmx3MzVEN2FUb2lpSkc0WmdoUDRYZmt1Q1hiVG5ObUJ6TEtxajhkcVVfdnFCckQxLTY1X3dQVG5GYU1hOUdrM1V3T0VkUnFYYTlqcGhabExsXy1kR2ZXMTNTbXNWVHJQdXFLSVV3SHhWVHYzR1d6b3Z5a2VsVUJQeFFDV0ZmSkNITkVmZlhkTHdRUjEwWUtRMWRoLVoxRlBVY29kLXl4NzZWNUpsQWtpU0hVdGR6ZThlUExOZm9QSEFYOGFxRXBtSTV0djFSMmVuRGhOWC0zdVZ3Zw?oc=5",
+      "googleArticleId": "CBMiuANBVV95cUxNMUNGdEFlWUl0dGJ4c0hMMHF4RmhfZjVNWmFQU0dWeWZIYkwzUDZBbUxFdWR4Zlh4RjRRazY5RERxN1NzWlFBMFdrZnZRQlhoTkxkb2lsejliMFlsNUc5VjBMc2xNUDgzTlVBMXNpWkRZMUhHUjliTm1SRm0zREp0SXVxdHBNMVNUa0xrVFJ5bmJUeTVDQmFwQVI1bHdfbzlKXzlGMVNod3BkR2JQaHQ4SnZabDRfUWw1LXFhTkluNkFWUVhwbU1iWnI1OE1uSmVIMVl6REFrMHBkWkE1MVItaE9yMmtMbmx3MzVEN2FUb2lpSkc0WmdoUDRYZmt1Q1hiVG5ObUJ6TEtxajhkcVVfdnFCckQxLTY1X3dQVG5GYU1hOUdrM1V3T0VkUnFYYTlqcGhabExsXy1kR2ZXMTNTbXNWVHJQdXFLSVV3SHhWVHYzR1d6b3Z5a2VsVUJQeFFDV0ZmSkNITkVmZlhkTHdRUjEwWUtRMWRoLVoxRlBVY29kLXl4NzZWNUpsQWtpU0hVdGR6ZThlUExOZm9QSEFYOGFxRXBtSTV0djFSMmVuRGhOWC0zdVZ3Zw",
+      "publisherUrl": "https://www.zawya.com/en/press-release/africa-press-releases/central-african-republic-establishes-first-integrated-criminal-database-with-united-nations-multidimensional-integrated-stabilization-mission-in-the-central-african-republic-minusca-and-united-nations-office-on-drugs-and-crime-unodc-support-1586768",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:06:46.745Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minusca"
+      ]
+    },
+    {
+      "title": "PHOTOS: Rwandan peacekeepers in CAR honoured with UN medals | The New Times - The New Times",
+      "publisher": "The New Times",
+      "publishedAt": "2026-08-28T07:00:00.000Z",
+      "rssDescription": "PHOTOS: Rwandan peacekeepers in CAR honoured with UN medals | The New Times The New Times",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOW11OHA0cFd5QXJSSERLcE04a1RZdko1UF9PQkVJZHo4SHVncnZnSW9PT3dCemJFNC1oa1c2MkxCQTZKVVk5eF9LNTF1cUNjNUwwSFVHYnJJM2hxQThheFZsbUhoYWswbF9GQzhqaHJZbHZHZ1NxUmloNW80bEpFcVdPZnZQemtFem14VDEzWV80VU9CX3UzMmxOVkRrT2lDTHZjeGhQVEZ2Nk44eGpuR085VdIBuAFBVV95cUxPbEUtTjJGSnZ6Q2FXWHlGNmNZZ2FaUzdCS09Ob2p4U05qeEtLLUlXUHhLYml0WjNMTW94X2E1bmxuTlpzZmE3OFUyTG9tTDNnOXdwZGw2dXhOYkRLVlVaWENBb3lvdFNKUlFhVi16WUxZYnk4ZjhtTC1RUjhQX2N1ZUtESGtWeWJNYUhqVzk0bGZXZTFQNTRrMms2X2FTdWxaOXF0UklpWEFRbzdvc1BNdFZueTBBaXpl?oc=5",
+      "googleArticleId": "CBMiswFBVV95cUxQOW11OHA0cFd5QXJSSERLcE04a1RZdko1UF9PQkVJZHo4SHVncnZnSW9PT3dCemJFNC1oa1c2MkxCQTZKVVk5eF9LNTF1cUNjNUwwSFVHYnJJM2hxQThheFZsbUhoYWswbF9GQzhqaHJZbHZHZ1NxUmloNW80bEpFcVdPZnZQemtFem14VDEzWV80VU9CX3UzMmxOVkRrT2lDTHZjeGhQVEZ2Nk44eGpuR085VdIBuAFBVV95cUxPbEUtTjJGSnZ6Q2FXWHlGNmNZZ2FaUzdCS09Ob2p4U05qeEtLLUlXUHhLYml0WjNMTW94X2E1bmxuTlpzZmE3OFUyTG9tTDNnOXdwZGw2dXhOYkRLVlVaWENBb3lvdFNKUlFhVi16WUxZYnk4ZjhtTC1RUjhQX2N1ZUtESGtWeWJNYUhqVzk0bGZXZTFQNTRrMms2X2FTdWxaOXF0UklpWEFRbzdvc1BNdFZueTBBaXpl",
+      "publisherUrl": "https://www.newtimes.co.rw/article/38507/news/politics/photos-rwandan-peacekeepers-in-car-honoured-with-un-medals",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:07:06.467Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minusca"
+      ]
+    },
+    {
+      "title": "Indonesian peacekeepers honoured with UN medal for service in the Central African Republic - United Nations in Indonesia",
+      "publisher": "United Nations in Indonesia",
+      "publishedAt": "2026-09-16T07:00:00.000Z",
+      "rssDescription": "Indonesian peacekeepers honoured with UN medal for service in the Central African Republic United Nations in Indonesia",
+      "rssUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSjdDWXJCNFZDcWdMLU9uR1BrQWd2TUJEcUdiZnNCUlhERFFZdkpBY3FyeU1XSjZVSG5EUjc0d2xJNXQ3SG0tM0tOejVSemM2bEVmYTVXcXo0b3gteVJxb3k0UTV0cFZPVU9WVG9iVjFBbG9oZExPRTVRQ2tQMmNxLVV6SDdKUUVDUUUyUHVZeUZ0dGR1cldOeTNwd1hyLUtGTHUxVG5lSE4tWVQydHc?oc=5",
+      "googleArticleId": "CBMirgFBVV95cUxNSjdDWXJCNFZDcWdMLU9uR1BrQWd2TUJEcUdiZnNCUlhERFFZdkpBY3FyeU1XSjZVSG5EUjc0d2xJNXQ3SG0tM0tOejVSemM2bEVmYTVXcXo0b3gteVJxb3k0UTV0cFZPVU9WVG9iVjFBbG9oZExPRTVRQ2tQMmNxLVV6SDdKUUVDUUUyUHVZeUZ0dGR1cldOeTNwd1hyLUtGTHUxVG5lSE4tWVQydHc",
+      "publisherUrl": "https://indonesia.un.org/en/322822-indonesian-peacekeepers-honoured-un-medal-service-central-african-republic",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:07:26.172Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minusca"
+      ]
+    },
+    {
+      "title": "At least a dozen civilians killed in Central African Republic attack, UN says - France 24",
+      "publisher": "France 24",
+      "publishedAt": "2021-07-23T07:00:00.000Z",
+      "rssDescription": "At least a dozen civilians killed in Central African Republic attack, UN says France 24",
+      "rssUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcm5vTjExOUdoQXE0OHMtd3N3M0pSdTFidUtTNDRtbElVODFPZUVCNUNneGtJd3JJcVhNcF9sTkE4UWZKc05Od2ttSDlTWEU2d0NHMTk0VldhNW82QkFvR21jOFFzempLNVVYbFJHS0FuMnNYQTFZRFlKYVJDY09nZTNwenkzTlh3NzR0cHpJakhNdnh5REhMN05NNV85bUJHNmxOZERVODVUVnlHRkVCNVMzSTAtd3oybVV5Xw?oc=5",
+      "googleArticleId": "CBMivAFBVV95cUxNcm5vTjExOUdoQXE0OHMtd3N3M0pSdTFidUtTNDRtbElVODFPZUVCNUNneGtJd3JJcVhNcF9sTkE4UWZKc05Od2ttSDlTWEU2d0NHMTk0VldhNW82QkFvR21jOFFzempLNVVYbFJHS0FuMnNYQTFZRFlKYVJDY09nZTNwenkzTlh3NzR0cHpJakhNdnh5REhMN05NNV85bUJHNmxOZERVODVUVnlHRkVCNVMzSTAtd3oybVV5Xw",
+      "publisherUrl": "https://www.france24.com/en/africa/20210722-at-least-a-dozen-civilians-killed-in-central-african-republic-attack-un-says",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:07:43.445Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minusca"
+      ]
+    },
+    {
+      "title": "Central African Republic Guards Wound 10 UN Peacekeepers - VOA - Voice of America English News",
+      "publisher": "VOA - Voice of America English News",
+      "publishedAt": "2021-11-02T07:00:00.000Z",
+      "rssDescription": "Central African Republic Guards Wound 10 UN Peacekeepers VOA - Voice of America English News",
+      "rssUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTWJuUzIxWHVfOW5SQjZxRVo3azl5UF9sMFVKYzJOMUZMUWtGb3dHYnp5ZHF1TUdqbmh4YnNnbGtLRHd4VUxaRDNVemc2V3dWSExFWk5YSTVhZjRYS2NaSmFfSFZ4WkNTVktacmhZdFFJMDhVV09vM0I0Rm5hUlJBMGU2WlFSWDRGV3FPZmMxWEVPTjZRZ25PMndKYmLSAZ8BQVVfeXFMT25LTnJwTXVuYnNOX2llQ3pXdmdFdWF3NnhYakxUT0tvT0FWUzZkR0U5aFBSTDNIWkYzQnRHb3RmYnhTcDc3WmhwSGp2RDNBa1hWLTZrQ2ZnMlB5UnRHX29MZDY0MllLMkRSYzRzeWtaY0psZWZQcHNMQjNOWHZ0M3NnTHhKdy1hcmpKVDFQdG9oX2JrT0l3LUlER3ZQQ2kw?oc=5",
+      "googleArticleId": "CBMinAFBVV95cUxQTWJuUzIxWHVfOW5SQjZxRVo3azl5UF9sMFVKYzJOMUZMUWtGb3dHYnp5ZHF1TUdqbmh4YnNnbGtLRHd4VUxaRDNVemc2V3dWSExFWk5YSTVhZjRYS2NaSmFfSFZ4WkNTVktacmhZdFFJMDhVV09vM0I0Rm5hUlJBMGU2WlFSWDRGV3FPZmMxWEVPTjZRZ25PMndKYmLSAZ8BQVVfeXFMT25LTnJwTXVuYnNOX2llQ3pXdmdFdWF3NnhYakxUT0tvT0FWUzZkR0U5aFBSTDNIWkYzQnRHb3RmYnhTcDc3WmhwSGp2RDNBa1hWLTZrQ2ZnMlB5UnRHX29MZDY0MllLMkRSYzRzeWtaY0psZWZQcHNMQjNOWHZ0M3NnTHhKdy1hcmpKVDFQdG9oX2JrT0l3LUlER3ZQQ2kw",
+      "publisherUrl": "https://www.voanews.com/a/central-african-republic-guards-wound-10-un-peacekeepers-/6297340.html",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:08:00.699Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minusca"
+      ]
+    },
+    {
+      "title": "Security Council unanimously extends mandate of United Nations Multidimensional Integrated Stabilization Mission in Central African Republic - resolution 2499 (2019) - ReliefWeb",
+      "publisher": "ReliefWeb",
+      "publishedAt": "2019-11-15T08:00:00.000Z",
+      "rssDescription": "Security Council unanimously extends mandate of United Nations Multidimensional Integrated Stabilization Mission in Central African Republic - resolution 2499 (2019) ReliefWeb",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNamJ3LWx0MEE5RXI1STliMGtwSzhROTlyb0JTdzZZcGp2bWpOX1hFQW5jemZ5dFJvNXY0UkRvMG5Na1Y0ODhfY0g1NFhQOUhXcUZEa0YzYk5saVJReE1SaWdXWTh0RG9iY3ZEU3U3Z1cxZERNVHBOQV9mR2VSLU96Nmg1VlZlV3IxRHBEdng1UEF4U2tuTXJKbHdNanlhSHcybHFHd3d3NkItalZQRDBQYXBkOA?oc=5",
+      "googleArticleId": "CBMiswFBVV95cUxNamJ3LWx0MEE5RXI1STliMGtwSzhROTlyb0JTdzZZcGp2bWpOX1hFQW5jemZ5dFJvNXY0UkRvMG5Na1Y0ODhfY0g1NFhQOUhXcUZEa0YzYk5saVJReE1SaWdXWTh0RG9iY3ZEU3U3Z1cxZERNVHBOQV9mR2VSLU96Nmg1VlZlV3IxRHBEdng1UEF4U2tuTXJKbHdNanlhSHcybHFHd3d3NkItalZQRDBQYXBkOA",
+      "publisherUrl": "https://reliefweb.int/report/central-african-republic/security-council-unanimously-extends-mandate-united-nations",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:08:17.949Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minusca"
+      ]
+    },
+    {
+      "title": "UN forces withdraw from two Central African bases, passing infrastructure to state authorities - Business Insider Africa",
+      "publisher": "Business Insider Africa",
+      "publishedAt": "2026-03-23T07:00:00.000Z",
+      "rssDescription": "UN forces withdraw from two Central African bases, passing infrastructure to state authorities Business Insider Africa",
+      "rssUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTy11cUdCNjU0RjdxVTZ4by02bmV3al9LX2U5SElNZjNFNG95VUx4TkpKVlhrYldRQWE4OW5BbTVQajhEaXBRWG1oU3V0VUJfbjM4ZDB6YTdRdEQwR2Y0YjNzZTBoWU1YZnBqaUQ5RjhWbjZSbzBsWk1YWG5aSnlmTDk0THpZWmF4Z1Jfb0g5T3JiM1lFVkNmbFJRMkdTM0swNk91dUk0S2h3aFZNNXpxeHE4enlfVThzQW0xdlBtWm1tbFZCcW9NOTlOUEd5NlVobnJBTm9xdw?oc=5",
+      "googleArticleId": "CBMi1wFBVV95cUxOTy11cUdCNjU0RjdxVTZ4by02bmV3al9LX2U5SElNZjNFNG95VUx4TkpKVlhrYldRQWE4OW5BbTVQajhEaXBRWG1oU3V0VUJfbjM4ZDB6YTdRdEQwR2Y0YjNzZTBoWU1YZnBqaUQ5RjhWbjZSbzBsWk1YWG5aSnlmTDk0THpZWmF4Z1Jfb0g5T3JiM1lFVkNmbFJRMkdTM0swNk91dUk0S2h3aFZNNXpxeHE4enlfVThzQW0xdlBtWm1tbFZCcW9NOTlOUEd5NlVobnJBTm9xdw",
+      "publisherUrl": "https://africa.businessinsider.com/local/lifestyle/un-forces-withdraw-from-two-central-african-bases-passing-infrastructure-to-state/jz8c0nd",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:08:35.195Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minusca"
+      ]
+    },
+    {
+      "title": "Heroic SLAF mission saves 14 lives after deadly attack in Africa - Newswire",
+      "publisher": "Newswire",
+      "publishedAt": "2026-07-02T07:00:00.000Z",
+      "rssDescription": "Heroic SLAF mission saves 14 lives after deadly attack in Africa Newswire",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb2VUQVYzcGl3eTcxOTgxbzF2QzF1ZTltMncyTUhUanNkRW5idEVQc0k0bGpvT04yZ1V6NjlMODV0c2l1cjc5bFlzZHk5OWstbmhSTnhaUTVBRXhwMHpXd20yd2JfdzFrTGszckxWWlZfZzZFbkNwUUJfZVd1cUIwVGQwc2tuazlrbXRVQXNmLVAwRnd1d0Q1ekZPRWV4UEdnX0E?oc=5",
+      "googleArticleId": "CBMiogFBVV95cUxPb2VUQVYzcGl3eTcxOTgxbzF2QzF1ZTltMncyTUhUanNkRW5idEVQc0k0bGpvT04yZ1V6NjlMODV0c2l1cjc5bFlzZHk5OWstbmhSTnhaUTVBRXhwMHpXd20yd2JfdzFrTGszckxWWlZfZzZFbkNwUUJfZVd1cUIwVGQwc2tuazlrbXRVQXNmLVAwRnd1d0Q1ekZPRWV4UEdnX0E",
+      "publisherUrl": "https://www.newswire.lk/2026/07/02/heroic-slaf-mission-saves-14-lives-after-deadly-attack-in-africa/",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:08:52.439Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minusca"
+      ]
+    },
+    {
+      "title": "Strengthening casualty evacuation in MINUSCA | United Nations - Welcome to the United Nations",
+      "publisher": "Welcome to the United Nations",
+      "publishedAt": "2025-12-01T08:00:00.000Z",
+      "rssDescription": "Strengthening casualty evacuation in MINUSCA | United Nations Welcome to the United Nations",
+      "rssUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA2TWlVNHA2cnRXTjhoaW8zZDRScU5XWFdqYzRtLU9kN0ZhUWhrVnRuMEpUV2FGOTdEWTRja3ZIdWtya3k2MWFjNzNQeGZveFNlazlITFBQVU1QbVJjZXdVdEJhS1Q0bENrNVQwZHRfaHRaWXhYcFlfaHc0eWQ?oc=5",
+      "googleArticleId": "CBMifEFVX3lxTFA2TWlVNHA2cnRXTjhoaW8zZDRScU5XWFdqYzRtLU9kN0ZhUWhrVnRuMEpUV2FGOTdEWTRja3ZIdWtya3k2MWFjNzNQeGZveFNlazlITFBQVU1QbVJjZXdVdEJhS1Q0bENrNVQwZHRfaHRaWXhYcFlfaHc0eWQ",
+      "publisherUrl": "https://www.un.org/en/delegate/strengthening-casualty-evacuation-minusca",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:09:09.770Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minusca"
+      ]
+    },
+    {
+      "title": "Egyptian peacekeepers wounded by gunfire in Central African Republic, UN says - France 24",
+      "publisher": "France 24",
+      "publishedAt": "2021-11-02T07:00:00.000Z",
+      "rssDescription": "Egyptian peacekeepers wounded by gunfire in Central African Republic, UN says France 24",
+      "rssUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMGxoZS16UkptT3FmQzVibVlCdGhGUlVZUnlUbW5PS01LUWlpdTR2dnpONHFCQnZKWXFLVmhGNVA3ZE5nY05ESXhnNENpdktLWjEwNGdzbU1rUWEzNkgyTGNQSVhjdFZ4YVdMMTBNVjBOa2lKWEk3TTdGSVJBeFV0dVlUazNBcUloZ084N0llcGxsa2NGQkpNR040eVAyQ0w0b1RORi1UWUp1YTZtWmotVWFSck9acXFwcWJPcQ?oc=5",
+      "googleArticleId": "CBMivAFBVV95cUxQMGxoZS16UkptT3FmQzVibVlCdGhGUlVZUnlUbW5PS01LUWlpdTR2dnpONHFCQnZKWXFLVmhGNVA3ZE5nY05ESXhnNENpdktLWjEwNGdzbU1rUWEzNkgyTGNQSVhjdFZ4YVdMMTBNVjBOa2lKWEk3TTdGSVJBeFV0dVlUazNBcUloZ084N0llcGxsa2NGQkpNR040eVAyQ0w0b1RORi1UWUp1YTZtWmotVWFSck9acXFwcWJPcQ",
+      "publisherUrl": "https://www.france24.com/en/africa/20211102-egyptian-peacekeepers-wounded-by-gunfire-in-central-african-republic-un-says",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:09:27.069Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minusca"
+      ]
+    },
+    {
+      "title": "Briefing by the Special Representative of the Secretary-General for the Central African Republic and Head of the United Nations Multidimensional Integrated Stabilization Mission in the Central African Republic, Mankeur Ndiaye (S/2021/76) - ReliefWeb",
+      "publisher": "ReliefWeb",
+      "publishedAt": "2021-02-17T08:00:00.000Z",
+      "rssDescription": "Briefing by the Special Representative of the Secretary-General for the Central African Republic and Head of the United Nations Multidimensional Integrated Stabilization Mission in the Central African Republic, Mankeur Ndiaye (S/2021/76) ReliefWeb",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQang0Uy1ub3VtaVhvcGFXVVU0R3lGNlRuMlU5b2dJaVBMRkU4cWRnd2F0MmdOdmpKUV85MGhXcjVOVnVjMUpvUndoMWlBWG9GNEtRZ2gyT3d6R3J6eWtfQ3RmaXd3NS1Cc3RfQjNYYWsyLWhRWDNfV2d1YnlIX0NvMlQ0MlVhc2NJQmM5SF94cUpXN3ZWMm13Tml0X0hDNzQyLVFSNXJRVTFSd2RXVENuNUoycjdBNUZiWl93?oc=5",
+      "googleArticleId": "CBMiuwFBVV95cUxQang0Uy1ub3VtaVhvcGFXVVU0R3lGNlRuMlU5b2dJaVBMRkU4cWRnd2F0MmdOdmpKUV85MGhXcjVOVnVjMUpvUndoMWlBWG9GNEtRZ2gyT3d6R3J6eWtfQ3RmaXd3NS1Cc3RfQjNYYWsyLWhRWDNfV2d1YnlIX0NvMlQ0MlVhc2NJQmM5SF94cUpXN3ZWMm13Tml0X0hDNzQyLVFSNXJRVTFSd2RXVENuNUoycjdBNUZiWl93",
+      "publisherUrl": "https://reliefweb.int/report/central-african-republic/briefing-special-representative-secretary-general-central-african",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:09:36.932Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minusca"
+      ]
+    },
+    {
+      "title": "Indonesian Peacekeeper serving in the Central African Republic to receive 2023 United Nations Woman Police Officer of the Year Award - United Nations in Indonesia",
+      "publisher": "United Nations in Indonesia",
+      "publishedAt": "2023-11-13T08:00:00.000Z",
+      "rssDescription": "Indonesian Peacekeeper serving in the Central African Republic to receive 2023 United Nations Woman Police Officer of the Year Award United Nations in Indonesia",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVVk2MUNmcUt3LVB1Nml0cF9XNWhEUVUzaXotcE9IWEJnb2poWVBJNXhQNUtMWFNkR3l0LTJIbnVSQldGQ2dGT1VycDM1aFNjWEtPM1hxbnJqM3BYdEQ2NHotRE1KU241RUx6VWNERmNIVWUyM1JtLXZpam9pWi1udXBuVW5YaEdCRG9ndlVONE1DakY2OV9qQWtpeXpMS1c5SmNXQzNMVUYyb1ZMSFZWT1c1LTFMVW5wRExuNTgtQmVxUQ?oc=5",
+      "googleArticleId": "CBMiwgFBVV95cUxNVVk2MUNmcUt3LVB1Nml0cF9XNWhEUVUzaXotcE9IWEJnb2poWVBJNXhQNUtMWFNkR3l0LTJIbnVSQldGQ2dGT1VycDM1aFNjWEtPM1hxbnJqM3BYdEQ2NHotRE1KU241RUx6VWNERmNIVWUyM1JtLXZpam9pWi1udXBuVW5YaEdCRG9ndlVONE1DakY2OV9qQWtpeXpMS1c5SmNXQzNMVUYyb1ZMSFZWT1c1LTFMVW5wRExuNTgtQmVxUQ",
+      "publisherUrl": "https://indonesia.un.org/en/252599-indonesian-peacekeeper-serving-central-african-republic-receive-2023-united-nations-woman",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:09:46.782Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minusca"
+      ]
+    },
+    {
+      "title": "Central African Republic releases 4 French peacekeepers after UN outcry - France 24",
+      "publisher": "France 24",
+      "publishedAt": "2022-02-24T08:00:00.000Z",
+      "rssDescription": "Central African Republic releases 4 French peacekeepers after UN outcry France 24",
+      "rssUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPc19oMmd4bzdzOWs1MnRsMHNnQTllSTcybmRxLXQ4dlVGTGF4NTR2SDVueGxKdVVlcWo4akhPR1ZBOVhmYVpCdzVvTU5LaUFxUnpKTldoQmdCOXZfSlJEMHVRSGsta2F3RU5BV0hJdERjeDFlWld6cjRWb2pwV0s3ZHlJOS1Ia3JrRzhtRzZYQ245cEItQnBjbHpTaFRLOWpwOXpCU1RMR3RiVXg3aC1DaE1maTMzdw?oc=5",
+      "googleArticleId": "CBMitgFBVV95cUxPc19oMmd4bzdzOWs1MnRsMHNnQTllSTcybmRxLXQ4dlVGTGF4NTR2SDVueGxKdVVlcWo4akhPR1ZBOVhmYVpCdzVvTU5LaUFxUnpKTldoQmdCOXZfSlJEMHVRSGsta2F3RU5BV0hJdERjeDFlWld6cjRWb2pwV0s3ZHlJOS1Ia3JrRzhtRzZYQ245cEItQnBjbHpTaFRLOWpwOXpCU1RMR3RiVXg3aC1DaE1maTMzdw",
+      "publisherUrl": "https://www.france24.com/en/africa/20220224-central-african-republic-releases-4-french-peacekeepers-after-un-outcry",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:09:56.637Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minusca"
+      ]
+    },
+    {
+      "title": "Report of an independent review on sexual exploitation and abuse by international peacekeeping forces in the Central African Republic (A/71/99) - ReliefWeb",
+      "publisher": "ReliefWeb",
+      "publishedAt": "2016-09-27T07:00:00.000Z",
+      "rssDescription": "Report of an independent review on sexual exploitation and abuse by international peacekeeping forces in the Central African Republic (A/71/99) ReliefWeb",
+      "rssUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOemRZNTNEbTQ1ZlFPN2syUGFjQUtFVGE4R0hXVHRMWkhrZVNFUW9wWjljdFU3WlRObmFOVUZLTElERnh0YzZTVHVBNG84ampLbzhVYkpNNzc0ZHRqdkdlWjlDaFBZU3FJclRoM3IyS1ZobHVIeklxVVV1YVd4TDlvT3FybWRxcVo3cHJTeXFnTkw2M0NKdk4xNTA4Y2dYUXZCcWVwOUVQRG5wZ3lMZEE?oc=5",
+      "googleArticleId": "CBMirgFBVV95cUxOemRZNTNEbTQ1ZlFPN2syUGFjQUtFVGE4R0hXVHRMWkhrZVNFUW9wWjljdFU3WlRObmFOVUZLTElERnh0YzZTVHVBNG84ampLbzhVYkpNNzc0ZHRqdkdlWjlDaFBZU3FJclRoM3IyS1ZobHVIeklxVVV1YVd4TDlvT3FybWRxcVo3cHJTeXFnTkw2M0NKdk4xNTA4Y2dYUXZCcWVwOUVQRG5wZ3lMZEE",
+      "publisherUrl": "https://reliefweb.int/report/central-african-republic/report-independent-review-sexual-exploitation-and-abuse",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:10:06.476Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minusca"
+      ]
+    },
+    {
+      "title": "Several civilians killed in rebel attack in northeast Central African Republic, UN says - France 24",
+      "publisher": "France 24",
+      "publishedAt": "2021-07-31T07:00:00.000Z",
+      "rssDescription": "Several civilians killed in rebel attack in northeast Central African Republic, UN says France 24",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaXVLamFYZFZPdllLVV9pdE5FWHNQRHFYR0xqT0VReXE5c3dEcWt5clZzNGgxVWFvTWhFMy1QdzVRdnFkSE5MTk9FbXJPRVkxREN3NnlEVnRxVDJ5SzJodE1nY3hnaWc1dVFUSDBwaHdPVXNlN2dFU0E0OXBsd3doTFFuM0RMcmhweWctVE5NTTZOdU5VQUhBNDRxcDcyVmphTk9zYVhnenlBOGVHTk9iYmtHRnkwTVZRVkFXWHAwZ2liVk96NkxudVd3?oc=5",
+      "googleArticleId": "CBMiygFBVV95cUxQaXVLamFYZFZPdllLVV9pdE5FWHNQRHFYR0xqT0VReXE5c3dEcWt5clZzNGgxVWFvTWhFMy1QdzVRdnFkSE5MTk9FbXJPRVkxREN3NnlEVnRxVDJ5SzJodE1nY3hnaWc1dVFUSDBwaHdPVXNlN2dFU0E0OXBsd3doTFFuM0RMcmhweWctVE5NTTZOdU5VQUhBNDRxcDcyVmphTk9zYVhnenlBOGVHTk9iYmtHRnkwTVZRVkFXWHAwZ2liVk96NkxudVd3",
+      "publisherUrl": "https://www.france24.com/en/africa/20210731-several-civilians-killed-in-rebel-attack-in-northeast-central-african-republic-un-says",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:10:16.385Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minusca"
+      ]
+    },
+    {
+      "title": "Central African Republic: UN chief condemns killing of ‘blue helmet’ in country’s east - UN News",
+      "publisher": "UN News",
+      "publishedAt": "2017-12-04T08:00:00.000Z",
+      "rssDescription": "Central African Republic: UN chief condemns killing of ‘blue helmet’ in country’s east UN News",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Cc1Y3QXBkTzFVUGtvS3NBMm5aeVE1VF9ESG1OYlRZY1RpaGZLek02V2RaUFJlQkltcGwwUkNhV1hlUGhCOWV5YzlOU1lRWXpoUkR6MUJR?oc=5",
+      "googleArticleId": "CBMiVkFVX3lxTE1Cc1Y3QXBkTzFVUGtvS3NBMm5aeVE1VF9ESG1OYlRZY1RpaGZLek02V2RaUFJlQkltcGwwUkNhV1hlUGhCOWV5YzlOU1lRWXpoUkR6MUJR",
+      "publisherUrl": "https://news.un.org/en/story/2017/12/638262",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:10:26.511Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minusca"
+      ]
+    },
+    {
+      "title": "Rebel attacks kill dozens in Central African Republic - France 24",
+      "publisher": "France 24",
+      "publishedAt": "2021-11-30T08:00:00.000Z",
+      "rssDescription": "Rebel attacks kill dozens in Central African Republic France 24",
+      "rssUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVXNBWlpnSXozTHNRUzd5ZG9lQTI5NldDSTR6TjJmTDFTcEEwck9OSnB0bHFxYm8zMlY0QUdjNDNMWURqLUV0cEZETGZ2OTZXLVJmOHp1ODlmeGYxbDVyZzNNT1NibmhrcmR2WllaLUREUlpDVDRzUnRUak1GLTJNMXFyZ1FCbU5JU3lkeUhYTTF3V0FoVHdNbGVvQ0NqUQ?oc=5",
+      "googleArticleId": "CBMingFBVV95cUxPVXNBWlpnSXozTHNRUzd5ZG9lQTI5NldDSTR6TjJmTDFTcEEwck9OSnB0bHFxYm8zMlY0QUdjNDNMWURqLUV0cEZETGZ2OTZXLVJmOHp1ODlmeGYxbDVyZzNNT1NibmhrcmR2WllaLUREUlpDVDRzUnRUak1GLTJNMXFyZ1FCbU5JU3lkeUhYTTF3V0FoVHdNbGVvQ0NqUQ",
+      "publisherUrl": "https://www.france24.com/en/africa/20211130-rebel-attacks-kill-dozens-in-central-african-republic",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:10:36.366Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minusca"
+      ]
+    },
+    {
+      "title": "Armed group attacks civilians, UN in Central African Republic overnight; peacekeeper killed - UN News",
+      "publisher": "UN News",
+      "publishedAt": "2017-05-13T07:00:00.000Z",
+      "rssDescription": "Armed group attacks civilians, UN in Central African Republic overnight; peacekeeper killed UN News",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFByVGRUT29Sc2w3MVBza19ZWUtIal9WRV9haWFvU2VQWjlxOG9aSHVQN0JkWTdDcldVYTJSb2s0RGROUS1QR1Z1UFk2ckwxZlctQm9PSVFR?oc=5",
+      "googleArticleId": "CBMiVkFVX3lxTFByVGRUT29Sc2w3MVBza19ZWUtIal9WRV9haWFvU2VQWjlxOG9aSHVQN0JkWTdDcldVYTJSb2s0RGROUS1QR1Z1UFk2ckwxZlctQm9PSVFR",
+      "publisherUrl": "https://news.un.org/en/story/2017/05/557252",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:10:46.214Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minusca"
+      ]
+    }
+  ],
+  "runTimestamp": "20261103170602",
+  "batchType": "standard"
+}

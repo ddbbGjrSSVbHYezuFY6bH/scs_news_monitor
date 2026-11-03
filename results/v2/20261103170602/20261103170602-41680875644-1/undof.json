@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 2,
+  "requestId": "20261103170602-41680875644-1",
+  "queryId": "undof",
+  "query": "(((UNDOF OR \"Disengagement Observer Force\" OR (((peacekeeping OR peacekeeper OR peacekeepers) OR \"UN mission\" OR \"blue helmet\" OR \"blue helmets\" OR \"UN Force\" OR \"UN Forces\") (Golan OR \"the Golan\" OR Syria OR \"Arab Republic\" OR Sham OR \"al-Sham\" OR \"ash-Sham\"))) -Ukraine -Korea)) when:1d",
+  "label": "UNDOF / Syria / Golan",
+  "queryRevision": 3,
+  "configHash": "c92987f28985abcff827f3e91769ff145f2a93ac2902950547a020ffad02076e",
+  "source": "standard",
+  "lookbackHours": 24,
+  "locale": {
+    "language": "en-US",
+    "country": "US",
+    "edition": "US:en"
+  },
+  "startedAt": "2026-11-03T17:06:15.611Z",
+  "feedFetchedAt": "2026-11-03T17:06:24.706Z",
+  "generatedAt": "2026-11-03T17:10:46.214Z",
+  "status": "completed",
+  "error": null,
+  "truncated": true,
+  "counts": {
+    "selected": 18,
+    "resolved": 18,
+    "unresolved": 0,
+    "cacheHits": 0
+  },
+  "articles": [
+    {
+      "title": "Third Kazakh peacekeeping contingent departs for Golan Heights - Qazinform",
+      "publisher": "Qazinform",
+      "publishedAt": "2026-05-19T07:00:00.000Z",
+      "rssDescription": "Third Kazakh peacekeeping contingent departs for Golan Heights Qazinform",
+      "rssUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMVZ4dWtsX21lMWFyZTFjUXkxVl9LVU1sbktfZ1lhQmN5YWxYUm43WGMyWHdEUDE1T0RqeGJmTnpMZm55d3lNZjdZdHd0ZVVxUXRTNVNEVFlWampsOHlFYk9hdkNKUXJXc3lqcHhHaFB6Yzd5dlJzZzByRHN3MXR3bDJCWUJGelpRLXhYTHJ1clhMUlBEN093bURpRzPSAZwBQVVfeXFMUGxudHd1anpTV1ZRQXZaWGFVTXRVTTI4eGRqVVdXdndXeDZ6TWI4bTd3R3FLTDRJanUyV2Z4U1oxZDNUdXhTSnBtaEhBeTZTQzVlanR0ZFdzZ09JQmZRemhEOUNYemlzSDUyYlJ5SkZ3R2FwLXl6NDBJbGhTUHdheVQzVXhtRU5rMGtmVnI1a2l1SFY5TlRtSGZIRjlY?oc=5",
+      "googleArticleId": "CBMinAFBVV95cUxPMVZ4dWtsX21lMWFyZTFjUXkxVl9LVU1sbktfZ1lhQmN5YWxYUm43WGMyWHdEUDE1T0RqeGJmTnpMZm55d3lNZjdZdHd0ZVVxUXRTNVNEVFlWampsOHlFYk9hdkNKUXJXc3lqcHhHaFB6Yzd5dlJzZzByRHN3MXR3bDJCWUJGelpRLXhYTHJ1clhMUlBEN093bURpRzPSAZwBQVVfeXFMUGxudHd1anpTV1ZRQXZaWGFVTXRVTTI4eGRqVVdXdndXeDZ6TWI4bTd3R3FLTDRJanUyV2Z4U1oxZDNUdXhTSnBtaEhBeTZTQzVlanR0ZFdzZ09JQmZRemhEOUNYemlzSDUyYlJ5SkZ3R2FwLXl6NDBJbGhTUHdheVQzVXhtRU5rMGtmVnI1a2l1SFY5TlRtSGZIRjlY",
+      "publisherUrl": "https://qazinform.com/news/third-kazakh-peacekeeping-contingent-departs-for-golan-heights-474454",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:06:41.830Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "undof"
+      ]
+    },
+    {
+      "title": "What’s UNDOF? Why UN peacekeepers patrol the Israel-Syria border - UN News",
+      "publisher": "UN News",
+      "publishedAt": "2025-01-25T08:00:00.000Z",
+      "rssDescription": "What’s UNDOF? Why UN peacekeepers patrol the Israel-Syria border UN News",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1kRDRiaTBrdXpDZUxHOVJNMm45RUdWZGR1TmYwTHNJcS0wN21meGxyZDNWcy0wN3RlRncwekpvMU9kZ3V6MW9pZmlSbkJfTkJObUFoN1Y5cw?oc=5",
+      "googleArticleId": "CBMiV0FVX3lxTE1kRDRiaTBrdXpDZUxHOVJNMm45RUdWZGR1TmYwTHNJcS0wN21meGxyZDNWcy0wN3RlRncwekpvMU9kZ3V6MW9pZmlSbkJfTkJObUFoN1Y5cw",
+      "publisherUrl": "https://news.un.org/en/story/2025/01/1159451",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:07:01.538Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "undof"
+      ]
+    },
+    {
+      "title": "Kazakh Defense Ministry Inspects Peacekeeping Contingent Serving with UNDOF - The Astana Times",
+      "publisher": "The Astana Times",
+      "publishedAt": "2026-02-03T08:00:00.000Z",
+      "rssDescription": "Kazakh Defense Ministry Inspects Peacekeeping Contingent Serving with UNDOF The Astana Times",
+      "rssUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVndtQy1hb1Ryb01sQlNsN0hFZ2tud1hOU2Y2SFRwTlcwX29tYk40eWFCMEx6VFFsTUUzTnhrdUNUN1FiWEFHNXdlMnpuYUNsdWswZmpmTGYtUVYtSnVrMk9VcWdlcTVMbjB6Q3RYemJVdzE3ODNvMm11WWptVVkzRVdwMzVjSjZmZVU3YWNGb2ZNd3hNaHVwNFUwQlZwcFpSMmFHRnZ2Wlc1R0I1?oc=5",
+      "googleArticleId": "CBMirAFBVV95cUxQVndtQy1hb1Ryb01sQlNsN0hFZ2tud1hOU2Y2SFRwTlcwX29tYk40eWFCMEx6VFFsTUUzTnhrdUNUN1FiWEFHNXdlMnpuYUNsdWswZmpmTGYtUVYtSnVrMk9VcWdlcTVMbjB6Q3RYemJVdzE3ODNvMm11WWptVVkzRVdwMzVjSjZmZVU3YWNGb2ZNd3hNaHVwNFUwQlZwcFpSMmFHRnZ2Wlc1R0I1",
+      "publisherUrl": "https://astanatimes.com/2026/02/kazakh-defense-ministry-inspects-peacekeeping-contingent-serving-with-undof/",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:07:21.252Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "undof"
+      ]
+    },
+    {
+      "title": "Poor Countries Do Most of the World's Peacekeeping - Time Magazine",
+      "publisher": "Time Magazine",
+      "publishedAt": "2014-09-11T07:00:00.000Z",
+      "rssDescription": "Poor Countries Do Most of the World's Peacekeeping Time Magazine",
+      "rssUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE93b3BYRWhiMGlkSS1YN0JyZmNZSDhaVWw1Vl9JNy1mQVIwQ19HRDdCXzYwdXF2ckhNM3k0UXVxVUh0NFRmRThwNHJFVy0zNDZMdTFBREpJTDRxWllLLXp6VnVucS1keVNUTnVGQjRWRHE1UnkwaEFocHU0NA?oc=5",
+      "googleArticleId": "CBMie0FVX3lxTE93b3BYRWhiMGlkSS1YN0JyZmNZSDhaVWw1Vl9JNy1mQVIwQ19HRDdCXzYwdXF2ckhNM3k0UXVxVUh0NFRmRThwNHJFVy0zNDZMdTFBREpJTDRxWllLLXp6VnVucS1keVNUTnVGQjRWRHE1UnkwaEFocHU0NA",
+      "publisherUrl": "https://time.com/3272718/un-undof-peacekeeping-golan-heights-terrorism/",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:07:40.981Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "undof"
+      ]
+    },
+    {
+      "title": "A UN Peacekeeping Force is Caught in the Crossfire of Escalating Conflict in the Golan Heights - UN Dispatch",
+      "publisher": "UN Dispatch",
+      "publishedAt": "2018-05-11T07:00:00.000Z",
+      "rssDescription": "A UN Peacekeeping Force is Caught in the Crossfire of Escalating Conflict in the Golan Heights UN Dispatch",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZmhmZkR0Y0ZEUm5fLVhYQXNQWGVnYmQtaFFPY1NWamRhdVg5dmZ0ajhPUDdKT055dEFOZFZzVFZ3T2RpRnUzR044RnFORVdibGc2dWdnT2dHT200NE5kSTVmYUh5MFYteUlCVDI2N2pJbUtYcWZ3UHBDVTFBRFJlRzlhWU8xZFEya3RuOXUtN3FhZnlhTzdoUXVwbG9Fd2o0bUlGcFhSVWQ2MDRiR3lxX3Qyek0tMFhTTEE?oc=5",
+      "googleArticleId": "CBMiugFBVV95cUxPZmhmZkR0Y0ZEUm5fLVhYQXNQWGVnYmQtaFFPY1NWamRhdVg5dmZ0ajhPUDdKT055dEFOZFZzVFZ3T2RpRnUzR044RnFORVdibGc2dWdnT2dHT200NE5kSTVmYUh5MFYteUlCVDI2N2pJbUtYcWZ3UHBDVTFBRFJlRzlhWU8xZFEya3RuOXUtN3FhZnlhTzdoUXVwbG9Fd2o0bUlGcFhSVWQ2MDRiR3lxX3Qyek0tMFhTTEE",
+      "publisherUrl": "https://undispatch.com/a-un-peacekeeping-force-is-caught-in-the-crossfire-of-escalating-conflict-in-the-golan-heights/",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:07:58.219Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "undof"
+      ]
+    },
+    {
+      "title": "Analysis • Will UNDOF, the peacekeeping force on the Israel-Syria border, survive the fall of Assad? - Haaretz",
+      "publisher": "Haaretz",
+      "publishedAt": "2024-12-09T08:00:00.000Z",
+      "rssDescription": "Analysis • Will UNDOF, the peacekeeping force on the Israel-Syria border, survive the fall of Assad? Haaretz",
+      "rssUrl": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQXzRraGtzeWd1dUhlSjE2WDJsU0VGSFdvQXJvVEVySmRFR29ZUkVnOG0tU3ZIaXM5SXhINkpBWWxMZWFlcF9jN3FTY1dxWlA2cVpta1JzSDlJUzA2TFg3ZHA2c0IyX0pPdjRmVkVxakh4QUpqdnRkTlBOWXFHOXJPeXpPbXkxTnNRelMtb0JZbm1jSlhIMjZ3LTlmYnNodi13WlRmMl9HWDU3MzZMWHk4M1BmYlpuSXZIOGtMYlo1YVZCRHdxQlNrSWdTWTAtSjdyOXhWaFMxU1JEbENYa3Bhb2plc1k1Q2RVQ3JCOUtGNktGQklmR1RYcXNjX1JuQnhVenVpZThfRWM4RXVuQ2oxNjVFWW1JYThSeGF4aTViN24?oc=5",
+      "googleArticleId": "CBMioAJBVV95cUxQXzRraGtzeWd1dUhlSjE2WDJsU0VGSFdvQXJvVEVySmRFR29ZUkVnOG0tU3ZIaXM5SXhINkpBWWxMZWFlcF9jN3FTY1dxWlA2cVpta1JzSDlJUzA2TFg3ZHA2c0IyX0pPdjRmVkVxakh4QUpqdnRkTlBOWXFHOXJPeXpPbXkxTnNRelMtb0JZbm1jSlhIMjZ3LTlmYnNodi13WlRmMl9HWDU3MzZMWHk4M1BmYlpuSXZIOGtMYlo1YVZCRHdxQlNrSWdTWTAtSjdyOXhWaFMxU1JEbENYa3Bhb2plc1k1Q2RVQ3JCOUtGNktGQklmR1RYcXNjX1JuQnhVenVpZThfRWM4RXVuQ2oxNjVFWW1JYThSeGF4aTViN24",
+      "publisherUrl": "https://www.haaretz.com/middle-east-news/2024-12-09/ty-article/.premium/will-undof-the-peacekeeping-force-on-the-israel-syria-border-survive-the-fall-of-assad/00000193-a6db-d6c1-a5fb-f7dbb00c0000",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:08:15.466Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "undof"
+      ]
+    },
+    {
+      "title": "UN Renews UNDOF Mandate In Golan, Mulls Returning Peacekeepers To Evacuated Base - i24NEWS",
+      "publisher": "i24NEWS",
+      "publishedAt": "2016-06-30T07:00:00.000Z",
+      "rssDescription": "UN Renews UNDOF Mandate In Golan, Mulls Returning Peacekeepers To Evacuated Base i24NEWS",
+      "rssUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUS1LZC1BeThJWFhQSnNIN0tjX01zNjBvTGpCZEdkRE9SMlptbjVHRDI0NmZNTUpoUXVfTUlNWEtXTnlDX01HZ2JDeFdMYmRzRFEwdGstay1kaHc3TDJTZVpsX1JNV29GWDViYS1rRHJkUE0yRHlfbnpTRjJPa2s0aVdkNTZDaW1PZGg4UjRPZUd4aHRqWkFxUmJzek9sU1RKMDBmeUQ5WTZlYmNXZi15NkhtRE9EOW5NYTFmb0tPTU96bVBZR3c?oc=5",
+      "googleArticleId": "CBMixgFBVV95cUxQUS1LZC1BeThJWFhQSnNIN0tjX01zNjBvTGpCZEdkRE9SMlptbjVHRDI0NmZNTUpoUXVfTUlNWEtXTnlDX01HZ2JDeFdMYmRzRFEwdGstay1kaHc3TDJTZVpsX1JNV29GWDViYS1rRHJkUE0yRHlfbnpTRjJPa2s0aVdkNTZDaW1PZGg4UjRPZUd4aHRqWkFxUmJzek9sU1RKMDBmeUQ5WTZlYmNXZi15NkhtRE9EOW5NYTFmb0tPTU96bVBZR3c",
+      "publisherUrl": "https://www.i24news.tv/en/news/middle-east/118478-160630-un-extends-undof-mandate-in-golan-mulls-returning-peacekeepers-to-base",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:08:32.729Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "undof"
+      ]
+    },
+    {
+      "title": "UNDOF commander dies unexpectedly in Israel - The Jerusalem Post",
+      "publisher": "The Jerusalem Post",
+      "publishedAt": "2019-04-21T07:00:00.000Z",
+      "rssDescription": "UNDOF commander dies unexpectedly in Israel The Jerusalem Post",
+      "rssUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYkxNNFpEazVzQXQtR3ZucnlyYWxTYVZPUlM5YVg4eFdWUndrZ3FwQXNrbVktLVJueXdEX3JURllsWDRpQ3BRcWYtWGZoNnZ2MEZGRUpMQnBVejJsZGZYeDVUazNVbmdkRmNlMjdzemlFd05jbmN2aGtNU3NOTjlTRW1PaGFUU09WdnNHTA?oc=5",
+      "googleArticleId": "CBMijAFBVV95cUxPYkxNNFpEazVzQXQtR3ZucnlyYWxTYVZPUlM5YVg4eFdWUndrZ3FwQXNrbVktLVJueXdEX3JURllsWDRpQ3BRcWYtWGZoNnZ2MEZGRUpMQnBVejJsZGZYeDVUazNVbmdkRmNlMjdzemlFd05jbmN2aGtNU3NOTjlTRW1PaGFUU09WdnNHTA",
+      "publisherUrl": "https://www.jpost.com/israel-news/undof-commander-dies-unexpectedly-in-israel-587499",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:08:49.980Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "undof"
+      ]
+    },
+    {
+      "title": "Security Council extends critical stabilisation force in Syria - UN News",
+      "publisher": "UN News",
+      "publishedAt": "2026-06-25T07:00:00.000Z",
+      "rssDescription": "Security Council extends critical stabilisation force in Syria UN News",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1iN1VuenYtYnZzZE43X005NEdjRkRKeTh3RVZhNmVCYzdnR2V0M1lXUmZVN2FYOEFJNFdpYWc5ZW4wMUNIUlN2X0EzcXk1RFh3bDlxVzFGbw?oc=5",
+      "googleArticleId": "CBMiV0FVX3lxTE1iN1VuenYtYnZzZE43X005NEdjRkRKeTh3RVZhNmVCYzdnR2V0M1lXUmZVN2FYOEFJNFdpYWc5ZW4wMUNIUlN2X0EzcXk1RFh3bDlxVzFGbw",
+      "publisherUrl": "https://news.un.org/en/story/2026/06/1167813",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:09:07.302Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "undof"
+      ]
+    },
+    {
+      "title": "Security Council briefed on challenges to peacekeeping in Lebanon, Syria - UN News",
+      "publisher": "UN News",
+      "publishedAt": "2025-01-17T08:00:00.000Z",
+      "rssDescription": "Security Council briefed on challenges to peacekeeping in Lebanon, Syria UN News",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5RS21vUUJ4enRjdHppQTJHTlhqTExQd2hVNDV5UGdOUFFxLW1CaFFoX0NJVExxSE54Ti0zaFlGaGpBWEozdk42SDRNcWUydWJBX3pQMldPMA?oc=5",
+      "googleArticleId": "CBMiV0FVX3lxTE5RS21vUUJ4enRjdHppQTJHTlhqTExQd2hVNDV5UGdOUFFxLW1CaFFoX0NJVExxSE54Ti0zaFlGaGpBWEozdk42SDRNcWUydWJBX3pQMldPMA",
+      "publisherUrl": "https://news.un.org/en/story/2025/01/1159156",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:09:24.600Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "undof"
+      ]
+    },
+    {
+      "title": "Security Council extends UN peacekeeping force in Golan Heights - UN News",
+      "publisher": "UN News",
+      "publishedAt": "2012-12-19T08:00:00.000Z",
+      "rssDescription": "Security Council extends UN peacekeeping force in Golan Heights UN News",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCcmZuWE1mbjNUdmVhR0NqZ1hZZlV3ejVVakJtNDFOejZjUmhDVTYwMDdUamFybGp2RHFEcGE2SWdDYjdkeGZlLW1pLUljckViaGJOVUh3?oc=5",
+      "googleArticleId": "CBMiVkFVX3lxTFBCcmZuWE1mbjNUdmVhR0NqZ1hZZlV3ejVVakJtNDFOejZjUmhDVTYwMDdUamFybGp2RHFEcGE2SWdDYjdkeGZlLW1pLUljckViaGJOVUh3",
+      "publisherUrl": "https://news.un.org/en/story/2012/12/428732",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:09:34.460Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "undof"
+      ]
+    },
+    {
+      "title": "UNDOF Peacekeepers Patrol Golan Heights | UN Photo - UN Media",
+      "publisher": "UN Media",
+      "publishedAt": "2011-04-07T07:00:00.000Z",
+      "rssDescription": "UNDOF Peacekeepers Patrol Golan Heights | UN Photo UN Media",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kNWkzSEFtSGQ1dGJMZE5rTmNzVW9kWnM2cmtxbXo4ZUxiZ0Z2LXdzNUd0TGxoWFh2WWVoZ0pfVWIwZV81R1lWQVVZaDlFTFNVRGVlTmFrOElELThVT0lTMA?oc=5",
+      "googleArticleId": "CBMiYEFVX3lxTE5kNWkzSEFtSGQ1dGJMZE5rTmNzVW9kWnM2cmtxbXo4ZUxiZ0Z2LXdzNUd0TGxoWFh2WWVoZ0pfVWIwZV81R1lWQVVZaDlFTFNVRGVlTmFrOElELThVT0lTMA",
+      "publisherUrl": "https://media.un.org/photo/en/asset/oun7/oun7366916",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:09:44.315Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "undof"
+      ]
+    },
+    {
+      "title": "Ban recommends strengthening UN peacekeeping force in Golan Heights - UN News",
+      "publisher": "UN News",
+      "publishedAt": "2013-06-13T07:00:00.000Z",
+      "rssDescription": "Ban recommends strengthening UN peacekeeping force in Golan Heights UN News",
+      "rssUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRVc1dGFMLWF3dFAzTlh1ZWJvS3IzWkNJcGxGQlNvenBZVFZmWFNFMHhOX0FBRXBhdlRWTk10NHhjMURZV3lTUFlibnhrMlB2WTV3TkE1UklwT09UU0d6eFMwbUozTks1NlYteExPczRmLXUweHVrdHpsSU5VV09BUldKNG82MVgxb0xjMkxVZTYxZ0w0ZjFDdFlwNlVjbEtUb0pCbUhoUm40dkUw?oc=5",
+      "googleArticleId": "CBMirAFBVV95cUxPRVc1dGFMLWF3dFAzTlh1ZWJvS3IzWkNJcGxGQlNvenBZVFZmWFNFMHhOX0FBRXBhdlRWTk10NHhjMURZV3lTUFlibnhrMlB2WTV3TkE1UklwT09UU0d6eFMwbUozTks1NlYteExPczRmLXUweHVrdHpsSU5VV09BUldKNG82MVgxb0xjMkxVZTYxZ0w0ZjFDdFlwNlVjbEtUb0pCbUhoUm40dkUw",
+      "publisherUrl": "https://news.un.org/en/story/2013/06/442192-ban-recommends-strengthening-un-peacekeeping-force-golan-heights",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:09:54.172Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "undof"
+      ]
+    },
+    {
+      "title": "Ban and Security Council demand release of UN peacekeepers held in Golan Heights - UN News",
+      "publisher": "UN News",
+      "publishedAt": "2013-03-06T08:00:00.000Z",
+      "rssDescription": "Ban and Security Council demand release of UN peacekeepers held in Golan Heights UN News",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9TSEhtZXRzaHdJUDg1TGU3THZuOHpoSXJpV0xhRWFQZkZXbFhLbzMxVURONnJnbDVyZWZkbVQ4dnlORmRlb29BX2hpSlA0MXdOWUlkN2l3?oc=5",
+      "googleArticleId": "CBMiVkFVX3lxTE9TSEhtZXRzaHdJUDg1TGU3THZuOHpoSXJpV0xhRWFQZkZXbFhLbzMxVURONnJnbDVyZWZkbVQ4dnlORmRlb29BX2hpSlA0MXdOWUlkN2l3",
+      "publisherUrl": "https://news.un.org/en/story/2013/03/433612",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:10:04.016Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "undof"
+      ]
+    },
+    {
+      "title": "Security Council extends mandate of UN observer force in Golan Heights - UN News",
+      "publisher": "UN News",
+      "publishedAt": "2010-12-22T08:00:00.000Z",
+      "rssDescription": "Security Council extends mandate of UN observer force in Golan Heights UN News",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1MXNKSF9YY2w1NW9UOEFFX0hzYmVBLWVsZHdtckdpaWhXWHZPZGVHUHRFVnkzWnozcW1qOU1oeW9EanA0ZTRqeElndEZLNm5RemlwWmZn?oc=5",
+      "googleArticleId": "CBMiVkFVX3lxTFA1MXNKSF9YY2w1NW9UOEFFX0hzYmVBLWVsZHdtckdpaWhXWHZPZGVHUHRFVnkzWnozcW1qOU1oeW9EanA0ZTRqeElndEZLNm5RemlwWmZn",
+      "publisherUrl": "https://news.un.org/en/story/2010/12/362782",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:10:13.923Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "undof"
+      ]
+    },
+    {
+      "title": "Security Council extends mandate of UN force in Golan Heights - UN News",
+      "publisher": "UN News",
+      "publishedAt": "2011-12-21T08:00:00.000Z",
+      "rssDescription": "Security Council extends mandate of UN force in Golan Heights UN News",
+      "rssUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYXVPREdOZU91M3AycWVaZFNBWUtHeUp6X1FsUnJsZjByQk9JSTRyUmpqZ05tSnB2V1pGSXRqdmQwNTRkMUU4Zjk2ODhBODcxVTNEU0prNmQyVm5EZFhQRFZsTEZHTUs5RzZMTVgxUl9GYTJIVXBuTWtzeEFNUFBsWk11TWxiQkhPYjRQVUxUOTN6SElEQklsZmFYQmpVUk41?oc=5",
+      "googleArticleId": "CBMioAFBVV95cUxPYXVPREdOZU91M3AycWVaZFNBWUtHeUp6X1FsUnJsZjByQk9JSTRyUmpqZ05tSnB2V1pGSXRqdmQwNTRkMUU4Zjk2ODhBODcxVTNEU0prNmQyVm5EZFhQRFZsTEZHTUs5RzZMTVgxUl9GYTJIVXBuTWtzeEFNUFBsWk11TWxiQkhPYjRQVUxUOTN6SElEQklsZmFYQmpVUk41",
+      "publisherUrl": "https://news.un.org/en/story/2011/12/399092-security-council-extends-mandate-un-force-golan-heights",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:10:24.040Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "undof"
+      ]
+    },
+    {
+      "title": "In presidential statement, Security Council condemns attacks against UN Golan force - UN News",
+      "publisher": "UN News",
+      "publishedAt": "2014-09-19T07:00:00.000Z",
+      "rssDescription": "In presidential statement, Security Council condemns attacks against UN Golan force UN News",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xbjQ2enpPdWFycW94NGpiOFVIdVZkMXN1TkpEV2toeS02OXdtY3dBblhMMFhzNWlUeVhtbHBCYVIxV3pGLU1PZzJ4ejhMQkNXM2Nqa2NR?oc=5",
+      "googleArticleId": "CBMiVkFVX3lxTE9xbjQ2enpPdWFycW94NGpiOFVIdVZkMXN1TkpEV2toeS02OXdtY3dBblhMMFhzNWlUeVhtbHBCYVIxV3pGLU1PZzJ4ejhMQkNXM2Nqa2NR",
+      "publisherUrl": "https://news.un.org/en/story/2014/09/477872",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:10:33.897Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "undof"
+      ]
+    },
+    {
+      "title": "Blue helmets seized in Golan safe but remain captive – UN peacekeeping chief - UN News",
+      "publisher": "UN News",
+      "publishedAt": "2013-03-08T08:00:00.000Z",
+      "rssDescription": "Blue helmets seized in Golan safe but remain captive – UN peacekeeping chief UN News",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aMm9kSnpPWXh2d1RaOVpNY3VmVkNJQnN3OFllNVpIRWtRZG90SDhwUHROVDJna1NLamhFNFh4UjZnRUFKVl96VzlOMTRwUzdzNGx5U2x3?oc=5",
+      "googleArticleId": "CBMiVkFVX3lxTE9aMm9kSnpPWXh2d1RaOVpNY3VmVkNJQnN3OFllNVpIRWtRZG90SDhwUHROVDJna1NLamhFNFh4UjZnRUFKVl96VzlOMTRwUzdzNGx5U2x3",
+      "publisherUrl": "https://news.un.org/en/story/2013/03/433812",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:10:43.755Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "undof"
+      ]
+    }
+  ],
+  "runTimestamp": "20261103170602",
+  "batchType": "standard"
+}
