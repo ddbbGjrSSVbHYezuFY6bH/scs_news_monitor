@@ -1,5 +1,6 @@
 import { createHash } from 'node:crypto';
 import { publisherUrl } from './google-news.mjs';
+import { parseLookbackHours, withSearchWindow } from './search-window.mjs';
 
 const blockingCodes = new Set(['RateLimited', 'GoogleChallenge', 'GoogleConsentRequired', 'TimeBudgetExceeded']);
 const keyOf = article => article.googleArticleId ?? article.rssUrl;
@@ -10,8 +11,11 @@ export function resultPath(query, requestId) {
   return `results/${query.id}/${query.revision}-${query.configHash.slice(0, 16)}/${requestId}.json`;
 }
 
-export async function runBatch({ queries, client, requestId, mode, maxTotal = 100,
+export async function runBatch({ queries, client, requestId, mode, maxTotal = 100, lookbackHours = 24,
   forceResolve = false, cache = { schemaVersion: 1, entries: {} }, now = () => new Date() }) {
+  lookbackHours = parseLookbackHours(lookbackHours);
+  // configHash still identifies the saved subscription; query records the effective search.
+  queries = queries.map(query => ({ ...query, query: withSearchWindow(query.query, lookbackHours) }));
   const startedAt = now().toISOString();
   const states = [], selected = new Map();
   let circuit = null;
@@ -86,7 +90,7 @@ export async function runBatch({ queries, client, requestId, mode, maxTotal = 10
     const resolved = articles.filter(a => a.resolutionStatus === 'resolved').length;
     return {
       schemaVersion: 1, requestId, queryId: state.query.id, query: state.query.query, label: state.query.label,
-      queryRevision: state.query.revision, configHash: state.query.configHash, source: state.query.source,
+      queryRevision: state.query.revision, configHash: state.query.configHash, source: state.query.source, lookbackHours,
       locale: { language: state.query.language, country: state.query.country, edition: state.query.edition },
       startedAt, feedFetchedAt: state.feedFetchedAt, generatedAt: completedAt,
       status: state.feedError ? 'failed' : articles.length === 0 ? 'empty' : resolved === articles.length ? 'completed' : 'partial',
@@ -98,7 +102,7 @@ export async function runBatch({ queries, client, requestId, mode, maxTotal = 10
   });
   const status = results.some(r => r.status === 'failed' || r.status === 'partial') ? 'partial' : 'completed';
   return {
-    request: { schemaVersion: 1, requestId, mode, status, startedAt, completedAt,
+    request: { schemaVersion: 1, requestId, mode, status, startedAt, completedAt, lookbackHours,
       uniqueArticles: selected.size, newResolutions: Object.keys(newEntries).length,
       httpRequests: client.requests ?? null, circuit,
       results: results.map((r, index) => ({ queryId: r.queryId, queryRevision: r.queryRevision,

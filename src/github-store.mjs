@@ -84,7 +84,7 @@ export function updateIndex(existing, batch, currentQueries) {
     const descriptor = batch.request.results.find(r => r.queryId === result.queryId);
     const topic = { queryRevision: result.queryRevision, configHash: result.configHash,
       latestAttempt: { requestId: result.requestId, status: result.status, generatedAt: result.generatedAt,
-        observedAt: resultTime, path: descriptor.path }, latestUsable: null };
+        observedAt: resultTime, path: descriptor.path, lookbackHours: result.lookbackHours }, latestUsable: null };
     if (previous?.configHash === result.configHash) topic.latestUsable = previous.latestUsable;
     if (result.status !== 'failed') topic.latestUsable = topic.latestAttempt;
     index.topics[result.queryId] = topic;

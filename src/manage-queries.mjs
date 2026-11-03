@@ -1,6 +1,7 @@
 import { pathToFileURL } from 'node:url';
 import { normalizeConfig, identifier, dateOnly, integer, isActive, localDate } from './config.mjs';
 import { GitHubStore } from './github-store.mjs';
+import { parseLookbackHours } from './search-window.mjs';
 
 export function applyQueryChange(standardInput, temporaryInput, options, now = new Date()) {
   const standard = structuredClone(standardInput), temporary = structuredClone(temporaryInput);
@@ -59,6 +60,7 @@ async function main() {
   const options = { operation: env.SCS_OPERATION, querySet: env.SCS_QUERY_SET || 'temporary',
     queryId: env.SCS_QUERY_ID, entries: JSON.parse(env.SCS_ENTRIES || '[]'), activeUntil: env.SCS_ACTIVE_UNTIL };
   const maxTotal = integer(env.SCS_MAX_TOTAL || '100', 'maxTotal', 1, 100);
+  const lookbackHours = parseLookbackHours(env.SCS_LOOKBACK_HOURS ?? 24);
   const store = new GitHubStore({ repository: env.GITHUB_REPOSITORY, token: env.GITHUB_TOKEN,
     branch: env.SCS_DATA_BRANCH || 'main' });
   let changed;
@@ -75,6 +77,7 @@ async function main() {
         await store.api('actions/workflows/refresh-news.yml/dispatches', {
           method: 'POST', body: JSON.stringify({ ref: store.branch, inputs: {
             mode: 'selected', queryIds: JSON.stringify(changed.refreshIds), requestId, maxTotal: String(maxTotal),
+            lookbackHours: String(lookbackHours),
           } }),
         });
         refresh = 'dispatched';

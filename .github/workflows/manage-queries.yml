@@ -38,6 +38,11 @@ on:
         description: 'Maximum unique links for the optional refresh (1–100)'
         type: string
         default: '100'
+      lookbackHours:
+        description: 'Time window for every query in the optional refresh, in hours'
+        type: choice
+        options: ['24', '72']
+        default: '24'
 
 permissions:
   contents: read
@@ -73,3 +78,4 @@ jobs:
           SCS_REFRESH_NOW: ${{ inputs.refreshNow }}
           SCS_REQUEST_ID: ${{ inputs.requestId }}
           SCS_MAX_TOTAL: ${{ inputs.maxTotal }}
+          SCS_LOOKBACK_HOURS: ${{ inputs.lookbackHours || '24' }}

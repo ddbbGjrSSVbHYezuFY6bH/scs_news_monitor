@@ -40,6 +40,11 @@ on:
         description: 'Resolve known Google links again instead of using successful mappings'
         type: boolean
         default: false
+      lookbackHours:
+        description: 'Time window for every query in this run, in hours'
+        type: choice
+        options: ['24', '72']
+        default: '24'
 
 permissions:
   contents: read
@@ -75,3 +80,4 @@ jobs:
           SCS_MAX_TOTAL: ${{ inputs.maxTotal || '100' }}
           SCS_MAX_ARTICLES: ${{ inputs.maxArticles || '25' }}
           SCS_FORCE_RESOLVE: ${{ inputs.forceResolve || false }}
+          SCS_LOOKBACK_HOURS: ${{ inputs.lookbackHours || '24' }}

@@ -9,6 +9,12 @@ test('workflow definitions parse and keep user query input out of shell source',
     const doc = parseDocument(text);
     assert.deepEqual(doc.errors, []);
     const workflow = doc.toJS();
+    if (name !== 'ci') {
+      assert.deepEqual(workflow.on.workflow_dispatch.inputs.lookbackHours.options, ['24', '72']);
+      assert.equal(workflow.on.workflow_dispatch.inputs.lookbackHours.default, '24');
+      const job = workflow.jobs.refresh ?? workflow.jobs.manage;
+      assert.equal(job.steps.at(-1).env.SCS_LOOKBACK_HOURS, "${{ inputs.lookbackHours || '24' }}");
+    }
     assert.equal(workflow.permissions.contents, 'read');
     for (const job of Object.values(workflow.jobs)) {
       for (const step of job.steps) {

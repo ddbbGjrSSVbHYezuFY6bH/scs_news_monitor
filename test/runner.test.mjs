@@ -118,11 +118,15 @@ test('CLI integration writes complete local JSON files without a token or public
   await mkdir(path.join(root, 'queries'));
   await writeFile(path.join(root, 'queries/standard.json'), JSON.stringify({ schemaVersion: 1, queries: [{ id: 'one', query: 'search' }] }));
   await writeFile(path.join(root, 'queries/temporary.json'), JSON.stringify({ schemaVersion: 1, queries: [] }));
-  const options = readOptions(['--request-id', 'integration'], {});
-  const result = await refresh(root, options, { client: { feed: async () => [article('A')], resolve: async () => resolved } });
+  const options = readOptions(['--request-id', 'integration', '--lookback-hours', '72'], {});
+  const result = await refresh(root, options, { client: { feed: async query => {
+    assert.equal(query.query, '(search) when:3d');
+    return [article('A')];
+  }, resolve: async () => resolved } });
   assert.equal(result.status, 'completed');
   assert.equal(result.publication, null);
   const saved = JSON.parse(await readFile(path.join(root, '.local/output', result.results[0].path), 'utf8'));
   assert.equal(saved.articles[0].publisherUrl, resolved.publisherUrl);
   assert.equal(saved.queryRevision, 1);
+  assert.equal(saved.lookbackHours, 72);
 });

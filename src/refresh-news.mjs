@@ -6,6 +6,7 @@ import { loadConfig, normalizeConfig, selectQueries, identifier, integer } from 
 import { GoogleNewsClient } from './google-news.mjs';
 import { runBatch, customId } from './runner.mjs';
 import { GitHubStore, mergeCache, updateIndex } from './github-store.mjs';
+import { parseLookbackHours } from './search-window.mjs';
 
 const emptyCache = { schemaVersion: 1, entries: {} };
 const emptyIndex = { schemaVersion: 1, topics: {} };
@@ -25,7 +26,7 @@ export function readOptions(args = process.argv.slice(2), env = process.env) {
   const { values } = parseArgs({ args, options: {
     validate: { type: 'boolean' }, publish: { type: 'boolean' }, 'force-resolve': { type: 'boolean' },
     mode: { type: 'string' }, query: { type: 'string' }, 'query-ids': { type: 'string' },
-    'max-articles': { type: 'string' },
+    'max-articles': { type: 'string' }, 'lookback-hours': { type: 'string' },
     queries: { type: 'string' }, 'request-id': { type: 'string' }, 'max-total': { type: 'string' },
     'interval-ms': { type: 'string' }, 'budget-ms': { type: 'string' }, output: { type: 'string' },
   } });
@@ -45,6 +46,7 @@ export function readOptions(args = process.argv.slice(2), env = process.env) {
     requestId: identifier(values['request-id'] || env.SCS_REQUEST_ID ||
       (env.GITHUB_RUN_ID ? `run-${env.GITHUB_RUN_ID}-${env.GITHUB_RUN_ATTEMPT ?? '1'}` : `local-${Date.now()}`), 'requestId'),
     maxTotal: integer(values['max-total'] || env.SCS_MAX_TOTAL || '100', 'maxTotal', 1, 100),
+    lookbackHours: parseLookbackHours(values['lookback-hours'] ?? env.SCS_LOOKBACK_HOURS ?? 24),
     intervalMs: integer(values['interval-ms'] || env.SCS_INTERVAL_MS || '1200', 'intervalMs', 0, 60000),
     budgetMs: integer(values['budget-ms'] || env.SCS_BUDGET_MS || '480000', 'budgetMs', 1000, 600000),
     output: values.output ?? '.local/output',
@@ -55,7 +57,8 @@ export async function refresh(root, options, { client, store } = {}) {
   const config = await loadConfig(root);
   const queries = selectQueries(config, options);
   if (options.validate) {
-    return { validation: true, configuredQueries: config.queries.length, activeQueries: queries.length, timezone: config.timezone };
+    return { validation: true, configuredQueries: config.queries.length, activeQueries: queries.length,
+      timezone: config.timezone, lookbackHours: options.lookbackHours ?? 24 };
   }
   const initialCache = await jsonOr(path.join(root, 'data/resolution-cache.json'), emptyCache);
   const batch = await runBatch({ ...options, queries, cache: initialCache,
@@ -87,7 +90,7 @@ async function main() {
   if (process.env.GITHUB_STEP_SUMMARY) {
     const rows = (summary.results ?? []).map(r => `| ${r.queryId} | ${r.status} | ${r.counts.selected} | ${r.counts.resolved} |`);
     await writeFile(process.env.GITHUB_STEP_SUMMARY,
-      `Request: \`${summary.requestId}\`\n\n| Topic | Status | Selected | Resolved |\n|---|---|---:|---:|\n${rows.join('\n')}\n`);
+      `Request: \`${summary.requestId}\`\n\nLookback: ${summary.lookbackHours} hours\n\n| Topic | Status | Selected | Resolved |\n|---|---|---:|---:|\n${rows.join('\n')}\n`);
   }
 }
 
