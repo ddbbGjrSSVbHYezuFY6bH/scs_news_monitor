@@ -1,6 +1,8 @@
+
 import { createHash } from 'node:crypto';
 import { publisherUrl } from './google-news.mjs';
 import { parseLookbackHours, withSearchWindow } from './search-window.mjs';
+import { filterByRssTimestamp } from './rss-time-filter.mjs'; // NEW
 
 const blockingCodes = new Set(['RateLimited', 'GoogleChallenge', 'GoogleConsentRequired', 'TimeBudgetExceeded']);
 const keyOf = article => article.googleArticleId ?? article.rssUrl;
@@ -25,11 +27,16 @@ export async function runBatch({ queries, client, requestId, mode, maxTotal = 10
     if (circuit) { state.feedError = { code: 'CircuitOpen', cause: circuit.code }; continue; }
     try {
       const seen = new Set();
-      const articles = (await client.feed(query)).filter(article => {
+
+      // NEW: Filter by RSS publication timestamp before deduplication.
+      const articles = filterByRssTimestamp(
+        await client.feed(query), startedAt, lookbackHours
+      ).filter(article => {
         const key = keyOf(article);
         if (seen.has(key)) return false;
         seen.add(key); return true;
       });
+
       state.feedFetchedAt = now().toISOString();
       state.truncated = articles.length > query.maxArticles;
       state.candidates = articles.slice(0, query.maxArticles);
