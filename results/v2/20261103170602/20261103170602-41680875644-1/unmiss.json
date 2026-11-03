@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 2,
+  "requestId": "20261103170602-41680875644-1",
+  "queryId": "unmiss",
+  "query": "(((UNMISS OR \"United Nations Mission for South Sudan\") OR ((\"blue helmet\" OR \"blue helmets\" OR \"united nation\" OR (peacekeeper OR peacekeepers) OR peacekeeping OR \"blue beret\" OR \"blue berets\" OR \"UN troop\" OR \"UN troops\" OR \"UN force\" OR \"UN forces\" OR \"UN soldier\" OR \"UN soldiers\" OR \"UN mission\" OR \"UN contingent\") (Juba OR \"Unity State\" OR \"Upper Nile\" OR Jonglei OR \"Northern Bahr el Ghazal\" OR \"Western Bahr el Ghazal\" OR Ruweng OR \"Central Equatoria\" OR \"Eastern Equatoria\" OR \"Western Equatoria\" OR \"South Sudan\")))) when:1d",
+  "label": "UNMISS / South Sudan",
+  "queryRevision": 3,
+  "configHash": "a89940652c700977330d2d20ef8aa825028a054c096aa1341d3e1ae49287694c",
+  "source": "standard",
+  "lookbackHours": 24,
+  "locale": {
+    "language": "en-US",
+    "country": "US",
+    "edition": "US:en"
+  },
+  "startedAt": "2026-11-03T17:06:15.611Z",
+  "feedFetchedAt": "2026-11-03T17:06:31.268Z",
+  "generatedAt": "2026-11-03T17:10:46.214Z",
+  "status": "completed",
+  "error": null,
+  "truncated": false,
+  "counts": {
+    "selected": 9,
+    "resolved": 9,
+    "unresolved": 0,
+    "cacheHits": 0
+  },
+  "articles": [
+    {
+      "title": "UN Chief condemns attack on UNMISS patrol that killed two Ethiopian peacekeepers - UN Peacekeeping",
+      "publisher": "UN Peacekeeping",
+      "publishedAt": "2026-08-25T07:00:00.000Z",
+      "rssDescription": "UN Chief condemns attack on UNMISS patrol that killed two Ethiopian peacekeepers UN Peacekeeping",
+      "rssUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZ1h4VDdVeTRjcTNFZkNCNHFwLV81NlZ0dnZBZjVvckp1c3d3eVRDSkhETXJWc09FTGxnNDJHc2k3SEJsUi1hWnZFUjR5Z05xbXZaZzNraEhjS0RZQzJUNHhRVXJ6M2FhcFZ6bFhCbmNGdHZ0QjhDUzFpeDFzVEZKSXdDT1BnMUNYVmFzcjV0T2dxUTVnbHVpc0NBdlY2X3VVZTZtZHhicmxkU3NsWU8yX19HTjVIQjg?oc=5",
+      "googleArticleId": "CBMitwFBVV95cUxPZ1h4VDdVeTRjcTNFZkNCNHFwLV81NlZ0dnZBZjVvckp1c3d3eVRDSkhETXJWc09FTGxnNDJHc2k3SEJsUi1hWnZFUjR5Z05xbXZaZzNraEhjS0RZQzJUNHhRVXJ6M2FhcFZ6bFhCbmNGdHZ0QjhDUzFpeDFzVEZKSXdDT1BnMUNYVmFzcjV0T2dxUTVnbHVpc0NBdlY2X3VVZTZtZHhicmxkU3NsWU8yX19HTjVIQjg",
+      "publisherUrl": "https://peacekeeping.un.org/en/news/un-chief-condemns-attack-on-unmiss-patrol-that-killed-two-ethiopian-peacekeepers",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:06:49.206Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "unmiss"
+      ]
+    },
+    {
+      "title": "Two UN peacekeepers killed in South Sudan ambush - UN News",
+      "publisher": "UN News",
+      "publishedAt": "2026-08-24T07:00:00.000Z",
+      "rssDescription": "Two UN peacekeepers killed in South Sudan ambush UN News",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1qenY3cGdGVkU4ZkdxUTloam4yN0JScXRWV1p2b18xM0dzaXMwWFBjSVFIUHpzREtKQ0J4R0F6WHloUVlmMVhQcXplVmdJdEVXMFhFU3UzWQ?oc=5",
+      "googleArticleId": "CBMiV0FVX3lxTE1qenY3cGdGVkU4ZkdxUTloam4yN0JScXRWV1p2b18xM0dzaXMwWFBjSVFIUHpzREtKQ0J4R0F6WHloUVlmMVhQcXplVmdJdEVXMFhFU3UzWQ",
+      "publisherUrl": "https://news.un.org/en/story/2026/08/1168192",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:07:08.931Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "unmiss"
+      ]
+    },
+    {
+      "title": "PRESS RELEASE: UNMISS condemns ambush on its patrol in Jonglei, killing of two peacekeepers - UNMISS",
+      "publisher": "UNMISS",
+      "publishedAt": "2026-08-24T07:00:00.000Z",
+      "rssDescription": "PRESS RELEASE: UNMISS condemns ambush on its patrol in Jonglei, killing of two peacekeepers UNMISS",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMmVrc0pWOUVBNHBpYUd0SWFUUEFDS2MxWE5wOG1Ea3BxdEM3OWJxaWl1WGZTZmJ5aVVIazRWdmZlN1FEdnVJWnViTXQwMXlfNm5odjRkb2JqX05LWm04UkhCeThJYy1ZT0ZMWjJheGlYNVhWTjZFUXVNOU5zOFYtcGdxMHd1WGN2UGF4OUxnSFBXTWk0cG0tR2VPX2hsbEZNcHFXdkRLdUVWRDYwNXdvZG1Sc1dvblJKV3d1eHdxZzNsQQ?oc=5",
+      "googleArticleId": "CBMiwgFBVV95cUxQMmVrc0pWOUVBNHBpYUd0SWFUUEFDS2MxWE5wOG1Ea3BxdEM3OWJxaWl1WGZTZmJ5aVVIazRWdmZlN1FEdnVJWnViTXQwMXlfNm5odjRkb2JqX05LWm04UkhCeThJYy1ZT0ZMWjJheGlYNVhWTjZFUXVNOU5zOFYtcGdxMHd1WGN2UGF4OUxnSFBXTWk0cG0tR2VPX2hsbEZNcHFXdkRLdUVWRDYwNXdvZG1Sc1dvblJKV3d1eHdxZzNsQQ",
+      "publisherUrl": "https://unmiss.unmissions.org/en/press-releases/press-release-unmiss-condemns-ambush-on-its-patrol-in-jonglei-killing-of-two",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:07:28.635Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "unmiss"
+      ]
+    },
+    {
+      "title": "UNMISS peacekeepers overcome a multitude of challenges to reach remote Chukudum - UNMISS",
+      "publisher": "UNMISS",
+      "publishedAt": "2026-09-23T07:00:00.000Z",
+      "rssDescription": "UNMISS peacekeepers overcome a multitude of challenges to reach remote Chukudum UNMISS",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUmY3ZHdPdXM0MlpuZzQzbjBPWUg0UkljbGp0OWZmcFdFbmg1ejNTMlNoWjFuS1R5YTdOOUNJcW9yeDZrcE1GV1hSb3lqNXFUZVhXb1JkQTctcTFaTnluelZVV3lOTkp5Z1lqaW1TMWowa01sSHRJZjJfUzZ6eHdmb0ZyN3ZlcVlMc2FUbmtLODNuRURKNTUzMEZWaHdFWkNPMmFQcWVERTIwbW9jbmU5TXJDaXhaem5a?oc=5",
+      "googleArticleId": "CBMiuAFBVV95cUxQUmY3ZHdPdXM0MlpuZzQzbjBPWUg0UkljbGp0OWZmcFdFbmg1ejNTMlNoWjFuS1R5YTdOOUNJcW9yeDZrcE1GV1hSb3lqNXFUZVhXb1JkQTctcTFaTnluelZVV3lOTkp5Z1lqaW1TMWowa01sSHRJZjJfUzZ6eHdmb0ZyN3ZlcVlMc2FUbmtLODNuRURKNTUzMEZWaHdFWkNPMmFQcWVERTIwbW9jbmU5TXJDaXhaem5a",
+      "publisherUrl": "https://unmiss.unmissions.org/en/news/unmiss-peacekeepers-overcome-a-multitude-of-challenges-to-reach-remote-chukudum",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:07:45.897Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "unmiss"
+      ]
+    },
+    {
+      "title": "South Sudan: UN mission decries deadly attacks, works to calm tensions after ‘nothing but devastation’ - UN News",
+      "publisher": "UN News",
+      "publishedAt": "2026-08-11T07:00:00.000Z",
+      "rssDescription": "South Sudan: UN mission decries deadly attacks, works to calm tensions after ‘nothing but devastation’ UN News",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hYXlDc0VNZ2RVcm0wZzg3UXpHbVotSnNBdDJjRVRZbllVSzRQUTg2LWlvS2QwNE1ibExyT01rb3F3UWdCUHgtU3NYSkZEVzc3RjFvNVRZRQ?oc=5",
+      "googleArticleId": "CBMiV0FVX3lxTE1hYXlDc0VNZ2RVcm0wZzg3UXpHbVotSnNBdDJjRVRZbllVSzRQUTg2LWlvS2QwNE1ibExyT01rb3F3UWdCUHgtU3NYSkZEVzc3RjFvNVRZRQ",
+      "publisherUrl": "https://news.un.org/en/story/2026/08/1168118",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:08:03.155Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "unmiss"
+      ]
+    },
+    {
+      "title": "High-powered amphibious all-terrain vehicles help UNMISS peacekeepers reach vulnerable communities in Jonglei - UN Peacekeeping",
+      "publisher": "UN Peacekeeping",
+      "publishedAt": "2025-09-11T07:00:00.000Z",
+      "rssDescription": "High-powered amphibious all-terrain vehicles help UNMISS peacekeepers reach vulnerable communities in Jonglei UN Peacekeeping",
+      "rssUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQV3RHcWdMNTFlaDNmWkJGWmZjRXprZ29CNHp3YklIUnZNSEQ0TGpvc19DUEowYTkzQ3U2Ui1oYXowS3lldUNiTXlwNkY0dkhTVm5rX3pEbDhvRVJwMWYtWWdzYURKbWRqaTg3M3RUQjVGZ2FLTWt0Z2VSUXJ5Y0NBcmdYLS1fU2s1U0VEbFBUWkRBNmlYSVBFMFl0YXk5MWp2RjVyenJuSHBFSlBGcVZPdw?oc=5",
+      "googleArticleId": "CBMisAFBVV95cUxQV3RHcWdMNTFlaDNmWkJGWmZjRXprZ29CNHp3YklIUnZNSEQ0TGpvc19DUEowYTkzQ3U2Ui1oYXowS3lldUNiTXlwNkY0dkhTVm5rX3pEbDhvRVJwMWYtWWdzYURKbWRqaTg3M3RUQjVGZ2FLTWt0Z2VSUXJ5Y0NBcmdYLS1fU2s1U0VEbFBUWkRBNmlYSVBFMFl0YXk5MWp2RjVyenJuSHBFSlBGcVZPdw",
+      "publisherUrl": "https://peacekeeping.un.org/en/news/high-powered-amphibious-all-terrain-vehicles-help-unmiss-peacekeepers-reach",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:08:20.419Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "unmiss"
+      ]
+    },
+    {
+      "title": "UNMISS peacekeepers from Bangladesh distribute seeds to Wau community - UN Peacekeeping",
+      "publisher": "UN Peacekeeping",
+      "publishedAt": "2024-05-15T07:00:00.000Z",
+      "rssDescription": "UNMISS peacekeepers from Bangladesh distribute seeds to Wau community UN Peacekeeping",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT2Z6SUl4aUI0aVpXcEhKT1daYVVHVnFsM0xUTzJDVEhlckoyZy1SdFdSQ1dCUzdKcEpNLXBlVGZCU3dTZF9NRHhkNTZFa1V4SF85eWxRVTdXa0F4a0xrcEFSM1pCTkZyUzVhZFBIVERmTUdMakZfWVVydEU1aC1aMVlTY1JqNHpScFpIc1FrM1dURERmTFZyR0FYejdQNTFuLTI5Q3d5d2E?oc=5",
+      "googleArticleId": "CBMiqAFBVV95cUxNT2Z6SUl4aUI0aVpXcEhKT1daYVVHVnFsM0xUTzJDVEhlckoyZy1SdFdSQ1dCUzdKcEpNLXBlVGZCU3dTZF9NRHhkNTZFa1V4SF85eWxRVTdXa0F4a0xrcEFSM1pCTkZyUzVhZFBIVERmTUdMakZfWVVydEU1aC1aMVlTY1JqNHpScFpIc1FrM1dURERmTFZyR0FYejdQNTFuLTI5Q3d5d2E",
+      "publisherUrl": "https://peacekeeping.un.org/en/news/unmiss-peacekeepers-from-bangladesh-distribute-seeds-to-wau-community",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:08:37.653Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "unmiss"
+      ]
+    },
+    {
+      "title": "UNMISS peacekeepers work with communities to combat deadly cattle raiding in Lakes - UN Peacekeeping",
+      "publisher": "UN Peacekeeping",
+      "publishedAt": "2025-08-04T07:00:00.000Z",
+      "rssDescription": "UNMISS peacekeepers work with communities to combat deadly cattle raiding in Lakes UN Peacekeeping",
+      "rssUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcGxQaWFnemFlTFFtSEpHTS1pT1BlRGs0WERQVmpjd2xLNlI4S2VMOS1Qck0tUklfUm1iX0laS2k5LU8wbWNEWEM2a3JOd1l6TmpJb2xJamJ4LVNvN0VHRUhCMnFKOEF2WEpxS0JVdUdidFRLYkhkbzhIUHVqZUd5cjRHclh4TkVraHNremxLU0haVUNJeFRhSHM5RUd5eXUwTnJuSHlfREhiRnI0eGRJOHd3?oc=5",
+      "googleArticleId": "CBMisgFBVV95cUxPcGxQaWFnemFlTFFtSEpHTS1pT1BlRGs0WERQVmpjd2xLNlI4S2VMOS1Qck0tUklfUm1iX0laS2k5LU8wbWNEWEM2a3JOd1l6TmpJb2xJamJ4LVNvN0VHRUhCMnFKOEF2WEpxS0JVdUdidFRLYkhkbzhIUHVqZUd5cjRHclh4TkVraHNremxLU0haVUNJeFRhSHM5RUd5eXUwTnJuSHlfREhiRnI0eGRJOHd3",
+      "publisherUrl": "https://peacekeeping.un.org/en/news/unmiss-peacekeepers-work-with-communities-to-combat-deadly-cattle-raiding-in",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:08:54.903Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "unmiss"
+      ]
+    },
+    {
+      "title": "Helping Hands: UNMISS peacekeepers support sister UN mission in Central African Republic - UN Peacekeeping",
+      "publisher": "UN Peacekeeping",
+      "publishedAt": "2021-01-11T08:00:00.000Z",
+      "rssDescription": "Helping Hands: UNMISS peacekeepers support sister UN mission in Central African Republic UN Peacekeeping",
+      "rssUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPd2ZEM0h5SFVzTTltR3ZHWW1fMkRSc0t4UzdhTXd6NWRmeDRSZUJGQlNVaXN0NmhndmZLcHJCdkNBeVc2eDREV2dDS1VMQ2NsYnlxTXkzYzhRYnY1YzEzWTdnaXR3dy1rdEQ3UHZiWDZrZXJIUWpUWHNCalA4RE50cUY3Ti1fVzA0UWFiWGFoaUxJMURQbTBSbWpSYnp4MFN2VHV2M3EyWGZlWUZlS3B2eGtUZng?oc=5",
+      "googleArticleId": "CBMitAFBVV95cUxPd2ZEM0h5SFVzTTltR3ZHWW1fMkRSc0t4UzdhTXd6NWRmeDRSZUJGQlNVaXN0NmhndmZLcHJCdkNBeVc2eDREV2dDS1VMQ2NsYnlxTXkzYzhRYnY1YzEzWTdnaXR3dy1rdEQ3UHZiWDZrZXJIUWpUWHNCalA4RE50cUY3Ti1fVzA0UWFiWGFoaUxJMURQbTBSbWpSYnp4MFN2VHV2M3EyWGZlWUZlS3B2eGtUZng",
+      "publisherUrl": "https://peacekeeping.un.org/en/news/helping-hands-unmiss-peacekeepers-support-sister-un-mission-in-central-african",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:09:12.243Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "unmiss"
+      ]
+    }
+  ],
+  "runTimestamp": "20261103170602",
+  "batchType": "standard"
+}
