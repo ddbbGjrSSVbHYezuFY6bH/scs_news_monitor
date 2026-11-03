@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "requestId": "run-41667698757-2",
+  "mode": "custom",
+  "status": "completed",
+  "startedAt": "2026-11-03T15:52:31.651Z",
+  "completedAt": "2026-11-03T15:52:39.716Z",
+  "uniqueArticles": 3,
+  "newResolutions": 3,
+  "httpRequests": 7,
+  "circuit": null,
+  "results": [
+    {
+      "queryId": "custom-922e55e15f408724",
+      "queryRevision": 1,
+      "configHash": "573c0d1bde81cdfaa1cf53481452bb835d25608832cc040aa64a7cda362a7695",
+      "status": "completed",
+      "counts": {
+        "selected": 3,
+        "resolved": 3,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "path": "results/custom-922e55e15f408724/1-573c0d1bde81cdfa/run-41667698757-2.json"
+    }
+  ],
+  "githubRunId": "41667698757"
+}
