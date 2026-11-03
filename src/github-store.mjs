@@ -1,4 +1,4 @@
-import { publisherUrl } from './google-news.mjs';
+import { publisherUrl } from '../google-news.mjs';
 
 export class GitHubError extends Error {
   constructor(status, message) { super(message); this.status = status; }
