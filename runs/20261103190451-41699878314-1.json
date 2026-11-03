@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 2,
+  "requestId": "20261103190451-41699878314-1",
+  "mode": "active",
+  "status": "completed",
+  "startedAt": "2026-11-03T19:05:19.343Z",
+  "completedAt": "2026-11-03T19:05:51.272Z",
+  "lookbackHours": 24,
+  "uniqueArticles": 10,
+  "newResolutions": 3,
+  "httpRequests": 22,
+  "circuit": null,
+  "results": [
+    {
+      "queryId": "un",
+      "queryRevision": 2,
+      "configHash": "d73c0fc8a03e683246335071596d10c6c8c52330688d5e4ddbb3af3716b300ee",
+      "status": "empty",
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "path": "results/v2/20261103190451/20261103190451-41699878314-1/un.json"
+    },
+    {
+      "queryId": "usg-dpo",
+      "queryRevision": 2,
+      "configHash": "25d901d87b35d7dd9fc5cb6da038073f749d6135ca67dce48444015490f945c1",
+      "status": "empty",
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "path": "results/v2/20261103190451/20261103190451-41699878314-1/usg-dpo.json"
+    },
+    {
+      "queryId": "peacekeeping",
+      "queryRevision": 2,
+      "configHash": "f95e0e62b47e74523c9ae3282369ae9ed03b23efa55fbe9516958a471385bac6",
+      "status": "empty",
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "path": "results/v2/20261103190451/20261103190451-41699878314-1/peacekeeping.json"
+    },
+    {
+      "queryId": "wps",
+      "queryRevision": 2,
+      "configHash": "a0bf85d7ae7bd88f3b4ebf9e9bbb6ee0050e9f2dfd3951a227f539faec462f40",
+      "status": "empty",
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "path": "results/v2/20261103190451/20261103190451-41699878314-1/wps.json"
+    },
+    {
+      "queryId": "haiti",
+      "queryRevision": 2,
+      "configHash": "fff2198d6eefcc0aea8dcb4f20607f1185b4c8462c3ead07c9f38d0aeac78265",
+      "status": "empty",
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "path": "results/v2/20261103190451/20261103190451-41699878314-1/haiti.json"
+    },
+    {
+      "queryId": "unifil",
+      "queryRevision": 3,
+      "configHash": "c1449688ef33684103be699ac4746993e37109d9f5a3f374a5fb7149f1ea162a",
+      "status": "completed",
+      "counts": {
+        "selected": 1,
+        "resolved": 1,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "path": "results/v2/20261103190451/20261103190451-41699878314-1/unifil.json"
+    },
+    {
+      "queryId": "undof",
+      "queryRevision": 3,
+      "configHash": "c92987f28985abcff827f3e91769ff145f2a93ac2902950547a020ffad02076e",
+      "status": "empty",
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "path": "results/v2/20261103190451/20261103190451-41699878314-1/undof.json"
+    },
+    {
+      "queryId": "untso",
+      "queryRevision": 3,
+      "configHash": "f3205266fc5e994d7085f72f71ef8c5d3e7d74132e49fcf3ac4293e144de7623",
+      "status": "empty",
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "path": "results/v2/20261103190451/20261103190451-41699878314-1/untso.json"
+    },
+    {
+      "queryId": "monusco",
+      "queryRevision": 3,
+      "configHash": "0aec462b4cff1ed5e8adf02a87aa5b0e8c5d79938f667dc7fcd5f47b81c95744",
+      "status": "empty",
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "path": "results/v2/20261103190451/20261103190451-41699878314-1/monusco.json"
+    },
+    {
+      "queryId": "minusca",
+      "queryRevision": 3,
+      "configHash": "1bbe441f3e14739ff71a920cfcf3a323f00846bc65b2b081d88820ace917a58c",
+      "status": "empty",
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "path": "results/v2/20261103190451/20261103190451-41699878314-1/minusca.json"
+    },
+    {
+      "queryId": "unmiss",
+      "queryRevision": 3,
+      "configHash": "a89940652c700977330d2d20ef8aa825028a054c096aa1341d3e1ae49287694c",
+      "status": "empty",
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "path": "results/v2/20261103190451/20261103190451-41699878314-1/unmiss.json"
+    },
+    {
+      "queryId": "unisfa",
+      "queryRevision": 3,
+      "configHash": "174512c555e7cd3fe3e80b751153d9747cd619de9f3d7d13252b91580f59d47a",
+      "status": "empty",
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "path": "results/v2/20261103190451/20261103190451-41699878314-1/unisfa.json"
+    },
+    {
+      "queryId": "minurso",
+      "queryRevision": 3,
+      "configHash": "31e247942bc065487d6719b64d8cecc8bdfb599458a2a316ee439f626370bc4f",
+      "status": "completed",
+      "counts": {
+        "selected": 9,
+        "resolved": 9,
+        "unresolved": 0,
+        "cacheHits": 7
+      },
+      "path": "results/v2/20261103190451/20261103190451-41699878314-1/minurso.json"
+    },
+    {
+      "queryId": "unmik",
+      "queryRevision": 3,
+      "configHash": "80b4873c45d094fabcfe1ba13796b245c3a5dbaf5a8b3746612a770e107f93f5",
+      "status": "empty",
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "path": "results/v2/20261103190451/20261103190451-41699878314-1/unmik.json"
+    },
+    {
+      "queryId": "unficyp",
+      "queryRevision": 3,
+      "configHash": "e840d7fa33f166efa91acf1e5fa19367afe5fdc8a8402fc1f9df9293926c2ceb",
+      "status": "empty",
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "path": "results/v2/20261103190451/20261103190451-41699878314-1/unficyp.json"
+    },
+    {
+      "queryId": "unmogip",
+      "queryRevision": 3,
+      "configHash": "2bde0b6aa1c29b5c554b856f36664f2ae78481a60ac78020e6e5892827cfb905",
+      "status": "empty",
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "path": "results/v2/20261103190451/20261103190451-41699878314-1/unmogip.json"
+    }
+  ],
+  "batchType": "standard",
+  "runTimestamp": "20261103190451",
+  "manifestPath": "runs/v2/20261103190451/20261103190451-41699878314-1.json",
+  "githubRunId": "41699878314"
+}

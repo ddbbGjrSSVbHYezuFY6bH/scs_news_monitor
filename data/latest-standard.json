@@ -2,11 +2,11 @@
   "schemaVersion": 2,
   "batchType": "standard",
   "status": "completed",
-  "requestId": "20261103170602-41680875644-1",
-  "runTimestamp": "20261103170602",
-  "startedAt": "2026-11-03T17:06:15.611Z",
-  "completedAt": "2026-11-03T17:10:46.214Z",
-  "manifestPath": "runs/v2/20261103170602/20261103170602-41680875644-1.json",
+  "requestId": "20261103190451-41699878314-1",
+  "runTimestamp": "20261103190451",
+  "startedAt": "2026-11-03T19:05:19.343Z",
+  "completedAt": "2026-11-03T19:05:51.272Z",
+  "manifestPath": "runs/v2/20261103190451/20261103190451-41699878314-1.json",
   "lookbackHours": 24,
   "topicCount": 16
 }
