@@ -3,7 +3,7 @@ run-name: Refresh news (${{ inputs.requestId || github.run_id }})
 
 on:
   schedule:
-    - cron: '17 6 * * *'
+    - cron: '30 8 * * *'
       timezone: America/New_York
   workflow_dispatch:
     inputs:
