@@ -38,7 +38,7 @@ test('all saved topics use the selected window without changing their configurat
       assert.equal((search.match(/when:/g) ?? []).length, 1);
       assert.ok(search.endsWith(`when:${lookbackHours / 24}d`));
     }
-    assert.equal(batch.lookbackHours, lookbackHours);
+    assert.equal(batch.request.lookbackHours, lookbackHours);
     assert.deepEqual(batch.results.map(result => result.configHash), selected.map(query => query.configHash));
     assert.ok(batch.results.every(result => result.lookbackHours === lookbackHours));
   }
