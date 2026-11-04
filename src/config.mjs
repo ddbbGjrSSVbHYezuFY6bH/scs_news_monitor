@@ -55,40 +55,41 @@ export function normalizeQuery(raw, defaults, source) {
       throw new Error(`${id}: invalid ${field}.`);
     }
   }
-  if (raw.activeUntil !== undefined) {
+  if (source === 'temporary' || raw.activeFrom !== undefined || raw.activeUntil !== undefined) {
+    query.activeFrom = dateOnly(raw.activeFrom, `${id}.activeFrom`);
     query.activeUntil = dateOnly(raw.activeUntil, `${id}.activeUntil`);
+    if (query.activeFrom > query.activeUntil) throw new Error(`${id}: activeFrom is after activeUntil.`);
   }
   query.configHash = createHash('sha256').update(JSON.stringify(query)).digest('hex');
   return query;
 }
 
-export function normalizeConfig(config) {
-  if (!config || config.schemaVersion !== 1 || !Array.isArray(config.queries)) {
-    throw new Error('queries.json must have schemaVersion: 1 and a queries array.');
+export function normalizeConfig(standard, temporary) {
+  for (const [name, config] of [['standard', standard], ['temporary', temporary]]) {
+    if (!config || config.schemaVersion !== 1 || !Array.isArray(config.queries)) {
+      throw new Error(`${name}.json must have schemaVersion: 1 and a queries array.`);
+    }
   }
-  const timezone = config.timezone ?? 'America/New_York';
+  const timezone = standard.timezone ?? 'America/New_York';
   localDate(new Date(), timezone); // Validate the IANA timezone before any HTTP requests.
-  const defaults = config.defaults ?? {};
-  const queries = config.queries.map(q => normalizeQuery(q, defaults,
-    q?.activeUntil !== undefined ? 'temporary' : 'standard'));
+  const defaults = standard.defaults ?? {};
+  const queries = [
+    ...standard.queries.map(q => normalizeQuery(q, defaults, 'standard')),
+    ...temporary.queries.map(q => normalizeQuery(q, defaults, 'temporary')),
+  ];
   if (queries.length > 100) throw new Error('At most 100 configured queries are supported.');
-  if (new Set(queries.map(q => q.id)).size !== queries.length) throw new Error('Query IDs must be unique.');
+  if (new Set(queries.map(q => q.id)).size !== queries.length) throw new Error('Query IDs must be unique across both files.');
   return { timezone, defaults, queries };
 }
 
 export async function loadConfig(root) {
-  return normalizeConfig(JSON.parse(await readFile(path.join(root, 'queries.json'), 'utf8')));
-}
-
-export function pruneExpiredQueries(document, now = new Date()) {
-  const config = normalizeConfig(document);
-  const today = localDate(now, config.timezone);
-  const expiredIds = config.queries.filter(q => q.activeUntil && q.activeUntil < today).map(q => q.id);
-  return { document: { ...document, queries: document.queries.filter(q => !expiredIds.includes(q.id)) }, expiredIds };
+  const read = name => readFile(path.join(root, 'queries', `${name}.json`), 'utf8').then(JSON.parse);
+  return normalizeConfig(await read('standard'), await read('temporary'));
 }
 
 export function isActive(query, today) {
-  return query.enabled && (!query.activeUntil || today <= query.activeUntil);
+  return query.enabled && (!query.activeFrom || query.activeFrom <= today) &&
+    (!query.activeUntil || today <= query.activeUntil);
 }
 
 export function selectQueries(config, { mode = 'active', queryIds = [], customQueries = [] } = {}, now = new Date()) {
@@ -111,7 +112,7 @@ export function selectQueries(config, { mode = 'active', queryIds = [], customQu
       identifier(id);
       const query = config.queries.find(q => q.id === id);
       if (!query) throw new Error(`Unknown query: ${id}`);
-      if (!isActive(query, today)) throw new Error(`Query is disabled or expired: ${id}`);
+      if (!isActive(query, today)) throw new Error(`Query is disabled or outside its active dates: ${id}`);
     }
     return config.queries.filter(q => queryIds.includes(q.id));
   }
