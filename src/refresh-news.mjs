@@ -21,13 +21,15 @@ async function writeJson(root, file, value) {
   await writeFile(destination, `${JSON.stringify(value, null, 2)}\n`);
 }
 
-async function readLatest(root) {
-  const pointer = await jsonOr(path.join(root, 'latest.json'), null);
+async function readLatest(read) {
+  const pointer = await read('latest.json', null);
   if (!pointer) return { pointer: null, batch: null };
   if (!/^results\/[a-z0-9][a-z0-9_-]*\.json$/.test(pointer.path ?? '')) {
     throw new Error('latest.json must point to a JSON file directly inside results/.');
   }
-  return { pointer, batch: JSON.parse(await readFile(path.join(root, pointer.path), 'utf8')) };
+  const batch = await read(pointer.path, null);
+  // Historical output is an optional cache. A deleted result also invalidates its pointer.
+  return { pointer: batch ? pointer : null, batch };
 }
 
 export function readOptions(args = process.argv.slice(2), env = process.env) {
@@ -73,8 +75,9 @@ export async function refresh(root, options, { client, store, now = () => new Da
       expiredQueries: cleaned.expiredIds, timezone: config.timezone, lookbackHours: options.lookbackHours ?? 24 };
   }
   const outputRoot = path.resolve(root, options.output);
-  const repositoryLatest = await readLatest(root);
-  const localLatest = outputRoot === path.resolve(root) ? repositoryLatest : await readLatest(outputRoot);
+  const repositoryLatest = await readLatest((file, fallback) => jsonOr(path.join(root, file), fallback));
+  const localLatest = outputRoot === path.resolve(root) ? repositoryLatest :
+    await readLatest((file, fallback) => jsonOr(path.join(outputRoot, file), fallback));
   const latest = !localLatest.pointer || (repositoryLatest.pointer &&
     repositoryLatest.pointer.startedAt > localLatest.pointer.startedAt) ? repositoryLatest : localLatest;
   const runTimestamp = timestampUtc(started);
@@ -94,7 +97,7 @@ export async function refresh(root, options, { client, store, now = () => new Da
       if (await read(file, null)) throw new Error(`Results file already exists: ${file}`);
       const current = pruneExpiredQueries(await read('queries.json'), now());
       const changes = new Map([[file, batch]]);
-      const previous = await read('latest.json', null);
+      const { pointer: previous } = await readLatest(read);
       const pointer = latestPointer(previous, batch, file);
       if (pointer !== previous) changes.set('latest.json', pointer);
       if (current.expiredIds.length) changes.set('queries.json', current.document);
