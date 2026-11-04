@@ -1,5 +1,3 @@
-import { publisherUrl } from './google-news.mjs';
-
 export class GitHubError extends Error {
   constructor(status, message) { super(message); this.status = status; }
 }
@@ -57,40 +55,4 @@ export class GitHubStore {
       }
     }
   }
-}
-
-export function mergeCache(existing, incoming) {
-  const entries = { ...(existing.entries ?? {}) };
-  for (const [id, value] of Object.entries(incoming)) {
-    if (publisherUrl(value.publisherUrl) && (!entries[id] || value.resolvedAt >= entries[id].resolvedAt)) entries[id] = value;
-  }
-  // Retain the newest 10,000 successful mappings to bound file size.
-  return { schemaVersion: 1, entries: Object.fromEntries(Object.entries(entries)
-    .sort((a, b) => b[1].resolvedAt.localeCompare(a[1].resolvedAt)).slice(0, 10000)) };
-}
-
-export function updateIndex(existing, batch, currentQueries) {
-  const index = structuredClone(existing);
-  index.schemaVersion = 1;
-  index.topics ??= {};
-  for (const result of batch.results) {
-    if (result.source === 'custom') continue;
-    const current = currentQueries.find(q => q.id === result.queryId);
-    // A query text edit without a manual revision bump is detected by configHash too.
-    if (!current || current.configHash !== result.configHash) continue;
-    const previous = index.topics[result.queryId];
-    const resultTime = result.feedFetchedAt ?? result.startedAt;
-    if (previous?.configHash === result.configHash && previous.latestAttempt.observedAt > resultTime) continue;
-    const descriptor = batch.request.results.find(r => r.queryId === result.queryId);
-    const topic = { queryRevision: result.queryRevision, configHash: result.configHash,
-      latestAttempt: { requestId: result.requestId, status: result.status, generatedAt: result.generatedAt,
-        observedAt: resultTime, path: descriptor.path, lookbackHours: result.lookbackHours }, latestUsable: null };
-    if (previous?.configHash === result.configHash) topic.latestUsable = previous.latestUsable;
-    if (result.status !== 'failed') topic.latestUsable = topic.latestAttempt;
-    index.topics[result.queryId] = topic;
-  }
-  // Removed subscriptions must not survive as apparently current index entries.
-  const ids = new Set(currentQueries.map(q => q.id));
-  for (const id of Object.keys(index.topics)) if (!ids.has(id)) delete index.topics[id];
-  return index;
 }

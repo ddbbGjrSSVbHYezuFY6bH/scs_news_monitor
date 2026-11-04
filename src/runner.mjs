@@ -2,16 +2,12 @@
 import { createHash } from 'node:crypto';
 import { publisherUrl } from './google-news.mjs';
 import { parseLookbackHours, withSearchWindow } from './search-window.mjs';
-import { filterByRssTimestamp } from './rss-time-filter.mjs'; // NEW
+import { filterByRssTimestamp } from './rss-time-filter.mjs';
 
 const blockingCodes = new Set(['RateLimited', 'GoogleChallenge', 'GoogleConsentRequired', 'TimeBudgetExceeded']);
 const keyOf = article => article.googleArticleId ?? article.rssUrl;
 const errorInfo = error => ({ code: error.code ?? 'UnexpectedError', httpStatus: error.status ?? null,
   retryAfter: error.retryAfter ?? null });
-
-export function resultPath(query, requestId) {
-  return `results/${query.id}/${query.revision}-${query.configHash.slice(0, 16)}/${requestId}.json`;
-}
 
 export async function runBatch({ queries, client, requestId, mode, maxTotal = 100, lookbackHours = 24,
   forceResolve = false, cache = { schemaVersion: 1, entries: {} }, now = () => new Date() }) {
@@ -28,7 +24,7 @@ export async function runBatch({ queries, client, requestId, mode, maxTotal = 10
     try {
       const seen = new Set();
 
-      // NEW: Filter by RSS publication timestamp before deduplication.
+      // Filter by RSS publication timestamp before deduplication.
       const articles = filterByRssTimestamp(
         await client.feed(query), startedAt, lookbackHours
       ).filter(article => {
@@ -96,7 +92,7 @@ export async function runBatch({ queries, client, requestId, mode, maxTotal = 10
     }));
     const resolved = articles.filter(a => a.resolutionStatus === 'resolved').length;
     return {
-      schemaVersion: 1, requestId, queryId: state.query.id, query: state.query.query, label: state.query.label,
+      queryId: state.query.id, query: state.query.query, label: state.query.label,
       queryRevision: state.query.revision, configHash: state.query.configHash, source: state.query.source, lookbackHours,
       locale: { language: state.query.language, country: state.query.country, edition: state.query.edition },
       startedAt, feedFetchedAt: state.feedFetchedAt, generatedAt: completedAt,
@@ -109,12 +105,9 @@ export async function runBatch({ queries, client, requestId, mode, maxTotal = 10
   });
   const status = results.some(r => r.status === 'failed' || r.status === 'partial') ? 'partial' : 'completed';
   return {
-    request: { schemaVersion: 1, requestId, mode, status, startedAt, completedAt, lookbackHours,
-      uniqueArticles: selected.size, newResolutions: Object.keys(newEntries).length,
-      httpRequests: client.requests ?? null, circuit,
-      results: results.map((r, index) => ({ queryId: r.queryId, queryRevision: r.queryRevision,
-        configHash: r.configHash, status: r.status, counts: r.counts, path: resultPath(queries[index], requestId) })) },
-    results, newEntries,
+    schemaVersion: 3, requestId, mode, status, startedAt, completedAt, lookbackHours,
+    uniqueArticles: selected.size, newResolutions: Object.keys(newEntries).length,
+    httpRequests: client.requests ?? null, circuit, results,
   };
 }
 

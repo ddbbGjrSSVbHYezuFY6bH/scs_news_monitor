@@ -1,93 +1,80 @@
+import { isDeepStrictEqual } from 'node:util';
+import { writeFile } from 'node:fs/promises';
 import { pathToFileURL } from 'node:url';
-import { normalizeConfig, identifier, dateOnly, integer, isActive, localDate } from './config.mjs';
+import { identifier, normalizeConfig } from './config.mjs';
 import { GitHubStore } from './github-store.mjs';
-import { parseLookbackHours } from './search-window.mjs';
 
-export function applyQueryChange(standardInput, temporaryInput, options, now = new Date()) {
-  const standard = structuredClone(standardInput), temporary = structuredClone(temporaryInput);
-  normalizeConfig(standard, temporary);
-  const { operation, querySet = 'temporary', queryId, entries = [], activeUntil } = options;
-  if (!['standard', 'temporary'].includes(querySet)) throw new Error('querySet must be standard or temporary.');
-  const find = id => {
-    for (const [source, config] of [['standard', standard], ['temporary', temporary]]) {
-      const position = config.queries.findIndex(q => q.id === id);
-      if (position !== -1) return { source, config, position, query: config.queries[position] };
+const operations = new Set(['create', 'read', 'update', 'delete']);
+const editableFields = new Set(['label', 'query', 'enabled', 'maxArticles', 'language', 'country', 'edition', 'activeUntil']);
+
+export function validateQueryOperation({ operation = 'read', queryId = '', entry = {} } = {}) {
+  if (!operations.has(operation)) throw new Error('operation must be create, read, update or delete.');
+  if (operation !== 'read' || queryId) identifier(queryId, 'queryId');
+  if (!entry || typeof entry !== 'object' || Array.isArray(entry)) throw new Error('entry must be a JSON object.');
+  const fields = Object.keys(entry);
+  if (['read', 'delete'].includes(operation) && fields.length) throw new Error('entry is only used for create or update.');
+  if (operation === 'create' && !fields.includes('query')) throw new Error('Create requires entry.query.');
+  if (operation === 'update' && !fields.length) throw new Error('Update requires at least one field in entry.');
+  for (const field of fields) {
+    if (!editableFields.has(field)) throw new Error(`Unsupported query field: ${field}`);
+    if (entry[field] === null && field !== 'activeUntil') throw new Error(`${field} cannot be null.`);
+  }
+  return { operation, queryId, entry };
+}
+
+export function applyQueryOperation(input, options) {
+  const { operation, queryId, entry } = validateQueryOperation(options);
+  const config = normalizeConfig(input);
+  const document = structuredClone(input);
+  const position = document.queries.findIndex(query => query.id === queryId);
+  if (operation === 'read' && !queryId) return { document, queries: document.queries, changed: false };
+  if (operation === 'create' && position !== -1) throw new Error(`Query already exists: ${queryId}`);
+  if (operation !== 'create' && position === -1) throw new Error(`Unknown query: ${queryId}`);
+  if (operation === 'read') return { document, queries: [document.queries[position]], changed: false };
+
+  let affected;
+  if (operation === 'delete') {
+    [affected] = document.queries.splice(position, 1);
+  } else {
+    const previous = operation === 'update' ? document.queries[position] : { id: queryId };
+    affected = { ...previous, ...structuredClone(entry) };
+    if (affected.activeUntil === null) delete affected.activeUntil;
+    if (operation === 'update' && isDeepStrictEqual(previous, affected)) {
+      return { document, queries: [affected], changed: false };
     }
-    throw new Error(`Unknown query: ${id}`);
-  };
-  const changedIds = [];
-  if (operation === 'upsert') {
-    if (!Array.isArray(entries) || entries.length < 1 || entries.length > 20) throw new Error('Supply 1–20 query entries.');
-    const target = querySet === 'standard' ? standard : temporary;
-    if (new Set(entries.map(q => q.id)).size !== entries.length) throw new Error('Duplicate IDs in update request.');
-    for (const entry of entries) {
-      identifier(entry.id);
-      const other = querySet === 'standard' ? temporary : standard;
-      if (other.queries.some(q => q.id === entry.id)) throw new Error(`ID exists in the other query set: ${entry.id}`);
-      const position = target.queries.findIndex(q => q.id === entry.id);
-      const old = position < 0 ? {} : target.queries[position];
-      const next = { ...old, ...entry, revision: (old.revision ?? 0) + 1 };
-      if (querySet === 'standard') { delete next.activeFrom; delete next.activeUntil; }
-      if (position < 0) target.queries.push(next); else target.queries[position] = next;
-      changedIds.push(entry.id);
-    }
-  } else if (['disable', 'extend', 'promote'].includes(operation)) {
-    identifier(queryId, 'queryId');
-    const found = find(queryId);
-    const next = { ...found.query, revision: (found.query.revision ?? 1) + 1 };
-    if (operation === 'disable') next.enabled = false;
-    if (operation === 'extend') {
-      if (found.source !== 'temporary') throw new Error('Only temporary queries have an expiry date.');
-      next.activeUntil = dateOnly(activeUntil, 'activeUntil');
-    }
-    if (operation === 'promote') {
-      if (found.source !== 'temporary') throw new Error('Query is already standard.');
-      delete next.activeFrom; delete next.activeUntil;
-      next.enabled = true;
-      found.config.queries.splice(found.position, 1);
-      standard.queries.push(next);
-    } else found.config.queries[found.position] = next;
-    changedIds.push(queryId);
-  } else throw new Error('operation must be upsert, disable, extend or promote.');
-  const config = normalizeConfig(standard, temporary);
-  const today = localDate(now, config.timezone);
-  return { standard, temporary, changedIds,
-    refreshIds: config.queries.filter(q => changedIds.includes(q.id) && isActive(q, today)).map(q => q.id) };
+    affected.revision = operation === 'create' ? 1 : config.queries[position].revision + 1;
+    if (operation === 'create') document.queries.push(affected);
+    else document.queries[position] = affected;
+  }
+  normalizeConfig(document);
+  return { document, queries: [affected], changed: true };
+}
+
+export async function manageQueries(options, { store, env = process.env } = {}) {
+  options = validateQueryOperation(options);
+  store ??= new GitHubStore({ repository: env.GITHUB_REPOSITORY, token: env.GITHUB_TOKEN,
+    branch: env.SCS_DATA_BRANCH || 'main' });
+  let result, publication = null;
+  if (options.operation === 'read') {
+    result = applyQueryOperation(await store.readJson('queries.json'), options);
+  } else {
+    publication = await store.transaction(`Manage queries: ${options.operation} ${options.queryId}`, async read => {
+      result = applyQueryOperation(await read('queries.json'), options);
+      return result.changed ? new Map([['queries.json', result.document]]) : new Map();
+    });
+  }
+  return { operation: options.operation, changed: result.changed, timezone: result.document.timezone ?? 'America/New_York',
+    defaults: result.document.defaults ?? {}, queries: result.queries, publication };
 }
 
 async function main() {
-  const env = process.env;
-  const options = { operation: env.SCS_OPERATION, querySet: env.SCS_QUERY_SET || 'temporary',
-    queryId: env.SCS_QUERY_ID, entries: JSON.parse(env.SCS_ENTRIES || '[]'), activeUntil: env.SCS_ACTIVE_UNTIL };
-  const maxTotal = integer(env.SCS_MAX_TOTAL || '100', 'maxTotal', 1, 100);
-  const lookbackHours = parseLookbackHours(env.SCS_LOOKBACK_HOURS ?? 24);
-  const store = new GitHubStore({ repository: env.GITHUB_REPOSITORY, token: env.GITHUB_TOKEN,
-    branch: env.SCS_DATA_BRANCH || 'main' });
-  let changed;
-  const publication = await store.transaction('Update monitoring queries', async read => {
-    changed = applyQueryChange(await read('queries/standard.json'), await read('queries/temporary.json'), options);
-    return new Map([['queries/standard.json', changed.standard], ['queries/temporary.json', changed.temporary]]);
-  });
-  let refresh = 'not_requested';
-  if (env.SCS_REFRESH_NOW === 'true') {
-    if (!changed.refreshIds.length) refresh = 'no_active_queries';
-    else {
-      const requestId = identifier(env.SCS_REQUEST_ID || `update-${env.GITHUB_RUN_ID}-${env.GITHUB_RUN_ATTEMPT || '1'}`);
-      try {
-        await store.api('actions/workflows/refresh-news.yml/dispatches', {
-          method: 'POST', body: JSON.stringify({ ref: store.branch, inputs: {
-            mode: 'selected', queryIds: JSON.stringify(changed.refreshIds), requestId, maxTotal: String(maxTotal),
-            lookbackHours: String(lookbackHours),
-          } }),
-        });
-        refresh = 'dispatched';
-      } catch (error) {
-        console.error(`Configuration saved in ${publication.commit}, but refresh dispatch failed. Retry Refresh news. ${error.message}`);
-        process.exitCode = 1; refresh = 'dispatch_failed';
-      }
-    }
+  const summary = await manageQueries({ operation: process.env.SCS_OPERATION || 'read',
+    queryId: process.env.SCS_QUERY_ID || '', entry: JSON.parse(process.env.SCS_ENTRY || '{}') });
+  const json = JSON.stringify(summary, null, 2);
+  console.log(json);
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    await writeFile(process.env.GITHUB_STEP_SUMMARY, `Manage queries: ${summary.operation}\n\n\`\`\`json\n${json}\n\`\`\`\n`);
   }
-  console.log(JSON.stringify({ changedIds: changed.changedIds, publication, refresh }, null, 2));
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
