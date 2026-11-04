@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "requestId": "run-41825863426-1",
+  "queryId": "monusco",
+  "query": "(((MONUSCO OR MONUC OR MONESCO) OR ((\"United Nations Organization Stabilization Mission in the Democratic Republic of the Congo\" OR \"United Nations DRC\" OR \"United Nations Security Council\" OR (\"blue helmet\" OR \"blue helmets\")) (DRC OR \"Democratic Republic of Congo\")))) when:1d",
+  "label": "MONUSCO / DRC",
+  "queryRevision": 3,
+  "configHash": "0aec462b4cff1ed5e8adf02a87aa5b0e8c5d79938f667dc7fcd5f47b81c95744",
+  "source": "standard",
+  "lookbackHours": 24,
+  "locale": {
+    "language": "en-US",
+    "country": "US",
+    "edition": "US:en"
+  },
+  "startedAt": "2026-11-04T12:02:46.447Z",
+  "feedFetchedAt": "2026-11-04T12:02:58.603Z",
+  "generatedAt": "2026-11-04T12:03:09.421Z",
+  "status": "empty",
+  "error": null,
+  "truncated": false,
+  "counts": {
+    "selected": 0,
+    "resolved": 0,
+    "unresolved": 0,
+    "cacheHits": 0
+  },
+  "articles": []
+}

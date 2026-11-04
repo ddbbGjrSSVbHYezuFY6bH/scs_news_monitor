@@ -1,4 +1,325 @@
 {
   "schemaVersion": 1,
-  "topics": {}
+  "topics": {
+    "un": {
+      "queryRevision": 2,
+      "configHash": "d73c0fc8a03e683246335071596d10c6c8c52330688d5e4ddbb3af3716b300ee",
+      "latestAttempt": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:02:46.737Z",
+        "path": "results/un/2-d73c0fc8a03e6832/run-41825863426-1.json",
+        "lookbackHours": 24
+      },
+      "latestUsable": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:02:46.737Z",
+        "path": "results/un/2-d73c0fc8a03e6832/run-41825863426-1.json",
+        "lookbackHours": 24
+      }
+    },
+    "usg-dpo": {
+      "queryRevision": 2,
+      "configHash": "25d901d87b35d7dd9fc5cb6da038073f749d6135ca67dce48444015490f945c1",
+      "latestAttempt": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:02:48.117Z",
+        "path": "results/usg-dpo/2-25d901d87b35d7dd/run-41825863426-1.json",
+        "lookbackHours": 24
+      },
+      "latestUsable": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:02:48.117Z",
+        "path": "results/usg-dpo/2-25d901d87b35d7dd/run-41825863426-1.json",
+        "lookbackHours": 24
+      }
+    },
+    "peacekeeping": {
+      "queryRevision": 2,
+      "configHash": "f95e0e62b47e74523c9ae3282369ae9ed03b23efa55fbe9516958a471385bac6",
+      "latestAttempt": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:02:49.550Z",
+        "path": "results/peacekeeping/2-f95e0e62b47e7452/run-41825863426-1.json",
+        "lookbackHours": 24
+      },
+      "latestUsable": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:02:49.550Z",
+        "path": "results/peacekeeping/2-f95e0e62b47e7452/run-41825863426-1.json",
+        "lookbackHours": 24
+      }
+    },
+    "wps": {
+      "queryRevision": 2,
+      "configHash": "a0bf85d7ae7bd88f3b4ebf9e9bbb6ee0050e9f2dfd3951a227f539faec462f40",
+      "latestAttempt": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:02:50.949Z",
+        "path": "results/wps/2-a0bf85d7ae7bd88f/run-41825863426-1.json",
+        "lookbackHours": 24
+      },
+      "latestUsable": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:02:50.949Z",
+        "path": "results/wps/2-a0bf85d7ae7bd88f/run-41825863426-1.json",
+        "lookbackHours": 24
+      }
+    },
+    "haiti": {
+      "queryRevision": 2,
+      "configHash": "fff2198d6eefcc0aea8dcb4f20607f1185b4c8462c3ead07c9f38d0aeac78265",
+      "latestAttempt": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:02:52.399Z",
+        "path": "results/haiti/2-fff2198d6eefcc0a/run-41825863426-1.json",
+        "lookbackHours": 24
+      },
+      "latestUsable": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:02:52.399Z",
+        "path": "results/haiti/2-fff2198d6eefcc0a/run-41825863426-1.json",
+        "lookbackHours": 24
+      }
+    },
+    "unifil": {
+      "queryRevision": 3,
+      "configHash": "c1449688ef33684103be699ac4746993e37109d9f5a3f374a5fb7149f1ea162a",
+      "latestAttempt": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:02:53.808Z",
+        "path": "results/unifil/3-c1449688ef336841/run-41825863426-1.json",
+        "lookbackHours": 24
+      },
+      "latestUsable": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:02:53.808Z",
+        "path": "results/unifil/3-c1449688ef336841/run-41825863426-1.json",
+        "lookbackHours": 24
+      }
+    },
+    "undof": {
+      "queryRevision": 3,
+      "configHash": "c92987f28985abcff827f3e91769ff145f2a93ac2902950547a020ffad02076e",
+      "latestAttempt": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:02:55.286Z",
+        "path": "results/undof/3-c92987f28985abcf/run-41825863426-1.json",
+        "lookbackHours": 24
+      },
+      "latestUsable": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:02:55.286Z",
+        "path": "results/undof/3-c92987f28985abcf/run-41825863426-1.json",
+        "lookbackHours": 24
+      }
+    },
+    "untso": {
+      "queryRevision": 3,
+      "configHash": "f3205266fc5e994d7085f72f71ef8c5d3e7d74132e49fcf3ac4293e144de7623",
+      "latestAttempt": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:02:56.927Z",
+        "path": "results/untso/3-f3205266fc5e994d/run-41825863426-1.json",
+        "lookbackHours": 24
+      },
+      "latestUsable": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:02:56.927Z",
+        "path": "results/untso/3-f3205266fc5e994d/run-41825863426-1.json",
+        "lookbackHours": 24
+      }
+    },
+    "monusco": {
+      "queryRevision": 3,
+      "configHash": "0aec462b4cff1ed5e8adf02a87aa5b0e8c5d79938f667dc7fcd5f47b81c95744",
+      "latestAttempt": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:02:58.603Z",
+        "path": "results/monusco/3-0aec462b4cff1ed5/run-41825863426-1.json",
+        "lookbackHours": 24
+      },
+      "latestUsable": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:02:58.603Z",
+        "path": "results/monusco/3-0aec462b4cff1ed5/run-41825863426-1.json",
+        "lookbackHours": 24
+      }
+    },
+    "minusca": {
+      "queryRevision": 3,
+      "configHash": "1bbe441f3e14739ff71a920cfcf3a323f00846bc65b2b081d88820ace917a58c",
+      "latestAttempt": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:03:00.151Z",
+        "path": "results/minusca/3-1bbe441f3e14739f/run-41825863426-1.json",
+        "lookbackHours": 24
+      },
+      "latestUsable": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:03:00.151Z",
+        "path": "results/minusca/3-1bbe441f3e14739f/run-41825863426-1.json",
+        "lookbackHours": 24
+      }
+    },
+    "unmiss": {
+      "queryRevision": 3,
+      "configHash": "a89940652c700977330d2d20ef8aa825028a054c096aa1341d3e1ae49287694c",
+      "latestAttempt": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:03:01.654Z",
+        "path": "results/unmiss/3-a89940652c700977/run-41825863426-1.json",
+        "lookbackHours": 24
+      },
+      "latestUsable": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:03:01.654Z",
+        "path": "results/unmiss/3-a89940652c700977/run-41825863426-1.json",
+        "lookbackHours": 24
+      }
+    },
+    "unisfa": {
+      "queryRevision": 3,
+      "configHash": "174512c555e7cd3fe3e80b751153d9747cd619de9f3d7d13252b91580f59d47a",
+      "latestAttempt": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:03:03.192Z",
+        "path": "results/unisfa/3-174512c555e7cd3f/run-41825863426-1.json",
+        "lookbackHours": 24
+      },
+      "latestUsable": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:03:03.192Z",
+        "path": "results/unisfa/3-174512c555e7cd3f/run-41825863426-1.json",
+        "lookbackHours": 24
+      }
+    },
+    "minurso": {
+      "queryRevision": 3,
+      "configHash": "31e247942bc065487d6719b64d8cecc8bdfb599458a2a316ee439f626370bc4f",
+      "latestAttempt": {
+        "requestId": "run-41825863426-1",
+        "status": "completed",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:03:04.719Z",
+        "path": "results/minurso/3-31e247942bc06548/run-41825863426-1.json",
+        "lookbackHours": 24
+      },
+      "latestUsable": {
+        "requestId": "run-41825863426-1",
+        "status": "completed",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:03:04.719Z",
+        "path": "results/minurso/3-31e247942bc06548/run-41825863426-1.json",
+        "lookbackHours": 24
+      }
+    },
+    "unmik": {
+      "queryRevision": 3,
+      "configHash": "80b4873c45d094fabcfe1ba13796b245c3a5dbaf5a8b3746612a770e107f93f5",
+      "latestAttempt": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:03:06.365Z",
+        "path": "results/unmik/3-80b4873c45d094fa/run-41825863426-1.json",
+        "lookbackHours": 24
+      },
+      "latestUsable": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:03:06.365Z",
+        "path": "results/unmik/3-80b4873c45d094fa/run-41825863426-1.json",
+        "lookbackHours": 24
+      }
+    },
+    "unficyp": {
+      "queryRevision": 3,
+      "configHash": "e840d7fa33f166efa91acf1e5fa19367afe5fdc8a8402fc1f9df9293926c2ceb",
+      "latestAttempt": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:03:07.844Z",
+        "path": "results/unficyp/3-e840d7fa33f166ef/run-41825863426-1.json",
+        "lookbackHours": 24
+      },
+      "latestUsable": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:03:07.844Z",
+        "path": "results/unficyp/3-e840d7fa33f166ef/run-41825863426-1.json",
+        "lookbackHours": 24
+      }
+    },
+    "unmogip": {
+      "queryRevision": 3,
+      "configHash": "2bde0b6aa1c29b5c554b856f36664f2ae78481a60ac78020e6e5892827cfb905",
+      "latestAttempt": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:03:09.420Z",
+        "path": "results/unmogip/3-2bde0b6aa1c29b5c/run-41825863426-1.json",
+        "lookbackHours": 24
+      },
+      "latestUsable": {
+        "requestId": "run-41825863426-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T12:03:09.421Z",
+        "observedAt": "2026-11-04T12:03:09.420Z",
+        "path": "results/unmogip/3-2bde0b6aa1c29b5c/run-41825863426-1.json",
+        "lookbackHours": 24
+      }
+    }
+  }
 }
