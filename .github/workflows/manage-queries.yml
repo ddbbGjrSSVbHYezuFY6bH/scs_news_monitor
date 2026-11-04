@@ -5,56 +5,31 @@ on:
   workflow_dispatch:
     inputs:
       operation:
-        description: 'Add/edit a set, disable one query, extend its expiry, or make it permanent'
+        description: 'Create, read, update or delete a saved query'
         type: choice
-        options: [upsert, disable, extend, promote]
+        options: [create, read, update, delete]
+        default: read
         required: true
-      querySet:
-        description: 'Target set for upsert'
-        type: choice
-        options: [temporary, standard]
-        default: temporary
-      entries:
-        description: 'For upsert: JSON array of query objects (temporary entries need activeFrom/activeUntil)'
-        type: string
-        default: '[]'
       queryId:
-        description: 'Existing query ID for disable, extend or promote'
+        description: 'Query ID; leave blank only when reading all queries'
         type: string
         default: ''
-      activeUntil:
-        description: 'For extend: inclusive end date YYYY-MM-DD, America/New_York'
+      entry:
+        description: 'JSON object for create/update; activeUntil: null removes expiry'
         type: string
-        default: ''
-      refreshNow:
-        description: 'Start a refresh for changed, currently active queries after saving'
-        type: boolean
-        default: false
-      requestId:
-        description: 'Unique ID for the optional refresh; blank generates one'
-        type: string
-        default: ''
-      maxTotal:
-        description: 'Maximum unique links for the optional refresh (1–100)'
-        type: string
-        default: '100'
-      lookbackHours:
-        description: 'Time window for every query in the optional refresh, in hours'
-        type: choice
-        options: ['24', '72']
-        default: '24'
+        default: '{}'
 
+# GitHub authenticates workflow dispatches. Anonymous visitors cannot run this workflow.
 permissions:
   contents: read
 
 jobs:
-  manage:
-    if: github.ref_name == github.event.repository.default_branch
+  read:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch) && inputs.operation == 'read'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     permissions:
-      contents: write
-      actions: write
+      contents: read
     steps:
       - uses: actions/checkout@v7.0.1
         with:
@@ -65,17 +40,36 @@ jobs:
           node-version: '24'
           cache: npm
       - run: npm ci --ignore-scripts
-      - name: Save query updates and optionally refresh
+      - name: Read saved queries
         run: node src/manage-queries.mjs
         env:
           GITHUB_TOKEN: ${{ github.token }}
           SCS_DATA_BRANCH: ${{ github.event.repository.default_branch }}
           SCS_OPERATION: ${{ inputs.operation }}
-          SCS_QUERY_SET: ${{ inputs.querySet }}
-          SCS_ENTRIES: ${{ inputs.entries }}
           SCS_QUERY_ID: ${{ inputs.queryId }}
-          SCS_ACTIVE_UNTIL: ${{ inputs.activeUntil }}
-          SCS_REFRESH_NOW: ${{ inputs.refreshNow }}
-          SCS_REQUEST_ID: ${{ inputs.requestId }}
-          SCS_MAX_TOTAL: ${{ inputs.maxTotal }}
-          SCS_LOOKBACK_HOURS: ${{ inputs.lookbackHours || '24' }}
+          SCS_ENTRY: ${{ inputs.entry }}
+
+  write:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch) && contains(fromJSON('["create","update","delete"]'), inputs.operation)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - name: Validate and save query changes
+        run: node src/manage-queries.mjs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          SCS_DATA_BRANCH: ${{ github.event.repository.default_branch }}
+          SCS_OPERATION: ${{ inputs.operation }}
+          SCS_QUERY_ID: ${{ inputs.queryId }}
+          SCS_ENTRY: ${{ inputs.entry }}

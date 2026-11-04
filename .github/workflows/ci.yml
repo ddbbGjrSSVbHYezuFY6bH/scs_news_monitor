@@ -5,7 +5,7 @@ on:
     paths:
       - 'src/**'
       - 'test/**'
-      - 'queries/**'
+      - 'queries.json'
       - 'package*.json'
       - '.github/workflows/**'
   pull_request:
