@@ -4,19 +4,19 @@
       "queryRevision": 2,
       "configHash": "d73c0fc8a03e683246335071596d10c6c8c52330688d5e4ddbb3af3716b300ee",
       "latestAttempt": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:19.840Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/un.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:08.618Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/un.json",
         "lookbackHours": 24
       },
       "latestUsable": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:19.840Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/un.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:08.618Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/un.json",
         "lookbackHours": 24
       }
     },
@@ -24,19 +24,19 @@
       "queryRevision": 2,
       "configHash": "25d901d87b35d7dd9fc5cb6da038073f749d6135ca67dce48444015490f945c1",
       "latestAttempt": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:21.545Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/usg-dpo.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:10.019Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/usg-dpo.json",
         "lookbackHours": 24
       },
       "latestUsable": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:21.545Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/usg-dpo.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:10.019Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/usg-dpo.json",
         "lookbackHours": 24
       }
     },
@@ -44,19 +44,19 @@
       "queryRevision": 2,
       "configHash": "f95e0e62b47e74523c9ae3282369ae9ed03b23efa55fbe9516958a471385bac6",
       "latestAttempt": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:23.055Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/peacekeeping.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:11.476Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/peacekeeping.json",
         "lookbackHours": 24
       },
       "latestUsable": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:23.055Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/peacekeeping.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:11.476Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/peacekeeping.json",
         "lookbackHours": 24
       }
     },
@@ -64,19 +64,19 @@
       "queryRevision": 2,
       "configHash": "a0bf85d7ae7bd88f3b4ebf9e9bbb6ee0050e9f2dfd3951a227f539faec462f40",
       "latestAttempt": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:24.502Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/wps.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:12.900Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/wps.json",
         "lookbackHours": 24
       },
       "latestUsable": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:24.502Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/wps.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:12.900Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/wps.json",
         "lookbackHours": 24
       }
     },
@@ -84,19 +84,19 @@
       "queryRevision": 2,
       "configHash": "fff2198d6eefcc0aea8dcb4f20607f1185b4c8462c3ead07c9f38d0aeac78265",
       "latestAttempt": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:25.958Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/haiti.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:14.375Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/haiti.json",
         "lookbackHours": 24
       },
       "latestUsable": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:25.958Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/haiti.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:14.375Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/haiti.json",
         "lookbackHours": 24
       }
     },
@@ -104,19 +104,19 @@
       "queryRevision": 3,
       "configHash": "c1449688ef33684103be699ac4746993e37109d9f5a3f374a5fb7149f1ea162a",
       "latestAttempt": {
-        "requestId": "20261103190451-41699878314-1",
-        "status": "completed",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:27.416Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/unifil.json",
+        "requestId": "20261104115858-41825343120-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:15.795Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/unifil.json",
         "lookbackHours": 24
       },
       "latestUsable": {
-        "requestId": "20261103190451-41699878314-1",
-        "status": "completed",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:27.416Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/unifil.json",
+        "requestId": "20261104115858-41825343120-1",
+        "status": "empty",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:15.795Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/unifil.json",
         "lookbackHours": 24
       }
     },
@@ -124,19 +124,19 @@
       "queryRevision": 3,
       "configHash": "c92987f28985abcff827f3e91769ff145f2a93ac2902950547a020ffad02076e",
       "latestAttempt": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:29.148Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/undof.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:17.345Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/undof.json",
         "lookbackHours": 24
       },
       "latestUsable": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:29.148Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/undof.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:17.345Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/undof.json",
         "lookbackHours": 24
       }
     },
@@ -144,19 +144,19 @@
       "queryRevision": 3,
       "configHash": "f3205266fc5e994d7085f72f71ef8c5d3e7d74132e49fcf3ac4293e144de7623",
       "latestAttempt": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:30.849Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/untso.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:19.058Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/untso.json",
         "lookbackHours": 24
       },
       "latestUsable": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:30.849Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/untso.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:19.058Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/untso.json",
         "lookbackHours": 24
       }
     },
@@ -164,19 +164,19 @@
       "queryRevision": 3,
       "configHash": "0aec462b4cff1ed5e8adf02a87aa5b0e8c5d79938f667dc7fcd5f47b81c95744",
       "latestAttempt": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:32.557Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/monusco.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:20.662Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/monusco.json",
         "lookbackHours": 24
       },
       "latestUsable": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:32.557Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/monusco.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:20.662Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/monusco.json",
         "lookbackHours": 24
       }
     },
@@ -184,19 +184,19 @@
       "queryRevision": 3,
       "configHash": "1bbe441f3e14739ff71a920cfcf3a323f00846bc65b2b081d88820ace917a58c",
       "latestAttempt": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:34.144Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/minusca.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:22.155Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/minusca.json",
         "lookbackHours": 24
       },
       "latestUsable": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:34.144Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/minusca.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:22.155Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/minusca.json",
         "lookbackHours": 24
       }
     },
@@ -204,19 +204,19 @@
       "queryRevision": 3,
       "configHash": "a89940652c700977330d2d20ef8aa825028a054c096aa1341d3e1ae49287694c",
       "latestAttempt": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:35.790Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/unmiss.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:23.699Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/unmiss.json",
         "lookbackHours": 24
       },
       "latestUsable": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:35.790Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/unmiss.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:23.699Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/unmiss.json",
         "lookbackHours": 24
       }
     },
@@ -224,19 +224,19 @@
       "queryRevision": 3,
       "configHash": "174512c555e7cd3fe3e80b751153d9747cd619de9f3d7d13252b91580f59d47a",
       "latestAttempt": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:37.308Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/unisfa.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:25.184Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/unisfa.json",
         "lookbackHours": 24
       },
       "latestUsable": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:37.308Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/unisfa.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:25.184Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/unisfa.json",
         "lookbackHours": 24
       }
     },
@@ -244,19 +244,19 @@
       "queryRevision": 3,
       "configHash": "31e247942bc065487d6719b64d8cecc8bdfb599458a2a316ee439f626370bc4f",
       "latestAttempt": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "completed",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:38.834Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/minurso.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:26.640Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/minurso.json",
         "lookbackHours": 24
       },
       "latestUsable": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "completed",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:38.834Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/minurso.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:26.640Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/minurso.json",
         "lookbackHours": 24
       }
     },
@@ -264,19 +264,19 @@
       "queryRevision": 3,
       "configHash": "80b4873c45d094fabcfe1ba13796b245c3a5dbaf5a8b3746612a770e107f93f5",
       "latestAttempt": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:40.510Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/unmik.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:28.218Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/unmik.json",
         "lookbackHours": 24
       },
       "latestUsable": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:40.510Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/unmik.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:28.218Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/unmik.json",
         "lookbackHours": 24
       }
     },
@@ -284,19 +284,19 @@
       "queryRevision": 3,
       "configHash": "e840d7fa33f166efa91acf1e5fa19367afe5fdc8a8402fc1f9df9293926c2ceb",
       "latestAttempt": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:42.060Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/unficyp.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:29.729Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/unficyp.json",
         "lookbackHours": 24
       },
       "latestUsable": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:42.060Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/unficyp.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:29.729Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/unficyp.json",
         "lookbackHours": 24
       }
     },
@@ -304,19 +304,19 @@
       "queryRevision": 3,
       "configHash": "2bde0b6aa1c29b5c554b856f36664f2ae78481a60ac78020e6e5892827cfb905",
       "latestAttempt": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:43.668Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/unmogip.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:31.275Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/unmogip.json",
         "lookbackHours": 24
       },
       "latestUsable": {
-        "requestId": "20261103190451-41699878314-1",
+        "requestId": "20261104115858-41825343120-1",
         "status": "empty",
-        "generatedAt": "2026-11-03T19:05:51.272Z",
-        "observedAt": "2026-11-03T19:05:43.668Z",
-        "path": "results/v2/20261103190451/20261103190451-41699878314-1/unmogip.json",
+        "generatedAt": "2026-11-04T11:59:38.791Z",
+        "observedAt": "2026-11-04T11:59:31.275Z",
+        "path": "results/v2/20261104115858/20261104115858-41825343120-1/unmogip.json",
         "lookbackHours": 24
       }
     }

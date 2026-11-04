@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 2,
+  "requestId": "20261104115858-41825343120-1",
+  "queryId": "minurso",
+  "query": "((MINURSO OR ((\"united nations\" OR \"blue helmets\" OR \"blue helmet\" OR (peacekeeper OR peacekeepers) OR \"peacekeeping\") (\"western sahara\" OR polisario OR SADR)))) when:1d",
+  "label": "MINURSO / Western Sahara",
+  "queryRevision": 3,
+  "configHash": "31e247942bc065487d6719b64d8cecc8bdfb599458a2a316ee439f626370bc4f",
+  "source": "standard",
+  "lookbackHours": 24,
+  "locale": {
+    "language": "en-US",
+    "country": "US",
+    "edition": "US:en"
+  },
+  "startedAt": "2026-11-04T11:59:08.271Z",
+  "feedFetchedAt": "2026-11-04T11:59:26.640Z",
+  "generatedAt": "2026-11-04T11:59:38.791Z",
+  "status": "completed",
+  "error": null,
+  "truncated": false,
+  "counts": {
+    "selected": 6,
+    "resolved": 6,
+    "unresolved": 0,
+    "cacheHits": 3
+  },
+  "articles": [
+    {
+      "title": "UN confirms start of process to wind up Western Sahara mission - RFI",
+      "publisher": "RFI",
+      "publishedAt": "2026-11-03T13:20:42.000Z",
+      "rssDescription": "UN confirms start of process to wind up Western Sahara mission RFI",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS2FrOVVGYXIwWUNxOTMxcnJ1RjE4WWRyTTVPVU00clBMVktFVU80ZHdUN0RrcUxhdzRISlJLQ2tHdDR2a0sxeEJ0YmdfVnBZMk0wUXpJdExjWG1faWZiMFpFYTdGMC04dGNYYmRVWElnQjJRNHBIR2UwMmktREFWbFRxWnlwZUE4VzhvYlNUbTk3R0t3WUEzZUJyMUJJQlBLT1E?oc=5",
+      "googleArticleId": "CBMiogFBVV95cUxNS2FrOVVGYXIwWUNxOTMxcnJ1RjE4WWRyTTVPVU00clBMVktFVU80ZHdUN0RrcUxhdzRISlJLQ2tHdDR2a0sxeEJ0YmdfVnBZMk0wUXpJdExjWG1faWZiMFpFYTdGMC04dGNYYmRVWElnQjJRNHBIR2UwMmktREFWbFRxWnlwZUE4VzhvYlNUbTk3R0t3WUEzZUJyMUJJQlBLT1E",
+      "publisherUrl": "https://www.rfi.fr/en/africa/20261103-un-confirms-start-of-process-to-wind-up-western-sahara-mission",
+      "method": "rpc",
+      "resolvedAt": "2026-11-04T11:59:33.783Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minurso"
+      ]
+    },
+    {
+      "title": "UNSC refuses peacekeeping force mandate for Western Sahara - www.indiagazette.com",
+      "publisher": "www.indiagazette.com",
+      "publishedAt": "2026-11-04T04:00:00.000Z",
+      "rssDescription": "UNSC refuses peacekeeping force mandate for Western Sahara www.indiagazette.com",
+      "rssUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSjlORW9qdmNHY1lNaWJZSEpxanh3UDRPZFRYVGZPYk9XU2ZqamZteDJCbGJpR3NtcXFFWTItdy1EcURYTFFNTmlWRkFpMTFZNm9LVVRBWnF5aWVEaXVLbk9aR2ktZ1lBemZwSFBnekxQZmw2aTk2TTJCb3RYWW1RY0g2SHdZMlV2cEtXVXhlTHhIUFFiRVRTMDRFTWdyYTgzUDZIbg?oc=5",
+      "googleArticleId": "CBMipAFBVV95cUxQSjlORW9qdmNHY1lNaWJZSEpxanh3UDRPZFRYVGZPYk9XU2ZqamZteDJCbGJpR3NtcXFFWTItdy1EcURYTFFNTmlWRkFpMTFZNm9LVVRBWnF5aWVEaXVLbk9aR2ktZ1lBemZwSFBnekxQZmw2aTk2TTJCb3RYWW1RY0g2SHdZMlV2cEtXVXhlTHhIUFFiRVRTMDRFTWdyYTgzUDZIbg",
+      "publisherUrl": "https://www.indiagazette.com/news/279408285/unsc-refuses-peacekeeping-force-mandate-for-western-sahara",
+      "method": "rpc",
+      "resolvedAt": "2026-11-04T11:59:36.281Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minurso"
+      ]
+    },
+    {
+      "title": "The UN Summons Moscow and Algiers to Explain the Veto That Ended MINURSO's Mandate in the Sahara - Atalayar",
+      "publisher": "Atalayar",
+      "publishedAt": "2026-11-03T20:00:17.000Z",
+      "rssDescription": "The UN Summons Moscow and Algiers to Explain the Veto That Ended MINURSO's Mandate in the Sahara Atalayar",
+      "rssUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNGtIM09IVUV4Uno0VnZWRnRNSnVuckw1ZGtQdDByYllDeHB2TUVyLWpRMVVBOVdQb2NiOVR1b2QzdTZQX0dvTkw3X3Z3ckZQWENQWnI2RWpiVDFUNlFublVHM2YyeG9GcGNsVVRlTjJqM0FhWFg5V2FIMkh5QnlHeVRHc0FiaUNybTlzVjNfcDY3YW9JVWN0V0ZvbE9rZ1JqczluMXRLS0JaSHRkanctOEp4WWkwYkNoaDV0VGtGWEpHZENZZ3dyLUJxMWtjb3NfZEtXSkZ3OW9WcWRnVHlqS2hZczdYdjhvTWtKRkdjeE84cElORnBj?oc=5",
+      "googleArticleId": "CBMi9wFBVV95cUxPNGtIM09IVUV4Uno0VnZWRnRNSnVuckw1ZGtQdDByYllDeHB2TUVyLWpRMVVBOVdQb2NiOVR1b2QzdTZQX0dvTkw3X3Z3ckZQWENQWnI2RWpiVDFUNlFublVHM2YyeG9GcGNsVVRlTjJqM0FhWFg5V2FIMkh5QnlHeVRHc0FiaUNybTlzVjNfcDY3YW9JVWN0V0ZvbE9rZ1JqczluMXRLS0JaSHRkanctOEp4WWkwYkNoaDV0VGtGWEpHZENZZ3dyLUJxMWtjb3NfZEtXSkZ3OW9WcWRnVHlqS2hZczdYdjhvTWtKRkdjeE84cElORnBj",
+      "publisherUrl": "https://www.atalayar.com/en/articulo/politics/the-summons-moscow-and-algiers-to-explain-the-veto-that-ended-minursos-mandate-in-the-sahara/20261103210017230255.html",
+      "method": "rpc",
+      "resolvedAt": "2026-11-04T11:59:38.791Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": false,
+      "matchedQueryIds": [
+        "minurso"
+      ]
+    },
+    {
+      "title": "Russia Vetoes United Nations Referendum On Western Sahara - russia's pivot to asia",
+      "publisher": "russia's pivot to asia",
+      "publishedAt": "2026-11-03T16:06:07.000Z",
+      "rssDescription": "Russia Vetoes United Nations Referendum On Western Sahara russia's pivot to asia",
+      "rssUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd0lUcDhFWnRpNVBqZEItWGtuMGJTWXljRXJfV2hLZWVvTXlIeEE2MUlSZ3VUMkp0ZVJrejJpbm55aHFVMVl0elFpeUxRNU5DRU55eklpdUZFd2RFNzkyMkRtLUhHU2ZHaTdROEtwa0VoUngzdklueEdPTWJRalM1dXVBZ3ZaQlNsX3FTZmdjaGdZR1E?oc=5",
+      "googleArticleId": "CBMikwFBVV95cUxNd0lUcDhFWnRpNVBqZEItWGtuMGJTWXljRXJfV2hLZWVvTXlIeEE2MUlSZ3VUMkp0ZVJrejJpbm55aHFVMVl0elFpeUxRNU5DRU55eklpdUZFd2RFNzkyMkRtLUhHU2ZHaTdROEtwa0VoUngzdklueEdPTWJRalM1dXVBZ3ZaQlNsX3FTZmdjaGdZR1E",
+      "publisherUrl": "https://russiaspivottoasia.com/russia-vetoes-united-nations-referendum-on-western-sahara/",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:08:08.085Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": true,
+      "matchedQueryIds": [
+        "minurso"
+      ]
+    },
+    {
+      "title": "ISACOM warns of implications of ending MINURSO’s presence, calls for international mechanism to protect Sahrawi civilians - وكالة الأنباء الصحراوية",
+      "publisher": "وكالة الأنباء الصحراوية",
+      "publishedAt": "2026-11-03T17:28:39.000Z",
+      "rssDescription": "ISACOM warns of implications of ending MINURSO’s presence, calls for international mechanism to protect Sahrawi civilians وكالة الأنباء الصحراوية",
+      "rssUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ENjNVeHFFdThzQ19uUHV5TWdEZWZhVi1TVk8zc3hOSlZhYUU0cU5OcjFpVm1qRkNHLURlNmlXZERUclNiLUNtdTRDeS11RktBOGdscjU4ejVpWWYtRUE?oc=5",
+      "googleArticleId": "CBMiXkFVX3lxTE9ENjNVeHFFdThzQ19uUHV5TWdEZWZhVi1TVk8zc3hOSlZhYUU0cU5OcjFpVm1qRkNHLURlNmlXZERUclNiLUNtdTRDeS11RktBOGdscjU4ejVpWWYtRUE",
+      "publisherUrl": "https://www.spsrasd.info/en/2026/11/03/18733.html",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T19:05:48.711Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": true,
+      "matchedQueryIds": [
+        "minurso"
+      ]
+    },
+    {
+      "title": "Morales warns of the impact in the Canary Islands from the end of MINURSO in Western Sahara - Demócrata",
+      "publisher": "Demócrata",
+      "publishedAt": "2026-11-03T12:11:16.000Z",
+      "rssDescription": "Morales warns of the impact in the Canary Islands from the end of MINURSO in Western Sahara Demócrata",
+      "rssUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbFV0cGtLbTZwUUdta3d1WjFCV1ZiYTdNV2pxQjRuSFZwM2M3dlVYTG5OSHlVYlNCbHg2STd3NERWNldsdmE2ODdneEdFc214b0NDLWxPb3l5NWttSUxWV0dDT3JjMW80YU5EdTRMMWd0bHg2NC0yZHRXd2xKdWJESW5YNm1XcUtYTnZnWEhyOHhJa2hteFZXbUpqZGN4NE1vV0NwQzJjdUhlV2pMMnVjeWRPXzd2MnRFQmM5ck9icFJkM3VvREJBczdBZGFpV3l60gHWAUFVX3lxTE1wa1luQzNCQmd5NDVERUM0TTN5eDNwZjhxZXJPeXBBN01qZkJ6b2lGTzRralp6alRpS2ljX3lrWnNabVlVbW4wQ0ZMXzNJTDZTcndZcjdoYVRZTWdaT25XdkpFeUcyTTJxbGh1TVd2eWNaZ3FoSENydWZtdFVCWk5WRHhkbDFva01uWmdpVlFfTzlfSzVNeElkNmtrNWxhQTVFUGFWd0gxWV8taHJfMUxPSUZleXZaa24wTUJqN1ZFRmtMeWxpbm9NMzBMRk1DbzR3Snc0Rnc?oc=5",
+      "googleArticleId": "CBMi0AFBVV95cUxNbFV0cGtLbTZwUUdta3d1WjFCV1ZiYTdNV2pxQjRuSFZwM2M3dlVYTG5OSHlVYlNCbHg2STd3NERWNldsdmE2ODdneEdFc214b0NDLWxPb3l5NWttSUxWV0dDT3JjMW80YU5EdTRMMWd0bHg2NC0yZHRXd2xKdWJESW5YNm1XcUtYTnZnWEhyOHhJa2hteFZXbUpqZGN4NE1vV0NwQzJjdUhlV2pMMnVjeWRPXzd2MnRFQmM5ck9icFJkM3VvREJBczdBZGFpV3l60gHWAUFVX3lxTE1wa1luQzNCQmd5NDVERUM0TTN5eDNwZjhxZXJPeXBBN01qZkJ6b2lGTzRralp6alRpS2ljX3lrWnNabVlVbW4wQ0ZMXzNJTDZTcndZcjdoYVRZTWdaT25XdkpFeUcyTTJxbGh1TVd2eWNaZ3FoSENydWZtdFVCWk5WRHhkbDFva01uWmdpVlFfTzlfSzVNeElkNmtrNWxhQTVFUGFWd0gxWV8taHJfMUxPSUZleXZaa24wTUJqN1ZFRmtMeWxpbm9NMzBMRk1DbzR3Snc0Rnc",
+      "publisherUrl": "https://www.democrata.es/en/current-events/morales-warns-of-the-impact-in-the-canary-islands-from-the-end-of-minurso-in-western-sahara/",
+      "method": "rpc",
+      "resolvedAt": "2026-11-03T17:08:59.847Z",
+      "resolutionStatus": "resolved",
+      "resolutionErrorCode": null,
+      "resolutionHttpStatus": null,
+      "cacheHit": true,
+      "matchedQueryIds": [
+        "minurso"
+      ]
+    }
+  ],
+  "runTimestamp": "20261104115858",
+  "batchType": "standard"
+}

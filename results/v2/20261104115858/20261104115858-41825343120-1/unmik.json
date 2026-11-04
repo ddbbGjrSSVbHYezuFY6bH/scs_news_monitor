@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "requestId": "20261104115858-41825343120-1",
+  "queryId": "unmik",
+  "query": "((UNMIK OR ((\"United Nations\" OR (\"blue helmet\" OR \"blue helmets\") OR peacekeeping OR (peacekeeper OR peacekeepers)) (Kosovo OR Pristina OR Prishtina OR Mitrovica OR \"North Mitrovica\" OR Peja OR Pec OR Gjakova OR Dakovica OR Prizren OR Gjilan OR Gnjilane OR Ferizaj OR Urosevac OR Vushtrri OR Vucitrn OR Podujeva OR Leposavic OR Zvecan OR Zubin OR Potok OR Gracanica OR Decan OR Istok OR Skenderaj OR Drenica OR Serbia OR Belgrade OR Balkans)))) when:1d",
+  "label": "UNMIK / Kosovo",
+  "queryRevision": 3,
+  "configHash": "80b4873c45d094fabcfe1ba13796b245c3a5dbaf5a8b3746612a770e107f93f5",
+  "source": "standard",
+  "lookbackHours": 24,
+  "locale": {
+    "language": "en-US",
+    "country": "US",
+    "edition": "US:en"
+  },
+  "startedAt": "2026-11-04T11:59:08.271Z",
+  "feedFetchedAt": "2026-11-04T11:59:28.218Z",
+  "generatedAt": "2026-11-04T11:59:38.791Z",
+  "status": "empty",
+  "error": null,
+  "truncated": false,
+  "counts": {
+    "selected": 0,
+    "resolved": 0,
+    "unresolved": 0,
+    "cacheHits": 0
+  },
+  "articles": [],
+  "runTimestamp": "20261104115858",
+  "batchType": "standard"
+}

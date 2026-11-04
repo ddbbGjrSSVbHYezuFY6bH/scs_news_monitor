@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "requestId": "20261104115858-41825343120-1",
+  "queryId": "peacekeeping",
+  "query": "((\"UN peacekeeping\" OR peacekeepers OR \"peace operations\" OR \"blue helmets\")) when:1d",
+  "label": "Peacekeeping",
+  "queryRevision": 2,
+  "configHash": "f95e0e62b47e74523c9ae3282369ae9ed03b23efa55fbe9516958a471385bac6",
+  "source": "standard",
+  "lookbackHours": 24,
+  "locale": {
+    "language": "en-US",
+    "country": "US",
+    "edition": "US:en"
+  },
+  "startedAt": "2026-11-04T11:59:08.271Z",
+  "feedFetchedAt": "2026-11-04T11:59:11.476Z",
+  "generatedAt": "2026-11-04T11:59:38.791Z",
+  "status": "empty",
+  "error": null,
+  "truncated": false,
+  "counts": {
+    "selected": 0,
+    "resolved": 0,
+    "unresolved": 0,
+    "cacheHits": 0
+  },
+  "articles": [],
+  "runTimestamp": "20261104115858",
+  "batchType": "standard"
+}
