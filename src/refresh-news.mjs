@@ -1,15 +1,14 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { parseArgs } from 'node:util';
+import { randomUUID } from 'node:crypto';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { loadConfig, normalizeConfig, selectQueries, identifier, integer } from './config.mjs';
+import { normalizeConfig, pruneExpiredQueries, selectQueries, identifier, integer } from './config.mjs';
 import { GoogleNewsClient } from './google-news.mjs';
 import { runBatch, customId } from './runner.mjs';
-import { GitHubStore, mergeCache, updateIndex } from './github-store.mjs';
+import { GitHubStore } from './github-store.mjs';
 import { parseLookbackHours } from './search-window.mjs';
-
-const emptyCache = { schemaVersion: 1, entries: {} };
-const emptyIndex = { schemaVersion: 1, topics: {} };
+import { timestampUtc, resultPath, latestPointer, resolutionCache } from './results.mjs';
 
 async function jsonOr(file, fallback) {
   try { return JSON.parse(await readFile(file, 'utf8')); }
@@ -20,6 +19,15 @@ async function writeJson(root, file, value) {
   const destination = path.join(root, file);
   await mkdir(path.dirname(destination), { recursive: true });
   await writeFile(destination, `${JSON.stringify(value, null, 2)}\n`);
+}
+
+async function readLatest(root) {
+  const pointer = await jsonOr(path.join(root, 'latest.json'), null);
+  if (!pointer) return { pointer: null, batch: null };
+  if (!/^results\/[a-z0-9][a-z0-9_-]*\.json$/.test(pointer.path ?? '')) {
+    throw new Error('latest.json must point to a JSON file directly inside results/.');
+  }
+  return { pointer, batch: JSON.parse(await readFile(path.join(root, pointer.path), 'utf8')) };
 }
 
 export function readOptions(args = process.argv.slice(2), env = process.env) {
@@ -41,10 +49,11 @@ export function readOptions(args = process.argv.slice(2), env = process.env) {
     validate: values.validate ?? false,
     publish: values.publish ?? env.SCS_PUBLISH === 'true',
     forceResolve: values['force-resolve'] ?? env.SCS_FORCE_RESOLVE === 'true',
-    mode: values.mode ?? env.SCS_MODE ?? (query ? 'custom' : 'active'),
+    mode: values.mode || env.SCS_MODE || (query.trim() || customQueries.length ? 'custom' : 'active'),
     queryIds: JSON.parse(values['query-ids'] ?? env.SCS_QUERY_IDS ?? '[]'), customQueries,
-    requestId: identifier(values['request-id'] || env.SCS_REQUEST_ID ||
-      (env.GITHUB_RUN_ID ? `run-${env.GITHUB_RUN_ID}-${env.GITHUB_RUN_ATTEMPT ?? '1'}` : `local-${Date.now()}`), 'requestId'),
+    requestId: values['request-id'] || env.SCS_REQUEST_ID ?
+      identifier(values['request-id'] || env.SCS_REQUEST_ID, 'requestId') :
+      identifier(env.GITHUB_RUN_ID ? `${env.GITHUB_RUN_ID}-${env.GITHUB_RUN_ATTEMPT || '1'}` : `local-${randomUUID()}`),
     maxTotal: integer(values['max-total'] || env.SCS_MAX_TOTAL || '100', 'maxTotal', 1, 100),
     lookbackHours: parseLookbackHours(values['lookback-hours'] ?? env.SCS_LOOKBACK_HOURS ?? 24),
     intervalMs: integer(values['interval-ms'] || env.SCS_INTERVAL_MS || '1200', 'intervalMs', 0, 60000),
@@ -53,44 +62,58 @@ export function readOptions(args = process.argv.slice(2), env = process.env) {
   };
 }
 
-export async function refresh(root, options, { client, store } = {}) {
-  const config = await loadConfig(root);
-  const queries = selectQueries(config, options);
+export async function refresh(root, options, { client, store, now = () => new Date(), env = process.env } = {}) {
+  const started = now();
+  const original = JSON.parse(await readFile(path.join(root, 'queries.json'), 'utf8'));
+  const cleaned = pruneExpiredQueries(original, started);
+  const config = normalizeConfig(cleaned.document);
+  const queries = selectQueries(config, options, started);
   if (options.validate) {
     return { validation: true, configuredQueries: config.queries.length, activeQueries: queries.length,
-      timezone: config.timezone, lookbackHours: options.lookbackHours ?? 24 };
+      expiredQueries: cleaned.expiredIds, timezone: config.timezone, lookbackHours: options.lookbackHours ?? 24 };
   }
-  const initialCache = await jsonOr(path.join(root, 'data/resolution-cache.json'), emptyCache);
-  const batch = await runBatch({ ...options, queries, cache: initialCache,
+  const outputRoot = path.resolve(root, options.output);
+  const repositoryLatest = await readLatest(root);
+  const localLatest = outputRoot === path.resolve(root) ? repositoryLatest : await readLatest(outputRoot);
+  const latest = !localLatest.pointer || (repositoryLatest.pointer &&
+    repositoryLatest.pointer.startedAt > localLatest.pointer.startedAt) ? repositoryLatest : localLatest;
+  const runTimestamp = timestampUtc(started);
+  const file = resultPath({ runTimestamp, requestId: options.requestId });
+  if (await jsonOr(path.join(outputRoot, file), null)) throw new Error(`Results file already exists: ${file}`);
+  if (cleaned.expiredIds.length) await writeJson(root, 'queries.json', cleaned.document);
+  const batch = await runBatch({ ...options, queries, cache: resolutionCache(latest.batch), now,
     client: client ?? new GoogleNewsClient({ intervalMs: options.intervalMs, budgetMs: options.budgetMs }) });
-  batch.request.githubRunId = process.env.GITHUB_RUN_ID ?? null;
-  const files = new Map(batch.results.map(result => [batch.request.results.find(r => r.queryId === result.queryId).path, result]));
-  files.set(`runs/${options.requestId}.json`, batch.request);
-  for (const [file, value] of files) await writeJson(path.resolve(root, options.output), file, value);
-  await writeJson(path.resolve(root, options.output), 'data/resolution-cache.json', mergeCache(initialCache, batch.newEntries));
+  Object.assign(batch, { runTimestamp, githubRunId: env.GITHUB_RUN_ID ?? null });
+  await writeJson(outputRoot, file, batch);
+  await writeJson(outputRoot, 'latest.json', latestPointer(localLatest.pointer, batch, file));
+  let publication = null;
   if (options.publish) {
-    store ??= new GitHubStore({ repository: process.env.GITHUB_REPOSITORY, token: process.env.GITHUB_TOKEN,
-      branch: process.env.SCS_DATA_BRANCH || 'main' });
-    batch.publication = await store.transaction(`Refresh news ${options.requestId}`, async read => {
-      const existingRun = await read(`runs/${options.requestId}.json`, null);
-      if (existingRun) throw new Error(`requestId already exists: ${options.requestId}. Use a new ID for each refresh.`);
-      const currentConfig = normalizeConfig(await read('queries/standard.json'), await read('queries/temporary.json'));
-      const changes = new Map(files);
-      changes.set('data/resolution-cache.json', mergeCache(await read('data/resolution-cache.json', emptyCache), batch.newEntries));
-      changes.set('data/index.json', updateIndex(await read('data/index.json', emptyIndex), batch, currentConfig.queries));
+    store ??= new GitHubStore({ repository: env.GITHUB_REPOSITORY, token: env.GITHUB_TOKEN,
+      branch: env.SCS_DATA_BRANCH || 'main' });
+    publication = await store.transaction(`Refresh news ${runTimestamp} (${options.requestId})`, async read => {
+      if (await read(file, null)) throw new Error(`Results file already exists: ${file}`);
+      const current = pruneExpiredQueries(await read('queries.json'), now());
+      const changes = new Map([[file, batch]]);
+      const previous = await read('latest.json', null);
+      const pointer = latestPointer(previous, batch, file);
+      if (pointer !== previous) changes.set('latest.json', pointer);
+      if (current.expiredIds.length) changes.set('queries.json', current.document);
       return changes;
     });
   }
-  return { ...batch.request, publication: batch.publication ?? null, localOutput: path.resolve(root, options.output) };
+  return { requestId: batch.requestId, runTimestamp, status: batch.status, resultsPath: file,
+    lookbackHours: batch.lookbackHours, queryCount: batch.results.length, uniqueArticles: batch.uniqueArticles,
+    expiredQueries: cleaned.expiredIds, publication, localOutput: outputRoot };
 }
 
 async function main() {
   const summary = await refresh(process.cwd(), readOptions());
   console.log(JSON.stringify(summary, null, 2));
   if (process.env.GITHUB_STEP_SUMMARY) {
-    const rows = (summary.results ?? []).map(r => `| ${r.queryId} | ${r.status} | ${r.counts.selected} | ${r.counts.resolved} |`);
     await writeFile(process.env.GITHUB_STEP_SUMMARY,
-      `Request: \`${summary.requestId}\`\n\nLookback: ${summary.lookbackHours} hours\n\n| Topic | Status | Selected | Resolved |\n|---|---|---:|---:|\n${rows.join('\n')}\n`);
+      summary.validation ? `Configuration valid: ${summary.activeQueries} active queries.\n` :
+        `Results: [${summary.resultsPath}](https://github.com/${process.env.GITHUB_REPOSITORY}/blob/${process.env.SCS_DATA_BRANCH || 'main'}/${summary.resultsPath})\n\n` +
+        `Status: ${summary.status}; Queries: ${summary.queryCount}; Unique articles: ${summary.uniqueArticles}; Lookback: ${summary.lookbackHours} hours\n`);
   }
 }
 
