@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, readFile, writeFile, readdir } from 'node:fs/promises';
+import { mkdtemp, readFile, writeFile, readdir, mkdir } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { refresh, readOptions } from '../src/refresh-news.mjs';
@@ -75,6 +75,25 @@ test('validation reports expired entries without changing configuration or writi
   assert.deepEqual(await readdir(root), ['queries.json']);
 });
 
+test('a fresh published refresh needs no results directory and repairs a pointer to missing history', async () => {
+  const root = await fixture();
+  const dangling = { schemaVersion: 3, path: 'results/20261104120246-run-41825863426-1.json',
+    startedAt: '2099-11-04T12:02:46.447Z', status: 'completed' };
+  await writeFile(path.join(root, 'latest.json'), JSON.stringify(dangling));
+  assert.deepEqual((await readdir(root)).sort(), ['latest.json', 'queries.json']);
+  const store = mockStore(new Map([['queries.json', document()], ['latest.json', dangling]]));
+  let resolutions = 0;
+  const summary = await refresh(root, options('fresh', ['--publish', '--output', '.']), { now, store,
+    client: { ...client(), resolve: async () => { resolutions++; return resolved; } } });
+  assert.equal(summary.status, 'completed');
+  assert.equal(resolutions, 1);
+  const saved = await readJson(path.join(root, summary.resultsPath));
+  assert.ok(saved.results.every(query => query.articles[0].cacheHit === false));
+  assert.equal((await readJson(path.join(root, 'latest.json'))).path, summary.resultsPath);
+  assert.equal(store.data.get('latest.json').path, summary.resultsPath);
+  assert.equal(store.data.get(summary.resultsPath).results.length, 2);
+});
+
 test('latest advances for selected, custom, partial, and empty refreshes', async () => {
   const root = await fixture();
   const store = mockStore(new Map([['queries.json', document()]]));
@@ -117,7 +136,8 @@ test('publication prunes the latest query document and preserves concurrent edit
 test('older publication preserves a newer pointer and duplicate publication does not change stored results', async () => {
   const root = await fixture();
   const pointer = { schemaVersion: 3, path: 'results/newer.json', startedAt: '2026-11-05T12:00:00.000Z', status: 'partial' };
-  const store = mockStore(new Map([['queries.json', document()], ['latest.json', pointer]]));
+  const newer = { schemaVersion: 3, startedAt: pointer.startedAt, status: pointer.status, results: [] };
+  const store = mockStore(new Map([['queries.json', document()], ['latest.json', pointer], [pointer.path, newer]]));
   const summary = await refresh(root, options('older', ['--publish']), { now, client: client(), store });
   assert.deepEqual(store.data.get('latest.json'), pointer);
   assert.ok(store.data.has(summary.resultsPath));
@@ -142,6 +162,22 @@ test('refresh reuses repository and local results without a separate cache and f
   assert.equal(resolutions, 1);
   await refresh(root, options('forced', ['--force-resolve']), { now, client: currentClient });
   assert.equal(resolutions, 2);
+});
+
+test('missing local history falls back to usable repository results and replaces the dangling local pointer', async () => {
+  const root = await fixture();
+  let resolutions = 0;
+  const currentClient = { ...client(), resolve: async () => { resolutions++; return resolved; } };
+  await refresh(root, options('repository-cache', ['--output', '.']), { now, client: currentClient });
+  const output = path.join(root, '.local/output');
+  await mkdir(output, { recursive: true });
+  await writeFile(path.join(output, 'latest.json'), JSON.stringify({ schemaVersion: 3,
+    path: 'results/deleted.json', startedAt: '2099-11-04T12:00:00.000Z', status: 'completed' }));
+  const summary = await refresh(root, options('local-recovery'), { now, client: currentClient });
+  assert.equal(resolutions, 1);
+  const batch = await readJson(path.join(output, summary.resultsPath));
+  assert.ok(batch.results.every(query => query.articles[0].cacheHit));
+  assert.equal((await readJson(path.join(output, 'latest.json'))).path, summary.resultsPath);
 });
 
 test('unresolved and invalid publisher URLs in previous results are never reused', () => {
