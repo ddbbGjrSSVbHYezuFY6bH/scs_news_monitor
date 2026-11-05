@@ -25,19 +25,9 @@
     {
       "id": "peacekeeping",
       "label": "Peacekeeping",
-      "query": "\"UN peacekeeping\" OR peacekeepers OR \"peace operations\" OR \"blue helmets\"",
-      "revision": 4,
+      "query": "\"UN peacekeeping\" OR peacekeepers OR \"peace operations\" OR \"blue helmets\" OR \"maintien de la paix\" OR \"Casques bleus\" OR \"opérations de paix\"",
+      "revision": 5,
       "enabled": true
-    },
-    {
-      "id": "peacekeeping-fr",
-      "label": "Peacekeeping",
-      "query": "\"maintien de la paix\" OR \"Casques bleus\" OR \"opérations de paix\"",
-      "revision": 1,
-      "enabled": true,
-      "language": "fr",
-      "country": "FR",
-      "edition": "FR:fr"
     },
     {
       "id": "wps",
@@ -56,19 +46,9 @@
     {
       "id": "unifil",
       "label": "UNIFIL / Lebanon",
-      "query": "UNIFIL OR \"south Lebanon\" OR \"southern Lebanon\" OR \"Lebanon ceasefire\" OR Hezbollah",
-      "revision": 5,
+      "query": "UNIFIL OR \"south Lebanon\" OR \"southern Lebanon\" OR \"Lebanon ceasefire\" OR Hezbollah OR FINUL OR \"Liban sud\" OR \"sud du Liban\"",
+      "revision": 6,
       "enabled": true
-    },
-    {
-      "id": "unifil-fr",
-      "label": "UNIFIL / Lebanon",
-      "query": "FINUL OR \"Liban sud\" OR \"sud du Liban\" OR Hezbollah",
-      "revision": 1,
-      "enabled": true,
-      "language": "fr",
-      "country": "FR",
-      "edition": "FR:fr"
     },
     {
       "id": "undof",
@@ -87,36 +67,16 @@
     {
       "id": "monusco",
       "label": "MONUSCO / DRC",
-      "query": "MONUSCO OR \"DR Congo\" OR \"eastern Congo\" OR \"M23 rebels\" OR \"North Kivu\" OR \"South Kivu\"",
-      "revision": 5,
+      "query": "MONUSCO OR \"DR Congo\" OR \"eastern Congo\" OR \"M23 rebels\" OR \"North Kivu\" OR \"South Kivu\" OR RDC OR \"Nord-Kivu\" OR \"Sud-Kivu\" OR Goma",
+      "revision": 6,
       "enabled": true
-    },
-    {
-      "id": "monusco-fr",
-      "label": "MONUSCO / DRC",
-      "query": "MONUSCO OR RDC OR \"Nord-Kivu\" OR \"Sud-Kivu\" OR Goma",
-      "revision": 1,
-      "enabled": true,
-      "language": "fr",
-      "country": "FR",
-      "edition": "FR:fr"
     },
     {
       "id": "minusca",
       "label": "MINUSCA / CAR",
-      "query": "MINUSCA OR \"Central African Republic\" OR Bangui",
-      "revision": 5,
+      "query": "MINUSCA OR \"Central African Republic\" OR Bangui OR Centrafrique OR \"République centrafricaine\"",
+      "revision": 6,
       "enabled": true
-    },
-    {
-      "id": "minusca-fr",
-      "label": "MINUSCA / CAR",
-      "query": "MINUSCA OR Centrafrique OR \"République centrafricaine\" OR Bangui",
-      "revision": 1,
-      "enabled": true,
-      "language": "fr",
-      "country": "FR",
-      "edition": "FR:fr"
     },
     {
       "id": "unmiss",
@@ -135,19 +95,9 @@
     {
       "id": "minurso",
       "label": "MINURSO / Western Sahara",
-      "query": "MINURSO OR \"Western Sahara\" OR Polisario OR Tindouf OR Laayoune",
-      "revision": 5,
+      "query": "MINURSO OR \"Western Sahara\" OR Polisario OR Tindouf OR Laayoune OR \"Sahara occidental\"",
+      "revision": 6,
       "enabled": true
-    },
-    {
-      "id": "minurso-fr",
-      "label": "MINURSO / Western Sahara",
-      "query": "MINURSO OR \"Sahara occidental\" OR Polisario OR Tindouf",
-      "revision": 1,
-      "enabled": true,
-      "language": "fr",
-      "country": "FR",
-      "edition": "FR:fr"
     },
     {
       "id": "unmik",
