@@ -11,113 +11,163 @@
     {
       "id": "un",
       "label": "UN",
-      "query": "(\"United Nations\" OR \"UN Security Council\" OR \"UN Secretary-General\" OR \"UN General Assembly\")",
-      "revision": 2,
+      "query": "\"United Nations\" OR \"UN Security Council\" OR \"UN Secretary-General\" OR \"UN General Assembly\"",
+      "revision": 3,
       "enabled": true
     },
     {
       "id": "usg-dpo",
       "label": "USG for DPO",
-      "query": "(\"Jean-Pierre Lacroix\" OR \"DPO USG\" OR \"United Nations Under-Secretary-General for Peace Operations\" OR \"USG for Peace Operations\" OR \"Under-Secretary-General for Peace Operations\")",
-      "revision": 2,
+      "query": "\"Jean-Pierre Lacroix\" OR \"DPO USG\" OR \"United Nations Under-Secretary-General for Peace Operations\" OR \"USG for Peace Operations\" OR \"Under-Secretary-General for Peace Operations\"",
+      "revision": 3,
       "enabled": true
     },
     {
       "id": "peacekeeping",
       "label": "Peacekeeping",
-      "query": "((\"UN peacekeeping\" OR peacekeepers OR \"peace operations\" OR \"blue helmets\") OR \"maintien de la paix\" OR \"Casques bleus\" OR \"opérations de paix\")",
-      "revision": 3,
+      "query": "\"UN peacekeeping\" OR peacekeepers OR \"peace operations\" OR \"blue helmets\"",
+      "revision": 4,
       "enabled": true
+    },
+    {
+      "id": "peacekeeping-fr",
+      "label": "Peacekeeping",
+      "query": "\"maintien de la paix\" OR \"Casques bleus\" OR \"opérations de paix\"",
+      "revision": 1,
+      "enabled": true,
+      "language": "fr",
+      "country": "FR",
+      "edition": "FR:fr"
     },
     {
       "id": "wps",
       "label": "WPS",
-      "query": "(\"women peace and security\" OR \"resolution 1325\" OR \"women in peacekeeping\")",
-      "revision": 2,
+      "query": "\"women peace and security\" OR \"resolution 1325\" OR \"women in peacekeeping\"",
+      "revision": 3,
       "enabled": true
     },
     {
       "id": "haiti",
       "label": "Haiti",
-      "query": "(Haiti (gangs OR security OR UN OR mission OR police))",
-      "revision": 2,
+      "query": "Haiti gangs OR Haiti security OR Haiti UN OR Haiti mission OR Haiti police",
+      "revision": 3,
       "enabled": true
     },
     {
       "id": "unifil",
       "label": "UNIFIL / Lebanon",
-      "query": "((UNIFIL OR (((peacekeeper OR peacekeepers) OR peacekeeping OR \"united nations\" OR (\"blue helmet\" OR \"blue helmets\") OR \"UNIFIL spokesperson\" OR 1701) Lebanon)) OR \"south Lebanon\" OR \"southern Lebanon\" OR \"Lebanon ceasefire\" OR Hezbollah OR FINUL OR \"Liban sud\" OR \"sud du Liban\")",
-      "revision": 4,
+      "query": "UNIFIL OR \"south Lebanon\" OR \"southern Lebanon\" OR \"Lebanon ceasefire\" OR Hezbollah",
+      "revision": 5,
       "enabled": true
+    },
+    {
+      "id": "unifil-fr",
+      "label": "UNIFIL / Lebanon",
+      "query": "FINUL OR \"Liban sud\" OR \"sud du Liban\" OR Hezbollah",
+      "revision": 1,
+      "enabled": true,
+      "language": "fr",
+      "country": "FR",
+      "edition": "FR:fr"
     },
     {
       "id": "undof",
       "label": "UNDOF / Syria / Golan",
-      "query": "(((UNDOF OR \"Disengagement Observer Force\" OR (((peacekeeping OR peacekeeper OR peacekeepers) OR \"UN mission\" OR \"blue helmet\" OR \"blue helmets\" OR \"UN Force\" OR \"UN Forces\") (Golan OR \"the Golan\" OR Syria OR \"Arab Republic\" OR Sham OR \"al-Sham\" OR \"ash-Sham\"))) -Ukraine -Korea) OR \"Golan Heights\" OR Quneitra OR \"occupied Syrian territory\")",
-      "revision": 4,
+      "query": "UNDOF OR \"Golan Heights\" OR Quneitra OR \"occupied Syrian territory\"",
+      "revision": 5,
       "enabled": true
     },
     {
       "id": "untso",
       "label": "UNTSO / Middle East",
-      "query": "((UNTSO OR ((\"United Nations Truce Supervision Organization\" OR (\"blue helmet\" OR \"blue helmets\")) (\"Middle East\" OR Jerusalem OR Israel OR Palestine OR \"West Bank\" OR Gaza OR \"Gaza Strip\" OR Hebron OR Bethlehem OR Ramallah OR Jericho OR Nablus OR Jenin OR \"East Jerusalem\" OR Lebanon OR Beirut OR Tyre OR Naqoura OR \"Blue Line\" OR Syria OR Damascus OR Golan OR \"Golan Heights\" OR Jordan OR Amman OR Egypt OR Sinai))) OR \"UN Truce Supervision\" OR \"UN military observers\")",
-      "revision": 4,
+      "query": "UNTSO OR \"UN Truce Supervision\" OR \"UN military observers\"",
+      "revision": 5,
       "enabled": true
     },
     {
       "id": "monusco",
       "label": "MONUSCO / DRC",
-      "query": "(((MONUSCO OR MONUC OR MONESCO) OR ((\"United Nations Organization Stabilization Mission in the Democratic Republic of the Congo\" OR \"United Nations DRC\" OR \"United Nations Security Council\" OR (\"blue helmet\" OR \"blue helmets\")) (DRC OR \"Democratic Republic of Congo\"))) OR \"DR Congo\" OR \"eastern Congo\" OR \"M23 rebels\" OR \"North Kivu\" OR \"South Kivu\" OR RDC OR \"Nord-Kivu\" OR \"Sud-Kivu\" OR Goma)",
-      "revision": 4,
+      "query": "MONUSCO OR \"DR Congo\" OR \"eastern Congo\" OR \"M23 rebels\" OR \"North Kivu\" OR \"South Kivu\"",
+      "revision": 5,
       "enabled": true
+    },
+    {
+      "id": "monusco-fr",
+      "label": "MONUSCO / DRC",
+      "query": "MONUSCO OR RDC OR \"Nord-Kivu\" OR \"Sud-Kivu\" OR Goma",
+      "revision": 1,
+      "enabled": true,
+      "language": "fr",
+      "country": "FR",
+      "edition": "FR:fr"
     },
     {
       "id": "minusca",
       "label": "MINUSCA / CAR",
-      "query": "(((MINUSCA OR munisca OR \"mi-nu-sca\" OR MINUSCA OR \"Valentine Rugwabiza\" OR \"m-i-n-u-s-c-a\") OR ((\"United Nations Multidimensional Integrated Stabilization Mission in the Central African Republic\" OR (peacekeeper OR peacekeepers) OR peacekeeping OR contingent OR \"united nations\") (\"central african republic\" OR bangui OR Obo OR \"Haut-Mbomou\" OR Bambouti OR Zangba OR Dembia OR Zemio OR Batangafo OR Birao OR Ndele OR Vakaga OR \"Haute-Kotto\" OR Yade))) OR \"Central African Republic\" OR Bangui OR Centrafrique OR \"République centrafricaine\")",
-      "revision": 4,
+      "query": "MINUSCA OR \"Central African Republic\" OR Bangui",
+      "revision": 5,
       "enabled": true
+    },
+    {
+      "id": "minusca-fr",
+      "label": "MINUSCA / CAR",
+      "query": "MINUSCA OR Centrafrique OR \"République centrafricaine\" OR Bangui",
+      "revision": 1,
+      "enabled": true,
+      "language": "fr",
+      "country": "FR",
+      "edition": "FR:fr"
     },
     {
       "id": "unmiss",
       "label": "UNMISS / South Sudan",
-      "query": "(((UNMISS OR \"United Nations Mission for South Sudan\") OR ((\"blue helmet\" OR \"blue helmets\" OR \"united nation\" OR (peacekeeper OR peacekeepers) OR peacekeeping OR \"blue beret\" OR \"blue berets\" OR \"UN troop\" OR \"UN troops\" OR \"UN force\" OR \"UN forces\" OR \"UN soldier\" OR \"UN soldiers\" OR \"UN mission\" OR \"UN contingent\") (Juba OR \"Unity State\" OR \"Upper Nile\" OR Jonglei OR \"Northern Bahr el Ghazal\" OR \"Western Bahr el Ghazal\" OR Ruweng OR \"Central Equatoria\" OR \"Eastern Equatoria\" OR \"Western Equatoria\" OR \"South Sudan\"))) OR \"South Sudan\")",
-      "revision": 4,
+      "query": "UNMISS OR \"South Sudan\"",
+      "revision": 5,
       "enabled": true
     },
     {
       "id": "unisfa",
       "label": "UNISFA / Abyei",
-      "query": "((UNISFA OR ((\"blue helmet\" OR \"blue helmets\" OR \"united nations\" OR \"united nation\" OR (peacekeeping OR peacekeeper OR peacekeepers) OR \"peace operation\" OR \"peace support operation\" OR \"blue beret\" OR \"blue berets\" OR \"UN troop\" OR \"UN troops\" OR \"UN force\" OR \"UN forces\" OR \"UN soldier\" OR \"UN soldiers\" OR \"UN mission\" OR \"UN contingent\" OR \"UN personnel\" OR \"UN observers\" OR \"UN monitors\" OR \"UN presence\" OR \"multinational force\") (Abyei OR Abei OR Abyie OR Amiet OR Diffra OR Agok OR Heglig OR Panakuach OR \"Kiir River\" OR \"Bahr el Arab\" OR Ngok OR Misseriya OR Nuer OR Twic OR Dinka OR Safaha OR Todach OR Noong OR \"Sudan-South Sudan border\" OR \"North-South border\" OR CPA))) OR Abyei)",
-      "revision": 4,
+      "query": "UNISFA OR Abyei",
+      "revision": 5,
       "enabled": true
     },
     {
       "id": "minurso",
       "label": "MINURSO / Western Sahara",
-      "query": "((MINURSO OR ((\"united nations\" OR \"blue helmets\" OR \"blue helmet\" OR (peacekeeper OR peacekeepers) OR \"peacekeeping\") (\"western sahara\" OR polisario OR SADR))) OR \"Western Sahara\" OR Polisario OR Tindouf OR Laayoune OR \"Sahara occidental\")",
-      "revision": 4,
+      "query": "MINURSO OR \"Western Sahara\" OR Polisario OR Tindouf OR Laayoune",
+      "revision": 5,
       "enabled": true
+    },
+    {
+      "id": "minurso-fr",
+      "label": "MINURSO / Western Sahara",
+      "query": "MINURSO OR \"Sahara occidental\" OR Polisario OR Tindouf",
+      "revision": 1,
+      "enabled": true,
+      "language": "fr",
+      "country": "FR",
+      "edition": "FR:fr"
     },
     {
       "id": "unmik",
       "label": "UNMIK / Kosovo",
-      "query": "((UNMIK OR ((\"United Nations\" OR (\"blue helmet\" OR \"blue helmets\") OR peacekeeping OR (peacekeeper OR peacekeepers)) (Kosovo OR Pristina OR Prishtina OR Mitrovica OR \"North Mitrovica\" OR Peja OR Pec OR Gjakova OR Dakovica OR Prizren OR Gjilan OR Gnjilane OR Ferizaj OR Urosevac OR Vushtrri OR Vucitrn OR Podujeva OR Leposavic OR Zvecan OR Zubin OR Potok OR Gracanica OR Decan OR Istok OR Skenderaj OR Drenica OR Serbia OR Belgrade OR Balkans))) OR Kosovo OR Pristina OR Mitrovica)",
-      "revision": 4,
+      "query": "UNMIK OR Kosovo OR Pristina OR Mitrovica",
+      "revision": 5,
       "enabled": true
     },
     {
       "id": "unficyp",
       "label": "UNFICYP / Cyprus",
-      "query": "((UNFICYP OR ((\"United Nations Peacekeeping Force in Cyprus\" OR (\"blue helmet\" OR \"blue helmets\") OR peacekeeping OR (peacekeeper OR peacekeepers) OR \"united nations\") (Cyprus OR \"Republic of Cyprus\" OR \"Northern Cyprus\" OR \"Turkish Republic of Northern Cyprus\" OR Nicosia OR Lefkosia OR Lefkoşa OR Famagusta OR Gazimağusa OR Kyrenia OR Girne OR Limassol OR Larnaca OR Paphos OR Morphou OR Güzelyurt OR Dhekelia OR Akrotiri OR Pyla OR Pergamos OR Strovilia OR Athienou OR Deryneia OR Paralimni OR \"Agios Dometios\" OR \"Buffer Zone\" OR \"Green Line\"))) OR \"Cyprus buffer zone\" OR \"Cyprus talks\" OR \"Cyprus settlement\")",
-      "revision": 4,
+      "query": "UNFICYP OR \"Cyprus buffer zone\" OR \"Cyprus talks\" OR \"Cyprus settlement\"",
+      "revision": 5,
       "enabled": true
     },
     {
       "id": "unmogip",
       "label": "UNMOGIP / Kashmir",
-      "query": "((((UNMOGIP OR \"UN MOGIP\") OR ((\"United Nations Military Observer Group in India and Pakistan\" OR \"UN in Kashmir\" OR \"United Nations\" OR (\"blue helmet\" OR \"blue helmets\")) (\"Line of Control\" OR LOC OR Kashmir OR \"Gilgit Baltistan\" OR \"Azad Kashmir\" OR Gilgit OR Skardu OR Muzaffarabad OR Domel OR Rawalakot OR Kotli OR Bhimber OR Chakothi OR Abbaspur OR Tithwal OR Sialkot OR Srinagar OR Jammu OR Rajouri OR Poonch OR Uri OR Kupwara OR Leh OR Islamabad OR \"New Delhi\"))) -Israel -Palestine -Iran) OR \"Line of Control\")",
-      "revision": 4,
+      "query": "UNMOGIP OR \"Line of Control\" OR Kashmir \"United Nations\"",
+      "revision": 5,
       "enabled": true
     }
   ]
