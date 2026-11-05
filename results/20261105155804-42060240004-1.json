@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 3,
+  "requestId": "42060240004-1",
+  "mode": "active",
+  "status": "completed",
+  "startedAt": "2026-11-05T15:58:05.638Z",
+  "completedAt": "2026-11-05T15:58:32.476Z",
+  "lookbackHours": 24,
+  "uniqueArticles": 2,
+  "newResolutions": 1,
+  "httpRequests": 18,
+  "circuit": null,
+  "results": [
+    {
+      "queryId": "un",
+      "query": "((\"United Nations\" OR \"UN Security Council\" OR \"UN Secretary-General\" OR \"UN General Assembly\")) when:1d",
+      "label": "UN",
+      "queryRevision": 2,
+      "configHash": "d73c0fc8a03e683246335071596d10c6c8c52330688d5e4ddbb3af3716b300ee",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-05T15:58:05.638Z",
+      "feedFetchedAt": "2026-11-05T15:58:06.345Z",
+      "generatedAt": "2026-11-05T15:58:32.476Z",
+      "status": "empty",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "usg-dpo",
+      "query": "((\"Jean-Pierre Lacroix\" OR \"DPO USG\" OR \"United Nations Under-Secretary-General for Peace Operations\" OR \"USG for Peace Operations\" OR \"Under-Secretary-General for Peace Operations\")) when:1d",
+      "label": "USG for DPO",
+      "queryRevision": 2,
+      "configHash": "25d901d87b35d7dd9fc5cb6da038073f749d6135ca67dce48444015490f945c1",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-05T15:58:05.638Z",
+      "feedFetchedAt": "2026-11-05T15:58:07.866Z",
+      "generatedAt": "2026-11-05T15:58:32.476Z",
+      "status": "empty",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "peacekeeping",
+      "query": "(((\"UN peacekeeping\" OR peacekeepers OR \"peace operations\" OR \"blue helmets\") OR \"maintien de la paix\" OR \"Casques bleus\" OR \"opérations de paix\")) when:1d",
+      "label": "Peacekeeping",
+      "queryRevision": 3,
+      "configHash": "f8eecb7828e9f956e9745fbbe97e8baa6e037c6658576b37a14bd2ac1d662622",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-05T15:58:05.638Z",
+      "feedFetchedAt": "2026-11-05T15:58:09.319Z",
+      "generatedAt": "2026-11-05T15:58:32.476Z",
+      "status": "empty",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "wps",
+      "query": "((\"women peace and security\" OR \"resolution 1325\" OR \"women in peacekeeping\")) when:1d",
+      "label": "WPS",
+      "queryRevision": 2,
+      "configHash": "a0bf85d7ae7bd88f3b4ebf9e9bbb6ee0050e9f2dfd3951a227f539faec462f40",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-05T15:58:05.638Z",
+      "feedFetchedAt": "2026-11-05T15:58:10.700Z",
+      "generatedAt": "2026-11-05T15:58:32.476Z",
+      "status": "empty",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "haiti",
+      "query": "((Haiti (gangs OR security OR UN OR mission OR police))) when:1d",
+      "label": "Haiti",
+      "queryRevision": 2,
+      "configHash": "fff2198d6eefcc0aea8dcb4f20607f1185b4c8462c3ead07c9f38d0aeac78265",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-05T15:58:05.638Z",
+      "feedFetchedAt": "2026-11-05T15:58:12.111Z",
+      "generatedAt": "2026-11-05T15:58:32.476Z",
+      "status": "empty",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "unifil",
+      "query": "(((UNIFIL OR (((peacekeeper OR peacekeepers) OR peacekeeping OR \"united nations\" OR (\"blue helmet\" OR \"blue helmets\") OR \"UNIFIL spokesperson\" OR 1701) Lebanon)) OR \"south Lebanon\" OR \"southern Lebanon\" OR \"Lebanon ceasefire\" OR Hezbollah OR FINUL OR \"Liban sud\" OR \"sud du Liban\")) when:1d",
+      "label": "UNIFIL / Lebanon",
+      "queryRevision": 4,
+      "configHash": "598295c6519d4df62681b441e556659c64444705aed457e55b8a2e29eb5a6145",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-05T15:58:05.638Z",
+      "feedFetchedAt": "2026-11-05T15:58:13.734Z",
+      "generatedAt": "2026-11-05T15:58:32.476Z",
+      "status": "empty",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "undof",
+      "query": "((((UNDOF OR \"Disengagement Observer Force\" OR (((peacekeeping OR peacekeeper OR peacekeepers) OR \"UN mission\" OR \"blue helmet\" OR \"blue helmets\" OR \"UN Force\" OR \"UN Forces\") (Golan OR \"the Golan\" OR Syria OR \"Arab Republic\" OR Sham OR \"al-Sham\" OR \"ash-Sham\"))) -Ukraine -Korea) OR \"Golan Heights\" OR Quneitra OR \"occupied Syrian territory\")) when:1d",
+      "label": "UNDOF / Syria / Golan",
+      "queryRevision": 4,
+      "configHash": "846e2490b3a292ead23a84e585446eff4cd932f518ff1911ab0eac8a020d0a7e",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-05T15:58:05.638Z",
+      "feedFetchedAt": "2026-11-05T15:58:15.397Z",
+      "generatedAt": "2026-11-05T15:58:32.476Z",
+      "status": "empty",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "untso",
+      "query": "(((UNTSO OR ((\"United Nations Truce Supervision Organization\" OR (\"blue helmet\" OR \"blue helmets\")) (\"Middle East\" OR Jerusalem OR Israel OR Palestine OR \"West Bank\" OR Gaza OR \"Gaza Strip\" OR Hebron OR Bethlehem OR Ramallah OR Jericho OR Nablus OR Jenin OR \"East Jerusalem\" OR Lebanon OR Beirut OR Tyre OR Naqoura OR \"Blue Line\" OR Syria OR Damascus OR Golan OR \"Golan Heights\" OR Jordan OR Amman OR Egypt OR Sinai))) OR \"UN Truce Supervision\" OR \"UN military observers\")) when:1d",
+      "label": "UNTSO / Middle East",
+      "queryRevision": 4,
+      "configHash": "fa74fea53152f85326e55d17cad15b5ec4b9a06555f68829b0e04b67fbc4ff60",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-05T15:58:05.638Z",
+      "feedFetchedAt": "2026-11-05T15:58:17.115Z",
+      "generatedAt": "2026-11-05T15:58:32.476Z",
+      "status": "empty",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "monusco",
+      "query": "((((MONUSCO OR MONUC OR MONESCO) OR ((\"United Nations Organization Stabilization Mission in the Democratic Republic of the Congo\" OR \"United Nations DRC\" OR \"United Nations Security Council\" OR (\"blue helmet\" OR \"blue helmets\")) (DRC OR \"Democratic Republic of Congo\"))) OR \"DR Congo\" OR \"eastern Congo\" OR \"M23 rebels\" OR \"North Kivu\" OR \"South Kivu\" OR RDC OR \"Nord-Kivu\" OR \"Sud-Kivu\" OR Goma)) when:1d",
+      "label": "MONUSCO / DRC",
+      "queryRevision": 4,
+      "configHash": "b0f798ca0e098962acd347082575b826a0aba30499c1f6249ea7085808dc28a2",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-05T15:58:05.638Z",
+      "feedFetchedAt": "2026-11-05T15:58:18.870Z",
+      "generatedAt": "2026-11-05T15:58:32.476Z",
+      "status": "empty",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "minusca",
+      "query": "((((MINUSCA OR munisca OR \"mi-nu-sca\" OR MINUSCA OR \"Valentine Rugwabiza\" OR \"m-i-n-u-s-c-a\") OR ((\"United Nations Multidimensional Integrated Stabilization Mission in the Central African Republic\" OR (peacekeeper OR peacekeepers) OR peacekeeping OR contingent OR \"united nations\") (\"central african republic\" OR bangui OR Obo OR \"Haut-Mbomou\" OR Bambouti OR Zangba OR Dembia OR Zemio OR Batangafo OR Birao OR Ndele OR Vakaga OR \"Haute-Kotto\" OR Yade))) OR \"Central African Republic\" OR Bangui OR Centrafrique OR \"République centrafricaine\")) when:1d",
+      "label": "MINUSCA / CAR",
+      "queryRevision": 4,
+      "configHash": "3f0f3960e31ba949a4ca7733f3cfe0143eedfc0b656e2eccf2f90bb42b163c13",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-05T15:58:05.638Z",
+      "feedFetchedAt": "2026-11-05T15:58:20.399Z",
+      "generatedAt": "2026-11-05T15:58:32.476Z",
+      "status": "empty",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "unmiss",
+      "query": "((((UNMISS OR \"United Nations Mission for South Sudan\") OR ((\"blue helmet\" OR \"blue helmets\" OR \"united nation\" OR (peacekeeper OR peacekeepers) OR peacekeeping OR \"blue beret\" OR \"blue berets\" OR \"UN troop\" OR \"UN troops\" OR \"UN force\" OR \"UN forces\" OR \"UN soldier\" OR \"UN soldiers\" OR \"UN mission\" OR \"UN contingent\") (Juba OR \"Unity State\" OR \"Upper Nile\" OR Jonglei OR \"Northern Bahr el Ghazal\" OR \"Western Bahr el Ghazal\" OR Ruweng OR \"Central Equatoria\" OR \"Eastern Equatoria\" OR \"Western Equatoria\" OR \"South Sudan\"))) OR \"South Sudan\")) when:1d",
+      "label": "UNMISS / South Sudan",
+      "queryRevision": 4,
+      "configHash": "fd3105faa946b29a18ffc0ebb302a2a726bd0e830b08536925769f42ab5b9eb7",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-05T15:58:05.638Z",
+      "feedFetchedAt": "2026-11-05T15:58:21.942Z",
+      "generatedAt": "2026-11-05T15:58:32.476Z",
+      "status": "empty",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "unisfa",
+      "query": "(((UNISFA OR ((\"blue helmet\" OR \"blue helmets\" OR \"united nations\" OR \"united nation\" OR (peacekeeping OR peacekeeper OR peacekeepers) OR \"peace operation\" OR \"peace support operation\" OR \"blue beret\" OR \"blue berets\" OR \"UN troop\" OR \"UN troops\" OR \"UN force\" OR \"UN forces\" OR \"UN soldier\" OR \"UN soldiers\" OR \"UN mission\" OR \"UN contingent\" OR \"UN personnel\" OR \"UN observers\" OR \"UN monitors\" OR \"UN presence\" OR \"multinational force\") (Abyei OR Abei OR Abyie OR Amiet OR Diffra OR Agok OR Heglig OR Panakuach OR \"Kiir River\" OR \"Bahr el Arab\" OR Ngok OR Misseriya OR Nuer OR Twic OR Dinka OR Safaha OR Todach OR Noong OR \"Sudan-South Sudan border\" OR \"North-South border\" OR CPA))) OR Abyei)) when:1d",
+      "label": "UNISFA / Abyei",
+      "queryRevision": 4,
+      "configHash": "23330650ac2088a48fcb6913d1980920b9702347797049551ac9d30841a0bdd4",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-05T15:58:05.638Z",
+      "feedFetchedAt": "2026-11-05T15:58:23.482Z",
+      "generatedAt": "2026-11-05T15:58:32.476Z",
+      "status": "empty",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "minurso",
+      "query": "(((MINURSO OR ((\"united nations\" OR \"blue helmets\" OR \"blue helmet\" OR (peacekeeper OR peacekeepers) OR \"peacekeeping\") (\"western sahara\" OR polisario OR SADR))) OR \"Western Sahara\" OR Polisario OR Tindouf OR Laayoune OR \"Sahara occidental\")) when:1d",
+      "label": "MINURSO / Western Sahara",
+      "queryRevision": 4,
+      "configHash": "4781bc0df39047e2e4f86aef673e2ccf9c74d3508deb324f4c3c645a7a167c68",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-05T15:58:05.638Z",
+      "feedFetchedAt": "2026-11-05T15:58:25.170Z",
+      "generatedAt": "2026-11-05T15:58:32.476Z",
+      "status": "completed",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 2,
+        "resolved": 2,
+        "unresolved": 0,
+        "cacheHits": 1
+      },
+      "articles": [
+        {
+          "title": "From Western Sahara to Lebanon: The Hidden Dangers of Relying on U.N. Peacekeepers - Middle East Forum",
+          "publisher": "Middle East Forum",
+          "publishedAt": "2026-11-04T16:08:42.000Z",
+          "rssDescription": "From Western Sahara to Lebanon: The Hidden Dangers of Relying on U.N. Peacekeepers Middle East Forum",
+          "rssUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM1MzaUVOX3p4a0VLZkdNbG1PV0JzaUxGUHJtZkhsb3ZsVFY0X1JURUNndFQ4dXpSdThZMXVFTFpTcy1IQmpHdE40elJac05BdElDNWZFdnNIeVRPd0l0Yms2NUdqdW1lS1E1Uno0cGtVN3NHYkFqV0RLeDJTSlRWcmFWLTNEX0g4TWNpWHZqNUtUajlHdGtvVUxOOTJXazAxb3dkVzVRZ2k4YnE2T1BvX0dwQWpHZw?oc=5",
+          "googleArticleId": "CBMitgFBVV95cUxNM1MzaUVOX3p4a0VLZkdNbG1PV0JzaUxGUHJtZkhsb3ZsVFY0X1JURUNndFQ4dXpSdThZMXVFTFpTcy1IQmpHdE40elJac05BdElDNWZFdnNIeVRPd0l0Yms2NUdqdW1lS1E1Uno0cGtVN3NHYkFqV0RLeDJTSlRWcmFWLTNEX0g4TWNpWHZqNUtUajlHdGtvVUxOOTJXazAxb3dkVzVRZ2k4YnE2T1BvX0dwQWpHZw",
+          "publisherUrl": "https://www.meforum.org/mef-online/from-western-sahara-to-lebanon-the-hidden-dangers-of-relying-on-u-n-peacekeepers",
+          "method": "rpc",
+          "resolvedAt": "2026-11-04T22:13:25.863Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": true,
+          "matchedQueryIds": [
+            "minurso"
+          ]
+        },
+        {
+          "title": "UN's peacekeeping mission in Western Sahara enters liquidation phase after mandate expires - The New Indian Express",
+          "publisher": "The New Indian Express",
+          "publishedAt": "2026-11-05T14:20:56.000Z",
+          "rssDescription": "UN's peacekeeping mission in Western Sahara enters liquidation phase after mandate expires The New Indian Express",
+          "rssUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUlF0dkF4OFVmQ0J2YWMwMDQ4emVGNk4yLVNOVU5GZ3VmZVhzaHZLOVZsSjAyNThBNmR6QXRVSnFLVk9PTFhkb3o0bi0yX3pwVGg5ZnlnSTV0bDAzVUNLTVRBYWxIQUlDSnFKeWxKS2RGd25nazlZMFltTjN6MVhjQzVfdEZkSWY3bkpIWThwRXN6cF9EOVlMLWVOdmQtMGNnV0s5czVpeDE4SklSX0pFYW5ac2lrdEZSbnU2Mk42aTA5STFQRlVPSFNrTy00dnd3LVc5UnhPY9IB5AFBVV95cUxOM0lvOTR6VEFCb29hR0VpRlpTYjUzdDJIQlA5M2F4X2ZvLVNNaXh0bk5mUTlSelljMERKdXY2eHZqbGRoZTZPYXE2QVV6Y2ZsaXJUQ18xTlI4cHF3N25wZHVUb1FsSDFNc2VxaDNJTEJST2V2TV9TeDBVNzYydzVVRGc1cE9UVjRBVTl5NHdRVGQ2cnZfak5XWXJ1ajdld1doOHZKNER3cGVUZnNPQTh6S3lDM2VvRkxCMmU5Y041MHVaQktCQzhLby1rdnNmbFRSMWpEa1o2V1REOFQyMDNYN0ktb2k?oc=5",
+          "googleArticleId": "CBMi1wFBVV95cUxPUlF0dkF4OFVmQ0J2YWMwMDQ4emVGNk4yLVNOVU5GZ3VmZVhzaHZLOVZsSjAyNThBNmR6QXRVSnFLVk9PTFhkb3o0bi0yX3pwVGg5ZnlnSTV0bDAzVUNLTVRBYWxIQUlDSnFKeWxKS2RGd25nazlZMFltTjN6MVhjQzVfdEZkSWY3bkpIWThwRXN6cF9EOVlMLWVOdmQtMGNnV0s5czVpeDE4SklSX0pFYW5ac2lrdEZSbnU2Mk42aTA5STFQRlVPSFNrTy00dnd3LVc5UnhPY9IB5AFBVV95cUxOM0lvOTR6VEFCb29hR0VpRlpTYjUzdDJIQlA5M2F4X2ZvLVNNaXh0bk5mUTlSelljMERKdXY2eHZqbGRoZTZPYXE2QVV6Y2ZsaXJUQ18xTlI4cHF3N25wZHVUb1FsSDFNc2VxaDNJTEJST2V2TV9TeDBVNzYydzVVRGc1cE9UVjRBVTl5NHdRVGQ2cnZfak5XWXJ1ajdld1doOHZKNER3cGVUZnNPQTh6S3lDM2VvRkxCMmU5Y041MHVaQktCQzhLby1rdnNmbFRSMWpEa1o2V1REOFQyMDNYN0ktb2k",
+          "publisherUrl": "https://www.newindianexpress.com/world/2026/Nov/05/uns-peacekeeping-mission-in-western-sahara-enters-liquidation-phase-after-mandate-expires",
+          "method": "rpc",
+          "resolvedAt": "2026-11-05T15:58:32.476Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "minurso"
+          ]
+        }
+      ]
+    },
+    {
+      "queryId": "unmik",
+      "query": "(((UNMIK OR ((\"United Nations\" OR (\"blue helmet\" OR \"blue helmets\") OR peacekeeping OR (peacekeeper OR peacekeepers)) (Kosovo OR Pristina OR Prishtina OR Mitrovica OR \"North Mitrovica\" OR Peja OR Pec OR Gjakova OR Dakovica OR Prizren OR Gjilan OR Gnjilane OR Ferizaj OR Urosevac OR Vushtrri OR Vucitrn OR Podujeva OR Leposavic OR Zvecan OR Zubin OR Potok OR Gracanica OR Decan OR Istok OR Skenderaj OR Drenica OR Serbia OR Belgrade OR Balkans))) OR Kosovo OR Pristina OR Mitrovica)) when:1d",
+      "label": "UNMIK / Kosovo",
+      "queryRevision": 4,
+      "configHash": "a121f5dadaa0f70648ed7770ba830cd40f1f477330377a94582687c4c68651e8",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-05T15:58:05.638Z",
+      "feedFetchedAt": "2026-11-05T15:58:26.849Z",
+      "generatedAt": "2026-11-05T15:58:32.476Z",
+      "status": "empty",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "unficyp",
+      "query": "(((UNFICYP OR ((\"United Nations Peacekeeping Force in Cyprus\" OR (\"blue helmet\" OR \"blue helmets\") OR peacekeeping OR (peacekeeper OR peacekeepers) OR \"united nations\") (Cyprus OR \"Republic of Cyprus\" OR \"Northern Cyprus\" OR \"Turkish Republic of Northern Cyprus\" OR Nicosia OR Lefkosia OR Lefkoşa OR Famagusta OR Gazimağusa OR Kyrenia OR Girne OR Limassol OR Larnaca OR Paphos OR Morphou OR Güzelyurt OR Dhekelia OR Akrotiri OR Pyla OR Pergamos OR Strovilia OR Athienou OR Deryneia OR Paralimni OR \"Agios Dometios\" OR \"Buffer Zone\" OR \"Green Line\"))) OR \"Cyprus buffer zone\" OR \"Cyprus talks\" OR \"Cyprus settlement\")) when:1d",
+      "label": "UNFICYP / Cyprus",
+      "queryRevision": 4,
+      "configHash": "fcdf4726f1a634ea51229d56a4dbe6e4187e9ce6b63de67edd1e92ded2eaae55",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-05T15:58:05.638Z",
+      "feedFetchedAt": "2026-11-05T15:58:28.371Z",
+      "generatedAt": "2026-11-05T15:58:32.476Z",
+      "status": "empty",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "unmogip",
+      "query": "(((((UNMOGIP OR \"UN MOGIP\") OR ((\"United Nations Military Observer Group in India and Pakistan\" OR \"UN in Kashmir\" OR \"United Nations\" OR (\"blue helmet\" OR \"blue helmets\")) (\"Line of Control\" OR LOC OR Kashmir OR \"Gilgit Baltistan\" OR \"Azad Kashmir\" OR Gilgit OR Skardu OR Muzaffarabad OR Domel OR Rawalakot OR Kotli OR Bhimber OR Chakothi OR Abbaspur OR Tithwal OR Sialkot OR Srinagar OR Jammu OR Rajouri OR Poonch OR Uri OR Kupwara OR Leh OR Islamabad OR \"New Delhi\"))) -Israel -Palestine -Iran) OR \"Line of Control\")) when:1d",
+      "label": "UNMOGIP / Kashmir",
+      "queryRevision": 4,
+      "configHash": "7eadc005c2a24c83fe04c2996e25258766b99fc5a70fc12a91da88f2bc30d63f",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-05T15:58:05.638Z",
+      "feedFetchedAt": "2026-11-05T15:58:29.997Z",
+      "generatedAt": "2026-11-05T15:58:32.476Z",
+      "status": "empty",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    }
+  ],
+  "runTimestamp": "20261105155804",
+  "githubRunId": "42060240004"
+}
