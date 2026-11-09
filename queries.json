@@ -124,8 +124,8 @@
       "id": "query-ca1c16a9-4549-4ba4-9e98-e43641979624",
       "enabled": true,
       "label": "test topic 22",
-      "query": "\"test\" OR \"topic\" OR \"two\"",
-      "revision": 2
+      "query": "\"new test\" OR \"test 2\"",
+      "revision": 3
     }
   ]
 }
