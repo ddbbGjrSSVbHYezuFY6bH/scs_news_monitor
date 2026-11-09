@@ -119,6 +119,13 @@
       "query": "UNMOGIP OR \"Line of Control\" OR Kashmir \"United Nations\"",
       "revision": 5,
       "enabled": true
+    },
+    {
+      "id": "query-ca1c16a9-4549-4ba4-9e98-e43641979624",
+      "enabled": true,
+      "label": "test topic 2",
+      "query": "\"test\" OR \"topic\" OR \"two\"",
+      "revision": 1
     }
   ]
 }
