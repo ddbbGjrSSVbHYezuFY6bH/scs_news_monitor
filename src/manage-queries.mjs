@@ -36,7 +36,7 @@ export function applyQueryOperation(input, options) {
   if (operation === 'delete') {
     [affected] = document.queries.splice(position, 1);
   } else {
-    const previous = operation === 'update' ? document.queries[position] : { id: queryId };
+    const previous = operation === 'update' ? document.queries[position] : { id: queryId, enabled: true };
     affected = { ...previous, ...structuredClone(entry) };
     if (affected.activeUntil === null) delete affected.activeUntil;
     if (operation === 'update' && isDeepStrictEqual(previous, affected)) {
