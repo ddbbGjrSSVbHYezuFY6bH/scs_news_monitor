@@ -124,7 +124,8 @@
       "id": "query-c7d12aa3-667e-4e76-82b8-6b39af02ddf4",
       "label": "test topic",
       "query": "\"test\" OR \"topic\"",
-      "revision": 1
+      "revision": 1,
+      "enabled": true
     }
   ]
 }
