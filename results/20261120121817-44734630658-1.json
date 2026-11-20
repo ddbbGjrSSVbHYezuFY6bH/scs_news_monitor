@@ -1,0 +1,2387 @@
+{
+  "schemaVersion": 3,
+  "requestId": "44734630658-1",
+  "mode": "active",
+  "status": "completed",
+  "startedAt": "2026-11-20T12:18:17.595Z",
+  "completedAt": "2026-11-20T12:22:50.573Z",
+  "lookbackHours": 24,
+  "uniqueArticles": 100,
+  "newResolutions": 100,
+  "httpRequests": 216,
+  "circuit": null,
+  "results": [
+    {
+      "queryId": "un",
+      "query": "(\"United Nations\" OR \"UN Security Council\" OR \"UN Secretary-General\" OR \"UN General Assembly\") when:1d",
+      "label": "UN",
+      "queryRevision": 3,
+      "configHash": "0ee07d0c81637cd60fb6875055c8830f848b587b0fc8423ecd0b7b9d6bb00550",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-20T12:18:17.595Z",
+      "feedFetchedAt": "2026-11-20T12:18:18.216Z",
+      "generatedAt": "2026-11-20T12:22:50.573Z",
+      "status": "completed",
+      "error": null,
+      "truncated": true,
+      "counts": {
+        "selected": 10,
+        "resolved": 10,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": [
+        {
+          "title": "Dakar 2026: Africa’s first Olympic event celebrates youth, equality, inclusion - Welcome to the United Nations",
+          "publisher": "Welcome to the United Nations",
+          "publishedAt": "2026-11-20T11:22:04.000Z",
+          "rssDescription": "Dakar 2026: Africa’s first Olympic event celebrates youth, equality, inclusion Welcome to the United Nations",
+          "rssUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORlJxYXktN2dudDdGNWljUG8zQVVpQjgybnA3aThXM0JUdEM0SFYzLW9CaWM2SXQyTmZLR3pGcElOZ0xCaWYwYk5Sd0NnSmQ5bi1GT0hDc3VTRXVDMVU2SUNockU2Tk5WYm0yUzB3ZXI1eFVUdGRvQkVTZXNsWGkxMUZfall2TVFCZTlSczlYSENXY1pjSmVvZ1RyQkJHaGRETUF1eWlKV05EMlgzem9fUjdYOVQ?oc=5",
+          "googleArticleId": "CBMitAFBVV95cUxORlJxYXktN2dudDdGNWljUG8zQVVpQjgybnA3aThXM0JUdEM0SFYzLW9CaWM2SXQyTmZLR3pGcElOZ0xCaWYwYk5Sd0NnSmQ5bi1GT0hDc3VTRXVDMVU2SUNockU2Tk5WYm0yUzB3ZXI1eFVUdGRvQkVTZXNsWGkxMUZfall2TVFCZTlSczlYSENXY1pjSmVvZ1RyQkJHaGRETUF1eWlKV05EMlgzem9fUjdYOVQ",
+          "publisherUrl": "https://www.un.org/ht/delegate/dakar-2026-africa%E2%80%99s-first-olympic-event-celebrates-youth-equality-inclusion",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:18:42.551Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "Race to be next UN secretary general exposes divisions among world powers - The Guardian",
+          "publisher": "The Guardian",
+          "publishedAt": "2026-11-20T05:22:00.000Z",
+          "rssDescription": "Race to be next UN secretary general exposes divisions among world powers The Guardian",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNazU0Z3Jtd3ZwQ18wSDBGYU1YYlRwcEltNnlwb3lOX1Bvck9NZjFxN3R5NGU1cmFqcHQ3WmRVMWJzODRVLWNrWXBrSWpzUkR2NmtSd25TNmx0dzNqME12T3ZaczYyZlEwTDFyVU1IeHE0WFQ1N0JYeEFOLUlUX0VxXzIxY3RWQ0tfNWVsUGlubHJqY1QyN2tDZ1dNODBhZGtWTXlVeVpBV3pZbkNGclM3aWRVZlU1UHM2UlQ0?oc=5",
+          "googleArticleId": "CBMiuwFBVV95cUxNazU0Z3Jtd3ZwQ18wSDBGYU1YYlRwcEltNnlwb3lOX1Bvck9NZjFxN3R5NGU1cmFqcHQ3WmRVMWJzODRVLWNrWXBrSWpzUkR2NmtSd25TNmx0dzNqME12T3ZaczYyZlEwTDFyVU1IeHE0WFQ1N0JYeEFOLUlUX0VxXzIxY3RWQ0tfNWVsUGlubHJqY1QyN2tDZ1dNODBhZGtWTXlVeVpBV3pZbkNGclM3aWRVZlU1UHM2UlQ0",
+          "publisherUrl": "https://www.theguardian.com/world/2026/nov/20/race-to-be-next-un-secretary-general-exposes-divisions-among-world-powers",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:17.636Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "Drinking-water - World Health Organization (WHO)",
+          "publisher": "World Health Organization (WHO)",
+          "publishedAt": "2026-11-20T05:06:18.000Z",
+          "rssDescription": "Drinking-water World Health Organization (WHO)",
+          "rssUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RZmxIaURaLVNlQ0tBdVdwWjVEYWlBWUhjUk9VODBONEtOLVg0dU9MS3lUX0hJVTRUd3lOZ1lTbHFJd2VyUXUtRG1XdWFwb2FYZlRkeVZ1U0ZkLS1YZ2N5UW93Wkc2d0FZWkFYZkVmaEk?oc=5",
+          "googleArticleId": "CBMicEFVX3lxTE1RZmxIaURaLVNlQ0tBdVdwWjVEYWlBWUhjUk9VODBONEtOLVg0dU9MS3lUX0hJVTRUd3lOZ1lTbHFJd2VyUXUtRG1XdWFwb2FYZlRkeVZ1U0ZkLS1YZ2N5UW93Wkc2d0FZWkFYZkVmaEk",
+          "publisherUrl": "https://www.who.int/news-room/fact-sheets/detail/drinking-water",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:47.692Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "UN General Assembly chief tells Myanmar to 'bring Rohingya home' - France 24",
+          "publisher": "France 24",
+          "publishedAt": "2026-11-20T07:02:16.000Z",
+          "rssDescription": "UN General Assembly chief tells Myanmar to 'bring Rohingya home' France 24",
+          "rssUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOUE0dGcxOWV3cXBnRDNRbHdaYzhrOTdFTHJSb1ptYzU4U3k4ZklhR3ZPUDlkcFMtZTN3akhUSnBydHBGX3lVXzc5ZndBMHoxdU9DWHZHVmdDYkpaZk40TWhnRW1FNkhyX0huS0V2ZWRVeXFWYTByZGszUGFIN2lveFpfRVBxUGlFMTliQzc3S2JqOS1uNXFEVktWR1QydUY4MmhCLXdyNGhobDluVGc?oc=5",
+          "googleArticleId": "CBMirgFBVV95cUxQOUE0dGcxOWV3cXBnRDNRbHdaYzhrOTdFTHJSb1ptYzU4U3k4ZklhR3ZPUDlkcFMtZTN3akhUSnBydHBGX3lVXzc5ZndBMHoxdU9DWHZHVmdDYkpaZk40TWhnRW1FNkhyX0huS0V2ZWRVeXFWYTByZGszUGFIN2lveFpfRVBxUGlFMTliQzc3S2JqOS1uNXFEVktWR1QydUY4MmhCLXdyNGhobDluVGc",
+          "publisherUrl": "https://www.france24.com/en/live-news/20261120-un-general-assembly-chief-tells-myanmar-to-bring-rohingya-home",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:17.745Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "Lise Klaverness, Norwegian Football Federation - Welcome to the United Nations",
+          "publisher": "Welcome to the United Nations",
+          "publishedAt": "2026-11-20T05:17:15.000Z",
+          "rssDescription": "Lise Klaverness, Norwegian Football Federation Welcome to the United Nations",
+          "rssUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRzJpdlhMdkRWM2JUU1NSS3JPcmYzZ2hIVTNEZmxURFpwcFgyVWhQakZ2M3RwelY0MXJHdTd5UFVhU2ZweHNPWnJYeWFMQUNSQkkwNWpwZGsxclphZlRtTm4yWUdQYUJjbExfWGxqcEFmbDJjdk9NSVhKUDJsMVBJRm1ndXVZQ195T0lVeEtHeE8?oc=5",
+          "googleArticleId": "CBMikAFBVV95cUxNRzJpdlhMdkRWM2JUU1NSS3JPcmYzZ2hIVTNEZmxURFpwcFgyVWhQakZ2M3RwelY0MXJHdTd5UFVhU2ZweHNPWnJYeWFMQUNSQkkwNWpwZGsxclphZlRtTm4yWUdQYUJjbExfWGxqcEFmbDJjdk9NSVhKUDJsMVBJRm1ndXVZQ195T0lVeEtHeE8",
+          "publisherUrl": "https://www.un.org/en/footballforthegoals/lise-klaverness-norwegian-football-federation",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:40.269Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "Rights groups urge sanctions after top UN court finds Myanmar committed genocide against Rohingya - The Washington Post",
+          "publisher": "The Washington Post",
+          "publishedAt": "2026-11-20T10:58:40.000Z",
+          "rssDescription": "Rights groups urge sanctions after top UN court finds Myanmar committed genocide against Rohingya The Washington Post",
+          "rssUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQazNVcFduX0dkSEo5V2JTb21HUmNteWlGSGJ6cEZubTFFVko2ZEJNWEQxVmtCd0FZb01aZlV1WExWVWl0ekE4MmhBRzFKSkJnRk1uek5mVk9wb1BKckRma1ZXMVg2T3ZrNzg4SzYwa1hxR083WjJ1bDJQQXdqYURUMDNQeVZ3UkRiZkZndTl0ODU3QXViUFlXSUlVUVAyNUhadEp2LUZiNXlXX0xFYkNQTDZzdkhzZDZxSVlVRlNlTzBYcjBpVVhXWk9vN0NVQ0JfTVVmUjBMWnFlNXc2REtKc2xfYVRLWXZjMDd0bQ?oc=5",
+          "googleArticleId": "CBMi7AFBVV95cUxQazNVcFduX0dkSEo5V2JTb21HUmNteWlGSGJ6cEZubTFFVko2ZEJNWEQxVmtCd0FZb01aZlV1WExWVWl0ekE4MmhBRzFKSkJnRk1uek5mVk9wb1BKckRma1ZXMVg2T3ZrNzg4SzYwa1hxR083WjJ1bDJQQXdqYURUMDNQeVZ3UkRiZkZndTl0ODU3QXViUFlXSUlVUVAyNUhadEp2LUZiNXlXX0xFYkNQTDZzdkhzZDZxSVlVRlNlTzBYcjBpVVhXWk9vN0NVQ0JfTVVmUjBMWnFlNXc2REtKc2xfYVRLWXZjMDd0bQ",
+          "publisherUrl": "https://www.washingtonpost.com/world/2026/11/20/un-international-court-myanmar-genocide-rohingya-reparations/c43a0402-e4cd-11f1-a99e-b3e3805c6b8b_story.html",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:07.841Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "UN Security Council Discusses Resolution 1701, Renews Support for UNIFIL and Lebanon’s Sovereignty - NewsCord",
+          "publisher": "NewsCord",
+          "publishedAt": "2026-11-20T11:26:20.000Z",
+          "rssDescription": "UN Security Council Discusses Resolution 1701, Renews Support for UNIFIL and Lebanon’s Sovereignty NewsCord",
+          "rssUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRWFNWTkwcGhtREczVjJJRElabDJSUzYyb3B3bVgwZS05WTZzOFRtWU9VRXNxaUp2Um5JZ2xLVTcyR2dmSXZFWkN2ZVN1cm5QVHFLb25jbUtRaFA1bVh1TEFUbE40cUhGQW1LaTYybjd5R0JzNW9NTzI4Ym1QU2tKUU1BeDFoSHY1RTRCakxVZklsT1lZQmtzdzJxckRsSjQwSnEyWHZ3d1dFZ1N0ZWxkeVpJRkh4SC1vQURRTU1URDJQRWVGaVVPLWpQblpFclUzemhlX0V3WFpmX2pXVlotTUV6RlJRWjFFYmc?oc=5",
+          "googleArticleId": "CBMi6gFBVV95cUxNRWFNWTkwcGhtREczVjJJRElabDJSUzYyb3B3bVgwZS05WTZzOFRtWU9VRXNxaUp2Um5JZ2xLVTcyR2dmSXZFWkN2ZVN1cm5QVHFLb25jbUtRaFA1bVh1TEFUbE40cUhGQW1LaTYybjd5R0JzNW9NTzI4Ym1QU2tKUU1BeDFoSHY1RTRCakxVZklsT1lZQmtzdzJxckRsSjQwSnEyWHZ3d1dFZ1N0ZWxkeVpJRkh4SC1vQURRTU1URDJQRWVGaVVPLWpQblpFclUzemhlX0V3WFpmX2pXVlotTUV6RlJRWjFFYmc",
+          "publisherUrl": "https://newscord.org/article/un-security-council-discusses-resolution-1701-renews-support-for-unifil-and-leba--Story_20261120_UNreaffirmssupportfoddc83511",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:18:45.059Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un",
+            "usg-dpo",
+            "unifil"
+          ]
+        },
+        {
+          "title": "Moldovan institutions strengthen capacities for gender-responsive small arms control - United Nations Development Programme",
+          "publisher": "United Nations Development Programme",
+          "publishedAt": "2026-11-20T10:28:25.000Z",
+          "rssDescription": "Moldovan institutions strengthen capacities for gender-responsive small arms control United Nations Development Programme",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVE8tWnBnN0xHOVVNd0EybE5CbHhub0ZXdTI3bkNCUW95QV8xb3pfZ3VhZ1hCcjhrQW5OZXk5SElOeEFybTEzbTBUR2dMbDQ1QlpLRGZmRE9vOUlrSWhKTUxvbDFYWktLVDJ6c1JDSERzdlUyV2NrZ1Y0QnNwa2JKd09JNW5VZjFMOVZrd1Z4NjNGcEN1SjBLcl9rbTVQWmE5WlFMRWRqejRBeWhRaHg2TURaNmdES3BZUnJzUmV2ZEg3Zw?oc=5",
+          "googleArticleId": "CBMiwgFBVV95cUxOVE8tWnBnN0xHOVVNd0EybE5CbHhub0ZXdTI3bkNCUW95QV8xb3pfZ3VhZ1hCcjhrQW5OZXk5SElOeEFybTEzbTBUR2dMbDQ1QlpLRGZmRE9vOUlrSWhKTUxvbDFYWktLVDJ6c1JDSERzdlUyV2NrZ1Y0QnNwa2JKd09JNW5VZjFMOVZrd1Z4NjNGcEN1SjBLcl9rbTVQWmE5WlFMRWRqejRBeWhRaHg2TURaNmdES3BZUnJzUmV2ZEg3Zw",
+          "publisherUrl": "https://www.undp.org/moldova/press-releases/moldovan-institutions-strengthen-capacities-gender-responsive-small-arms-control",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:55.420Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "UN could soon be leaderless as race to succeed Guterres stalls - Reuters",
+          "publisher": "Reuters",
+          "publishedAt": "2026-11-19T18:27:19.000Z",
+          "rssDescription": "UN could soon be leaderless as race to succeed Guterres stalls Reuters",
+          "rssUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMkRIWUdzUl84UkhLNFVKV0c5a1RVbUNHQ2JiNGVFRUxkYnJCRnp2el9qLVoxUmFjWFNNNmotUkFBS21wOTlsMEhCMDRTY3RNV2hITXJUVTE0azdsNXNjZkdxeUtjR3BBNi10ajdXdXRNM3NQejBYN1prWnFIMElhWXNvWXZRRnI1dUplejFHeWlSQmcwNTdiR3NKc05WaWM?oc=5",
+          "googleArticleId": "CBMinwFBVV95cUxPMkRIWUdzUl84UkhLNFVKV0c5a1RVbUNHQ2JiNGVFRUxkYnJCRnp2el9qLVoxUmFjWFNNNmotUkFBS21wOTlsMEhCMDRTY3RNV2hITXJUVTE0azdsNXNjZkdxeUtjR3BBNi10ajdXdXRNM3NQejBYN1prWnFIMElhWXNvWXZRRnI1dUplejFHeWlSQmcwNTdiR3NKc05WaWM",
+          "publisherUrl": "https://www.reuters.com/world/un-could-soon-be-leaderless-race-succeed-guterres-stalls-2026-11-19/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:23.031Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "Today's top news: Afghanistan, Mediation - DPPA",
+          "publisher": "DPPA",
+          "publishedAt": "2026-11-20T00:03:37.000Z",
+          "rssDescription": "Today's top news: Afghanistan, Mediation DPPA",
+          "rssUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBKeTZiWG5MQjFfWGVIa2hCMFdZMVFQN2NBaDVleU5wUUdXakVTdzhxQlVYYmgyeWtOMzRzdWdXMko1RU1Ca3dLQlFrdGxQYkduRW5SSlRkTXpkWlB4Rm0zQ2tydWF2ZzBUcng0RFlKbU9RT1U?oc=5",
+          "googleArticleId": "CBMic0FVX3lxTFBKeTZiWG5MQjFfWGVIa2hCMFdZMVFQN2NBaDVleU5wUUdXakVTdzhxQlVYYmgyeWtOMzRzdWdXMko1RU1Ca3dLQlFrdGxQYkduRW5SSlRkTXpkWlB4Rm0zQ2tydWF2ZzBUcng0RFlKbU9RT1U",
+          "publisherUrl": "https://dppa.un.org/en/news/todays-top-news-afghanistan-mediation",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:50.573Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        }
+      ]
+    },
+    {
+      "queryId": "usg-dpo",
+      "query": "(\"Jean-Pierre Lacroix\" OR \"DPO USG\" OR \"United Nations Under-Secretary-General for Peace Operations\" OR \"USG for Peace Operations\" OR \"Under-Secretary-General for Peace Operations\") when:1d",
+      "label": "USG for DPO",
+      "queryRevision": 3,
+      "configHash": "e14602fe841eea9632ed6a782a49788534eb1ce505a49a13781a601a731b8d12",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-20T12:18:17.595Z",
+      "feedFetchedAt": "2026-11-20T12:18:19.599Z",
+      "generatedAt": "2026-11-20T12:22:50.573Z",
+      "status": "completed",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 1,
+        "resolved": 1,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": [
+        {
+          "title": "UN Security Council Discusses Resolution 1701, Renews Support for UNIFIL and Lebanon’s Sovereignty - NewsCord",
+          "publisher": "NewsCord",
+          "publishedAt": "2026-11-20T11:26:20.000Z",
+          "rssDescription": "UN Security Council Discusses Resolution 1701, Renews Support for UNIFIL and Lebanon’s Sovereignty NewsCord",
+          "rssUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRWFNWTkwcGhtREczVjJJRElabDJSUzYyb3B3bVgwZS05WTZzOFRtWU9VRXNxaUp2Um5JZ2xLVTcyR2dmSXZFWkN2ZVN1cm5QVHFLb25jbUtRaFA1bVh1TEFUbE40cUhGQW1LaTYybjd5R0JzNW9NTzI4Ym1QU2tKUU1BeDFoSHY1RTRCakxVZklsT1lZQmtzdzJxckRsSjQwSnEyWHZ3d1dFZ1N0ZWxkeVpJRkh4SC1vQURRTU1URDJQRWVGaVVPLWpQblpFclUzemhlX0V3WFpmX2pXVlotTUV6RlJRWjFFYmc?oc=5",
+          "googleArticleId": "CBMi6gFBVV95cUxNRWFNWTkwcGhtREczVjJJRElabDJSUzYyb3B3bVgwZS05WTZzOFRtWU9VRXNxaUp2Um5JZ2xLVTcyR2dmSXZFWkN2ZVN1cm5QVHFLb25jbUtRaFA1bVh1TEFUbE40cUhGQW1LaTYybjd5R0JzNW9NTzI4Ym1QU2tKUU1BeDFoSHY1RTRCakxVZklsT1lZQmtzdzJxckRsSjQwSnEyWHZ3d1dFZ1N0ZWxkeVpJRkh4SC1vQURRTU1URDJQRWVGaVVPLWpQblpFclUzemhlX0V3WFpmX2pXVlotTUV6RlJRWjFFYmc",
+          "publisherUrl": "https://newscord.org/article/un-security-council-discusses-resolution-1701-renews-support-for-unifil-and-leba--Story_20261120_UNreaffirmssupportfoddc83511",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:18:45.059Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un",
+            "usg-dpo",
+            "unifil"
+          ]
+        }
+      ]
+    },
+    {
+      "queryId": "peacekeeping",
+      "query": "(\"UN peacekeeping\" OR peacekeepers OR \"peace operations\" OR \"blue helmets\" OR \"maintien de la paix\" OR \"Casques bleus\" OR \"opérations de paix\") when:1d",
+      "label": "Peacekeeping",
+      "queryRevision": 5,
+      "configHash": "3209dd40818d08949d54081f3bfba72e62a86e1f2fc27347005b77c7e8af699e",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-20T12:18:17.595Z",
+      "feedFetchedAt": "2026-11-20T12:18:21.091Z",
+      "generatedAt": "2026-11-20T12:22:50.573Z",
+      "status": "completed",
+      "error": null,
+      "truncated": true,
+      "counts": {
+        "selected": 10,
+        "resolved": 10,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": [
+        {
+          "title": "Seeking Mideast role, Europeans push to replace U.N. peacekeepers in Lebanon - The Washington Post",
+          "publisher": "The Washington Post",
+          "publishedAt": "2026-11-20T11:33:14.000Z",
+          "rssDescription": "Seeking Mideast role, Europeans push to replace U.N. peacekeepers in Lebanon The Washington Post",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNV0F3Y1JvLW9wV3hKdTF6Vl93cEtyamFFWlJ6eFBMYjFpZW5jNERvNEFya1BOakpvOTZ5UFcxbzhOODlGTjBmV2tXX3U5MHd5QTRPOEt2UzM3bGZlUGNnVmNnTWJKS2lER3pGSzBrM3p2NUoxSGlTUmIwUnlaV3QwRW5kVmZzQU1vb3czckVoalV2RnlyNjFNZE1PcnhHOERabU40?oc=5",
+          "googleArticleId": "CBMiowFBVV95cUxNV0F3Y1JvLW9wV3hKdTF6Vl93cEtyamFFWlJ6eFBMYjFpZW5jNERvNEFya1BOakpvOTZ5UFcxbzhOODlGTjBmV2tXX3U5MHd5QTRPOEt2UzM3bGZlUGNnVmNnTWJKS2lER3pGSzBrM3p2NUoxSGlTUmIwUnlaV3QwRW5kVmZzQU1vb3czckVoalV2RnlyNjFNZE1PcnhHOERabU40",
+          "publisherUrl": "https://www.washingtonpost.com/world/2026/11/20/europeans-seek-replace-un-peacekeeping-force-lebanon/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:18:47.567Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "peacekeeping",
+            "unifil"
+          ]
+        },
+        {
+          "title": "Peacekeeping: With 500 paternity and child support claims unresolved, UN scales up accountability - UN News",
+          "publisher": "UN News",
+          "publishedAt": "2026-11-19T20:46:52.000Z",
+          "rssDescription": "Peacekeeping: With 500 paternity and child support claims unresolved, UN scales up accountability UN News",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9JMWV0a1JUWVo0Y19PMnBkTFFSSlBLd1ExOUxmSDV1UHJGS25ZN0FrOWU2SHpQTnhMVTloc3cwUHJGQUJEcDR0UnV2YlFvVlN5MGpKRXRSSQ?oc=5",
+          "googleArticleId": "CBMiV0FVX3lxTE9JMWV0a1JUWVo0Y19PMnBkTFFSSlBLd1ExOUxmSDV1UHJGS25ZN0FrOWU2SHpQTnhMVTloc3cwUHJGQUJEcDR0UnV2YlFvVlN5MGpKRXRSSQ",
+          "publisherUrl": "https://news.un.org/en/story/2026/11/1168842",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:20.135Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "peacekeeping"
+          ]
+        },
+        {
+          "title": "Battle to control GPS and radio signals raises civilian safety concerns - UN News",
+          "publisher": "UN News",
+          "publishedAt": "2026-11-19T21:29:46.000Z",
+          "rssDescription": "Battle to control GPS and radio signals raises civilian safety concerns UN News",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1xUmtxbHRfS1Q1a2FINVBBUlZXNkI2VVYxT1BtRUxJZjcxTDIyYVVnYUdXV2hmTHBQOXlCc1VrVEtKUzFmMW4xMFk5VUwxSEc2ZGxDbWw2SQ?oc=5",
+          "googleArticleId": "CBMiV0FVX3lxTE1xUmtxbHRfS1Q1a2FINVBBUlZXNkI2VVYxT1BtRUxJZjcxTDIyYVVnYUdXV2hmTHBQOXlCc1VrVEtKUzFmMW4xMFk5VUwxSEc2ZGxDbWw2SQ",
+          "publisherUrl": "https://news.un.org/en/story/2026/11/1168843",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:50.210Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "peacekeeping"
+          ]
+        },
+        {
+          "title": "UNIFIL continues its work as communities face ongoing challenges in south Lebanon - unmissions.org",
+          "publisher": "unmissions.org",
+          "publishedAt": "2026-11-20T09:11:39.000Z",
+          "rssDescription": "UNIFIL continues its work as communities face ongoing challenges in south Lebanon unmissions.org",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYUlLSUNaUDFVZmJZMjUzZVlnUUNRRmh1Vjd2ZG1ucGYxUG12WTlEcXQxeGE3VEdEcWk4MGNZVVR1M01VVlFvRkhXMlBQbzN5cWNEZGRiX1hBbHVXRFh5My1TZ0d6NUQ5QWpMS0YzRk9sd0xSVjhsWHZtUGZhMm45dmNwWmt6MFBJYzJDTGpFd29IN25YRFZNUUJ0emFSOUlYdHJiWF9wTWN5dFExeGlCNUkwdmpoR2F3b3J3?oc=5",
+          "googleArticleId": "CBMiuwFBVV95cUxOYUlLSUNaUDFVZmJZMjUzZVlnUUNRRmh1Vjd2ZG1ucGYxUG12WTlEcXQxeGE3VEdEcWk4MGNZVVR1M01VVlFvRkhXMlBQbzN5cWNEZGRiX1hBbHVXRFh5My1TZ0d6NUQ5QWpMS0YzRk9sd0xSVjhsWHZtUGZhMm45dmNwWmt6MFBJYzJDTGpFd29IN25YRFZNUUJ0emFSOUlYdHJiWF9wTWN5dFExeGlCNUkwdmpoR2F3b3J3",
+          "publisherUrl": "https://unifil.unmissions.org/en/news/unifil-continues-its-work-as-communities-face-ongoing-challenges-in-south-lebanon",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:18:52.570Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "peacekeeping",
+            "unifil"
+          ]
+        },
+        {
+          "title": "UN adds new accountability measures as 500 peacekeeper paternity claims remain unresolved - IGIHE News",
+          "publisher": "IGIHE News",
+          "publishedAt": "2026-11-20T07:56:04.000Z",
+          "rssDescription": "UN adds new accountability measures as 500 peacekeeper paternity claims remain unresolved IGIHE News",
+          "rssUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVFhxYVlPTkE3Y3BlSkpJSTI1Y0FBd1BhOFJFd2pnU3N0WHpNbUE2Y2NTeTIzY3BPZVpZTGphVThoQmFXWnFnUmJfN3FnT2Q4STNoQ1V1bDAwZXduQzRqV3l4aTB2SlNHS0o3eWdvX2swbjZtUlpTTHI4dTE5OTF5dDMtTzIyMFY4LUt6NVVFcFk3RGpGek5yNkNJdmFKYUw3NGtMR3RkNEZySVZOSmc4a3ZNcjd4aHRxV2lVaVlnd0FEaFh5?oc=5",
+          "googleArticleId": "CBMixAFBVV95cUxPVFhxYVlPTkE3Y3BlSkpJSTI1Y0FBd1BhOFJFd2pnU3N0WHpNbUE2Y2NTeTIzY3BPZVpZTGphVThoQmFXWnFnUmJfN3FnT2Q4STNoQ1V1bDAwZXduQzRqV3l4aTB2SlNHS0o3eWdvX2swbjZtUlpTTHI4dTE5OTF5dDMtTzIyMFY4LUt6NVVFcFk3RGpGek5yNkNJdmFKYUw3NGtMR3RkNEZySVZOSmc4a3ZNcjd4aHRxV2lVaVlnd0FEaFh5",
+          "publisherUrl": "https://en.igihe.com/news-37/article/un-adds-new-accountability-measures-as-500-peacekeeper-paternity-claims-remain-unresolved",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:42.779Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "peacekeeping"
+          ]
+        },
+        {
+          "title": "NFL Week 11 uniforms: Here are the helmets, jerseys and pants for every team - NBC4 Washington",
+          "publisher": "NBC4 Washington",
+          "publishedAt": "2026-11-19T20:42:19.000Z",
+          "rssDescription": "NFL Week 11 uniforms: Here are the helmets, jerseys and pants for every team NBC4 Washington",
+          "rssUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNU1I3cFhSOU9BbC1nQk9KZGstRVdiX0JMVF9kek84XzhraXdxRWxoY0xwX212ejRkcGo2STRuN1Z1aWNNTS1maTliMG1oLVd5OVRyS1RNcDhnb1p2V2oyRXJnWTdoRUxWY09iOUhlSHdOYjA0aUpXaF9LdnQxdHlPSXhJWWRHQ3UyV0RqTDdfNklfeW4yNE82S25CUElRamZNZWs3T285WTJ3M3A50gG0AUFVX3lxTE9seHNzOGdDZFJrbnpKVmI4eG9WWHVSUHkzalg2M29DaG9URVBlbUNOOGpULUJXNzJCaWFUdF82TUhQMFhJclZLdjJ1bXVTX0kwUExwZXlMT0NzWDNoNW5vLTZJT0ZPRlJsbFdNU0QzMzhDRWdoWjhnb1VUTHozdVktU3prSXZEeTZZc0RWTTVTMmJzSU0zcmJPc1Z3VUs1VzhjUGRzNnpTSVZOaEt0SUFtaE1OVQ?oc=5",
+          "googleArticleId": "CBMirAFBVV95cUxNU1I3cFhSOU9BbC1nQk9KZGstRVdiX0JMVF9kek84XzhraXdxRWxoY0xwX212ejRkcGo2STRuN1Z1aWNNTS1maTliMG1oLVd5OVRyS1RNcDhnb1p2V2oyRXJnWTdoRUxWY09iOUhlSHdOYjA0aUpXaF9LdnQxdHlPSXhJWWRHQ3UyV0RqTDdfNklfeW4yNE82S25CUElRamZNZWs3T285WTJ3M3A50gG0AUFVX3lxTE9seHNzOGdDZFJrbnpKVmI4eG9WWHVSUHkzalg2M29DaG9URVBlbUNOOGpULUJXNzJCaWFUdF82TUhQMFhJclZLdjJ1bXVTX0kwUExwZXlMT0NzWDNoNW5vLTZJT0ZPRlJsbFdNU0QzMzhDRWdoWjhnb1VUTHozdVktU3prSXZEeTZZc0RWTTVTMmJzSU0zcmJPc1Z3VUs1VzhjUGRzNnpTSVZOaEt0SUFtaE1OVQ",
+          "publisherUrl": "https://www.nbcwashington.com/news/sports/nfl/nfl-week-11-uniforms-helmets-jerseys-pants-every-team/4185649/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:10.342Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "peacekeeping"
+          ]
+        },
+        {
+          "title": "Missing teenager found - The Eastern Door",
+          "publisher": "The Eastern Door",
+          "publishedAt": "2026-11-20T05:32:07.000Z",
+          "rssDescription": "Missing teenager found The Eastern Door",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1WS0Z4OVctY0QxYXlqQ0VPVjFSSlBKbTF5a0ZObmVZOVpBNkdQaFNxNGVPcFRrZVlKUmhWZG84NV9MTl91aHgxejY0ekN6VjFpVG85LTBSNmFJWGdOUnN4TUdEY1g?oc=5",
+          "googleArticleId": "CBMiZEFVX3lxTE1WS0Z4OVctY0QxYXlqQ0VPVjFSSlBKbTF5a0ZObmVZOVpBNkdQaFNxNGVPcFRrZVlKUmhWZG84NV9MTl91aHgxejY0ekN6VjFpVG85LTBSNmFJWGdOUnN4TUdEY1g",
+          "publisherUrl": "https://easterndoor.com/article/missing-teenager-found",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:35.371Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "peacekeeping"
+          ]
+        },
+        {
+          "title": "Somalia: Djibouti peacekeepers killed in clash with Hawadle militias at Beledweyne airport - Somali Guardian",
+          "publisher": "Somali Guardian",
+          "publishedAt": "2026-11-19T18:08:49.000Z",
+          "rssDescription": "Somalia: Djibouti peacekeepers killed in clash with Hawadle militias at Beledweyne airport Somali Guardian",
+          "rssUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdmF5V2FxNUNfQ1N4Z2RMRU1xYWYxUklnbjZEck5XQWlGRHhCTjdycFhVTExjSHFCVGhzdzlNTTFONUpKSFE5ZXdVdTBaX2R5OUdTME9fQ1AyWVpsaW9aLWxIcGg3SW9DRDlWVkw2QjFUbzF1ZEFmTjEzMmxka0NhUm15SGU4RVhJS1B4TFYxSTZqZGlUWVdFSHdaSDhhZVE2c2lzODRnTmktY3hnTVpHS2U4c2loNFhTb3BveVRYUQ?oc=5",
+          "googleArticleId": "CBMivwFBVV95cUxPdmF5V2FxNUNfQ1N4Z2RMRU1xYWYxUklnbjZEck5XQWlGRHhCTjdycFhVTExjSHFCVGhzdzlNTTFONUpKSFE5ZXdVdTBaX2R5OUdTME9fQ1AyWVpsaW9aLWxIcGg3SW9DRDlWVkw2QjFUbzF1ZEFmTjEzMmxka0NhUm15SGU4RVhJS1B4TFYxSTZqZGlUWVdFSHdaSDhhZVE2c2lzODRnTmktY3hnTVpHS2U4c2loNFhTb3BveVRYUQ",
+          "publisherUrl": "https://www.somaliguardian.com/news/somalia-news/somalia-djibouti-peacekeepers-killed-hawadle-militias-beledweyne-airport/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:57.920Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "peacekeeping"
+          ]
+        },
+        {
+          "title": "defence-minister-khawaja-asif-addresses-schuman-security-and-defence-forum-in-brussels-highlights-pakistan-un-peacekeeping-role Archives - TV ONE USA",
+          "publisher": "TV ONE USA",
+          "publishedAt": "2026-11-20T06:33:39.000Z",
+          "rssDescription": "defence-minister-khawaja-asif-addresses-schuman-security-and-defence-forum-in-brussels-highlights-pakistan-un-peacekeeping-role Archives TV ONE USA",
+          "rssUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNWmpFZE52ZlF2bmVVY1R2TFpQX1ByM0k0TFlpX0c2M1ZjdW5yTWR3WU1nNmtGOHdsTkF5MmluWldoVkJaYUtLQnhXbTNJQWVfSm1BeEVlWm1vRnd3UVViV3BSeW9ITmFFRXZLUUJkX1dXM2RNYXY3eWs4YXpRUnVLMC05ZGczTHpOUU5zX09GU0dCSG10VWdmQWhIbTNMZlY5SmFYMExWVHl6TzVfb1pUaUJGbVRQWFZGZnkzT1NBOF9DMENJRXJEdzJfblBUYjdiV0JNNVMzcHY5OVk4QndLSXczSU9QVmM0?oc=5",
+          "googleArticleId": "CBMi6AFBVV95cUxNWmpFZE52ZlF2bmVVY1R2TFpQX1ByM0k0TFlpX0c2M1ZjdW5yTWR3WU1nNmtGOHdsTkF5MmluWldoVkJaYUtLQnhXbTNJQWVfSm1BeEVlWm1vRnd3UVViV3BSeW9ITmFFRXZLUUJkX1dXM2RNYXY3eWs4YXpRUnVLMC05ZGczTHpOUU5zX09GU0dCSG10VWdmQWhIbTNMZlY5SmFYMExWVHl6TzVfb1pUaUJGbVRQWFZGZnkzT1NBOF9DMENJRXJEdzJfblBUYjdiV0JNNVMzcHY5OVk4QndLSXczSU9QVmM0",
+          "publisherUrl": "https://tvoneusa.com/tag/defence-minister-khawaja-asif-addresses-schuman-security-and-defence-forum-in-brussels-highlights-pakistan-un-peacekeeping-role/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:25.533Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "peacekeeping"
+          ]
+        },
+        {
+          "title": "Two Vietnamese female officers receive U.N. Medals in the Central African Republic - en.qdnd.vn",
+          "publisher": "en.qdnd.vn",
+          "publishedAt": "2026-11-19T16:48:00.000Z",
+          "rssDescription": "Two Vietnamese female officers receive U.N. Medals in the Central African Republic en.qdnd.vn",
+          "rssUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdDhJU09SbFVGUjJoMDU4YW1faUtoeUdMZWx3SjB0SHAyXzJhSUJiQ3ZXMUx6Qkh1MGZyUXhFN2dCZGxPSDVYdW5JY1RHNEFWXzVZVkVLbmNfNVZjdGl2ZWtLMUhJdzFwZGgyN0ZIX3VRRlJMSll6Tm16ZGpjWHh3Nmtkc1l0SHJsU092VWd2Q1FKNVdqaW1sN0ZsM0NFbEYwMVZDOWJCVW1HLXNFWHhBUkdhOTlGTUctUmRpOUpQbWNWbElvRlQ4ZXlzdkFjaWl6S0c4dkpQU2tnNWp5enpjMg?oc=5",
+          "googleArticleId": "CBMi4AFBVV95cUxOdDhJU09SbFVGUjJoMDU4YW1faUtoeUdMZWx3SjB0SHAyXzJhSUJiQ3ZXMUx6Qkh1MGZyUXhFN2dCZGxPSDVYdW5JY1RHNEFWXzVZVkVLbmNfNVZjdGl2ZWtLMUhJdzFwZGgyN0ZIX3VRRlJMSll6Tm16ZGpjWHh3Nmtkc1l0SHJsU092VWd2Q1FKNVdqaW1sN0ZsM0NFbEYwMVZDOWJCVW1HLXNFWHhBUkdhOTlGTUctUmRpOUpQbWNWbElvRlQ4ZXlzdkFjaWl6S0c4dkpQU2tnNWp5enpjMg",
+          "publisherUrl": "https://en.qdnd.vn/military/intl-relations-and-cooperation/two-vietnamese-female-officers-receive-u-n-medals-in-the-central-african-republic-597357",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:07.730Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "peacekeeping",
+            "minusca",
+            "unisfa"
+          ]
+        }
+      ]
+    },
+    {
+      "queryId": "wps",
+      "query": "(\"women peace and security\" OR \"resolution 1325\" OR \"women in peacekeeping\") when:1d",
+      "label": "WPS",
+      "queryRevision": 3,
+      "configHash": "1975b9b6edb01bac4771dce86434b71a7479cde3085f51e4ba017b0fe7c87459",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-20T12:18:17.595Z",
+      "feedFetchedAt": "2026-11-20T12:18:22.476Z",
+      "generatedAt": "2026-11-20T12:22:50.573Z",
+      "status": "empty",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "haiti",
+      "query": "(Haiti gangs OR Haiti security OR Haiti UN OR Haiti mission OR Haiti police) when:1d",
+      "label": "Haiti",
+      "queryRevision": 3,
+      "configHash": "ccf1247fbf34d5748bda18afc6684048088b8554e3b2c55f5810307abf3a0bc7",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-20T12:18:17.595Z",
+      "feedFetchedAt": "2026-11-20T12:18:23.964Z",
+      "generatedAt": "2026-11-20T12:22:50.573Z",
+      "status": "completed",
+      "error": null,
+      "truncated": true,
+      "counts": {
+        "selected": 9,
+        "resolved": 9,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": [
+        {
+          "title": "Haiti police operation kills 34 suspected gang members in capital - Reuters",
+          "publisher": "Reuters",
+          "publishedAt": "2026-11-19T22:36:27.000Z",
+          "rssDescription": "Haiti police operation kills 34 suspected gang members in capital Reuters",
+          "rssUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQlpEemZGMG1ZOWZGZ1R2UFFrM0ZwcmQ0dnRrSkVsZlRhYm1Pd3FKVktodU5DYXFTb0w0d21HV0JMZHI1RUVCdktndGhVd2lzSzBNcDN4QXNzcjQ0Ung4cDdfUzJaNEtkeWFGeVJyTmNOR0c3Q3Z1ODV4c1YzXzljVnk5MlJhcy1WWGp4OXI3SFNlMG5xbW05U2txQmNvdmlYbW1EWGF6NjM3d2QyMGE3eEFJbDJ3dw?oc=5",
+          "googleArticleId": "CBMitgFBVV95cUxPQlpEemZGMG1ZOWZGZ1R2UFFrM0ZwcmQ0dnRrSkVsZlRhYm1Pd3FKVktodU5DYXFTb0w0d21HV0JMZHI1RUVCdktndGhVd2lzSzBNcDN4QXNzcjQ0Ung4cDdfUzJaNEtkeWFGeVJyTmNOR0c3Q3Z1ODV4c1YzXzljVnk5MlJhcy1WWGp4OXI3SFNlMG5xbW05U2txQmNvdmlYbW1EWGF6NjM3d2QyMGE3eEFJbDJ3dw",
+          "publisherUrl": "https://www.reuters.com/world/americas/police-operation-haiti-leaves-least-34-alleged-gang-members-dead-2026-11-19/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:18:50.071Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "haiti"
+          ]
+        },
+        {
+          "title": "Haiti police say at least 34 suspected gang members killed in raid - Al Jazeera",
+          "publisher": "Al Jazeera",
+          "publishedAt": "2026-11-19T21:44:03.000Z",
+          "rssDescription": "Haiti police say at least 34 suspected gang members killed in raid Al Jazeera",
+          "rssUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQLVJJVW1oam91RTJIZW91M0M5dW53dng2cjlJT3NEZFltVDRkS1ZVWXJPcllHNDlGY3R5SEpCS2RpdDFiSWdydGZyeGQtMXlBVjVzazBlbXQ4eWg4RkR2WjluNjFSamF2LUVVMW1MTXpPR2NMWWZkLVlaM2hhMjQ4dEJ0Z0MyaFFnWmsxNnQzcU5NdVE5MGg1cW9YYUZPT1pFdWVxTDAzTlUxaXps0gGyAUFVX3lxTE1Kd3Y2Yi15MnlHQzRTWERwM2VBa1dhYzFCR1h2ZkFKY1BpRWtkWlFMdEp2R0hnVE5UVkttQjRyNnVnMUVGZUVrY0lBaGN3X1hjbmd0WEZHY04xZ1VHRUJzNFhIazN4REpScGFwVXFxdGxoaGtHejJCMDM2WlRLM2NJS3daV2luanB6MnN5RHpENDNiX3BTOWJ6eTd1aVE2QUJ2Nmx3WjZNVTl0bnh0M3pEeXc?oc=5",
+          "googleArticleId": "CBMirAFBVV95cUxQLVJJVW1oam91RTJIZW91M0M5dW53dng2cjlJT3NEZFltVDRkS1ZVWXJPcllHNDlGY3R5SEpCS2RpdDFiSWdydGZyeGQtMXlBVjVzazBlbXQ4eWg4RkR2WjluNjFSamF2LUVVMW1MTXpPR2NMWWZkLVlaM2hhMjQ4dEJ0Z0MyaFFnWmsxNnQzcU5NdVE5MGg1cW9YYUZPT1pFdWVxTDAzTlUxaXps0gGyAUFVX3lxTE1Kd3Y2Yi15MnlHQzRTWERwM2VBa1dhYzFCR1h2ZkFKY1BpRWtkWlFMdEp2R0hnVE5UVkttQjRyNnVnMUVGZUVrY0lBaGN3X1hjbmd0WEZHY04xZ1VHRUJzNFhIazN4REpScGFwVXFxdGxoaGtHejJCMDM2WlRLM2NJS3daV2luanB6MnN5RHpENDNiX3BTOWJ6eTd1aVE2QUJ2Nmx3WjZNVTl0bnh0M3pEeXc",
+          "publisherUrl": "https://www.aljazeera.com/news/2026/11/19/haiti-police-say-at-least-34-suspected-gang-members-killed-in-raid",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:22.637Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "haiti"
+          ]
+        },
+        {
+          "title": "DW News. . Haitian forces have carried out an offensive seeking to remove violent gangs from control of a key corridor connecting the capital Port-au-Prince with the east and south of the country. It is the first large operation targeting the area since it was seize - Facebook",
+          "publisher": "Facebook",
+          "publishedAt": "2026-11-20T03:54:54.000Z",
+          "rssDescription": "DW News. . Haitian forces have carried out an offensive seeking to remove violent gangs from control of a key corridor connecting the capital Port-au-Prince with the east and south of the country. It is the first large operation targeting the area since it was seize Facebook",
+          "rssUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY1dMMm80MmZmaGhRaDVlal92TlExVDZ5UTVhaDdCQ1VBS0sxR0N2dVFib2lpSWhYazNWUGZmdW5iRUNudlNDLTFiMlhvUUIxTjkxYnI4QzNaQXZseEdBZl9PM1FWUW5jOHJkQ2RhejQ5eGxkSU9DWE8xMWZqVlZBYlNvQUJkejNZMkw5bmtHQW55X2NkVWNBeG5WQjRCUnBvOHRiQ3lsaEI0WEJtWU96bzJqendvSVJlZHRwc25Ecw?oc=5",
+          "googleArticleId": "CBMivwFBVV95cUxQY1dMMm80MmZmaGhRaDVlal92TlExVDZ5UTVhaDdCQ1VBS0sxR0N2dVFib2lpSWhYazNWUGZmdW5iRUNudlNDLTFiMlhvUUIxTjkxYnI4QzNaQXZseEdBZl9PM1FWUW5jOHJkQ2RhejQ5eGxkSU9DWE8xMWZqVlZBYlNvQUJkejNZMkw5bmtHQW55X2NkVWNBeG5WQjRCUnBvOHRiQ3lsaEI0WEJtWU96bzJqendvSVJlZHRwc25Ecw",
+          "publisherUrl": "https://www.facebook.com/deutschewellenews/videos/haitian-forces-launch-offensive-on-gang-held-territory/3664884530340475/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:52.717Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "haiti"
+          ]
+        },
+        {
+          "title": "Armed forces in Haiti kill at least 34 gang members to regain control of key corridor - France 24",
+          "publisher": "France 24",
+          "publishedAt": "2026-11-19T22:31:25.000Z",
+          "rssDescription": "Armed forces in Haiti kill at least 34 gang members to regain control of key corridor France 24",
+          "rssUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNDBIQVVqQTg2TGx6Ny1Qb19PeVduQ0hZcDlXMUhWRHRrbnVRWjVucHVyR1pWQUplbjhPN2s1UnpOWXNETl9pbjl1d3liVFZlVW13LWwyV3hfSVJfbHd5YnVlYXNqd3RieFBxZDdQalZrd1cxNUx1eDczQVdZcmRFWnpBSlVUa3pRMFRuTXVZQU15cFl4VGlYcXkxMngwWGg4OTYxVWFZb3RqVzNLNmF5LUpR?oc=5",
+          "googleArticleId": "CBMisgFBVV95cUxQNDBIQVVqQTg2TGx6Ny1Qb19PeVduQ0hZcDlXMUhWRHRrbnVRWjVucHVyR1pWQUplbjhPN2s1UnpOWXNETl9pbjl1d3liVFZlVW13LWwyV3hfSVJfbHd5YnVlYXNqd3RieFBxZDdQalZrd1cxNUx1eDczQVdZcmRFWnpBSlVUa3pRMFRuTXVZQU15cFl4VGlYcXkxMngwWGg4OTYxVWFZb3RqVzNLNmF5LUpR",
+          "publisherUrl": "https://www.france24.com/en/americas/20261119-major-anti-gang-offensive-in-haiti-kills-34-suspected-gang-members",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:20.247Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "haiti"
+          ]
+        },
+        {
+          "title": "Haiti police operation kills 34 suspected gang members in capital - Red Lake Nation News",
+          "publisher": "Red Lake Nation News",
+          "publishedAt": "2026-11-20T02:46:21.000Z",
+          "rssDescription": "Haiti police operation kills 34 suspected gang members in capital Red Lake Nation News",
+          "rssUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQUU0RFQ4cV9aV0FfS2loaU1hUGNmMndMLTFNYzlkLUVabjhURHJVNHpJVUpsVGc2NURmR3ktMFN0bG96N3dPdThHbmxZMlVDakJ4T3BQY3VOeVZHNmNMQ3EzcWU2OVJxWW9mWXFlY01DdUIzOVh5bUlNRnZpeHE1XzV3MzRtMTFacVdUTHE1WlNXeDVENnFoMl9ReGFKWnMwUjVhTXBhalhNVjBWZlhZUUlJUGVIa3IwZkVobVR6UkduTGpBTG45QzhIREt0QQ?oc=5",
+          "googleArticleId": "CBMizgFBVV95cUxPQUU0RFQ4cV9aV0FfS2loaU1hUGNmMndMLTFNYzlkLUVabjhURHJVNHpJVUpsVGc2NURmR3ktMFN0bG96N3dPdThHbmxZMlVDakJ4T3BQY3VOeVZHNmNMQ3EzcWU2OVJxWW9mWXFlY01DdUIzOVh5bUlNRnZpeHE1XzV3MzRtMTFacVdUTHE1WlNXeDVENnFoMl9ReGFKWnMwUjVhTXBhalhNVjBWZlhZUUlJUGVIa3IwZkVobVR6UkduTGpBTG45QzhIREt0QQ",
+          "publisherUrl": "https://www.redlakenationnews.com/story/2026/11/20/news/haiti-police-operation-kills-34-suspected-gang-members-in-capital/144222.html",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:45.299Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "haiti"
+          ]
+        },
+        {
+          "title": "Haiti police say 34 gang members killed in operation in Martissant - Anadolu Ajansı",
+          "publisher": "Anadolu Ajansı",
+          "publishedAt": "2026-11-19T21:37:03.000Z",
+          "rssDescription": "Haiti police say 34 gang members killed in operation in Martissant Anadolu Ajansı",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeEhPLUpCQWNFQlJKa2tUMUtIek1UVjBJeERpRDdYLUpIdG04Q0JVM1FPOThWU0tUM2piUHA5TFhVbjhrZHBUV2x6M2d5UnU5cTJEYVJDdURRRXVleUlXa1BfS2Z3d2haVlpUZGozbzRwU3ZTRGJMMk1VbEw1OW1PQmRDVmJNejlQaktxcjdUb1lzYU11OThqNWxLQkdtWG5jRFg4?oc=5",
+          "googleArticleId": "CBMiowFBVV95cUxOeEhPLUpCQWNFQlJKa2tUMUtIek1UVjBJeERpRDdYLUpIdG04Q0JVM1FPOThWU0tUM2piUHA5TFhVbjhrZHBUV2x6M2d5UnU5cTJEYVJDdURRRXVleUlXa1BfS2Z3d2haVlpUZGozbzRwU3ZTRGJMMk1VbEw1OW1PQmRDVmJNejlQaktxcjdUb1lzYU11OThqNWxLQkdtWG5jRFg4",
+          "publisherUrl": "https://aa.com.tr/en/world/haiti-police-say-34-gang-members-killed-in-operation-in-martissant/4131603",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:12.842Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "haiti"
+          ]
+        },
+        {
+          "title": "American Girl, 6, Freed from Haiti Gangs as Bukele’s Offensive Advances - Hungarian Conservative",
+          "publisher": "Hungarian Conservative",
+          "publishedAt": "2026-11-20T01:04:12.000Z",
+          "rssDescription": "American Girl, 6, Freed from Haiti Gangs as Bukele’s Offensive Advances Hungarian Conservative",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeFAwWk1TUUFiOUs1OHdmQWZoSXZYcnZxSmlxUUNQLUFSc2U4OTNzYXJtcUcxUm8yUWRudjRYR3k0eGhQZUtpZkhvMUtMZGphWXhUekhFVm9tb3hkQktTSDdNUlo2UkpTeDRVbkFYTnI0R3lvZjdPXzBSS0dkYTFFR2FjdFZ6WkhSdTBpWmQxWkVlZG1aMHVyY1hPaWkyR08yTG1FQmVKWnUtU2s?oc=5",
+          "googleArticleId": "CBMiqwFBVV95cUxQeFAwWk1TUUFiOUs1OHdmQWZoSXZYcnZxSmlxUUNQLUFSc2U4OTNzYXJtcUcxUm8yUWRudjRYR3k0eGhQZUtpZkhvMUtMZGphWXhUekhFVm9tb3hkQktTSDdNUlo2UkpTeDRVbkFYTnI0R3lvZjdPXzBSS0dkYTFFR2FjdFZ6WkhSdTBpWmQxWkVlZG1aMHVyY1hPaWkyR08yTG1FQmVKWnUtU2s",
+          "publisherUrl": "https://www.hungarianconservative.com/articles/current/haiti-american-girl-hostage-freed-gang-rubio-bukele/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:37.886Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "haiti"
+          ]
+        },
+        {
+          "title": "Haiti police say 34 gang members killed in capital raid - Al Jazeera",
+          "publisher": "Al Jazeera",
+          "publishedAt": "2026-11-20T00:31:19.000Z",
+          "rssDescription": "Haiti police say 34 gang members killed in capital raid Al Jazeera",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUHp5UXdvRXdscnFmZzdOTkJ2aGpoVzRra2U3Q3kyMmdPaXljdExsYXp1T0VrZ2tDUEctYzBZU05iZ0JNdDB5MHMwamFIUnBCdGNpd0taZUozTTQyWV9VRENnT3R3bUdTOEJ3NkFqRGNxTm9MWmRzQ2xPdG8ycWp3NDVyakNuSUQ3Nk03Z2wyWmE0N0NGZ2ZoYXUyN1VycnFxWlM0bHNUemZGcG_SAbABQVVfeXFMTmxHekRqX05oOHBHTzBLYzBUeENieEhBVTd6Ynp6ZHA1MnJpNHJDREdOd1l3bXJMa1dIZmtYTXU5ZEk0bUt0RU1aWlJTa1RXaHZEV0p6RjZaeXZuTlpnblZ4VW9zcTMyM2dFQTBoSjFORGhwdEI0M1NoVlVYUEg4TGR5YTZLWkpWU0h3MUlaX3dHMlQwVUxHcnptcU54LXJ6RHM4NEt6V2FMd0JobHJMbzk?oc=5",
+          "googleArticleId": "CBMiqwFBVV95cUxOUHp5UXdvRXdscnFmZzdOTkJ2aGpoVzRra2U3Q3kyMmdPaXljdExsYXp1T0VrZ2tDUEctYzBZU05iZ0JNdDB5MHMwamFIUnBCdGNpd0taZUozTTQyWV9VRENnT3R3bUdTOEJ3NkFqRGNxTm9MWmRzQ2xPdG8ycWp3NDVyakNuSUQ3Nk03Z2wyWmE0N0NGZ2ZoYXUyN1VycnFxWlM0bHNUemZGcG_SAbABQVVfeXFMTmxHekRqX05oOHBHTzBLYzBUeENieEhBVTd6Ynp6ZHA1MnJpNHJDREdOd1l3bXJMa1dIZmtYTXU5ZEk0bUt0RU1aWlJTa1RXaHZEV0p6RjZaeXZuTlpnblZ4VW9zcTMyM2dFQTBoSjFORGhwdEI0M1NoVlVYUEg4TGR5YTZLWkpWU0h3MUlaX3dHMlQwVUxHcnptcU54LXJ6RHM4NEt6V2FMd0JobHJMbzk",
+          "publisherUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/20/haiti-police-say-34-gang-members-killed-in-capital-raid",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:00.437Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "haiti"
+          ]
+        },
+        {
+          "title": "Why are Bukele’s Salvadoran troops in Haiti and what have they achieved? - Al Jazeera",
+          "publisher": "Al Jazeera",
+          "publishedAt": "2026-11-19T20:57:37.000Z",
+          "rssDescription": "Why are Bukele’s Salvadoran troops in Haiti and what have they achieved? Al Jazeera",
+          "rssUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd3FDbWxvUUY0TUJmam15dEU4TGpsRERpNDZYeWVUQjlFUzlxbXN0Y2lhcTc4Z0cxNWpObGlBN2FKM0NBUlplaGVZeUlqNlFoS2RfS294Q3VwQ2lNRTlfVlpmTE9Cak12SFR0RFRQVG1ha3ZOZC05cVBlMzR4azlMTXQ4MnZScURaWlRYck9BODJXc0VoLUlpamlKVGs1TFczOTctYUtoR1JtWkd5VW5JdldR0gG3AUFVX3lxTE1qLUZaZEFzamVUWEpvbTU1TXJXbVZCeVI4UzdCcDB1Z1ctWV85bDg0UVl2Z25pc3lIOTRQaksxRVNtNmRyV0FLZHJ1bF9VT3ctcElOaXNjMFJfbkhFQTBFa055aVgyb0JaNEJDcDRMay0xMHFpSmVDWUNOaFhVd2RNc0t3dmIzMFAwMVJSMmNYeDVWd3lTcHVYQWVZeWlhU2o5azdUaTRKRDFzS2tjb0hDdUl4Wl9NWQ?oc=5",
+          "googleArticleId": "CBMisgFBVV95cUxOd3FDbWxvUUY0TUJmam15dEU4TGpsRERpNDZYeWVUQjlFUzlxbXN0Y2lhcTc4Z0cxNWpObGlBN2FKM0NBUlplaGVZeUlqNlFoS2RfS294Q3VwQ2lNRTlfVlpmTE9Cak12SFR0RFRQVG1ha3ZOZC05cVBlMzR4azlMTXQ4MnZScURaWlRYck9BODJXc0VoLUlpamlKVGs1TFczOTctYUtoR1JtWkd5VW5JdldR0gG3AUFVX3lxTE1qLUZaZEFzamVUWEpvbTU1TXJXbVZCeVI4UzdCcDB1Z1ctWV85bDg0UVl2Z25pc3lIOTRQaksxRVNtNmRyV0FLZHJ1bF9VT3ctcElOaXNjMFJfbkhFQTBFa055aVgyb0JaNEJDcDRMay0xMHFpSmVDWUNOaFhVd2RNc0t3dmIzMFAwMVJSMmNYeDVWd3lTcHVYQWVZeWlhU2o5azdUaTRKRDFzS2tjb0hDdUl4Wl9NWQ",
+          "publisherUrl": "https://www.aljazeera.com/news/2026/11/19/why-are-bukeles-salvadoran-troops-in-haiti-and-what-have-they-achieved",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:28.036Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "haiti"
+          ]
+        }
+      ]
+    },
+    {
+      "queryId": "unifil",
+      "query": "(UNIFIL OR \"south Lebanon\" OR \"southern Lebanon\" OR \"Lebanon ceasefire\" OR Hezbollah OR FINUL OR \"Liban sud\" OR \"sud du Liban\") when:1d",
+      "label": "UNIFIL / Lebanon",
+      "queryRevision": 6,
+      "configHash": "39d451c8cc295da118c66b8124c4e6e0c2b113fd2defaeb87b8084c2605a3b09",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-20T12:18:17.595Z",
+      "feedFetchedAt": "2026-11-20T12:18:25.539Z",
+      "generatedAt": "2026-11-20T12:22:50.573Z",
+      "status": "completed",
+      "error": null,
+      "truncated": true,
+      "counts": {
+        "selected": 9,
+        "resolved": 9,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": [
+        {
+          "title": "UNIFIL continues its work as communities face ongoing challenges in south Lebanon - unmissions.org",
+          "publisher": "unmissions.org",
+          "publishedAt": "2026-11-20T09:11:39.000Z",
+          "rssDescription": "UNIFIL continues its work as communities face ongoing challenges in south Lebanon unmissions.org",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYUlLSUNaUDFVZmJZMjUzZVlnUUNRRmh1Vjd2ZG1ucGYxUG12WTlEcXQxeGE3VEdEcWk4MGNZVVR1M01VVlFvRkhXMlBQbzN5cWNEZGRiX1hBbHVXRFh5My1TZ0d6NUQ5QWpMS0YzRk9sd0xSVjhsWHZtUGZhMm45dmNwWmt6MFBJYzJDTGpFd29IN25YRFZNUUJ0emFSOUlYdHJiWF9wTWN5dFExeGlCNUkwdmpoR2F3b3J3?oc=5",
+          "googleArticleId": "CBMiuwFBVV95cUxOYUlLSUNaUDFVZmJZMjUzZVlnUUNRRmh1Vjd2ZG1ucGYxUG12WTlEcXQxeGE3VEdEcWk4MGNZVVR1M01VVlFvRkhXMlBQbzN5cWNEZGRiX1hBbHVXRFh5My1TZ0d6NUQ5QWpMS0YzRk9sd0xSVjhsWHZtUGZhMm45dmNwWmt6MFBJYzJDTGpFd29IN25YRFZNUUJ0emFSOUlYdHJiWF9wTWN5dFExeGlCNUkwdmpoR2F3b3J3",
+          "publisherUrl": "https://unifil.unmissions.org/en/news/unifil-continues-its-work-as-communities-face-ongoing-challenges-in-south-lebanon",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:18:52.570Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "peacekeeping",
+            "unifil"
+          ]
+        },
+        {
+          "title": "Iraq reaches compromise with Kataib Hezbollah over armed group’s stronghold - Al Jazeera",
+          "publisher": "Al Jazeera",
+          "publishedAt": "2026-11-19T21:27:01.000Z",
+          "rssDescription": "Iraq reaches compromise with Kataib Hezbollah over armed group’s stronghold Al Jazeera",
+          "rssUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdW9TdlRudll2WUhfaUNGaUc3WjA2clZZZWlBTHR5SWtUc2xoRy1OcEIwNjRiTGdtaF9SOGNiSHFrLVd0SWM3X0lXX3VTTmlSajU0eXVlbEhGbVlMbG1VZC1Udy12MFN1d3gwN3lGQmhRSEw1WG5fQWpkUVlVTUg5MjY5Tk53aHZ1d3F5OUJvelBaN3l6X1U1Nkd3Xy1INExtMXZUZ2djaU14b2x4cmJaSXZwSE9zQdIBuwFBVV95cUxPSURLU3lrbVFER1JtWC1yajUzRDRiNTB0bWlDUUpPd2N5Y09qTWIzaUd4U1FVM2hwOVcwNlFOU28xUlFhVUpRWGNNZjRJWHNWNjFQajRHNEx5U2pqY054ZmNiNTJtMjZvUWZYZUZUV005eTF5NjUyY19rd1UwNmR1Z013R0ZoWnJtV3RsYS0zUlUzZzVhX3ZLeUNFcHdEVGF2Mm1PMFhNblBOcnZTY0VMY2I1NC12R3FLd2c4?oc=5",
+          "googleArticleId": "CBMitgFBVV95cUxOdW9TdlRudll2WUhfaUNGaUc3WjA2clZZZWlBTHR5SWtUc2xoRy1OcEIwNjRiTGdtaF9SOGNiSHFrLVd0SWM3X0lXX3VTTmlSajU0eXVlbEhGbVlMbG1VZC1Udy12MFN1d3gwN3lGQmhRSEw1WG5fQWpkUVlVTUg5MjY5Tk53aHZ1d3F5OUJvelBaN3l6X1U1Nkd3Xy1INExtMXZUZ2djaU14b2x4cmJaSXZwSE9zQdIBuwFBVV95cUxPSURLU3lrbVFER1JtWC1yajUzRDRiNTB0bWlDUUpPd2N5Y09qTWIzaUd4U1FVM2hwOVcwNlFOU28xUlFhVUpRWGNNZjRJWHNWNjFQajRHNEx5U2pqY054ZmNiNTJtMjZvUWZYZUZUV005eTF5NjUyY19rd1UwNmR1Z013R0ZoWnJtV3RsYS0zUlUzZzVhX3ZLeUNFcHdEVGF2Mm1PMFhNblBOcnZTY0VMY2I1NC12R3FLd2c4",
+          "publisherUrl": "https://www.aljazeera.com/news/2026/11/19/iraq-reaches-compromise-with-kataib-hezbollah-over-armed-group-stronghold",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:25.147Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unifil"
+          ]
+        },
+        {
+          "title": "Iraqi security forces deploy in Hezbollah stronghold under compromise deal - France 24",
+          "publisher": "France 24",
+          "publishedAt": "2026-11-20T08:37:27.000Z",
+          "rssDescription": "Iraqi security forces deploy in Hezbollah stronghold under compromise deal France 24",
+          "rssUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMGw4NHg3LTluajJnNG03Y1FEa0lyZklBeExybjJXdUFfNXAwdGszbUJoM25KVW5qQnhTcUxmSmh4dFEyZW1tbEtpd3JUVDhZcW8zVWwxTlUzTUFxRlAtTUZVeUlyaS0tTXloOHVaNS16b0ZQSnp2ZjFJYTl0UVRqdkRwTEp0bzhpOVM3UEVRUVBHTkozbGg1OFR0Y1J1NUlTTk8wSGFkTnNSSGRLZnNqQlJMN3oxelpRVUtMWlNqdkFSSUdh?oc=5",
+          "googleArticleId": "CBMixAFBVV95cUxNMGw4NHg3LTluajJnNG03Y1FEa0lyZklBeExybjJXdUFfNXAwdGszbUJoM25KVW5qQnhTcUxmSmh4dFEyZW1tbEtpd3JUVDhZcW8zVWwxTlUzTUFxRlAtTUZVeUlyaS0tTXloOHVaNS16b0ZQSnp2ZjFJYTl0UVRqdkRwTEp0bzhpOVM3UEVRUVBHTkozbGg1OFR0Y1J1NUlTTk8wSGFkTnNSSGRLZnNqQlJMN3oxelpRVUtMWlNqdkFSSUdh",
+          "publisherUrl": "https://www.france24.com/en/middle-east/20261120-iraqi-security-forces-to-deploy-in-hezbollah-stronghold-under-compromise-deal",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:55.222Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unifil"
+          ]
+        },
+        {
+          "title": "Seeking Mideast role, Europeans push to replace U.N. peacekeepers in Lebanon - The Washington Post",
+          "publisher": "The Washington Post",
+          "publishedAt": "2026-11-20T11:33:14.000Z",
+          "rssDescription": "Seeking Mideast role, Europeans push to replace U.N. peacekeepers in Lebanon The Washington Post",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNV0F3Y1JvLW9wV3hKdTF6Vl93cEtyamFFWlJ6eFBMYjFpZW5jNERvNEFya1BOakpvOTZ5UFcxbzhOODlGTjBmV2tXX3U5MHd5QTRPOEt2UzM3bGZlUGNnVmNnTWJKS2lER3pGSzBrM3p2NUoxSGlTUmIwUnlaV3QwRW5kVmZzQU1vb3czckVoalV2RnlyNjFNZE1PcnhHOERabU40?oc=5",
+          "googleArticleId": "CBMiowFBVV95cUxNV0F3Y1JvLW9wV3hKdTF6Vl93cEtyamFFWlJ6eFBMYjFpZW5jNERvNEFya1BOakpvOTZ5UFcxbzhOODlGTjBmV2tXX3U5MHd5QTRPOEt2UzM3bGZlUGNnVmNnTWJKS2lER3pGSzBrM3p2NUoxSGlTUmIwUnlaV3QwRW5kVmZzQU1vb3czckVoalV2RnlyNjFNZE1PcnhHOERabU40",
+          "publisherUrl": "https://www.washingtonpost.com/world/2026/11/20/europeans-seek-replace-un-peacekeeping-force-lebanon/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:18:47.567Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "peacekeeping",
+            "unifil"
+          ]
+        },
+        {
+          "title": "Lebanon caught in crossfire of Hezbollah disarmament and Israeli occupation - Arab News",
+          "publisher": "Arab News",
+          "publishedAt": "2026-11-20T06:46:12.000Z",
+          "rssDescription": "Lebanon caught in crossfire of Hezbollah disarmament and Israeli occupation Arab News",
+          "rssUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOR1hVQ1gwMUItSFZUM3pQRjBwcnZSWWl1UllrbTlxWVB4WkRwb1lYaS0zQklYb1FKbWdFdkcyNHlhY0IzdzBCRDRkWjF4RXFyY0pzRUs1cjZrR1QyZmJnNEktbFI5T1Jsd0llYm56TFdqZ3NmcVJFTFgxVTlGbjRIM0FqNnIxckRLQWYzOWxGRmNWV1JuM05MVUd4NWQtajBMMXdncE4tNEFzbXprODFYdG8xS0ZrdGZNb19zOA?oc=5",
+          "googleArticleId": "CBMivAFBVV95cUxOR1hVQ1gwMUItSFZUM3pQRjBwcnZSWWl1UllrbTlxWVB4WkRwb1lYaS0zQklYb1FKbWdFdkcyNHlhY0IzdzBCRDRkWjF4RXFyY0pzRUs1cjZrR1QyZmJnNEktbFI5T1Jsd0llYm56TFdqZ3NmcVJFTFgxVTlGbjRIM0FqNnIxckRLQWYzOWxGRmNWV1JuM05MVUd4NWQtajBMMXdncE4tNEFzbXprODFYdG8xS0ZrdGZNb19zOA",
+          "publisherUrl": "https://www.arabnews.com/middle-east/lebanon-caught-in-crossfire-of-hezbollah-disarmament-and-israeli-occupation-3013072",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:47.796Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unifil"
+          ]
+        },
+        {
+          "title": "Iraqi forces to deploy in Kataib Hezbollah stronghold under deal to ease militia tensions - The Jerusalem Post",
+          "publisher": "The Jerusalem Post",
+          "publishedAt": "2026-11-20T08:18:39.000Z",
+          "rssDescription": "Iraqi forces to deploy in Kataib Hezbollah stronghold under deal to ease militia tensions The Jerusalem Post",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE45akd6NF9jVHd4NkRUWnViN2I1SmREX1NialVMU3RCMGF2a05HS1A0anQybnQ1NWluQUlzZE9ObllWa3NySW0wUFU3bVpYcDFFQmkzYWJTT3BGYm9l?oc=5",
+          "googleArticleId": "CBMiXEFVX3lxTE45akd6NF9jVHd4NkRUWnViN2I1SmREX1NialVMU3RCMGF2a05HS1A0anQybnQ1NWluQUlzZE9ObllWa3NySW0wUFU3bVpYcDFFQmkzYWJTT3BGYm9l",
+          "publisherUrl": "https://www.jpost.com/middle-east/article-915570",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:15.343Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unifil"
+          ]
+        },
+        {
+          "title": "UN Security Council Discusses Resolution 1701, Renews Support for UNIFIL and Lebanon’s Sovereignty - NewsCord",
+          "publisher": "NewsCord",
+          "publishedAt": "2026-11-20T11:26:20.000Z",
+          "rssDescription": "UN Security Council Discusses Resolution 1701, Renews Support for UNIFIL and Lebanon’s Sovereignty NewsCord",
+          "rssUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRWFNWTkwcGhtREczVjJJRElabDJSUzYyb3B3bVgwZS05WTZzOFRtWU9VRXNxaUp2Um5JZ2xLVTcyR2dmSXZFWkN2ZVN1cm5QVHFLb25jbUtRaFA1bVh1TEFUbE40cUhGQW1LaTYybjd5R0JzNW9NTzI4Ym1QU2tKUU1BeDFoSHY1RTRCakxVZklsT1lZQmtzdzJxckRsSjQwSnEyWHZ3d1dFZ1N0ZWxkeVpJRkh4SC1vQURRTU1URDJQRWVGaVVPLWpQblpFclUzemhlX0V3WFpmX2pXVlotTUV6RlJRWjFFYmc?oc=5",
+          "googleArticleId": "CBMi6gFBVV95cUxNRWFNWTkwcGhtREczVjJJRElabDJSUzYyb3B3bVgwZS05WTZzOFRtWU9VRXNxaUp2Um5JZ2xLVTcyR2dmSXZFWkN2ZVN1cm5QVHFLb25jbUtRaFA1bVh1TEFUbE40cUhGQW1LaTYybjd5R0JzNW9NTzI4Ym1QU2tKUU1BeDFoSHY1RTRCakxVZklsT1lZQmtzdzJxckRsSjQwSnEyWHZ3d1dFZ1N0ZWxkeVpJRkh4SC1vQURRTU1URDJQRWVGaVVPLWpQblpFclUzemhlX0V3WFpmX2pXVlotTUV6RlJRWjFFYmc",
+          "publisherUrl": "https://newscord.org/article/un-security-council-discusses-resolution-1701-renews-support-for-unifil-and-leba--Story_20261120_UNreaffirmssupportfoddc83511",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:18:45.059Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un",
+            "usg-dpo",
+            "unifil"
+          ]
+        },
+        {
+          "title": "US Sanctions Charity Over Hezbollah Links in Southern Lebanon - Global Arab Network",
+          "publisher": "Global Arab Network",
+          "publishedAt": "2026-11-20T07:52:30.000Z",
+          "rssDescription": "US Sanctions Charity Over Hezbollah Links in Southern Lebanon Global Arab Network",
+          "rssUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRmpyMUZDRUplamhzQ1ZDVGNDZ3dvd0syVlF5cG1PY2U4di1ubEdaVUU1bjFOVklsZ1RXYjlmQ0JWRlJ1SG9PUkFTRk9PLVEtUmVKZFFWS25ESUtObTNlYkU1MEJjZHdqcmxTVFkzSFJvNU1nNXBZQU9aQ01QYTRwM2Z2R1JVMkRaWjc1dHN3cEtqSUwtZ29Qel9nVWR6elFSUVo3S2IwTTJKU2lYSXNwVA?oc=5",
+          "googleArticleId": "CBMisAFBVV95cUxNRmpyMUZDRUplamhzQ1ZDVGNDZ3dvd0syVlF5cG1PY2U4di1ubEdaVUU1bjFOVklsZ1RXYjlmQ0JWRlJ1SG9PUkFTRk9PLVEtUmVKZFFWS25ESUtObTNlYkU1MEJjZHdqcmxTVFkzSFJvNU1nNXBZQU9aQ01QYTRwM2Z2R1JVMkRaWjc1dHN3cEtqSUwtZ29Qel9nVWR6elFSUVo3S2IwTTJKU2lYSXNwVA",
+          "publisherUrl": "https://english.globalarabnetwork.com/2026/11/19/us-sanctions-charity-over-hezbollah-links-in-southern-lebanon/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:02.941Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unifil"
+          ]
+        },
+        {
+          "title": "What’s behind Iraq’s standoff with Kataib Hezbollah militia? - Al-Monitor",
+          "publisher": "Al-Monitor",
+          "publishedAt": "2026-11-19T21:32:05.000Z",
+          "rssDescription": "What’s behind Iraq’s standoff with Kataib Hezbollah militia? Al-Monitor",
+          "rssUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSTdDT3lHT0pxVGkxbjluekRkUFRkLTQ0V3VWQ3VRREtfNERpN0YweWlMaDEwR1NCZWpOeDBqTkpPal93bkNremRYWGxuTXNJUlRzVmdlN3gtaXlhLXgtRk5wRjg2OXlrYUg3TGhmUm55TUZUbmVSNlIzVDhKRHUySUEtZGFVUUctcEN2Q3dURzVxUzlDWjkwcm1PamFtdw?oc=5",
+          "googleArticleId": "CBMingFBVV95cUxPSTdDT3lHT0pxVGkxbjluekRkUFRkLTQ0V3VWQ3VRREtfNERpN0YweWlMaDEwR1NCZWpOeDBqTkpPal93bkNremRYWGxuTXNJUlRzVmdlN3gtaXlhLXgtRk5wRjg2OXlrYUg3TGhmUm55TUZUbmVSNlIzVDhKRHUySUEtZGFVUUctcEN2Q3dURzVxUzlDWjkwcm1PamFtdw",
+          "publisherUrl": "https://www.al-monitor.com/originals/2026/11/whats-behind-iraqs-standoff-kataib-hezbollah-militia",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:30.541Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unifil"
+          ]
+        }
+      ]
+    },
+    {
+      "queryId": "undof",
+      "query": "(UNDOF OR \"Golan Heights\" OR Quneitra OR \"occupied Syrian territory\") when:1d",
+      "label": "UNDOF / Syria / Golan",
+      "queryRevision": 5,
+      "configHash": "c88438ea0db8b1e7cbc863ce6549b16d241d2e3180d50e1929186153f6529085",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-20T12:18:17.595Z",
+      "feedFetchedAt": "2026-11-20T12:18:26.944Z",
+      "generatedAt": "2026-11-20T12:22:50.573Z",
+      "status": "completed",
+      "error": null,
+      "truncated": true,
+      "counts": {
+        "selected": 9,
+        "resolved": 9,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": [
+        {
+          "title": "Border incursion | Israeli tanks advance in Al-Quneitra as troops fire toward media crew - المرصد السوري لحقوق الإنسان",
+          "publisher": "المرصد السوري لحقوق الإنسان",
+          "publishedAt": "2026-11-20T09:49:45.000Z",
+          "rssDescription": "Border incursion | Israeli tanks advance in Al-Quneitra as troops fire toward media crew المرصد السوري لحقوق الإنسان",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1ib3RVS2VNWXpROVdRZ1lNWEgyNFUyNjlwb3owTVNsU0dvOGFSTUQ0dk1LLWp5ZHdRSEU1QzZpNkE0Qko4b3lFeGRB?oc=5",
+          "googleArticleId": "CBMiSkFVX3lxTE1ib3RVS2VNWXpROVdRZ1lNWEgyNFUyNjlwb3owTVNsU0dvOGFSTUQ0dk1LLWp5ZHdRSEU1QzZpNkE0Qko4b3lFeGRB",
+          "publisherUrl": "https://www.syriahr.com/en/388764/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:18:55.069Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "undof"
+          ]
+        },
+        {
+          "title": "Israeli Forces enter all-Rafid town, Quneitra countryside - ANHA",
+          "publisher": "ANHA",
+          "publishedAt": "2026-11-20T06:49:34.000Z",
+          "rssDescription": "Israeli Forces enter all-Rafid town, Quneitra countryside ANHA",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVERsVk9Nb3VudTdkcGhhQVpiNWlLMWI0WXpoRUlua1NnVXJmVWNycmd5eFpmZnd0YVczM3FTLTlLOU9fal93dXQ5Q2tZdnlCMEs5eFBtMUhRc0tZbzZTU3pIcENzcjlmYWdONTUxc1I2WjRYVlF4eHNVd2lrUmFyMXdDNzRoOUZm?oc=5",
+          "googleArticleId": "CBMiiAFBVV95cUxOVERsVk9Nb3VudTdkcGhhQVpiNWlLMWI0WXpoRUlua1NnVXJmVWNycmd5eFpmZnd0YVczM3FTLTlLOU9fal93dXQ5Q2tZdnlCMEs5eFBtMUhRc0tZbzZTU3pIcENzcjlmYWdONTUxc1I2WjRYVlF4eHNVd2lrUmFyMXdDNzRoOUZm",
+          "publisherUrl": "https://hawarnews.com/en/israeli-forces-enter-all-rafid-town-quneitra-countryside",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:27.658Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "undof"
+          ]
+        },
+        {
+          "title": "Planning a stream dip this weekend? You may want to rethink your route - The Jerusalem Post",
+          "publisher": "The Jerusalem Post",
+          "publishedAt": "2026-11-19T16:30:16.000Z",
+          "rssDescription": "Planning a stream dip this weekend? You may want to rethink your route The Jerusalem Post",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA2dW9iMEROUDEyNnFEYUNBV3dHdUhKOVZWMXhCb3dHLW9jUU1lNXBfUHZLTW9ZMy0yRE5VMW44eS1kQUFHV00wYkFscDh5Q0tMV1NaVA?oc=5",
+          "googleArticleId": "CBMiVEFVX3lxTFA2dW9iMEROUDEyNnFEYUNBV3dHdUhKOVZWMXhCb3dHLW9jUU1lNXBfUHZLTW9ZMy0yRE5VMW44eS1kQUFHV00wYkFscDh5Q0tMV1NaVA",
+          "publisherUrl": "http://www.jpost.com/travel/article-915488",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:57.726Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "undof"
+          ]
+        },
+        {
+          "title": "Syria welcomes UN committees’ adoption of resolutions on occupied Golan, human rights - Middle East Monitor",
+          "publisher": "Middle East Monitor",
+          "publishedAt": "2026-11-19T18:03:00.000Z",
+          "rssDescription": "Syria welcomes UN committees’ adoption of resolutions on occupied Golan, human rights Middle East Monitor",
+          "rssUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWVpSeXg3aUxreXpiTzkyeWlkQjRvSGpjQ25LVjh0SHlXcUxka2JPWjlwVk84YUZmOWVJVnBlalNIbVk0dktURGVZcHpjU2F4V0xzTHdjQ2RlUTJDWUpiendPekFVX2FFTmZKV0VRb0ZKUEgxTjVkdkx3MENoYlVKSWFKM1lmOGdQc3VHbHlqek5aR1AyNnlZRHV4OFljY0tTOEFPWkxvaU1ZVnR3Q25Lb0o2LWFwU2dwYzZHMUNiUVVHM1BqRWfSAcsBQVVfeXFMUDlfbXNpR2o4bjFWRlQ1VWhBdE90LVlxd2dMQ0pQS0RscEZlanZQeDJHRWJOWExYTmtyaUlqUTFlRU5FaWw0UlZxcnFHcERGMjJMalFuWHZtM2otVHM4NnE0WlFOdTNmLXJJQ2RmdkZELV9iakhQT05fdG9IM1g3YVdrMVotbk5hXzBmV1lxbVY2d0V1bTRTazlSYUNqMjREb2FMX09PVHloUEhmc0FlVUF0aC1VSUVSaGtNTDk5M1kyYW5HWGJFQzRQcDA?oc=5",
+          "googleArticleId": "CBMixgFBVV95cUxOWVpSeXg3aUxreXpiTzkyeWlkQjRvSGpjQ25LVjh0SHlXcUxka2JPWjlwVk84YUZmOWVJVnBlalNIbVk0dktURGVZcHpjU2F4V0xzTHdjQ2RlUTJDWUpiendPekFVX2FFTmZKV0VRb0ZKUEgxTjVkdkx3MENoYlVKSWFKM1lmOGdQc3VHbHlqek5aR1AyNnlZRHV4OFljY0tTOEFPWkxvaU1ZVnR3Q25Lb0o2LWFwU2dwYzZHMUNiUVVHM1BqRWfSAcsBQVVfeXFMUDlfbXNpR2o4bjFWRlQ1VWhBdE90LVlxd2dMQ0pQS0RscEZlanZQeDJHRWJOWExYTmtyaUlqUTFlRU5FaWw0UlZxcnFHcERGMjJMalFuWHZtM2otVHM4NnE0WlFOdTNmLXJJQ2RmdkZELV9iakhQT05fdG9IM1g3YVdrMVotbk5hXzBmV1lxbVY2d0V1bTRTazlSYUNqMjREb2FMX09PVHloUEhmc0FlVUF0aC1VSUVSaGtNTDk5M1kyYW5HWGJFQzRQcDA",
+          "publisherUrl": "https://www.middleeastmonitor.com/20261119-syria-welcomes-un-committees-adoption-of-resolutions-on-occupied-golan-human-rights/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:22.751Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "undof"
+          ]
+        },
+        {
+          "title": "Israeli forces make new incursion into Al-Rafid in Syria’s Quneitra countryside - وكالة سبأ",
+          "publisher": "وكالة سبأ",
+          "publishedAt": "2026-11-19T20:55:39.000Z",
+          "rssDescription": "Israeli forces make new incursion into Al-Rafid in Syria’s Quneitra countryside وكالة سبأ",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE12SlRSR1ZOTjk3Qk9FUENNU3BiM3BXTW42bDVaUk5lVzhMV3RhbUd3b3l3SWx2RHpFTFZwdnEwbllrNkswaXU2OXpmbng1VXc?oc=5",
+          "googleArticleId": "CBMiT0FVX3lxTE12SlRSR1ZOTjk3Qk9FUENNU3BiM3BXTW42bDVaUk5lVzhMV3RhbUd3b3l3SWx2RHpFTFZwdnEwbllrNkswaXU2OXpmbng1VXc",
+          "publisherUrl": "https://www.saba.ye/en/news3838851.htm",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:50.326Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "undof"
+          ]
+        },
+        {
+          "title": "New Israeli incursion into Quneitra Countryside - ANHA",
+          "publisher": "ANHA",
+          "publishedAt": "2026-11-19T17:46:36.000Z",
+          "rssDescription": "New Israeli incursion into Quneitra Countryside ANHA",
+          "rssUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ1J1ZGZOSkwzLTJsWk1xUGtQOFgwTnJvSHUzaUVNRk1YRU12N2lzVTZxSWE0T3RXWDQzdVJPbDF1MDFjU1Y2WTRFajFLOVNEOHN3TUQ4RXZLaHhVeTdjeWNJQXlhcDRfb1RKRUUzXzhhRzJRNTVTd25wcTk3XzlrbTJwdV8?oc=5",
+          "googleArticleId": "CBMihAFBVV95cUxNZ1J1ZGZOSkwzLTJsWk1xUGtQOFgwTnJvSHUzaUVNRk1YRU12N2lzVTZxSWE0T3RXWDQzdVJPbDF1MDFjU1Y2WTRFajFLOVNEOHN3TUQ4RXZLaHhVeTdjeWNJQXlhcDRfb1RKRUUzXzhhRzJRNTVTd25wcTk3XzlrbTJwdV8",
+          "publisherUrl": "https://hawarnews.com/en/new-israeli-incursion-into-quneitra-countryside-61997",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:17.846Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "undof"
+          ]
+        },
+        {
+          "title": "Escalating military movements | Israeli forces advances into town in southern Al-Quneitra - المرصد السوري لحقوق الإنسان",
+          "publisher": "المرصد السوري لحقوق الإنسان",
+          "publishedAt": "2026-11-19T16:22:00.000Z",
+          "rssDescription": "Escalating military movements | Israeli forces advances into town in southern Al-Quneitra المرصد السوري لحقوق الإنسان",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5HeS00VlYzZGpRRGlzc0IxQjRSNG1UeDZBZS00YkdCV1N6MzVCRlUtVE1GWm9rOG82WHo2TmItRy1GRjlmY05kak1R?oc=5",
+          "googleArticleId": "CBMiSkFVX3lxTE5HeS00VlYzZGpRRGlzc0IxQjRSNG1UeDZBZS00YkdCV1N6MzVCRlUtVE1GWm9rOG82WHo2TmItRy1GRjlmY05kak1R",
+          "publisherUrl": "https://www.syriahr.com/en/388760/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:40.391Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "undof"
+          ]
+        },
+        {
+          "title": "New Israeli military incursion into Quneitra countryside in Syria - وكالة سبأ",
+          "publisher": "وكالة سبأ",
+          "publishedAt": "2026-11-19T15:43:13.000Z",
+          "rssDescription": "New Israeli military incursion into Quneitra countryside in Syria وكالة سبأ",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0zYk9TSnFhUEdIZzZDblI2d2RmQzBfQll5NGJJVXZWNkxlYUY4VEcxaHBBVU10cnZqSnZNb19WUk94UFJHX3oxM043TkJtWVU?oc=5",
+          "googleArticleId": "CBMiT0FVX3lxTE0zYk9TSnFhUEdIZzZDblI2d2RmQzBfQll5NGJJVXZWNkxlYUY4VEcxaHBBVU10cnZqSnZNb19WUk94UFJHX3oxM043TkJtWVU",
+          "publisherUrl": "https://www.saba.ye/en/news3838590.htm",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:05.478Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "undof"
+          ]
+        },
+        {
+          "title": "Second incursion in hours | Israeli patrol of five vehicles advances into rural Al-Quneitra - المرصد السوري لحقوق الإنسان",
+          "publisher": "المرصد السوري لحقوق الإنسان",
+          "publishedAt": "2026-11-19T16:07:10.000Z",
+          "rssDescription": "Second incursion in hours | Israeli patrol of five vehicles advances into rural Al-Quneitra المرصد السوري لحقوق الإنسان",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBaTE0zNWlaeVJ2QW9KV05EQnZOZlM3MjJnNXlSRExvaHQxYm9DcXpsWi1ZNEhzLWxRcmJmaUlqd2M4SnVqMGcyaFJn?oc=5",
+          "googleArticleId": "CBMiSkFVX3lxTFBaTE0zNWlaeVJ2QW9KV05EQnZOZlM3MjJnNXlSRExvaHQxYm9DcXpsWi1ZNEhzLWxRcmJmaUlqd2M4SnVqMGcyaFJn",
+          "publisherUrl": "https://www.syriahr.com/en/388749/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:33.047Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "undof"
+          ]
+        }
+      ]
+    },
+    {
+      "queryId": "untso",
+      "query": "(UNTSO OR \"UN Truce Supervision\" OR \"UN military observers\") when:1d",
+      "label": "UNTSO / Middle East",
+      "queryRevision": 5,
+      "configHash": "26d22c3339dcbde0e1fa919bb9c129d78c0fad35a664ec380b0806f7509782f3",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-20T12:18:17.595Z",
+      "feedFetchedAt": "2026-11-20T12:18:28.318Z",
+      "generatedAt": "2026-11-20T12:22:50.573Z",
+      "status": "empty",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "monusco",
+      "query": "(MONUSCO OR \"DR Congo\" OR \"eastern Congo\" OR \"M23 rebels\" OR \"North Kivu\" OR \"South Kivu\" OR RDC OR \"Nord-Kivu\" OR \"Sud-Kivu\" OR Goma) when:1d",
+      "label": "MONUSCO / DRC",
+      "queryRevision": 6,
+      "configHash": "70365f5ca320c071958eb85b162f9ee958073e638f17a37ca1d6a123405f0cf8",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-20T12:18:17.595Z",
+      "feedFetchedAt": "2026-11-20T12:18:29.838Z",
+      "generatedAt": "2026-11-20T12:22:50.573Z",
+      "status": "completed",
+      "error": null,
+      "truncated": true,
+      "counts": {
+        "selected": 9,
+        "resolved": 9,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": [
+        {
+          "title": "US minerals deal hangs over DR Congo’s power struggle - Semafor",
+          "publisher": "Semafor",
+          "publishedAt": "2026-11-20T10:38:00.000Z",
+          "rssDescription": "US minerals deal hangs over DR Congo’s power struggle Semafor",
+          "rssUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNT0lPc19tQ2M2aXJ6bWNSU1A5Z19NeWF4R1dFaDNmZW80aDNYMGFnSXp2RjhWX012TkFpV3JEaTJYRHJlTzZibzcyVTVXS0ZwakIzRlVwVWpZQW4yTnBzUzZEeTBpTW5RakNvckItNFZ1RnFjaHg3cVZNbkRhYldPSXBkLUNqNjRORDdPVHpmUld1dzMyV1h2Qlp0Yw?oc=5",
+          "googleArticleId": "CBMimwFBVV95cUxNT0lPc19tQ2M2aXJ6bWNSU1A5Z19NeWF4R1dFaDNmZW80aDNYMGFnSXp2RjhWX012TkFpV3JEaTJYRHJlTzZibzcyVTVXS0ZwakIzRlVwVWpZQW4yTnBzUzZEeTBpTW5RakNvckItNFZ1RnFjaHg3cVZNbkRhYldPSXBkLUNqNjRORDdPVHpmUld1dzMyV1h2Qlp0Yw",
+          "publisherUrl": "https://www.semafor.com/article/11/20/2026/us-minerals-deal-hangs-over-dr-congos-power-struggle",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:18:57.570Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "monusco"
+          ]
+        },
+        {
+          "title": "Wave Secures Electronic Money License in DR Congo, Paving Way for More Affordable Financial Services - pan african visions",
+          "publisher": "pan african visions",
+          "publishedAt": "2026-11-20T07:32:11.000Z",
+          "rssDescription": "Wave Secures Electronic Money License in DR Congo, Paving Way for More Affordable Financial Services pan african visions",
+          "rssUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOblNFLVFkbC1uWWt4azZqcjRhQllmWkdZU3Uta2NMU3lpemNWNi1GQ2RyNVRObnBjX3o4aUVLUWIyeEEzN2gybXR0azNHRmRjTFJoZ3kxNG5hSlpqNnlTZzdUdnpsZXJTOGt6UzlwOHc4Q0J5TkpEaHlvd1h4NGh4eHJYUjFLRGFGNVIxaDFpLVlzRFVXLWlZTTlHZ2hlR0VzcVQzNGxDM245bUlQVTV4WVZjRXExcnRvZHk3cVhibGhZemlxVU92ZmhreW50R0VpTW1NYw?oc=5",
+          "googleArticleId": "CBMi1AFBVV95cUxOblNFLVFkbC1uWWt4azZqcjRhQllmWkdZU3Uta2NMU3lpemNWNi1GQ2RyNVRObnBjX3o4aUVLUWIyeEEzN2gybXR0azNHRmRjTFJoZ3kxNG5hSlpqNnlTZzdUdnpsZXJTOGt6UzlwOHc4Q0J5TkpEaHlvd1h4NGh4eHJYUjFLRGFGNVIxaDFpLVlzRFVXLWlZTTlHZ2hlR0VzcVQzNGxDM245bUlQVTV4WVZjRXExcnRvZHk3cVhibGhZemlxVU92ZmhreW50R0VpTW1NYw",
+          "publisherUrl": "https://panafricanvisions.com/2026/11/wave-secures-electronic-money-license-in-dr-congo-paving-way-for-more-affordable-financial-services/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:30.164Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "monusco"
+          ]
+        },
+        {
+          "title": "Tête à tête - US has 'unbalanced approach' on DR Congo deal, Rwanda's foreign minister says - France 24",
+          "publisher": "France 24",
+          "publishedAt": "2026-11-19T17:07:09.000Z",
+          "rssDescription": "Tête à tête - US has 'unbalanced approach' on DR Congo deal, Rwanda's foreign minister says France 24",
+          "rssUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZ05DU2JVS1dSd2FPQmhhb1g2VzM0MjM1eHoxOWdXdE55X210SkpJWXYzeTBieTZHTlJOMlBMcG9qdmhzNFJZdmJTWEdmWGlpLTVzNFc5QzVTU2VqWWl2VUswX1MxbUxUZ1ZlRG1jZ1JQR2QtRmFaTC1Pb1daNGltZmxoLTd3M2R3bnZ6am1Cc1RHT25JdTdqdFQ0RmxpNXNHNU44RzVWZy1aQWVJNURESUFXZU8zY2dPNVVqYWZrbDRTQjhLSDJzbjZZaks1dVE0THZuYzFhVVpKdzNVUkw0UA?oc=5",
+          "googleArticleId": "CBMi4AFBVV95cUxQZ05DU2JVS1dSd2FPQmhhb1g2VzM0MjM1eHoxOWdXdE55X210SkpJWXYzeTBieTZHTlJOMlBMcG9qdmhzNFJZdmJTWEdmWGlpLTVzNFc5QzVTU2VqWWl2VUswX1MxbUxUZ1ZlRG1jZ1JQR2QtRmFaTC1Pb1daNGltZmxoLTd3M2R3bnZ6am1Cc1RHT25JdTdqdFQ0RmxpNXNHNU44RzVWZy1aQWVJNURESUFXZU8zY2dPNVVqYWZrbDRTQjhLSDJzbjZZaks1dVE0THZuYzFhVVpKdzNVUkw0UA",
+          "publisherUrl": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261119-us-has-unbalanced-approach-on-dr-congo-deal-rwanda-s-foreign-minister-says",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:00.228Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "monusco"
+          ]
+        },
+        {
+          "title": "DR Congo: Humanitarian Key Figures (as of 31 October 2026) - ReliefWeb",
+          "publisher": "ReliefWeb",
+          "publishedAt": "2026-11-19T13:42:33.000Z",
+          "rssDescription": "DR Congo: Humanitarian Key Figures (as of 31 October 2026) ReliefWeb",
+          "rssUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMGF2aHlEV19pVkFjV1hENG1xOGpxLUdjRXN3cHNiZ1pEZFY1VXhPU3ZTNWJsemN6elBkU21LSUV5UndQdGgxQ3RIX3FDMjRweUg5UlRXMkx1Q2JpeEFheG80aGdyQWRaY2tIdElGc1U4WlZkSFhfNVdZRHVLRU95MHVCT2k0VFZrcDFJT29Xc2NHem9tWkxuQnlmVDhtLVFXeXhNdlZrNA?oc=5",
+          "googleArticleId": "CBMipwFBVV95cUxOMGF2aHlEV19pVkFjV1hENG1xOGpxLUdjRXN3cHNiZ1pEZFY1VXhPU3ZTNWJsemN6elBkU21LSUV5UndQdGgxQ3RIX3FDMjRweUg5UlRXMkx1Q2JpeEFheG80aGdyQWRaY2tIdElGc1U4WlZkSFhfNVdZRHVLRU95MHVCT2k0VFZrcDFJT29Xc2NHem9tWkxuQnlmVDhtLVFXeXhNdlZrNA",
+          "publisherUrl": "https://reliefweb.int/report/democratic-republic-congo/dr-congo-humanitarian-key-figures-31-october-2026",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:25.250Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "monusco"
+          ]
+        },
+        {
+          "title": "30 DR Congo female students awarded China's Mulan Scholarship - Global Times",
+          "publisher": "Global Times",
+          "publishedAt": "2026-11-20T03:59:00.000Z",
+          "rssDescription": "30 DR Congo female students awarded China's Mulan Scholarship Global Times",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBlbTlzYzJCaWVpaHFuWnJWRy1xQjhRZ0s5T1ZTRnFNcEdNQlBMZE9fMnJXQTlFQXdhOGxnZmpnTFhWekZsQlNSQ01OMG1jMVZHbnJwWF9Ja3I2WlAzR2NSVV9R?oc=5",
+          "googleArticleId": "CBMiYkFVX3lxTFBlbTlzYzJCaWVpaHFuWnJWRy1xQjhRZ0s5T1ZTRnFNcEdNQlBMZE9fMnJXQTlFQXdhOGxnZmpnTFhWekZsQlNSQ01OMG1jMVZHbnJwWF9Ja3I2WlAzR2NSVV9R",
+          "publisherUrl": "https://www.globaltimes.cn/page/202611/1374701.shtml",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:52.824Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "monusco"
+          ]
+        },
+        {
+          "title": "DR Congo signs mini-grid memorandum with Belgian group led by law firm Janson - energynews.pro",
+          "publisher": "energynews.pro",
+          "publishedAt": "2026-11-20T02:33:35.000Z",
+          "rssDescription": "DR Congo signs mini-grid memorandum with Belgian group led by law firm Janson energynews.pro",
+          "rssUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMFFvUjR3UDdvNXBFMWRIZWlfejdDZV8yVU4zVDdiSHlIVE5uWUtiRmNmMzljWEI0RkFQNFJUOUVUb0k2T29JbEhjcldpRzJ6RnJQOGluU25aXzJEUmZzUVJSel9YQzFQQ0J4WlVoVjVfWW5udHUweldjOEZjUEloQWdqRUJ4SmhMWFkwYUdkTDFkQ1d2N3B1bGpaOU15OWxvaG51MjNR?oc=5",
+          "googleArticleId": "CBMipgFBVV95cUxQMFFvUjR3UDdvNXBFMWRIZWlfejdDZV8yVU4zVDdiSHlIVE5uWUtiRmNmMzljWEI0RkFQNFJUOUVUb0k2T29JbEhjcldpRzJ6RnJQOGluU25aXzJEUmZzUVJSel9YQzFQQ0J4WlVoVjVfWW5udHUweldjOEZjUEloQWdqRUJ4SmhMWFkwYUdkTDFkQ1d2N3B1bGpaOU15OWxvaG51MjNR",
+          "publisherUrl": "https://energynews.pro/en/dr-congo-signs-mini-grid-memorandum-with-belgian-group-led-by-law-firm-janson",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:20.351Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "monusco"
+          ]
+        },
+        {
+          "title": "MSF DRC: Civilians and healthcare facilities must be protected amid escalating insecurity in Bunyakiri Health Zone, South Kivu - prezly.msf.org.uk",
+          "publisher": "prezly.msf.org.uk",
+          "publishedAt": "2026-11-20T10:12:00.000Z",
+          "rssDescription": "MSF DRC: Civilians and healthcare facilities must be protected amid escalating insecurity in Bunyakiri Health Zone, South Kivu prezly.msf.org.uk",
+          "rssUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONmZuWEJWdmhvTE1FY0lQd0RZdEg4RTNsLW1UR2NkYkhwaTVZaUpaXzlZcHBubFRsRDdWb2paM0plOWIxRkx1R1Y4Q0xsNHB2dnVaR2pudWFkMThQTWNMM241QWNyc0lHWTVqMkNPdzU4X0Mtd093RzZMdDF2b3k3MUxtY0hORk03SlZLVWRUek5oWG9DdGZMbXh1d3NwdkhhT2tGUVNyVEFHVVl1eEFHaG1wVXhFd2dKcHNTVm94cThMZl9VY0pRdXB0Q2ppQkZLNjY1Y055a0pBTUtUYWNhd0tlelQ?oc=5",
+          "googleArticleId": "CBMi5AFBVV95cUxONmZuWEJWdmhvTE1FY0lQd0RZdEg4RTNsLW1UR2NkYkhwaTVZaUpaXzlZcHBubFRsRDdWb2paM0plOWIxRkx1R1Y4Q0xsNHB2dnVaR2pudWFkMThQTWNMM241QWNyc0lHWTVqMkNPdzU4X0Mtd093RzZMdDF2b3k3MUxtY0hORk03SlZLVWRUek5oWG9DdGZMbXh1d3NwdkhhT2tGUVNyVEFHVVl1eEFHaG1wVXhFd2dKcHNTVm94cThMZl9VY0pRdXB0Q2ppQkZLNjY1Y055a0pBTUtUYWNhd0tlelQ",
+          "publisherUrl": "https://prezly.msf.org.uk/msf-drc-civilians-and-healthcare-facilities-must-be-protected-amid-escalating-insecurity-in-bunyakiri-health-zone-south-kivu",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:42.901Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "monusco"
+          ]
+        },
+        {
+          "title": "NRC urges DR Congo to prioritise humanitarian approach to defeat Ebola - Peoples Gazette Nigeria",
+          "publisher": "Peoples Gazette Nigeria",
+          "publishedAt": "2026-11-20T10:09:38.000Z",
+          "rssDescription": "NRC urges DR Congo to prioritise humanitarian approach to defeat Ebola Peoples Gazette Nigeria",
+          "rssUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ3R3MEh4cTdaNzR4ZFMxSjFRN2xEZVRfUkRUaVZDNHFLNno1RGVyR3QtaEExWmJVaUZid2pXR3Uxb2ZyX1BRT3RzaldFNGp0a1ZETXJfZFh1Q1V1TlNMZnB3WS1iU0NEeS1MeEF4ODdpZkFYZ1dyZzRxaEVGdHlUM3hNOGYwSDVTeWZMSEU4MlBEb0VXN2lhZVd3?oc=5",
+          "googleArticleId": "CBMimgFBVV95cUxOQ3R3MEh4cTdaNzR4ZFMxSjFRN2xEZVRfUkRUaVZDNHFLNno1RGVyR3QtaEExWmJVaUZid2pXR3Uxb2ZyX1BRT3RzaldFNGp0a1ZETXJfZFh1Q1V1TlNMZnB3WS1iU0NEeS1MeEF4ODdpZkFYZ1dyZzRxaEVGdHlUM3hNOGYwSDVTeWZMSEU4MlBEb0VXN2lhZVd3",
+          "publisherUrl": "https://gazettengr.com/nrc-urges-dr-congo-to-prioritise-humanitarian-approach-to-defeat-ebola/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:07.989Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "monusco"
+          ]
+        },
+        {
+          "title": "Tedros: progress Made against ebola in DR Congo - وكالة سبأ",
+          "publisher": "وكالة سبأ",
+          "publishedAt": "2026-11-20T11:04:16.000Z",
+          "rssDescription": "Tedros: progress Made against ebola in DR Congo وكالة سبأ",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xSzlwOVd3N01SRm1heDFiYzRuRGt4emhmSzRNVTVuejRlZklsMWFOa3Zvamk3bF92Z1JQUmhUM3BmWWJ6THlxZ0llV3puOXc?oc=5",
+          "googleArticleId": "CBMiT0FVX3lxTE8xSzlwOVd3N01SRm1heDFiYzRuRGt4emhmSzRNVTVuejRlZklsMWFOa3Zvamk3bF92Z1JQUmhUM3BmWWJ6THlxZ0llV3puOXc",
+          "publisherUrl": "https://www.saba.ye/en/news3839123.htm",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:35.551Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "monusco"
+          ]
+        }
+      ]
+    },
+    {
+      "queryId": "minusca",
+      "query": "(MINUSCA OR \"Central African Republic\" OR Bangui OR Centrafrique OR \"République centrafricaine\") when:1d",
+      "label": "MINUSCA / CAR",
+      "queryRevision": 6,
+      "configHash": "70fc35081a3f31254e972854017c64471e9dc11bb34315c54a39adab70da6b8f",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-20T12:18:17.595Z",
+      "feedFetchedAt": "2026-11-20T12:18:31.330Z",
+      "generatedAt": "2026-11-20T12:22:50.573Z",
+      "status": "completed",
+      "error": null,
+      "truncated": true,
+      "counts": {
+        "selected": 9,
+        "resolved": 9,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": [
+        {
+          "title": "United Nations Sanctions (Central African Republic) Regulation 2020 (Amendment) Regulation 2026 Gazetted - 巴士的報",
+          "publisher": "巴士的報",
+          "publishedAt": "2026-11-20T04:31:05.000Z",
+          "rssDescription": "United Nations Sanctions (Central African Republic) Regulation 2020 (Amendment) Regulation 2026 Gazetted 巴士的報",
+          "rssUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOOUN3SHpnaGR5cHR5d3JoSU9WcDJUdDhtbUFqc3VTRVNKUkJrZER3bUJZbFVHeFBUejdOWUNiTzhzbmtlbTN2czR2R2hFUlNjblY2a19wSElBY3llMmtPUlEzdHZhcWdBOExGcnQ5NjZBV3VjUXRsa1V6Q05McmRrVmszaWp2OUxhekVGTWdJY3BIWUhlcExxaGtiUWhKNVZ6MzBCUFdQOU5rRzlKZUp0SV81WlpJT19YZm01T3BSZ0hQN0pyakdaUmxveFAtNzFCZnNscWdYMVlqZkFUM2ZuS013WFdWMUk?oc=5",
+          "googleArticleId": "CBMi5wFBVV95cUxOOUN3SHpnaGR5cHR5d3JoSU9WcDJUdDhtbUFqc3VTRVNKUkJrZER3bUJZbFVHeFBUejdOWUNiTzhzbmtlbTN2czR2R2hFUlNjblY2a19wSElBY3llMmtPUlEzdHZhcWdBOExGcnQ5NjZBV3VjUXRsa1V6Q05McmRrVmszaWp2OUxhekVGTWdJY3BIWUhlcExxaGtiUWhKNVZ6MzBCUFdQOU5rRzlKZUp0SV81WlpJT19YZm01T3BSZ0hQN0pyakdaUmxveFAtNzFCZnNscWdYMVlqZkFUM2ZuS013WFdWMUk",
+          "publisherUrl": "https://www.bastillepost.com/global/article/6381111-united-nations-sanctions-central-african-republic-regulation-2020-amendment-regulation-2026-gazetted",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:00.078Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "minusca"
+          ]
+        },
+        {
+          "title": "Two Vietnamese female officers receive UN medals - VOV World",
+          "publisher": "VOV World",
+          "publishedAt": "2026-11-20T12:06:00.000Z",
+          "rssDescription": "Two Vietnamese female officers receive UN medals VOV World",
+          "rssUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQVlQNzBEZU1qRDV4ZlBycmZ1bkgwUk5Mc0hlMUFSMl9LS0E2ZFVxaFQ4OTRVWjBEODlqX3E4N09oemNnTklwakxWajRmYzZfN1l5UHFyWkdIaC1ZaUZ5S29rcS1jdEVJOVRIS2s0eDJFWEpvQnJkcDVMRDROREV0bHdzWjVzeFNHbm1Jd1FJMA?oc=5",
+          "googleArticleId": "CBMijwFBVV95cUxNQVlQNzBEZU1qRDV4ZlBycmZ1bkgwUk5Mc0hlMUFSMl9LS0E2ZFVxaFQ4OTRVWjBEODlqX3E4N09oemNnTklwakxWajRmYzZfN1l5UHFyWkdIaC1ZaUZ5S29rcS1jdEVJOVRIS2s0eDJFWEpvQnJkcDVMRDROREV0bHdzWjVzeFNHbm1Jd1FJMA",
+          "publisherUrl": "https://vovworld.vn/news/two-vietnamese-female-officers-receive-un-medals-2482109.vov5",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:32.663Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "minusca"
+          ]
+        },
+        {
+          "title": "Penguin Travel opens 2027 departures for its Cameroon trip into the Central African Republic - WBOC TV",
+          "publisher": "WBOC TV",
+          "publishedAt": "2026-11-19T23:05:04.000Z",
+          "rssDescription": "Penguin Travel opens 2027 departures for its Cameroon trip into the Central African Republic WBOC TV",
+          "rssUrl": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQR2UzSTNnN3ZhMEVSc21ObVVKRHNEQ0E2NGZKOVM0WmZsN05tU3M2SGhIVFRjREpaQVJZTXNINXBRZnVZaWxkSkxuZXhFYnU5VDh2WFFySkVvUzFPRDY1YksxelgtbGY4aGlfSUtRZFB6NUFTLTBkdVI1STRpMXVSeTdVNTNVWEg5a0xDSGVnaG52dWl0SVNQRFBPaXlrb1V2SnY3cEZWM3lMZ1JHMUgzeVFBX3pwLXplRG5Yb2luUWRsdkdMbl96YmJkRGxlZFNwa3NoLTcxX2RWWEo2ZzBTZnJKdWZpQ3ZkWlJWODAtTHptX1NTWXg2N1M0dDBkektQTTJqeTdNTGVfTmNsejNNb0JiLTA0ckRRMVBNd1Zrbw?oc=5",
+          "googleArticleId": "CBMinwJBVV95cUxQR2UzSTNnN3ZhMEVSc21ObVVKRHNEQ0E2NGZKOVM0WmZsN05tU3M2SGhIVFRjREpaQVJZTXNINXBRZnVZaWxkSkxuZXhFYnU5VDh2WFFySkVvUzFPRDY1YksxelgtbGY4aGlfSUtRZFB6NUFTLTBkdVI1STRpMXVSeTdVNTNVWEg5a0xDSGVnaG52dWl0SVNQRFBPaXlrb1V2SnY3cEZWM3lMZ1JHMUgzeVFBX3pwLXplRG5Yb2luUWRsdkdMbl96YmJkRGxlZFNwa3NoLTcxX2RWWEo2ZzBTZnJKdWZpQ3ZkWlJWODAtTHptX1NTWXg2N1M0dDBkektQTTJqeTdNTGVfTmNsejNNb0JiLTA0ckRRMVBNd1Zrbw",
+          "publisherUrl": "https://www.wboc.com/online_features/press_releases/penguin-travel-opens-2027-departures-for-its-cameroon-trip-into-the-central-african-republic/article_daa3e1b9-c4da-5303-90e9-e1c8e43b6c76.html",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:02.729Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "minusca"
+          ]
+        },
+        {
+          "title": "MINUSCA head: Ayoya wins top UN post for 12,000 troops - DNE Africa",
+          "publisher": "DNE Africa",
+          "publishedAt": "2026-11-19T19:20:54.000Z",
+          "rssDescription": "MINUSCA head: Ayoya wins top UN post for 12,000 troops DNE Africa",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1aSE1KMXQtemFDbS11MEcweUZwVU9VQWFYZGE5dFRDODlONDdTZ18xVW9QV2dUZFhkb3Y3WWlyamlsSUF4aVJzdjNaUDR2ZW9WYlRYTFRBa0tsZll0TGRvRVRhNA?oc=5",
+          "googleArticleId": "CBMiY0FVX3lxTE1aSE1KMXQtemFDbS11MEcweUZwVU9VQWFYZGE5dFRDODlONDdTZ18xVW9QV2dUZFhkb3Y3WWlyamlsSUF4aVJzdjNaUDR2ZW9WYlRYTFRBa0tsZll0TGRvRVRhNA",
+          "publisherUrl": "https://africa.dailynewsegypt.com/minusca-head-ayoya/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:27.751Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "minusca"
+          ]
+        },
+        {
+          "title": "Watch Benin vs Central African Republic - TOD",
+          "publisher": "TOD",
+          "publishedAt": "2026-11-20T04:53:26.000Z",
+          "rssDescription": "Watch Benin vs Central African Republic TOD",
+          "rssUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONnk0cExtR2ZLbHl0aFg1bWpFZ1piWlY0ak45OFhlMlkzMzd1bENOMW41Mkc4RU4wOGdXTWgwRWJVeVZ5SDQ1VGR1SXEwVXJGYnFiQmplb2NmUTJ6WkVwRE5nblpaOTJac2ljRkxhQktqS3NkZjU5N2xCSUtrUzNnQXZRMVNsY3FGYnQtS1J4LUdZd1FNZW9PN0J6WWg0U015R2ZNVllkOV93cEFpQ2RaZmhxZDk5aFNIdzM2NG9ubmZKS1RkMmc?oc=5",
+          "googleArticleId": "CBMixgFBVV95cUxONnk0cExtR2ZLbHl0aFg1bWpFZ1piWlY0ak45OFhlMlkzMzd1bENOMW41Mkc4RU4wOGdXTWgwRWJVeVZ5SDQ1VGR1SXEwVXJGYnFiQmplb2NmUTJ6WkVwRE5nblpaOTJac2ljRkxhQktqS3NkZjU5N2xCSUtrUzNnQXZRMVNsY3FGYnQtS1J4LUdZd1FNZW9PN0J6WWg0U015R2ZNVllkOV93cEFpQ2RaZmhxZDk5aFNIdzM2NG9ubmZKS1RkMmc",
+          "publisherUrl": "https://www.tod.tv/en/sports/football/africa-cup-of-nations-qualification/group-stage/benin-vs-central-african-republic-5065105",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:55.325Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "minusca"
+          ]
+        },
+        {
+          "title": "Two Vietnamese female officers receive United Nations medals in Central African Republic - Nhan Dan Online",
+          "publisher": "Nhan Dan Online",
+          "publishedAt": "2026-11-20T07:03:33.000Z",
+          "rssDescription": "Two Vietnamese female officers receive United Nations medals in Central African Republic Nhan Dan Online",
+          "rssUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRlc1V0hHWFIwYjB5YjRqT1prZ25vUnNUTzRWLS1XdUpQeV93MmFtT1lDMUVDNzAtTWtCbHVuam50a2FmX0MwNmxEVVJMdV8tdVJsT3htVHNCUlhiRHhaMnhBblMteEl3dXhuWGJuM2dPRi1UaF9uTjZnbl9OZm02TmdoLVQ4V29XQmVfWm15VWxXZWtad2MxT2hWZXVYYWx3aEttR0lrbDZCREVIRFJRNU9xNG5STFpvejIyODR3cndhOGN2?oc=5",
+          "googleArticleId": "CBMixAFBVV95cUxNRlc1V0hHWFIwYjB5YjRqT1prZ25vUnNUTzRWLS1XdUpQeV93MmFtT1lDMUVDNzAtTWtCbHVuam50a2FmX0MwNmxEVVJMdV8tdVJsT3htVHNCUlhiRHhaMnhBblMteEl3dXhuWGJuM2dPRi1UaF9uTjZnbl9OZm02TmdoLVQ4V29XQmVfWm15VWxXZWtad2MxT2hWZXVYYWx3aEttR0lrbDZCREVIRFJRNU9xNG5STFpvejIyODR3cndhOGN2",
+          "publisherUrl": "https://en.nhandan.vn/two-vietnamese-female-officers-receive-united-nations-medals-in-central-african-republic-post169398.html",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:22.856Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "minusca"
+          ]
+        },
+        {
+          "title": "Two Vietnamese female officers receive U.N. Medals in the Central African Republic - en.qdnd.vn",
+          "publisher": "en.qdnd.vn",
+          "publishedAt": "2026-11-19T16:48:00.000Z",
+          "rssDescription": "Two Vietnamese female officers receive U.N. Medals in the Central African Republic en.qdnd.vn",
+          "rssUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdDhJU09SbFVGUjJoMDU4YW1faUtoeUdMZWx3SjB0SHAyXzJhSUJiQ3ZXMUx6Qkh1MGZyUXhFN2dCZGxPSDVYdW5JY1RHNEFWXzVZVkVLbmNfNVZjdGl2ZWtLMUhJdzFwZGgyN0ZIX3VRRlJMSll6Tm16ZGpjWHh3Nmtkc1l0SHJsU092VWd2Q1FKNVdqaW1sN0ZsM0NFbEYwMVZDOWJCVW1HLXNFWHhBUkdhOTlGTUctUmRpOUpQbWNWbElvRlQ4ZXlzdkFjaWl6S0c4dkpQU2tnNWp5enpjMg?oc=5",
+          "googleArticleId": "CBMi4AFBVV95cUxOdDhJU09SbFVGUjJoMDU4YW1faUtoeUdMZWx3SjB0SHAyXzJhSUJiQ3ZXMUx6Qkh1MGZyUXhFN2dCZGxPSDVYdW5JY1RHNEFWXzVZVkVLbmNfNVZjdGl2ZWtLMUhJdzFwZGgyN0ZIX3VRRlJMSll6Tm16ZGpjWHh3Nmtkc1l0SHJsU092VWd2Q1FKNVdqaW1sN0ZsM0NFbEYwMVZDOWJCVW1HLXNFWHhBUkdhOTlGTUctUmRpOUpQbWNWbElvRlQ4ZXlzdkFjaWl6S0c4dkpQU2tnNWp5enpjMg",
+          "publisherUrl": "https://en.qdnd.vn/military/intl-relations-and-cooperation/two-vietnamese-female-officers-receive-u-n-medals-in-the-central-african-republic-597357",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:07.730Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "peacekeeping",
+            "minusca",
+            "unisfa"
+          ]
+        },
+        {
+          "title": "Government Implements UN Sanctions Amendments for Central African Republic Effective Immediately - 巴士的報",
+          "publisher": "巴士的報",
+          "publishedAt": "2026-11-20T03:00:00.000Z",
+          "rssDescription": "Government Implements UN Sanctions Amendments for Central African Republic Effective Immediately 巴士的報",
+          "rssUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSlB1STVoUm9fMTcyT3dVejQ4bVFUZVFrUHg1c2RMVm4tMFRzLURiRlktTWo3M0NMek4xcE5aZnZDNzhXdHJOd3g4OEFvZDFmWUg1MGRxYW5Db2VSWGgwYnRVUlN1aDYzRW0yOW9wWWJ1c0NuZFFJOHpZeWtUWi1Vc3B2M0xaQlQ5OTZHeGU4a1pOdndpVi1xcHE0d1l2elRUOGJCX3pIZFZfZG1UcG80VWQtcVdxSUtXTGs0MjVSOTFCaEZlUFZFd2N2NnB5WmQ4b2k4aDR2R1RhMUwweUc5NmlR?oc=5",
+          "googleArticleId": "CBMi4gFBVV95cUxNSlB1STVoUm9fMTcyT3dVejQ4bVFUZVFrUHg1c2RMVm4tMFRzLURiRlktTWo3M0NMek4xcE5aZnZDNzhXdHJOd3g4OEFvZDFmWUg1MGRxYW5Db2VSWGgwYnRVUlN1aDYzRW0yOW9wWWJ1c0NuZFFJOHpZeWtUWi1Vc3B2M0xaQlQ5OTZHeGU4a1pOdndpVi1xcHE0d1l2elRUOGJCX3pIZFZfZG1UcG80VWQtcVdxSUtXTGs0MjVSOTFCaEZlUFZFd2N2NnB5WmQ4b2k4aDR2R1RhMUwweUc5NmlR",
+          "publisherUrl": "https://www.bastillepost.com/global/article/6381111-government-implements-un-sanctions-amendments-for-central-african-republic-effective-immediately",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:10.499Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "minusca"
+          ]
+        },
+        {
+          "title": "Watch Central African Republic vs Benin - TOD",
+          "publisher": "TOD",
+          "publishedAt": "2026-11-19T17:00:26.000Z",
+          "rssDescription": "Watch Central African Republic vs Benin TOD",
+          "rssUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNm5EeFgwa0tZeGtxN3VsUkpLaWVHUzJFYzRZaDBzTGVDemh5Yk8wMXBEazBsZzdobTZqS3pWM1JtZG43VDFybEl3Rm9YLWNUZksxNnluNExZazVQMjZPemtaQlBfT19JUHc1Z2h6S0ptcjhld0RYbUpDdVpHckViYkpLMFpWNVdYTjlKY1RCMXVKQ1U2SnRoNkNITTk5bHJ2b3hhbnhoRml0Ykl6TXhEWG5qak5SODlDMGh5VXBOV2FXdGYwNGc?oc=5",
+          "googleArticleId": "CBMixgFBVV95cUxPNm5EeFgwa0tZeGtxN3VsUkpLaWVHUzJFYzRZaDBzTGVDemh5Yk8wMXBEazBsZzdobTZqS3pWM1JtZG43VDFybEl3Rm9YLWNUZksxNnluNExZazVQMjZPemtaQlBfT19JUHc1Z2h6S0ptcjhld0RYbUpDdVpHckViYkpLMFpWNVdYTjlKY1RCMXVKQ1U2SnRoNkNITTk5bHJ2b3hhbnhoRml0Ykl6TXhEWG5qak5SODlDMGh5VXBOV2FXdGYwNGc",
+          "publisherUrl": "https://www.tod.tv/en/sports/football/africa-cup-of-nations-qualification/group-stage/central-african-republic-vs-benin-5065100",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:38.052Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "minusca"
+          ]
+        }
+      ]
+    },
+    {
+      "queryId": "unmiss",
+      "query": "(UNMISS OR \"South Sudan\") when:1d",
+      "label": "UNMISS / South Sudan",
+      "queryRevision": 5,
+      "configHash": "c54d46954a9b353276e54f287e572c3ab964abe5403d89c6af801f295e477272",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-20T12:18:17.595Z",
+      "feedFetchedAt": "2026-11-20T12:18:32.809Z",
+      "generatedAt": "2026-11-20T12:22:50.573Z",
+      "status": "completed",
+      "error": null,
+      "truncated": true,
+      "counts": {
+        "selected": 9,
+        "resolved": 9,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": [
+        {
+          "title": "Trump deportees face hunger, abuse, extortion in South Sudan | Daily Sabah - Daily Sabah",
+          "publisher": "Daily Sabah",
+          "publishedAt": "2026-11-20T07:08:29.000Z",
+          "rssDescription": "Trump deportees face hunger, abuse, extortion in South Sudan | Daily Sabah Daily Sabah",
+          "rssUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNLXo0ZjdITEx2NGRkMUl5OXpSbWtFdlZITkN6WndNM1RzdlpsMmR2NXlBSzFpeDEtekMyOS1RSWtvOFdPX2ZybWdjNGpkTU03MnlrMWZqM3JYTzBSbHJ2NHVKMHFLVFFKcnZ0NnNFcUJKb3RBNHJyeXNISkI0NDl6dHM4eUxxdFN0ekFsR1ZSWFNYNFVnQkpTNVB6NlcycTByeGRkaNIBpAFBVV95cUxNLXo0ZjdITEx2NGRkMUl5OXpSbWtFdlZITkN6WndNM1RzdlpsMmR2NXlBSzFpeDEtekMyOS1RSWtvOFdPX2ZybWdjNGpkTU03MnlrMWZqM3JYTzBSbHJ2NHVKMHFLVFFKcnZ0NnNFcUJKb3RBNHJyeXNISkI0NDl6dHM4eUxxdFN0ekFsR1ZSWFNYNFVnQkpTNVB6NlcycTByeGRkaA?oc=5",
+          "googleArticleId": "CBMipAFBVV95cUxNLXo0ZjdITEx2NGRkMUl5OXpSbWtFdlZITkN6WndNM1RzdlpsMmR2NXlBSzFpeDEtekMyOS1RSWtvOFdPX2ZybWdjNGpkTU03MnlrMWZqM3JYTzBSbHJ2NHVKMHFLVFFKcnZ0NnNFcUJKb3RBNHJyeXNISkI0NDl6dHM4eUxxdFN0ekFsR1ZSWFNYNFVnQkpTNVB6NlcycTByeGRkaNIBpAFBVV95cUxNLXo0ZjdITEx2NGRkMUl5OXpSbWtFdlZITkN6WndNM1RzdlpsMmR2NXlBSzFpeDEtekMyOS1RSWtvOFdPX2ZybWdjNGpkTU03MnlrMWZqM3JYTzBSbHJ2NHVKMHFLVFFKcnZ0NnNFcUJKb3RBNHJyeXNISkI0NDl6dHM4eUxxdFN0ekFsR1ZSWFNYNFVnQkpTNVB6NlcycTByeGRkaA",
+          "publisherUrl": "https://www.dailysabah.com/world/africa/trump-deportees-face-hunger-abuse-extortion-in-south-sudan/amp",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:02.587Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmiss"
+          ]
+        },
+        {
+          "title": "Elders urged to use their influence to prevent conflict and protect communities - UNMISS",
+          "publisher": "UNMISS",
+          "publishedAt": "2026-11-20T09:45:34.000Z",
+          "rssDescription": "Elders urged to use their influence to prevent conflict and protect communities UNMISS",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM1ppOXFjTmFYWTNWQzZ0TVNkX2hhTkZVS2ZSWUo2WTIwQmlzWWthb3dCSDdtSlBNOFJPUnQ1elR2alBUTGxYTnNPUThDemJSQXNUd0tPRi15Z3hzZHQyM1JPWHllTnZCbHgtOG1aTUlmN3RMd0pMb2o3MjVFVWdNeDdxbEU1Ujg4OHctTkhLcW54SWJEdUhVSDBmQ0F0UnBnT181Q2dBREF4blNwWXczaFU4bDBKZXNa?oc=5",
+          "googleArticleId": "CBMiuAFBVV95cUxOM1ppOXFjTmFYWTNWQzZ0TVNkX2hhTkZVS2ZSWUo2WTIwQmlzWWthb3dCSDdtSlBNOFJPUnQ1elR2alBUTGxYTnNPUThDemJSQXNUd0tPRi15Z3hzZHQyM1JPWHllTnZCbHgtOG1aTUlmN3RMd0pMb2o3MjVFVWdNeDdxbEU1Ujg4OHctTkhLcW54SWJEdUhVSDBmQ0F0UnBnT181Q2dBREF4blNwWXczaFU4bDBKZXNa",
+          "publisherUrl": "https://unmiss.unmissions.org/en/news/elders-urged-to-use-their-influence-to-prevent-conflict-and-protect-communities",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:35.166Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmiss"
+          ]
+        },
+        {
+          "title": "US deportees in South Sudan went hungry as guards pocketed money from relatives, families say - Arab News",
+          "publisher": "Arab News",
+          "publishedAt": "2026-11-20T06:39:42.000Z",
+          "rssDescription": "US deportees in South Sudan went hungry as guards pocketed money from relatives, families say Arab News",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNV1ZhTXRUZzllRGxNVHJrN1FRZlBwODdJYjhaZUI0VkFGald3LTE1TFRXVjNDbFZCaC1kWWZHalVZNDVVN2JUYW44a0stbkZBWHE1ZDg2VDBkbV94bTBRNjAxWXU2N043TVhtbmhaOE5UTl9ndWVwSnhvcUZmSDJzTjJOM3loV2VxRks1RWlBV1A2NGRMZkxIc0xReFA4NE92SGpYSGVRVVlEaGlSOHIzeGppQ25pTDVMVzNBNFRMUXlXbUY5TmMyOWpaWQ?oc=5",
+          "googleArticleId": "CBMiywFBVV95cUxNV1ZhTXRUZzllRGxNVHJrN1FRZlBwODdJYjhaZUI0VkFGald3LTE1TFRXVjNDbFZCaC1kWWZHalVZNDVVN2JUYW44a0stbkZBWHE1ZDg2VDBkbV94bTBRNjAxWXU2N043TVhtbmhaOE5UTl9ndWVwSnhvcUZmSDJzTjJOM3loV2VxRks1RWlBV1A2NGRMZkxIc0xReFA4NE92SGpYSGVRVVlEaGlSOHIzeGppQ25pTDVMVzNBNFRMUXlXbUY5TmMyOWpaWQ",
+          "publisherUrl": "https://www.arabnews.com/world/us-deportees-in-south-sudan-went-hungry-as-guards-pocketed-money-from-relatives-families-say-3013078",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:05.229Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmiss"
+          ]
+        },
+        {
+          "title": "UNHAS South Sudan - Concept of Operations - ReliefWeb",
+          "publisher": "ReliefWeb",
+          "publishedAt": "2026-11-20T08:36:06.000Z",
+          "rssDescription": "UNHAS South Sudan - Concept of Operations ReliefWeb",
+          "rssUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbHNwajlsVWt0Zm9LZVVRLW5TQUtXSUtHN1BHUElXYmJkVDAtWERhTTFnbWNGMVdpaUJjNzZDZmJ4bUZ1OVdZQWVQZDJoR3hPNm9TU3cxdGRyT3FiYm5zT3U3NmhxUHgyMVA1N2czX2JJM2tqOWFFeUpQOTRXTkFSUk9Caw?oc=5",
+          "googleArticleId": "CBMigwFBVV95cUxNbHNwajlsVWt0Zm9LZVVRLW5TQUtXSUtHN1BHUElXYmJkVDAtWERhTTFnbWNGMVdpaUJjNzZDZmJ4bUZ1OVdZQWVQZDJoR3hPNm9TU3cxdGRyT3FiYm5zT3U3NmhxUHgyMVA1N2czX2JJM2tqOWFFeUpQOTRXTkFSUk9Caw",
+          "publisherUrl": "https://reliefweb.int/report/south-sudan/unhas-south-sudan-concept-operations",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:30.254Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmiss"
+          ]
+        },
+        {
+          "title": "South Sudan – “We once feared each other; now we hug like sisters”: Tambura women cross ethnic divides to rebuild peace - Africa24 TV",
+          "publisher": "Africa24 TV",
+          "publishedAt": "2026-11-20T07:45:32.000Z",
+          "rssDescription": "South Sudan – “We once feared each other; now we hug like sisters”: Tambura women cross ethnic divides to rebuild peace Africa24 TV",
+          "rssUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcnZLWW1yenlLYXpwSlRKYnAtOFpOODA5eFlmd1g2eXFxTUpIbmtPa0g1VkxBMFhwYkJhMHFGaDQ3LUZZcV96OTAtVkpkalFwb0ZUbFFFSEpUbzlZbnd3cWtCdlFOMmFVN0FOdHJOLWhtZlR5bVJoRWFWY3doLWZlOGFMcjRPOTBFN0NnZHY2cmljclIwT19NRjZDMUExa1NOcXI1eVJ3bnAwVEZ0bVdSTEZCd0d5M2hjWThkb2Z1S2d3X1RTNXo4VGRha1lVT21NVHc0?oc=5",
+          "googleArticleId": "CBMi0wFBVV95cUxQcnZLWW1yenlLYXpwSlRKYnAtOFpOODA5eFlmd1g2eXFxTUpIbmtPa0g1VkxBMFhwYkJhMHFGaDQ3LUZZcV96OTAtVkpkalFwb0ZUbFFFSEpUbzlZbnd3cWtCdlFOMmFVN0FOdHJOLWhtZlR5bVJoRWFWY3doLWZlOGFMcjRPOTBFN0NnZHY2cmljclIwT19NRjZDMUExa1NOcXI1eVJ3bnAwVEZ0bVdSTEZCd0d5M2hjWThkb2Z1S2d3X1RTNXo4VGRha1lVT21NVHc0",
+          "publisherUrl": "https://africa24tv.com/south-sudan-we-once-feared-each-other-now-we-hug-like-sisters-tambura-women-cross-ethnic-divides-to-rebuild-peace/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:57.830Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmiss"
+          ]
+        },
+        {
+          "title": "South Sudan strengthens readiness for Bundibugyo virus disease - WHO | Regional Office for Africa",
+          "publisher": "WHO | Regional Office for Africa",
+          "publishedAt": "2026-11-20T10:23:18.000Z",
+          "rssDescription": "South Sudan strengthens readiness for Bundibugyo virus disease WHO | Regional Office for Africa",
+          "rssUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOFJxVm41SFltclhSMUR5Zll3Y083WGxCWVNhRlE5WXB0WHFVb3kwNDZoVTgtMVRZNjhzcjNrNEE5djFCWENPaU14WXVmMUR4Sk5Yc0RReGR0Mjh0SDlrZEZGbVZkemZoOG9DeG93VVFJT1dDRkhPUndmcHBYdlJCTWFQdjRKVW1NSTMzQnJ0NmJvRjh0Mk04ajF0clFrVnZGZmJWcm1uLWNoRk4xTFRV?oc=5",
+          "googleArticleId": "CBMirwFBVV95cUxOOFJxVm41SFltclhSMUR5Zll3Y083WGxCWVNhRlE5WXB0WHFVb3kwNDZoVTgtMVRZNjhzcjNrNEE5djFCWENPaU14WXVmMUR4Sk5Yc0RReGR0Mjh0SDlrZEZGbVZkemZoOG9DeG93VVFJT1dDRkhPUndmcHBYdlJCTWFQdjRKVW1NSTMzQnJ0NmJvRjh0Mk04ajF0clFrVnZGZmJWcm1uLWNoRk4xTFRV",
+          "publisherUrl": "https://www.afro.who.int/countries/south-sudan/news/south-sudan-strengthens-readiness-bundibugyo-virus-disease",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:25.363Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmiss"
+          ]
+        },
+        {
+          "title": "South Sudan rejects claims US-deported migrants face hunger, poor conditions - TRT Afrika",
+          "publisher": "TRT Afrika",
+          "publishedAt": "2026-11-20T08:43:46.000Z",
+          "rssDescription": "South Sudan rejects claims US-deported migrants face hunger, poor conditions TRT Afrika",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE53ZnlqbjN4aWhmQXJ4U0hGaFJGT2NKRWNrOEt3Y0pYWkhnZXFWSjA5SlpubDNxNFloTF9JZU9ESTNWSVBqOUFlaC1OWGhnRS03N0c2Q2cxN1ZBQno2bGNkUGhobXQ?oc=5",
+          "googleArticleId": "CBMiZEFVX3lxTE53ZnlqbjN4aWhmQXJ4U0hGaFJGT2NKRWNrOEt3Y0pYWkhnZXFWSjA5SlpubDNxNFloTF9JZU9ESTNWSVBqOUFlaC1OWGhnRS03N0c2Q2cxN1ZBQno2bGNkUGhobXQ",
+          "publisherUrl": "https://www.trtafrika.com/english/article/6696e5215020",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:45.403Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmiss"
+          ]
+        },
+        {
+          "title": "US deportees in South Sudan went hungry as guards pocketed money from relatives, families say - Temple Daily Telegram",
+          "publisher": "Temple Daily Telegram",
+          "publishedAt": "2026-11-20T09:00:00.000Z",
+          "rssDescription": "US deportees in South Sudan went hungry as guards pocketed money from relatives, families say Temple Daily Telegram",
+          "rssUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMWFHZUsyQWhFRVFGTGQyQVBnM0kzRUVzaXNCT1JZM0x0bnVzalZUeGxWSEk5TERIXy1xanRzNFZ4Nk9VYzktRWRHWXRub3J5eFUzc1ZYRk1YLUNiSWhnOG83QllMR3NhaHBYUktXa0xBU0lMM2VGdE9Ud19UeUNEdU4ydEozbnlkYmlTUE9OREtwVG5maHc?oc=5",
+          "googleArticleId": "CBMilgFBVV95cUxOMWFHZUsyQWhFRVFGTGQyQVBnM0kzRUVzaXNCT1JZM0x0bnVzalZUeGxWSEk5TERIXy1xanRzNFZ4Nk9VYzktRWRHWXRub3J5eFUzc1ZYRk1YLUNiSWhnOG83QllMR3NhaHBYUktXa0xBU0lMM2VGdE9Ud19UeUNEdU4ydEozbnlkYmlTUE9OREtwVG5maHc",
+          "publisherUrl": "https://www.tdtnews.com/news/nation_world/article_46eac3c3-adf6-5d43-bbc5-bc5f2171660e.html",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:13.004Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmiss"
+          ]
+        },
+        {
+          "title": "US deportees in South Sudan went hungry as guards pocketed money from relatives, families say - couriernews.com",
+          "publisher": "couriernews.com",
+          "publishedAt": "2026-11-20T11:03:45.000Z",
+          "rssDescription": "US deportees in South Sudan went hungry as guards pocketed money from relatives, families say couriernews.com",
+          "rssUrl": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPUTJ1RFBxNUVER0N4WWFRQ2g0MEdpSHd6UTFLSGloemlUNy1CcTRLeWNDMU9Bd21FemMza25yOTMxR1NxaC1FbzEwSGFrd25YTDVfQnhuLWw4eWJLSXRjVWZmRFExSFRONVdwUTBfTUJaVGZYbU5uY29JLUl2aTZ5UVpFdzc4U0lGaGctdTk5T201SldmNTBDOVVPc0lRLVpydGxiQ2N3Qm5JTHFNcEV6S3pZWmUxeXRMRUdjcXR1YUhvQXJFN3poaXpvYVN2NklHTmRJVmlnR0pkcEhzRWNfcXlCMkJsN0hmUlJaMGpoS2p6LXVJSThmRVJKV0xZSGdEUXNWaTFtUkVIamVvZ3c?oc=5",
+          "googleArticleId": "CBMijgJBVV95cUxPUTJ1RFBxNUVER0N4WWFRQ2g0MEdpSHd6UTFLSGloemlUNy1CcTRLeWNDMU9Bd21FemMza25yOTMxR1NxaC1FbzEwSGFrd25YTDVfQnhuLWw4eWJLSXRjVWZmRFExSFRONVdwUTBfTUJaVGZYbU5uY29JLUl2aTZ5UVpFdzc4U0lGaGctdTk5T201SldmNTBDOVVPc0lRLVpydGxiQ2N3Qm5JTHFNcEV6S3pZWmUxeXRMRUdjcXR1YUhvQXJFN3poaXpvYVN2NklHTmRJVmlnR0pkcEhzRWNfcXlCMkJsN0hmUlJaMGpoS2p6LXVJSThmRVJKV0xZSGdEUXNWaTFtUkVIamVvZ3c",
+          "publisherUrl": "https://www.couriernews.com/news/world/us-deportees-in-south-sudan-went-hungry-as-guards-pocketed-money-from-relatives-families-say/article_73915a80-8530-563e-a65d-f117bb6c5dd3.html",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:40.556Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmiss"
+          ]
+        }
+      ]
+    },
+    {
+      "queryId": "unisfa",
+      "query": "(UNISFA OR Abyei) when:1d",
+      "label": "UNISFA / Abyei",
+      "queryRevision": 5,
+      "configHash": "d3d815de887dce27b47997634fcb7c2f82db66f6bca00b76b8b607d67b3897e0",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-20T12:18:17.595Z",
+      "feedFetchedAt": "2026-11-20T12:18:34.233Z",
+      "generatedAt": "2026-11-20T12:22:50.573Z",
+      "status": "completed",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 3,
+        "resolved": 3,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": [
+        {
+          "title": "UNISFA rates all equipment of Viet Nam’s Engineering Company Rotation 5 as operational - en.qdnd.vn",
+          "publisher": "en.qdnd.vn",
+          "publishedAt": "2026-11-19T16:32:00.000Z",
+          "rssDescription": "UNISFA rates all equipment of Viet Nam’s Engineering Company Rotation 5 as operational en.qdnd.vn",
+          "rssUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNeWt3Mk1seHRZQWE2WTBMZXNzTHh0TVdfa1pSVWtpdEdOek5PODRMZzRaMFphcnFLS2xkVmpONUw5NzJzek5QZGk0S2hIM09QanMtSWt1WlhvZmFseXZHbkxzN1FCc3QtdHAybXZwakVvWFg3Tld1QjRfdFBIZlJPRjZPbEpRa0J4dnU5c0UxWWlydGp4Y3FxX2J2b1BmZ2k0SkZJQnlJZTlPNWZsZmRKVVRsbVRzWWdWbWZZcXJfSlNTcjI0S3hlY3JGd2dKek9JNGYzSndEQXo1VS1ZbkRZLWlkaWVDb2s?oc=5",
+          "googleArticleId": "CBMi5wFBVV95cUxNeWt3Mk1seHRZQWE2WTBMZXNzTHh0TVdfa1pSVWtpdEdOek5PODRMZzRaMFphcnFLS2xkVmpONUw5NzJzek5QZGk0S2hIM09QanMtSWt1WlhvZmFseXZHbkxzN1FCc3QtdHAybXZwakVvWFg3Tld1QjRfdFBIZlJPRjZPbEpRa0J4dnU5c0UxWWlydGp4Y3FxX2J2b1BmZ2k0SkZJQnlJZTlPNWZsZmRKVVRsbVRzWWdWbWZZcXJfSlNTcjI0S3hlY3JGd2dKek9JNGYzSndEQXo1VS1ZbkRZLWlkaWVDb2s",
+          "publisherUrl": "https://en.qdnd.vn/military/intl-relations-and-cooperation/unisfa-rates-all-equipment-of-viet-nam-s-engineering-company-rotation-5-as-operational-597351",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:05.093Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unisfa"
+          ]
+        },
+        {
+          "title": "GAR-TOKKOON SOBA: Suuraan kun bara 2026tti haleellaa diroonii mootummaan Itoophiyaa humnoota Eertiraa irratti raawwate hin agarsiisu - PesaCheck",
+          "publisher": "PesaCheck",
+          "publishedAt": "2026-11-19T19:29:18.000Z",
+          "rssDescription": "GAR-TOKKOON SOBA: Suuraan kun bara 2026tti haleellaa diroonii mootummaan Itoophiyaa humnoota Eertiraa irratti raawwate hin agarsiisu PesaCheck",
+          "rssUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYzFfclhWR1lHUHU2TzdoR050V2M3dm9TbG9JWFNsUU4yTFhMeWZtMVRRc1RzWVdjTkRZaDRRRzA1OUhQRGJDOXJRNEZ1eklhS2w5MHRUZ2Ezb0ZNWWxlTEZBUWowMmNFZWlhNnRxQ2EyN1pDd2lSUFhNMFV3T0NkMjhBT3NQMlRuSEVWUDBfYzlqRHducHVMbmtWdWFqTTlwcGstNnQ3S3lONUdmOG9vdmxvR1pqTWJsbVhOZFBpc0JMVm5lWDdQb2RMYmdtYXpkVUtDYkVOckloVldLNUVfN3FndG4xTFJuQkE?oc=5",
+          "googleArticleId": "CBMi6gFBVV95cUxQYzFfclhWR1lHUHU2TzdoR050V2M3dm9TbG9JWFNsUU4yTFhMeWZtMVRRc1RzWVdjTkRZaDRRRzA1OUhQRGJDOXJRNEZ1eklhS2w5MHRUZ2Ezb0ZNWWxlTEZBUWowMmNFZWlhNnRxQ2EyN1pDd2lSUFhNMFV3T0NkMjhBT3NQMlRuSEVWUDBfYzlqRHducHVMbmtWdWFqTTlwcGstNnQ3S3lONUdmOG9vdmxvR1pqTWJsbVhOZFBpc0JMVm5lWDdQb2RMYmdtYXpkVUtDYkVOckloVldLNUVfN3FndG4xTFJuQkE",
+          "publisherUrl": "https://pesacheck.org/gar-tokkoon-soba-suuraan-kun-bara-2026tti-haleellaa-diroonii-mootummaan-itoophiyaa-humnoota-eertiraa-irratti-raawwate-hin-agarsiisu/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:37.666Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unisfa"
+          ]
+        },
+        {
+          "title": "Two Vietnamese female officers receive U.N. Medals in the Central African Republic - en.qdnd.vn",
+          "publisher": "en.qdnd.vn",
+          "publishedAt": "2026-11-19T16:48:00.000Z",
+          "rssDescription": "Two Vietnamese female officers receive U.N. Medals in the Central African Republic en.qdnd.vn",
+          "rssUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdDhJU09SbFVGUjJoMDU4YW1faUtoeUdMZWx3SjB0SHAyXzJhSUJiQ3ZXMUx6Qkh1MGZyUXhFN2dCZGxPSDVYdW5JY1RHNEFWXzVZVkVLbmNfNVZjdGl2ZWtLMUhJdzFwZGgyN0ZIX3VRRlJMSll6Tm16ZGpjWHh3Nmtkc1l0SHJsU092VWd2Q1FKNVdqaW1sN0ZsM0NFbEYwMVZDOWJCVW1HLXNFWHhBUkdhOTlGTUctUmRpOUpQbWNWbElvRlQ4ZXlzdkFjaWl6S0c4dkpQU2tnNWp5enpjMg?oc=5",
+          "googleArticleId": "CBMi4AFBVV95cUxOdDhJU09SbFVGUjJoMDU4YW1faUtoeUdMZWx3SjB0SHAyXzJhSUJiQ3ZXMUx6Qkh1MGZyUXhFN2dCZGxPSDVYdW5JY1RHNEFWXzVZVkVLbmNfNVZjdGl2ZWtLMUhJdzFwZGgyN0ZIX3VRRlJMSll6Tm16ZGpjWHh3Nmtkc1l0SHJsU092VWd2Q1FKNVdqaW1sN0ZsM0NFbEYwMVZDOWJCVW1HLXNFWHhBUkdhOTlGTUctUmRpOUpQbWNWbElvRlQ4ZXlzdkFjaWl6S0c4dkpQU2tnNWp5enpjMg",
+          "publisherUrl": "https://en.qdnd.vn/military/intl-relations-and-cooperation/two-vietnamese-female-officers-receive-u-n-medals-in-the-central-african-republic-597357",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:07.730Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "peacekeeping",
+            "minusca",
+            "unisfa"
+          ]
+        }
+      ]
+    },
+    {
+      "queryId": "minurso",
+      "query": "(MINURSO OR \"Western Sahara\" OR Polisario OR Tindouf OR Laayoune OR \"Sahara occidental\") when:1d",
+      "label": "MINURSO / Western Sahara",
+      "queryRevision": 6,
+      "configHash": "fb21e0c83d004cc6db0e810fa21e25889384bb79359c3d32738c0595353b56f3",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-20T12:18:17.595Z",
+      "feedFetchedAt": "2026-11-20T12:18:35.704Z",
+      "generatedAt": "2026-11-20T12:22:50.573Z",
+      "status": "completed",
+      "error": null,
+      "truncated": true,
+      "counts": {
+        "selected": 9,
+        "resolved": 9,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": [
+        {
+          "title": "New Tindouf movement calls for Brahim Ghali to step down as Polisario leader - Yabiladi.com",
+          "publisher": "Yabiladi.com",
+          "publishedAt": "2026-11-20T09:46:07.000Z",
+          "rssDescription": "New Tindouf movement calls for Brahim Ghali to step down as Polisario leader Yabiladi.com",
+          "rssUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV0x6dWlpdmxwUjNpaHMwTjBEQ04zWGJkdGNyY0xxNFlxX1pBWjBRUHJsRnJ1a2JyTU5YSzBSdnFNZ1FubDJlU3JEazk2d1ZZRUZnSEwzRTc5UkpJcFYzQm04VXJFZmtiRnBIN0FQSUdzNmNJLWktbUxvUGdYbk5tR2oyLXNhSkF2R0dvdS15d3RKQQ?oc=5",
+          "googleArticleId": "CBMikgFBVV95cUxOV0x6dWlpdmxwUjNpaHMwTjBEQ04zWGJkdGNyY0xxNFlxX1pBWjBRUHJsRnJ1a2JyTU5YSzBSdnFNZ1FubDJlU3JEazk2d1ZZRUZnSEwzRTc5UkpJcFYzQm04VXJFZmtiRnBIN0FQSUdzNmNJLWktbUxvUGdYbk5tR2oyLXNhSkF2R0dvdS15d3RKQQ",
+          "publisherUrl": "https://en.yabiladi.com/articles/details/208192/tindouf-movement-calls-brahim-ghali.html",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:07.609Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "minurso"
+          ]
+        },
+        {
+          "title": "Could MINURSO’s Closure Set Precedent for End of the UNRWA? - Middle East Forum",
+          "publisher": "Middle East Forum",
+          "publishedAt": "2026-11-19T17:41:59.000Z",
+          "rssDescription": "Could MINURSO’s Closure Set Precedent for End of the UNRWA? Middle East Forum",
+          "rssUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOVVlN2dITHNjQXRqc0VPTjh5S2doSkwteFlvdlBCd3pwUXlyUzRwRDZhOUx3dTc2RVlqZ295N0k2b0h6MjRsbWRBbElySzV1OW5XWVZiMV9kM0Radm05YXlIeERuUVUwZFE1TE1EekFZMzNlRmJBdExyRXpZYWhWUDlMVEtPNXVQSVVTZklhWG5zNGZlWlM3S21n?oc=5",
+          "googleArticleId": "CBMimgFBVV95cUxPOVVlN2dITHNjQXRqc0VPTjh5S2doSkwteFlvdlBCd3pwUXlyUzRwRDZhOUx3dTc2RVlqZ295N0k2b0h6MjRsbWRBbElySzV1OW5XWVZiMV9kM0Radm05YXlIeERuUVUwZFE1TE1EekFZMzNlRmJBdExyRXpZYWhWUDlMVEtPNXVQSVVTZklhWG5zNGZlWlM3S21n",
+          "publisherUrl": "https://www.meforum.org/mef-observer/could-minursos-closure-set-precedent-for-end-of-the-unrwa",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:40.171Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "minurso"
+          ]
+        },
+        {
+          "title": "Morocco builds a shield for Sahrawi childhood as Tindouf falters - Middle East Online",
+          "publisher": "Middle East Online",
+          "publishedAt": "2026-11-20T04:16:19.000Z",
+          "rssDescription": "Morocco builds a shield for Sahrawi childhood as Tindouf falters Middle East Online",
+          "rssUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUlQ1T0JZcGxxQmdJekR4TllGRC1GaWFpd2l6dnEzV2xETmZyMG0yd2x5d3FHak9zTW5QQ18tWmdJREMyekdLVVdCOHh3TlJXaXVmR2RCVzVmYzFTdjdobDRtaVVsOE5Zb2psaVc3QTQyd1JBMTBFVDJMdnNoZkFXbnNTcGsweU9qWndIaE1LMm82NFU?oc=5",
+          "googleArticleId": "CBMikwFBVV95cUxPUlQ1T0JZcGxxQmdJekR4TllGRC1GaWFpd2l6dnEzV2xETmZyMG0yd2x5d3FHak9zTW5QQ18tWmdJREMyekdLVVdCOHh3TlJXaXVmR2RCVzVmYzFTdjdobDRtaVVsOE5Zb2psaVc3QTQyd1JBMTBFVDJMdnNoZkFXbnNTcGsweU9qWndIaE1LMm82NFU",
+          "publisherUrl": "https://middle-east-online.com/en/morocco-builds-shield-sahrawi-childhood-tindouf-falters",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:10.230Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "minurso"
+          ]
+        },
+        {
+          "title": "UN exit from Western Sahara hands Morocco a strategic prize - Africa Confidential",
+          "publisher": "Africa Confidential",
+          "publishedAt": "2026-11-19T18:08:46.000Z",
+          "rssDescription": "UN exit from Western Sahara hands Morocco a strategic prize Africa Confidential",
+          "rssUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQXJMd241Wmc3OW8yMXhfUkRXN1VZN2ZaanI0VDN5SnlzSjFYTl9hTC10MkFMOHJIbi1UdGtYQ2Y1SE91Zy03RUxNNERfX3ZrMlNwZWVxWHV2alk4bWtLaEtXcWVtbjhKZUwwbHd1Q2xVVm9oWHJEa1FxRHh3WkZMendmYTgzb0MyOEZ5aUxjZEpOUEQ3Y1dsMG40SVUzRkwwTzE4dmJETmRxSGFZSExMaFNR?oc=5",
+          "googleArticleId": "CBMisgFBVV95cUxPQXJMd241Wmc3OW8yMXhfUkRXN1VZN2ZaanI0VDN5SnlzSjFYTl9hTC10MkFMOHJIbi1UdGtYQ2Y1SE91Zy03RUxNNERfX3ZrMlNwZWVxWHV2alk4bWtLaEtXcWVtbjhKZUwwbHd1Q2xVVm9oWHJEa1FxRHh3WkZMendmYTgzb0MyOEZ5aUxjZEpOUEQ3Y1dsMG40SVUzRkwwTzE4dmJETmRxSGFZSExMaFNR",
+          "publisherUrl": "https://www.africa-confidential.com/article/id/16249/un-exit-from-western-sahara-hands-morocco-a-strategic-prize",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:32.752Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "minurso"
+          ]
+        },
+        {
+          "title": "Locust Watch: Seasonal precipitation predictions in the Desert Locust winter and spring breeding areas (December 2026–May 2027) (19 November 2026) - ReliefWeb",
+          "publisher": "ReliefWeb",
+          "publishedAt": "2026-11-20T01:06:09.000Z",
+          "rssDescription": "Locust Watch: Seasonal precipitation predictions in the Desert Locust winter and spring breeding areas (December 2026–May 2027) (19 November 2026) ReliefWeb",
+          "rssUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNSlRwa1h6bWpPY2hTNUdCNE5ZSXhqNDZ3TmtqcUk0Njcycm5qOF9xRWRsVlVRNWJwZ1Bua25nbnFBTnQwT09UVmxrcFZtV2xQLXNUQ2hMWmtsRFRLbjM4MmQ5OV9Dd0lBWURGTXQxOWtfUGlZVXFmX2JNQWY0aFNqa3Z3bzVSMG1zTVVydldLSTVSUTN5TUVyeGpuSkgwaHY5cXdveC13Z1lYZ090QWdIRFExNFo2R1FiLU5wbl9ZX0JkMTBvdVlnRXlwbXBtdHI0b2VuazlmS25zOTc1Wk4wSVZVcDRkNE5QOEpVSXJ1WVRDSFpVQ1J3eUs1dTB1dw?oc=5",
+          "googleArticleId": "CBMi_gFBVV95cUxNSlRwa1h6bWpPY2hTNUdCNE5ZSXhqNDZ3TmtqcUk0Njcycm5qOF9xRWRsVlVRNWJwZ1Bua25nbnFBTnQwT09UVmxrcFZtV2xQLXNUQ2hMWmtsRFRLbjM4MmQ5OV9Dd0lBWURGTXQxOWtfUGlZVXFmX2JNQWY0aFNqa3Z3bzVSMG1zTVVydldLSTVSUTN5TUVyeGpuSkgwaHY5cXdveC13Z1lYZ090QWdIRFExNFo2R1FiLU5wbl9ZX0JkMTBvdVlnRXlwbXBtdHI0b2VuazlmS25zOTc1Wk4wSVZVcDRkNE5QOEpVSXJ1WVRDSFpVQ1J3eUs1dTB1dw",
+          "publisherUrl": "https://reliefweb.int/report/world/locust-watch-seasonal-precipitation-predictions-desert-locust-winter-and-spring-breeding-areas-december-2026-may-2027-19-november-2026",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:00.332Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "minurso"
+          ]
+        },
+        {
+          "title": "Irish Parliament seminar reaffirms Sahrawi people's sovereignty over natural resources, calls for practical solidarity - وكالة الأنباء الصحراوية",
+          "publisher": "وكالة الأنباء الصحراوية",
+          "publishedAt": "2026-11-19T22:10:21.000Z",
+          "rssDescription": "Irish Parliament seminar reaffirms Sahrawi people's sovereignty over natural resources, calls for practical solidarity وكالة الأنباء الصحراوية",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5sZEhjQW5vc0lCdUx5UUgyVXRhUzFyU1ctbDIyM1VWNTBONG8tcjZlSjFHQ1N2RGZhbTRTckhDTUNENWIxb1FRMzktOC1iOEpUSTFiaW1nNWlERWxzc3c?oc=5",
+          "googleArticleId": "CBMiXkFVX3lxTE5sZEhjQW5vc0lCdUx5UUgyVXRhUzFyU1ctbDIyM1VWNTBONG8tcjZlSjFHQ1N2RGZhbTRTckhDTUNENWIxb1FRMzktOC1iOEpUSTFiaW1nNWlERWxzc3c",
+          "publisherUrl": "https://www.spsrasd.info/en/2026/11/19/19114.html",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:27.865Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "minurso"
+          ]
+        },
+        {
+          "title": "Fabiani (ICG), ‘The end of the UN mission in Western Sahara is a cause for concern’ - ANSA",
+          "publisher": "ANSA",
+          "publishedAt": "2026-11-20T09:46:15.000Z",
+          "rssDescription": "Fabiani (ICG), ‘The end of the UN mission in Western Sahara is a cause for concern’ ANSA",
+          "rssUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPQXN0Z2JFd0JHWmtERE04OThMbUJSR1ptVHN5UUVKVFJqVDlzVEQ3eXo3ZGRZZzRsTndIOERwdVB1U3JyNkZ3aG1Ra3dwUHZzeEVjZ3ZFcndSVTJWLVgxbjRiWTU5Znd5aWdPcGZvXzJkZUJoc09FUXZORDRDdVplZC1TUjJmLTU3ZFBHT3NzeGVrYUd4NkxPcEVoY0lUWjRLTXR0RlNQR0h0UUdQVjNzMGNELV9WNWZibDgwc0lmYmJYanBqTGN4Yld2TjRicFN2czFwNGhmYjNRdGZvVFA2Zk4tUmRlYUR3YjZWYjBuUkhGSDJieXhwd3J4UUk2U05yUUwwdmZ1X2tLTkNi0gGMAkFVX3lxTE9Bc3RnYkV3Qkdaa0RETTg5OExtQlJHWm1Uc3lRRUpUUmpUOXNURDd5ejdkZFlnNGxOd0g4RHB1UHVTcnI2RndobVFrd3BQdnN4RWNndkVyd1JVMlYtWDFuNGJZNTlmd3lpZ09wZm9fMmRlQmhzT0VRdk5ENEN1WmVkLVNSMmYtNTdkUEdPc3N4ZWthR3g2TE9wRWhjSVRaNEtNdHRGU1BHSHRRR1BWM3MwY0QtX1Y1ZmJsODBzSWZiYlhqcGpMY3hiV3ZONGJwU3ZzMXA0aGZiM1F0Zm9UUDZmTi1SZGVhRHdiNlZiMG5SSEZIMmJ5eHB3cnhRSTZTTnJRTDB2ZnVfa0tOQ2I?oc=5",
+          "googleArticleId": "CBMijAJBVV95cUxPQXN0Z2JFd0JHWmtERE04OThMbUJSR1ptVHN5UUVKVFJqVDlzVEQ3eXo3ZGRZZzRsTndIOERwdVB1U3JyNkZ3aG1Ra3dwUHZzeEVjZ3ZFcndSVTJWLVgxbjRiWTU5Znd5aWdPcGZvXzJkZUJoc09FUXZORDRDdVplZC1TUjJmLTU3ZFBHT3NzeGVrYUd4NkxPcEVoY0lUWjRLTXR0RlNQR0h0UUdQVjNzMGNELV9WNWZibDgwc0lmYmJYanBqTGN4Yld2TjRicFN2czFwNGhmYjNRdGZvVFA2Zk4tUmRlYUR3YjZWYjBuUkhGSDJieXhwd3J4UUk2U05yUUwwdmZ1X2tLTkNi0gGMAkFVX3lxTE9Bc3RnYkV3Qkdaa0RETTg5OExtQlJHWm1Uc3lRRUpUUmpUOXNURDd5ejdkZFlnNGxOd0g4RHB1UHVTcnI2RndobVFrd3BQdnN4RWNndkVyd1JVMlYtWDFuNGJZNTlmd3lpZ09wZm9fMmRlQmhzT0VRdk5ENEN1WmVkLVNSMmYtNTdkUEdPc3N4ZWthR3g2TE9wRWhjSVRaNEtNdHRGU1BHSHRRR1BWM3MwY0QtX1Y1ZmJsODBzSWZiYlhqcGpMY3hiV3ZONGJwU3ZzMXA0aGZiM1F0Zm9UUDZmTi1SZGVhRHdiNlZiMG5SSEZIMmJ5eHB3cnhRSTZTTnJRTDB2ZnVfa0tOQ2I",
+          "publisherUrl": "https://www.ansa.it/amp/english/news/news_from_embassies/2026/11/20/fabiani-icg-the-end-of-the-un-mission-in-western-sahara-is-a-cause-for_99976840-ac79-4bb8-9668-120e6fddd322.html",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:47.908Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "minurso"
+          ]
+        },
+        {
+          "title": "Estimates put Polisario’s active fighters far below its claimed numbers - HESPRESS English - Morocco News",
+          "publisher": "HESPRESS English - Morocco News",
+          "publishedAt": "2026-11-19T18:03:17.000Z",
+          "rssDescription": "Estimates put Polisario’s active fighters far below its claimed numbers HESPRESS English - Morocco News",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOHkybTd5ZEpVTGpXaWQwczJkMDdxSmNJOU8yZjFiQUhuc0RmOGx0VF9Fc2tfa1BNdGRySVVTOEZUWFZtdy1OZDE5YjAyeFBxclRlSGlzbXZ4VFlJd1h3T3VGLVZGT3dOZEFQRXBKdkZ6bFdzMDlCMFQzZ21oN080YW5EUkZMQzkyd1JhNDlMcFFMdFJCTmxobjdaUWlhT2lEYlNxTWtDTXA4Zw?oc=5",
+          "googleArticleId": "CBMiqgFBVV95cUxPOHkybTd5ZEpVTGpXaWQwczJkMDdxSmNJOU8yZjFiQUhuc0RmOGx0VF9Fc2tfa1BNdGRySVVTOEZUWFZtdy1OZDE5YjAyeFBxclRlSGlzbXZ4VFlJd1h3T3VGLVZGT3dOZEFQRXBKdkZ6bFdzMDlCMFQzZ21oN080YW5EUkZMQzkyd1JhNDlMcFFMdFJCTmxobjdaUWlhT2lEYlNxTWtDTXA4Zw",
+          "publisherUrl": "https://en.hespress.com/149489-estimates-put-polisarios-active-fighters-far-below-its-claimed-numbers.html",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:15.503Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "minurso"
+          ]
+        },
+        {
+          "title": "Adelante Andalucía criticizes the 2030 World Cup shared with Morocco and accuses the Government of whitewashing the Moroccan regime - El Constitucional",
+          "publisher": "El Constitucional",
+          "publishedAt": "2026-11-20T12:01:00.000Z",
+          "rssDescription": "Adelante Andalucía criticizes the 2030 World Cup shared with Morocco and accuses the Government of whitewashing the Moroccan regime El Constitucional",
+          "rssUrl": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNUUJBaXVHU0V5OVZldUVYaDBycEdTN1JTZGZOMTlLaU9pMDYtNU45YjJmX0ZVbFdFQWl1MkQ2Y0JlcGxRWEU4dExfZTZjZGlQZG51ZE43YjM3Y3FKc2lSNXdEU0c4MllySUl3TUlBVlBjOUlWc1c4VkRxSlFIQkthbEhaTkV5c3lxUUpzZC10ZDlka3FLLWtyTUpnd3NDZWNmV3Q2OS13TUhBWm1VYmFmTHZwNU1MQU51QWQ2MzAzal92VzF6Nlk2SWowdWt5UU1XZ2g2TGItMFY4X2FYTXhMSWRvanMxVWpuOXJNdF9iTEpORGVuT0NjNHg3Tm5aQVNBN1BhNHNMN2JNZDg2REJpZ1VYQy1HSkxnY0E?oc=5",
+          "googleArticleId": "CBMimgJBVV95cUxNUUJBaXVHU0V5OVZldUVYaDBycEdTN1JTZGZOMTlLaU9pMDYtNU45YjJmX0ZVbFdFQWl1MkQ2Y0JlcGxRWEU4dExfZTZjZGlQZG51ZE43YjM3Y3FKc2lSNXdEU0c4MllySUl3TUlBVlBjOUlWc1c4VkRxSlFIQkthbEhaTkV5c3lxUUpzZC10ZDlka3FLLWtyTUpnd3NDZWNmV3Q2OS13TUhBWm1VYmFmTHZwNU1MQU51QWQ2MzAzal92VzF6Nlk2SWowdWt5UU1XZ2g2TGItMFY4X2FYTXhMSWRvanMxVWpuOXJNdF9iTEpORGVuT0NjNHg3Tm5aQVNBN1BhNHNMN2JNZDg2REJpZ1VYQy1HSkxnY0E",
+          "publisherUrl": "https://www.elconstitucional.es/en/national/adelante-andalucia-criticizes-the-2030-world-cup-shared-with-morocco-and-accuses-the-government-of-whitewashing-the-moroccan-regime_10450_102.html",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:43.060Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "minurso"
+          ]
+        }
+      ]
+    },
+    {
+      "queryId": "unmik",
+      "query": "(UNMIK OR Kosovo OR Pristina OR Mitrovica) when:1d",
+      "label": "UNMIK / Kosovo",
+      "queryRevision": 5,
+      "configHash": "364de26766286a7e9b8241f5c8462e0a65812c69428e9b11c436a2ba3c4fb01a",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-20T12:18:17.595Z",
+      "feedFetchedAt": "2026-11-20T12:18:37.220Z",
+      "generatedAt": "2026-11-20T12:22:50.573Z",
+      "status": "completed",
+      "error": null,
+      "truncated": true,
+      "counts": {
+        "selected": 9,
+        "resolved": 9,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": [
+        {
+          "title": "Special screening of Kosovo War movie shown at Iowa Veterans Home - North Tama Telegraph",
+          "publisher": "North Tama Telegraph",
+          "publishedAt": "2026-11-20T07:20:32.000Z",
+          "rssDescription": "Special screening of Kosovo War movie shown at Iowa Veterans Home North Tama Telegraph",
+          "rssUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNd3B6UnNMX2NBYjkydDZUS1hNU01SRWd2cXRpcVk3OUE0MVNmZXdkQlJ1c01SU0tlNDlMUC1kNjdRM0ZoM21OelhzQ3JUSGEtaXVlRFF0dG5aTTktRzBPNGxNdkM1bUpmSnZSd1puM3BBQUwwOVNSM3k5WmlFUFdWLW1XMmR2Zl9yV0ZFemJzVy11MTJLNGIxbUVkekZYc1V2eFVtYmN2TEdidkNWazctWlJicFdoeDhCWC1GVTR0NE5BcHdZNnp3?oc=5",
+          "googleArticleId": "CBMixwFBVV95cUxNd3B6UnNMX2NBYjkydDZUS1hNU01SRWd2cXRpcVk3OUE0MVNmZXdkQlJ1c01SU0tlNDlMUC1kNjdRM0ZoM21OelhzQ3JUSGEtaXVlRFF0dG5aTTktRzBPNGxNdkM1bUpmSnZSd1puM3BBQUwwOVNSM3k5WmlFUFdWLW1XMmR2Zl9yV0ZFemJzVy11MTJLNGIxbUVkekZYc1V2eFVtYmN2TEdidkNWazctWlJicFdoeDhCWC1GVTR0NE5BcHdZNnp3",
+          "publisherUrl": "https://www.northtamatelegraph.com/news/local-news/2026/11/20/special-screening-of-kosovo-war-movie-shown-at-iowa-veterans-home/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:10.115Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmik"
+          ]
+        },
+        {
+          "title": "Another sentence for Kosovo former president - JusticeInfo.net",
+          "publisher": "JusticeInfo.net",
+          "publishedAt": "2026-11-20T10:17:19.000Z",
+          "rssDescription": "Another sentence for Kosovo former president JusticeInfo.net",
+          "rssUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPN2FScmdTeG5yMFVmN1o3eGpDVTdhZ2pETHlfcHVZd05rczJyWExzS1ZGY25QUEtTTW9XVXFhUEpvNHZmRGl2UjhQeXRBZklMeE1Femc5Z3pTQ0FOUm5UZVdqT1RLQTFVeUV5ZlN4Vk5BT0tSYmhocnVTMVg4d0JMZW1FclRFU2kzLXpEVWY4VDE?oc=5",
+          "googleArticleId": "CBMikAFBVV95cUxPN2FScmdTeG5yMFVmN1o3eGpDVTdhZ2pETHlfcHVZd05rczJyWExzS1ZGY25QUEtTTW9XVXFhUEpvNHZmRGl2UjhQeXRBZklMeE1Femc5Z3pTQ0FOUm5UZVdqT1RLQTFVeUV5ZlN4Vk5BT0tSYmhocnVTMVg4d0JMZW1FclRFU2kzLXpEVWY4VDE",
+          "publisherUrl": "https://www.justiceinfo.net/en/168754-another-sentence-for-kosovo-former-president.html",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:42.674Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmik"
+          ]
+        },
+        {
+          "title": "Cross-Sectional Study Estimates Overweight and Obesity Prevalence Among Adults in Kosovo - Bioengineer.org",
+          "publisher": "Bioengineer.org",
+          "publishedAt": "2026-11-19T18:55:22.000Z",
+          "rssDescription": "Cross-Sectional Study Estimates Overweight and Obesity Prevalence Among Adults in Kosovo Bioengineer.org",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZW1Ld09SME1vVTMxLTlaeFlUbUpuUkVFRUlwbHRaSng1bEF6QmZIdXNPWllEMnJ6a0NlOXlHRmpMbENMQVZBeUtpZm1wNWhFczNtRDROM09TdHR0SXBLRnM2a19qUzdxOVhZT3pWdWY3UndQVlR5bXNMWXhGWkF1S0E1WUEwNXNiY1hwd2NLZmVyaVBFVGV0a2ZSMnZtR3hJWU82YklxMTV2aXZGV2U1OEM5WQ?oc=5",
+          "googleArticleId": "CBMiswFBVV95cUxOZW1Ld09SME1vVTMxLTlaeFlUbUpuUkVFRUlwbHRaSng1bEF6QmZIdXNPWllEMnJ6a0NlOXlHRmpMbENMQVZBeUtpZm1wNWhFczNtRDROM09TdHR0SXBLRnM2a19qUzdxOVhZT3pWdWY3UndQVlR5bXNMWXhGWkF1S0E1WUEwNXNiY1hwd2NLZmVyaVBFVGV0a2ZSMnZtR3hJWU82YklxMTV2aXZGV2U1OEM5WQ",
+          "publisherUrl": "https://bioengineer.org/cross-sectional-study-estimates-overweight-and-obesity-prevalence-among-adults-in-kosovo/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:12.737Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmik"
+          ]
+        },
+        {
+          "title": "Kosovo parl approves energy emergency measures - SeeNews",
+          "publisher": "SeeNews",
+          "publishedAt": "2026-11-20T09:56:04.000Z",
+          "rssDescription": "Kosovo parl approves energy emergency measures SeeNews",
+          "rssUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQLTZDTWZ0TVp5ekpLN2FWc2xGeEFyUGpaNTNMdG5HelM5a2tiWURISDJiUmdJNUNsRWpsdmhMcDJBSDQwbG5rMnlNQUZVVW0tcXdwbGVJUF9aWlBlSUI4Zmptb2NCdjIzZS0tRHk1WW1qRHM3NFpCWi1HVlRkOFN0ZGNkSTl0Zw?oc=5",
+          "googleArticleId": "CBMihgFBVV95cUxQLTZDTWZ0TVp5ekpLN2FWc2xGeEFyUGpaNTNMdG5HelM5a2tiWURISDJiUmdJNUNsRWpsdmhMcDJBSDQwbG5rMnlNQUZVVW0tcXdwbGVJUF9aWlBlSUI4Zmptb2NCdjIzZS0tRHk1WW1qRHM3NFpCWi1HVlRkOFN0ZGNkSTl0Zw",
+          "publisherUrl": "https://seenews.com/news/kosovo-parl-approves-energy-emergency-measures-1305336",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:35.255Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmik"
+          ]
+        },
+        {
+          "title": "In Kosovo, the Courage to Begin Again - IJF.org",
+          "publisher": "IJF.org",
+          "publishedAt": "2026-11-19T16:23:42.000Z",
+          "rssDescription": "In Kosovo, the Courage to Begin Again IJF.org",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1IRUZkU1R5UXhWMzdpU3NPOG1ERTdFNW45OGZLa2NvcWc4SnpNQWIxTUM2SUZQUUlXMFNaYUMwYzdhWHhxLWR4aWxELUJDYU11NUw1X2NUS0VNWU9lUEphYmlHRzdzZFl5?oc=5",
+          "googleArticleId": "CBMiaEFVX3lxTE1IRUZkU1R5UXhWMzdpU3NPOG1ERTdFNW45OGZLa2NvcWc4SnpNQWIxTUM2SUZQUUlXMFNaYUMwYzdhWHhxLWR4aWxELUJDYU11NUw1X2NUS0VNWU9lUEphYmlHRzdzZFl5",
+          "publisherUrl": "https://ijf.org/news/in-kosovo-the-courage-to-begin-again",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:02.833Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmik"
+          ]
+        },
+        {
+          "title": "Wizz Air opens Pristina base - EX-YU Aviation News",
+          "publisher": "EX-YU Aviation News",
+          "publishedAt": "2026-11-20T09:30:00.000Z",
+          "rssDescription": "Wizz Air opens Pristina base EX-YU Aviation News",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBsUmNsRUF2Qk5wQnFuVlFWWHRCTVZJMHlVdTZWZk1MYWE2SHlRTXR2bXBST2pYRGpIYUhRX0NESGp5SU5KSU5GQW5YM082VnRITGl3ZEpTTUJaMmdSU3V0bHZlR1JPMWE2TFZmSFY4LTVabkcxZ1Q0RWV3?oc=5",
+          "googleArticleId": "CBMiekFVX3lxTFBsUmNsRUF2Qk5wQnFuVlFWWHRCTVZJMHlVdTZWZk1MYWE2SHlRTXR2bXBST2pYRGpIYUhRX0NESGp5SU5KSU5GQW5YM082VnRITGl3ZEpTTUJaMmdSU3V0bHZlR1JPMWE2TFZmSFY4LTVabkcxZ1Q0RWV3",
+          "publisherUrl": "https://www.exyuaviation.com/2026/11/wizz-air-opens-pristina-base.html",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:30.366Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmik"
+          ]
+        },
+        {
+          "title": "Call for Proposals: Grants from the Republic of Bulgaria (Kosovo) - fundsforNGOs - Grants and Resources for Sustainability",
+          "publisher": "fundsforNGOs - Grants and Resources for Sustainability",
+          "publishedAt": "2026-11-19T21:08:03.000Z",
+          "rssDescription": "Call for Proposals: Grants from the Republic of Bulgaria (Kosovo) fundsforNGOs - Grants and Resources for Sustainability",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOEdVcVd3MzJlUURoT09uVjNlQnRoWmw5anRrQmx5VjZ4d0YzZUhVQTlMNjZmQmdibmUtV3BNbW5FbUhHVmlSZWxfeDY2NHJSOE9PTWhrQkxEcWI5MmpIQW1xa1RpTzdINXFWNm4yTHhtNkdYQmtqckhscFFYRkk4UWJXUlN2dG1wY2ZmT0wyY2tZSnpGc2ktSkZzbTdhMmk4WG9hZ0xHUnLSAa4BQVVfeXFMTjBxSTFFSmR6UGdWNm10XzU2S3NEOHR5YS1sU0dnNG13MWEwV29yTXp1d0N4Ry1aNVhHYVREN2ZsdzljZE92SXpHVlpzb1FFUmdZQ2NlTGtGeDFCY2VtbTZjWjA4WFhDZkw1NEhpYndjUWtnZVY3MDVFcXk0cFY4OGRIMmlOTWdGZzlWczBUdTJxT0o0UVpfVEM2T0RNMnpWTGlLa2VwaE9mbFVIODhn?oc=5",
+          "googleArticleId": "CBMiqAFBVV95cUxNOEdVcVd3MzJlUURoT09uVjNlQnRoWmw5anRrQmx5VjZ4d0YzZUhVQTlMNjZmQmdibmUtV3BNbW5FbUhHVmlSZWxfeDY2NHJSOE9PTWhrQkxEcWI5MmpIQW1xa1RpTzdINXFWNm4yTHhtNkdYQmtqckhscFFYRkk4UWJXUlN2dG1wY2ZmT0wyY2tZSnpGc2ktSkZzbTdhMmk4WG9hZ0xHUnLSAa4BQVVfeXFMTjBxSTFFSmR6UGdWNm10XzU2S3NEOHR5YS1sU0dnNG13MWEwV29yTXp1d0N4Ry1aNVhHYVREN2ZsdzljZE92SXpHVlpzb1FFUmdZQ2NlTGtGeDFCY2VtbTZjWjA4WFhDZkw1NEhpYndjUWtnZVY3MDVFcXk0cFY4OGRIMmlOTWdGZzlWczBUdTJxT0o0UVpfVEM2T0RNMnpWTGlLa2VwaE9mbFVIODhn",
+          "publisherUrl": "https://www2.fundsforngos.org/individuals/call-for-proposals-grants-from-the-republic-of-bulgaria-kosovo/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:50.413Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmik"
+          ]
+        },
+        {
+          "title": "Culture, film and documentaries: EU Support for DokuFest - European External Action Service (EEAS)",
+          "publisher": "European External Action Service (EEAS)",
+          "publishedAt": "2026-11-19T17:03:45.000Z",
+          "rssDescription": "Culture, film and documentaries: EU Support for DokuFest European External Action Service (EEAS)",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZjBEOV9Ib3JIM0xRSlQ4UFdZUTduNkRBOXc1RXBuOHVDNEpVM1hBR3dEWlJZaDA2eXM0N1VBODAxbFRPcUtkaGFDQTZLQTlycVNsYjRGQ0ZfVXFucjBrcTVPYU1aTzJpQVFieHlFU20tTWhqLTZLRVRrX3FHUnFtd0hONzBMQnJEMFh2Vmp0anFsZmtSUnpmLThXdGg5TVVSVFQ3V0lXU1Q?oc=5",
+          "googleArticleId": "CBMiqAFBVV95cUxQZjBEOV9Ib3JIM0xRSlQ4UFdZUTduNkRBOXc1RXBuOHVDNEpVM1hBR3dEWlJZaDA2eXM0N1VBODAxbFRPcUtkaGFDQTZLQTlycVNsYjRGQ0ZfVXFucjBrcTVPYU1aTzJpQVFieHlFU20tTWhqLTZLRVRrX3FHUnFtd0hONzBMQnJEMFh2Vmp0anFsZmtSUnpmLThXdGg5TVVSVFQ3V0lXU1Q",
+          "publisherUrl": "https://www.eeas.europa.eu/delegations/kosovo/culture-film-and-documentaries-eu-support-dokufest_en?s=321",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:18.011Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmik"
+          ]
+        },
+        {
+          "title": "Re: The Missing of the Kosovo War - Watch the full documentary | ARTE in English - Arte.tv",
+          "publisher": "Arte.tv",
+          "publishedAt": "2026-11-19T14:15:15.000Z",
+          "rssDescription": "Re: The Missing of the Kosovo War - Watch the full documentary | ARTE in English Arte.tv",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTjRKWjk0VE1Lc0VuX0lvMFNEWGo2bzZlWUxydEZCUkxNMHlKa2hmS2J3M2wybDV4S1FUZVBmRHhIYnk5dXNGUklPd1BQTmpINkRfbVBlbHUxTFhSeG5iNnZnSzNuZHlJOFItVXJaeTB1SWlvN3BSWWk0R0tNeU03OXN3?oc=5",
+          "googleArticleId": "CBMiggFBVV95cUxNTjRKWjk0VE1Lc0VuX0lvMFNEWGo2bzZlWUxydEZCUkxNMHlKa2hmS2J3M2wybDV4S1FUZVBmRHhIYnk5dXNGUklPd1BQTmpINkRfbVBlbHUxTFhSeG5iNnZnSzNuZHlJOFItVXJaeTB1SWlvN3BSWWk0R0tNeU03OXN3",
+          "publisherUrl": "https://www.arte.tv/en/videos/129971-015-A/re-the-missing-of-the-kosovo-war/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:45.568Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmik"
+          ]
+        }
+      ]
+    },
+    {
+      "queryId": "unficyp",
+      "query": "(UNFICYP OR \"Cyprus buffer zone\" OR \"Cyprus talks\" OR \"Cyprus settlement\") when:1d",
+      "label": "UNFICYP / Cyprus",
+      "queryRevision": 5,
+      "configHash": "a925e4967c4dc1d340318e7e20bc2cc876ee8d9a6ca2beddaa4e5ea48686a94c",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-20T12:18:17.595Z",
+      "feedFetchedAt": "2026-11-20T12:18:38.583Z",
+      "generatedAt": "2026-11-20T12:22:50.573Z",
+      "status": "completed",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 1,
+        "resolved": 1,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": [
+        {
+          "title": "Dimitriou calls for substantive Cyprus reunification talks to resume - Cyprus Inform",
+          "publisher": "Cyprus Inform",
+          "publishedAt": "2026-11-19T19:45:55.000Z",
+          "rssDescription": "Dimitriou calls for substantive Cyprus reunification talks to resume Cyprus Inform",
+          "rssUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaG1XTl94NWptc2l2VTRRWW1hTEVNWnZucXBRbTlhaTdoREFJLXMtTWJuME5ybTh3WGsyN0NWdjMtWmZKUUM2aFZtMG44RzZLYTJGNUFaVGtoZEJJSFJvdUMxSU5NeUlMTGZWZGNQTDg0aE1zVThhOURQOWFVbjJWXzFlUzdDXzVZMGpFSlp4dFdCVF81TkhlT2dUVDNoeThSenoyM3RqMA?oc=5",
+          "googleArticleId": "CBMipwFBVV95cUxPaG1XTl94NWptc2l2VTRRWW1hTEVNWnZucXBRbTlhaTdoREFJLXMtTWJuME5ybTh3WGsyN0NWdjMtWmZKUUM2aFZtMG44RzZLYTJGNUFaVGtoZEJJSFJvdUMxSU5NeUlMTGZWZGNQTDg0aE1zVThhOURQOWFVbjJWXzFlUzdDXzVZMGpFSlp4dFdCVF81TkhlT2dUVDNoeThSenoyM3RqMA",
+          "publisherUrl": "https://www.kiprinform.com/en/news/dimitriou-calls-for-substantive-cyprus-reunification-talks-to-resume/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:12.625Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unficyp"
+          ]
+        }
+      ]
+    },
+    {
+      "queryId": "unmogip",
+      "query": "(UNMOGIP OR \"Line of Control\" OR Kashmir \"United Nations\") when:1d",
+      "label": "UNMOGIP / Kashmir",
+      "queryRevision": 5,
+      "configHash": "3a22dca6c543fa18a0377ef3a3094d63922f43b49f4baf578b8651f649dc3fa8",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-20T12:18:17.595Z",
+      "feedFetchedAt": "2026-11-20T12:18:40.036Z",
+      "generatedAt": "2026-11-20T12:22:50.573Z",
+      "status": "completed",
+      "error": null,
+      "truncated": true,
+      "counts": {
+        "selected": 9,
+        "resolved": 9,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": [
+        {
+          "title": "What happened during the India-Pakistan conflict over Kashmir in 1965? - Britannica",
+          "publisher": "Britannica",
+          "publishedAt": "2026-11-20T03:30:23.000Z",
+          "rssDescription": "What happened during the India-Pakistan conflict over Kashmir in 1965? Britannica",
+          "rssUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPX296VTFzZTk3S2c1cFNtQlBxcy1MRjFGSmlnMTNTRkFpMElYQVNjdlRTNjMxYjVVVUxJWm5rbjBlaXBzWWRUMnBrbzJhSVBRalpkcFhhWW9rd294LWhDRjhERTluZGo3RF9iYnpVcUN1ZFN6YkhvT3RlQ3pDY1diVFRyVUZMNkZUOHozX1E2NWRaekc5TGQtT2ppcjQ0RFFkQ243Zw?oc=5",
+          "googleArticleId": "CBMipAFBVV95cUxPX296VTFzZTk3S2c1cFNtQlBxcy1MRjFGSmlnMTNTRkFpMElYQVNjdlRTNjMxYjVVVUxJWm5rbjBlaXBzWWRUMnBrbzJhSVBRalpkcFhhWW9rd294LWhDRjhERTluZGo3RF9iYnpVcUN1ZFN6YkhvT3RlQ3pDY1diVFRyVUZMNkZUOHozX1E2NWRaekc5TGQtT2ppcjQ0RFFkQ243Zw",
+          "publisherUrl": "https://www.britannica.com/place/What-happened-during-the-India-Pakistan-conflict-over-Kashmir-in-1965",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:15.128Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmogip"
+          ]
+        },
+        {
+          "title": "UN chief selection exposes divisions among major world powers - Free Press Kashmir",
+          "publisher": "Free Press Kashmir",
+          "publishedAt": "2026-11-20T07:18:07.000Z",
+          "rssDescription": "UN chief selection exposes divisions among major world powers Free Press Kashmir",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRWdtY0JXbjBtNXZDVFFjcDFyZmcwRkZYeWoxQ1Nzbi1ONG9KUXhDQTc2eVZWM1Jac2tvbHBGWUNJcUFGWU1hNlctUi0xNE9vMmp6T1k4SWNMVmJoSG9POVpHTDAtU05NSktKZFJWUEZLa09YQ3ZsRV9SOTRsWFB5cGZIUklLWVJjYnI0UDBtVEJHS0Y3dGJUYThhWm1TOHVITHNjM0ZrOWg3R1HSAasBQVVfeXFMTUVnbWNCV24wbTV2Q1RRY3AxcmZnMEZGWHlqMUNTc24tTjRvSlF4Q0E3NnlWVjNSWnNrb2xwRllDSXFBRllNYTZXLVItMTRPbzJqek9ZOEljTFZiaEhvTzlaR0wwLVNOTUpLSmRSVlBGS2tPWEN2bEVfUjk0bFhQeXBmSFJJS1lSY2JyNFAwbVRCR0tGN3RiVGE4YVptUzh1SExzYzNGazloN0dR?oc=5",
+          "googleArticleId": "CBMiqwFBVV95cUxNRWdtY0JXbjBtNXZDVFFjcDFyZmcwRkZYeWoxQ1Nzbi1ONG9KUXhDQTc2eVZWM1Jac2tvbHBGWUNJcUFGWU1hNlctUi0xNE9vMmp6T1k4SWNMVmJoSG9POVpHTDAtU05NSktKZFJWUEZLa09YQ3ZsRV9SOTRsWFB5cGZIUklLWVJjYnI0UDBtVEJHS0Y3dGJUYThhWm1TOHVITHNjM0ZrOWg3R1HSAasBQVVfeXFMTUVnbWNCV24wbTV2Q1RRY3AxcmZnMEZGWHlqMUNTc24tTjRvSlF4Q0E3NnlWVjNSWnNrb2xwRllDSXFBRllNYTZXLVItMTRPbzJqek9ZOEljTFZiaEhvTzlaR0wwLVNOTUpLSmRSVlBGS2tPWEN2bEVfUjk0bFhQeXBmSFJJS1lSY2JyNFAwbVRCR0tGN3RiVGE4YVptUzh1SExzYzNGazloN0dR",
+          "publisherUrl": "https://freepresskashmir.news/2026/11/20/un-chief-selection-exposes-divisions-among-major-world-powers/amp/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:19:45.185Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmogip"
+          ]
+        },
+        {
+          "title": "Why has the Kashmir region been disputed by India and Pakistan since 1947? - Britannica",
+          "publisher": "Britannica",
+          "publishedAt": "2026-11-20T03:30:23.000Z",
+          "rssDescription": "Why has the Kashmir region been disputed by India and Pakistan since 1947? Britannica",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbzMzTVdCMmI0QjczS0xaU2xTX05pcGdxb3NKWWx4VkJtY1ZSbDRGZ3BsM1k4aGxiSEZpcFNPNjBkNEp6cGpKWEFkZFlnc1V0VS1iazhzaGtpZVBnYUlTakpGbjY4WG5xQlMteS13czlzVEg4SVFqSThSeFNzZHNlWlV2V1pacHpkcF9PeGRjdkdGWUtkNDl0S1V0MGltT1ctZ184SXJsOHctQQ?oc=5",
+          "googleArticleId": "CBMiqgFBVV95cUxQbzMzTVdCMmI0QjczS0xaU2xTX05pcGdxb3NKWWx4VkJtY1ZSbDRGZ3BsM1k4aGxiSEZpcFNPNjBkNEp6cGpKWEFkZFlnc1V0VS1iazhzaGtpZVBnYUlTakpGbjY4WG5xQlMteS13czlzVEg4SVFqSThSeFNzZHNlWlV2V1pacHpkcF9PeGRjdkdGWUtkNDl0S1V0MGltT1ctZ184SXJsOHctQQ",
+          "publisherUrl": "https://www.britannica.com/place/Why-has-the-Kashmir-region-been-disputed-by-India-and-Pakistan-since-1947",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:15.244Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmogip"
+          ]
+        },
+        {
+          "title": "Rights Groups Seek Sanctions After UN Court’s Rohingya Genocide Ruling - Kashmir Observer",
+          "publisher": "Kashmir Observer",
+          "publishedAt": "2026-11-20T11:56:40.000Z",
+          "rssDescription": "Rights Groups Seek Sanctions After UN Court’s Rohingya Genocide Ruling Kashmir Observer",
+          "rssUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX0NNTE1icHRxR3VaSFFVeWVfR01lWHZIVVlfU3ZVVkdxRHhQWEVxdUFhOFRHTTkwc0E5ckxNZm0ya2JpZW1ianVGZGlpeEJFbzAzTHJ3UTBOeE9uX2hNcl9LRXA4M0hFLXpTTmxhbTRxSk1sRUwzQ2VyY29Xb3JUTC1EczhhVUFSQnc3Rmp2eFpEbHVDOVltV0Focm90MGcxTjJQTUZMSk9MdnVkVHc?oc=5",
+          "googleArticleId": "CBMirgFBVV95cUxPX0NNTE1icHRxR3VaSFFVeWVfR01lWHZIVVlfU3ZVVkdxRHhQWEVxdUFhOFRHTTkwc0E5ckxNZm0ya2JpZW1ianVGZGlpeEJFbzAzTHJ3UTBOeE9uX2hNcl9LRXA4M0hFLXpTTmxhbTRxSk1sRUwzQ2VyY29Xb3JUTC1EczhhVUFSQnc3Rmp2eFpEbHVDOVltV0Focm90MGcxTjJQTUZMSk9MdnVkVHc",
+          "publisherUrl": "https://kashmirobserver.net/2026/11/20/rights-groups-seek-sanctions-after-un-courts-rohingya-genocide-ruling/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:20:37.763Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmogip"
+          ]
+        },
+        {
+          "title": "How did Hari Singh’s accession of Jammu and Kashmir to India lead to war with Pakistan? - Britannica",
+          "publisher": "Britannica",
+          "publishedAt": "2026-11-20T03:30:23.000Z",
+          "rssDescription": "How did Hari Singh’s accession of Jammu and Kashmir to India lead to war with Pakistan? Britannica",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWHRVb2tMSk5yamQ4MEY5THp5NUYtakpfVlowSjNOeXJPUEZZM3N0VW1BckJJMElZYlVGSGwtbzZFOEtjVnNXT0VKNFNlR2MzNzNDTmoxX2J4YlU3ZDZ5UTlZTTU0MzFvc1dOcXBIYWpHbnJMSDlKMlhaLVJlZ3ZEeFphWXpsdnZhUmRrd05ydDBMbHNJbjNLaEoxb3ZLM3l2MC1HMmd1bFFvMThDazFhdmdEUGhCNzlRR3c?oc=5",
+          "googleArticleId": "CBMiugFBVV95cUxPWHRVb2tMSk5yamQ4MEY5THp5NUYtakpfVlowSjNOeXJPUEZZM3N0VW1BckJJMElZYlVGSGwtbzZFOEtjVnNXT0VKNFNlR2MzNzNDTmoxX2J4YlU3ZDZ5UTlZTTU0MzFvc1dOcXBIYWpHbnJMSDlKMlhaLVJlZ3ZEeFphWXpsdnZhUmRrd05ydDBMbHNJbjNLaEoxb3ZLM3l2MC1HMmd1bFFvMThDazFhdmdEUGhCNzlRR3c",
+          "publisherUrl": "https://www.britannica.com/place/How-did-Hari-Singhs-accession-of-Jammu-and-Kashmir-to-India-lead-to-war-with-Pakistan",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:05.338Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmogip"
+          ]
+        },
+        {
+          "title": "India Votes in Support of UNGA Resolutions on Palestine - Kashmir Observer",
+          "publisher": "Kashmir Observer",
+          "publishedAt": "2026-11-20T00:24:22.000Z",
+          "rssDescription": "India Votes in Support of UNGA Resolutions on Palestine Kashmir Observer",
+          "rssUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONjVhVjdvUXJoRnJIZ3ZXNHI0cmJlTE9tUGR0MVpqUW9sTzNEbDJ3dHpLLVROaGs0bDBCc1NDVUc1NS1DeTV1bjRmMFNSY0pUcmlDNVd4VWE4THBCVjl0NDMzYWJnUDFCOGZfYWNqWERrQUFGTS11MlhhWFVzQjZSendnUjhhZ1hPdkJNR0dmYXp2NE9tUzhKU1lSWQ?oc=5",
+          "googleArticleId": "CBMimwFBVV95cUxONjVhVjdvUXJoRnJIZ3ZXNHI0cmJlTE9tUGR0MVpqUW9sTzNEbDJ3dHpLLVROaGs0bDBCc1NDVUc1NS1DeTV1bjRmMFNSY0pUcmlDNVd4VWE4THBCVjl0NDMzYWJnUDFCOGZfYWNqWERrQUFGTS11MlhhWFVzQjZSendnUjhhZ1hPdkJNR0dmYXp2NE9tUzhKU1lSWQ",
+          "publisherUrl": "https://kashmirobserver.net/2026/11/19/india-votes-in-support-of-unga-resolutions-on-palestine/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:32.868Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmogip"
+          ]
+        },
+        {
+          "title": "Six Nehruvian decisions shaped J&K’s prolonged political challenges: Dr Jitendra - Daily Excelsior",
+          "publisher": "Daily Excelsior",
+          "publishedAt": "2026-11-19T23:00:02.000Z",
+          "rssDescription": "Six Nehruvian decisions shaped J&K’s prolonged political challenges: Dr Jitendra Daily Excelsior",
+          "rssUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQS1JVWnRyWktublF1MC1EWXR1S0RtcG5sMXNzMkt0R01kOWhRNWNXRGxWMEY4c3ZOQ2YzRDZlNjloUjFMbFFKZTdxaVFxNVlNclRPQ2FPd204N3VURTB5MW9GSHVzOXR6VDI5ZjBuMXBwQXhfQWpDRG5tMW42a0h3UE5UdTRoSl8xR2JtaUtjTGhqSXQ5VHl2SDZLdFRtNmtiMENCOUFlYlk4N3VJLXR0dUdEM2_SAbQBQVVfeXFMUEtSVVp0clpLbm5RdTAtRFl0dUtEbXBubDFzczJLdEdNZDloUTVjV0RsVjBGOHN2TkNmM0Q2ZTY5aFIxTGxRSmU3cWlRcTVZTXJUT0NhT3dtODd1VEUweTFvRkh1czl0elQyOWYwbjFwcEF4X0FqQ0RubTFuNmtId1BOVHU0aEpfMUdibWlLY0xoakl0OVR5dkg2S3RUbTZrYjBDQjlBZWJZODd1SS10dHVHRDNv?oc=5",
+          "googleArticleId": "CBMitAFBVV95cUxQS1JVWnRyWktublF1MC1EWXR1S0RtcG5sMXNzMkt0R01kOWhRNWNXRGxWMEY4c3ZOQ2YzRDZlNjloUjFMbFFKZTdxaVFxNVlNclRPQ2FPd204N3VURTB5MW9GSHVzOXR6VDI5ZjBuMXBwQXhfQWpDRG5tMW42a0h3UE5UdTRoSl8xR2JtaUtjTGhqSXQ5VHl2SDZLdFRtNmtiMENCOUFlYlk4N3VJLXR0dUdEM2_SAbQBQVVfeXFMUEtSVVp0clpLbm5RdTAtRFl0dUtEbXBubDFzczJLdEdNZDloUTVjV0RsVjBGOHN2TkNmM0Q2ZTY5aFIxTGxRSmU3cWlRcTVZTXJUT0NhT3dtODd1VEUweTFvRkh1czl0elQyOWYwbjFwcEF4X0FqQ0RubTFuNmtId1BOVHU0aEpfMUdibWlLY0xoakl0OVR5dkg2S3RUbTZrYjBDQjlBZWJZODd1SS10dHVHRDNv",
+          "publisherUrl": "https://www.dailyexcelsior.com/six-nehruvian-decisions-shaped-jks-prolonged-political-challenges-dr-jitendra-2/amp",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:21:52.919Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmogip"
+          ]
+        },
+        {
+          "title": "Myanmar Guilty of Rohingya Genocide: Historic ICJ Verdict - Kashmir Observer",
+          "publisher": "Kashmir Observer",
+          "publishedAt": "2026-11-19T13:43:16.000Z",
+          "rssDescription": "Myanmar Guilty of Rohingya Genocide: Historic ICJ Verdict Kashmir Observer",
+          "rssUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcWJIQ1l0NVUweVBmLWhIYUM3dHB5RDhMdnhCZmw2LVJqZ3diRkVpRlFsQkduTGx0Q3JFNlJ2OWFQOU9Tc1gyeUZpNE03a2NZcEE0WHhrWkJUWGlEMWhFbWNKU1NQX0dYNk5QcERFR2U2RE01a2JBWmdMSUZqWmJsemtLMnFSd09SemhINm13QURrRDZhWTQ5NFFFZ0Q?oc=5",
+          "googleArticleId": "CBMinAFBVV95cUxQcWJIQ1l0NVUweVBmLWhIYUM3dHB5RDhMdnhCZmw2LVJqZ3diRkVpRlFsQkduTGx0Q3JFNlJ2OWFQOU9Tc1gyeUZpNE03a2NZcEE0WHhrWkJUWGlEMWhFbWNKU1NQX0dYNk5QcERFR2U2RE01a2JBWmdMSUZqWmJsemtLMnFSd09SemhINm13QURrRDZhWTQ5NFFFZ0Q",
+          "publisherUrl": "https://kashmirobserver.net/2026/11/19/myanmar-guilty-of-rohingya-genocide-historic-icj-verdict/",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:20.520Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmogip"
+          ]
+        },
+        {
+          "title": "Shehbaz Sharif Reiterates Pakistan’s Support on Kashmir After Lateef Bhat’s Killing in Kulgam - theopenpress.in",
+          "publisher": "theopenpress.in",
+          "publishedAt": "2026-11-20T10:55:38.000Z",
+          "rssDescription": "Shehbaz Sharif Reiterates Pakistan’s Support on Kashmir After Lateef Bhat’s Killing in Kulgam theopenpress.in",
+          "rssUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPV2dVS1VOcjQzS0tUa0NiWWRKQlJldmZaVFBpa3pGVVlLQllqaVdaZUZBZEZqSEtTcGUwSWg0YmNhNGVraG1Zbmk0TlEyMUJ4ZVRuUkVKR3RSc0F6TlVXTjZ2dWh3cjd6em1oQ0IwVC1RX2VzTi1yVVFRRXNwd2N5dVU3bThsOGZuZE1xTWY3TQ?oc=5",
+          "googleArticleId": "CBMijwFBVV95cUxPV2dVS1VOcjQzS0tUa0NiWWRKQlJldmZaVFBpa3pGVVlLQllqaVdaZUZBZEZqSEtTcGUwSWg0YmNhNGVraG1Zbmk0TlEyMUJ4ZVRuUkVKR3RSc0F6TlVXTjZ2dWh3cjd6em1oQ0IwVC1RX2VzTi1yVVFRRXNwd2N5dVU3bThsOGZuZE1xTWY3TQ",
+          "publisherUrl": "https://theopenpress.in/article/shehbaz-sharif-kashmir-statement-lateef-bhat-encounter",
+          "method": "rpc",
+          "resolvedAt": "2026-11-20T12:22:48.069Z",
+          "resolutionStatus": "resolved",
+          "resolutionErrorCode": null,
+          "resolutionHttpStatus": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "unmogip"
+          ]
+        }
+      ]
+    }
+  ],
+  "runTimestamp": "20261120121817",
+  "githubRunId": "44734630658"
+}
