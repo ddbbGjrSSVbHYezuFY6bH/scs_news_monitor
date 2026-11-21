@@ -1,0 +1,1002 @@
+{
+  "schemaVersion": 3,
+  "requestId": "44902207722-1",
+  "mode": "active",
+  "status": "partial",
+  "startedAt": "2026-11-21T12:06:07.577Z",
+  "completedAt": "2026-11-21T12:06:11.089Z",
+  "lookbackHours": 24,
+  "uniqueArticles": 28,
+  "newResolutions": 0,
+  "httpRequests": 3,
+  "circuit": {
+    "code": "RateLimited",
+    "httpStatus": 429,
+    "retryAfter": null
+  },
+  "results": [
+    {
+      "queryId": "un",
+      "query": "(\"United Nations\" OR \"UN Security Council\" OR \"UN Secretary-General\" OR \"UN General Assembly\") when:1d",
+      "label": "UN",
+      "queryRevision": 3,
+      "configHash": "0ee07d0c81637cd60fb6875055c8830f848b587b0fc8423ecd0b7b9d6bb00550",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-21T12:06:07.577Z",
+      "feedFetchedAt": "2026-11-21T12:06:08.093Z",
+      "generatedAt": "2026-11-21T12:06:11.089Z",
+      "status": "partial",
+      "error": null,
+      "truncated": true,
+      "counts": {
+        "selected": 25,
+        "resolved": 0,
+        "unresolved": 25,
+        "cacheHits": 0
+      },
+      "articles": [
+        {
+          "title": "This Week in DPPA: 14 - 20 November 2026 - DPPA",
+          "publisher": "DPPA",
+          "publishedAt": "2026-11-20T23:36:23.000Z",
+          "rssDescription": "This Week in DPPA: 14 - 20 November 2026 DPPA",
+          "rssUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCUC1fT2tXQjc0cHBNWWRDWVpEYWs4UGpNTDh0ZEx3SlZRZ29xcF9MU28xLUtVMGdmbEt1Nk05YXVHblZreExPWHdOUmFkbVdHNi1xWWtxUzB4TUFCOFYxc2xmeTRBdEJmZW94QnczLTNVaU0?oc=5",
+          "googleArticleId": "CBMic0FVX3lxTFBCUC1fT2tXQjc0cHBNWWRDWVpEYWs4UGpNTDh0ZEx3SlZRZ29xcF9MU28xLUtVMGdmbEt1Nk05YXVHblZreExPWHdOUmFkbVdHNi1xWWtxUzB4TUFCOFYxc2xmeTRBdEJmZW94QnczLTNVaU0",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "UN Secretary-General Race Remains Deadlocked as Veto Powers Fail to Reach Consensus - PassBlue",
+          "publisher": "PassBlue",
+          "publishedAt": "2026-11-21T00:51:12.000Z",
+          "rssDescription": "UN Secretary-General Race Remains Deadlocked as Veto Powers Fail to Reach Consensus PassBlue",
+          "rssUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR3VibHdWY1dIcTl2dDRIVUtweXJETGpLQmFuclhpTnhlaFk4WGNwcmxrMTFMRXFMRGVyNzhyVkkxYUVRQVcyalMtYURrZHUtbnoySU5rS05BeGptQ3YtSlBGV1ZnOVBQY3lQemJMaUJ3NDNxbGozcThfTmpRaFYyU2E3aDNSQU5UM0hFNGc0QU9VWXNfSkFhZGIzUDBkZ0FoYjI1OFh2aUJzY0dzcXB1N0QwUUk5cTg?oc=5",
+          "googleArticleId": "CBMitwFBVV95cUxPR3VibHdWY1dIcTl2dDRIVUtweXJETGpLQmFuclhpTnhlaFk4WGNwcmxrMTFMRXFMRGVyNzhyVkkxYUVRQVcyalMtYURrZHUtbnoySU5rS05BeGptQ3YtSlBGV1ZnOVBQY3lQemJMaUJ3NDNxbGozcThfTmpRaFYyU2E3aDNSQU5UM0hFNGc0QU9VWXNfSkFhZGIzUDBkZ0FoYjI1OFh2aUJzY0dzcXB1N0QwUUk5cTg",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "UK and France believed to have vetoed UAE choice for UN secretary general - The Guardian",
+          "publisher": "The Guardian",
+          "publishedAt": "2026-11-20T22:14:00.000Z",
+          "rssDescription": "UK and France believed to have vetoed UAE choice for UN secretary general The Guardian",
+          "rssUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaWNMOXdzUGdSZHhla2F3RTdWSlYzRDBrQk9PXzc3cGxhVUdKMWowTTk5X3hsY3BUWmJtSnkyemVZNEpCbXdmR2F6bmRHT2MzYlZSUHJrckZUWUREaHFFWGVidVByRmktQTZTSTNCTUJtRTVXWi1acWdkRTk3YjJUX2Z2V1ZxM3JmQ3gyT2tNenBLcDcxNjUtNkFsdEZCSnI1bG1QZ2xOdTFyVmJ2MkNhZ25R?oc=5",
+          "googleArticleId": "CBMisgFBVV95cUxPaWNMOXdzUGdSZHhla2F3RTdWSlYzRDBrQk9PXzc3cGxhVUdKMWowTTk5X3hsY3BUWmJtSnkyemVZNEpCbXdmR2F6bmRHT2MzYlZSUHJrckZUWUREaHFFWGVidVByRmktQTZTSTNCTUJtRTVXWi1acWdkRTk3YjJUX2Z2V1ZxM3JmQ3gyT2tNenBLcDcxNjUtNkFsdEZCSnI1bG1QZ2xOdTFyVmJ2MkNhZ25R",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "Holy See: ‘No algorithm can make war morally acceptable’ - Vatican News",
+          "publisher": "Vatican News",
+          "publishedAt": "2026-11-21T10:15:05.000Z",
+          "rssDescription": "Holy See: ‘No algorithm can make war morally acceptable’ Vatican News",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ1hzNzV4Y083RWoySWl4RElrYlhySWRxa1A4NHZpeDc0a19neExvdlpMUmMycXF3VTlUajBaa3pQWWVYZGNPdVA5ZE9Zcl9qUTdkdG9PU09EUDZfX2ltSjJQakNXS0dNUGY2dGdLY2VXd2J5QVdVeW9MWS1IV3ZWdXptdDIxbnpiUmk3NjNucWE2alB4WDl3S1IxdVRYeThQTk0tU3owOW9uT1JUTUdYQTA2R0xPRjROakE?oc=5",
+          "googleArticleId": "CBMiugFBVV95cUxPZ1hzNzV4Y083RWoySWl4RElrYlhySWRxa1A4NHZpeDc0a19neExvdlpMUmMycXF3VTlUajBaa3pQWWVYZGNPdVA5ZE9Zcl9qUTdkdG9PU09EUDZfX2ltSjJQakNXS0dNUGY2dGdLY2VXd2J5QVdVeW9MWS1IV3ZWdXptdDIxbnpiUmk3NjNucWE2alB4WDl3S1IxdVRYeThQTk0tU3owOW9uT1JUTUdYQTA2R0xPRjROakE",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "Tammy Bruce, Deputy Representative of the United States to the United Nations — Statement at the UN Security Council on the Situation in the Middle East (Syria) - The America Times",
+          "publisher": "The America Times",
+          "publishedAt": "2026-11-20T19:08:50.000Z",
+          "rssDescription": "Tammy Bruce, Deputy Representative of the United States to the United Nations — Statement at the UN Security Council on the Situation in the Middle East (Syria) The America Times",
+          "rssUrl": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQVmFqNkJ5bTJfeG1zS0VSYnVJUXNXWHA1eW5leDl6Z3pUVUtJX3ZNYlVreEtFSmtJWlBtaGdMdG9VYzdGMF90dDNJaldXbldkZGktZ1poa3B4eHVXYkxiVVB5aE9QZVZvNC1RMy14Tnozemh2YzJUNHJaWEJVemY0UlF0bm9pS1pJVjFoekhQOVJKMWpmNjdlVXpoMlI4UW9ORU9xaFFnMEh6WGg5RkMtUmZZY1dMOFNKUi1yZ2hEUEd2VWUtdUZiQVVXSFVDdTFrNzFERjg5bzVhbFh3LXpNM3RPSUpKakEybXRqb2drMjZlMjJwSzJYZ2pOU01KUHdNSWMxZG1pbW9hUTZtbXBhWjVKZkI?oc=5",
+          "googleArticleId": "CBMilAJBVV95cUxQVmFqNkJ5bTJfeG1zS0VSYnVJUXNXWHA1eW5leDl6Z3pUVUtJX3ZNYlVreEtFSmtJWlBtaGdMdG9VYzdGMF90dDNJaldXbldkZGktZ1poa3B4eHVXYkxiVVB5aE9QZVZvNC1RMy14Tnozemh2YzJUNHJaWEJVemY0UlF0bm9pS1pJVjFoekhQOVJKMWpmNjdlVXpoMlI4UW9ORU9xaFFnMEh6WGg5RkMtUmZZY1dMOFNKUi1yZ2hEUEd2VWUtdUZiQVVXSFVDdTFrNzFERjg5bzVhbFh3LXpNM3RPSUpKakEybXRqb2drMjZlMjJwSzJYZ2pOU01KUHdNSWMxZG1pbW9hUTZtbXBhWjVKZkI",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "UN Security Council's ninth straw poll brings no resolution in race for next secretary general - The National",
+          "publisher": "The National",
+          "publishedAt": "2026-11-21T02:31:03.000Z",
+          "rssDescription": "UN Security Council's ninth straw poll brings no resolution in race for next secretary general The National",
+          "rssUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaURtM0ZFcnJfMlZZRTM1UllBTjFVOWpHSWNZcTI5bFFWbURQdlRpX0R1WklaY3FINXQ2cmdhNmdPZm9UWlZzV2pxbkhxektTemhTN0NQZGxhdVRRWmdFRWpoZkZ6dWdCcUZ4aVVFX2FSY3c0MGlRUXA0cTdZeG5hQXloQVRHeTRJRUhXTHFR?oc=5",
+          "googleArticleId": "CBMijgFBVV95cUxPaURtM0ZFcnJfMlZZRTM1UllBTjFVOWpHSWNZcTI5bFFWbURQdlRpX0R1WklaY3FINXQ2cmdhNmdPZm9UWlZzV2pxbkhxektTemhTN0NQZGxhdVRRWmdFRWpoZkZ6dWdCcUZ4aVVFX2FSY3c0MGlRUXA0cTdZeG5hQXloQVRHeTRJRUhXTHFR",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "France seeks UN Security Council meeting after strikes in Kyiv - Reuters",
+          "publisher": "Reuters",
+          "publishedAt": "2026-11-20T12:12:48.000Z",
+          "rssDescription": "France seeks UN Security Council meeting after strikes in Kyiv Reuters",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWWJIUFcybUZJREdUQkhJTlJkUWdyTFpxVWdBbzE0U0VOSGZjaldNYmk1YXU1MnhrLXBBeEhWYUVBcTlZc2NLRHRfQ2NaSms3RW5WMXV0MXdRbV9nQ0VJVU5qR3hlQmY3VXZyTDcyTWw5VHpmUm8yMEgzQkdYcE56OXo4cHd2ZnVLLWE2bXVpdlVvSHJUQXJWc0JoX1UwdE5rX1Nn?oc=5",
+          "googleArticleId": "CBMiowFBVV95cUxNWWJIUFcybUZJREdUQkhJTlJkUWdyTFpxVWdBbzE0U0VOSGZjaldNYmk1YXU1MnhrLXBBeEhWYUVBcTlZc2NLRHRfQ2NaSms3RW5WMXV0MXdRbV9nQ0VJVU5qR3hlQmY3VXZyTDcyTWw5VHpmUm8yMEgzQkdYcE56OXo4cHd2ZnVLLWE2bXVpdlVvSHJUQXJWc0JoX1UwdE5rX1Nn",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "A New Twist in the Race for UN Secretary-General - Global Dispatches",
+          "publisher": "Global Dispatches",
+          "publishedAt": "2026-11-20T20:14:39.000Z",
+          "rssDescription": "A New Twist in the Race for UN Secretary-General Global Dispatches",
+          "rssUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQVQyWGc2YXVkRnBlY3ZtNDNzaVI4TmVkWHMwZ1pHZ1k1Ulg3ZXRoMjEyUmlHemtsa0NGSnpwQnUtM3h3RU5waWV0VlNQaUxLUmpuS3VybndrLTY2dEZfZGpwN3lodDZSU3gwTzlRR0lFY09sWVhibVFXdC0tZjdEeg?oc=5",
+          "googleArticleId": "CBMigAFBVV95cUxPQVQyWGc2YXVkRnBlY3ZtNDNzaVI4TmVkWHMwZ1pHZ1k1Ulg3ZXRoMjEyUmlHemtsa0NGSnpwQnUtM3h3RU5waWV0VlNQaUxLUmpuS3VybndrLTY2dEZfZGpwN3lodDZSU3gwTzlRR0lFY09sWVhibVFXdC0tZjdEeg",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "Bridgetown AI summit to tackle safety as risks outpace capacity to respond - UN News",
+          "publisher": "UN News",
+          "publishedAt": "2026-11-20T21:29:54.000Z",
+          "rssDescription": "Bridgetown AI summit to tackle safety as risks outpace capacity to respond UN News",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1mdkdEa1pVS1hyMXB3aE91VXg1TVVWRUdLM1JOV3Z6RVdnMGJSaG13dXV2eEhXckR6cVJ3QVZnbmE4ZGRUN3FDeWVGbnQwWVpITXQzZGtxSQ?oc=5",
+          "googleArticleId": "CBMiV0FVX3lxTE1mdkdEa1pVS1hyMXB3aE91VXg1TVVWRUdLM1JOV3Z6RVdnMGJSaG13dXV2eEhXckR6cVJ3QVZnbmE4ZGRUN3FDeWVGbnQwWVpITXQzZGtxSQ",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "Fu Cong, Permanent Representative of China to the United Nations — Statement at the UN Security Council on the Situation in the Middle East (Syria) - The America Times",
+          "publisher": "The America Times",
+          "publishedAt": "2026-11-20T19:01:12.000Z",
+          "rssDescription": "Fu Cong, Permanent Representative of China to the United Nations — Statement at the UN Security Council on the Situation in the Middle East (Syria) The America Times",
+          "rssUrl": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQUHpvcG5seTV3WWc0QlZQMUlQZVJhcHQxTFY4bERBYzVHWGxMdXNqWkJReHFYZTd4MDk1WkE0YkVkWHd5Z2YzaGVHeXd0dUlqMVoyd1lyVWFuZ0lEbjFra25YWjFoRlZQOGtLWUkyUHhqTUxxRC10bmtLYXFTMngxR2JGbmxCN252SUVURFJEUUdWLXdXZjVhQU5ZY2s3Q2dhNmE2cElWZjBHbmphVTBhODUtZkJVRnRKUG5BX013NldmSDRJM0NFZUU2bjNnWGxVVVVUV2c5NTRoSkJneV8yNHByMFdxbU1keWtERzFyYlhFSFp2bXVUenJrLVFwekY2V1RN?oc=5",
+          "googleArticleId": "CBMigwJBVV95cUxQUHpvcG5seTV3WWc0QlZQMUlQZVJhcHQxTFY4bERBYzVHWGxMdXNqWkJReHFYZTd4MDk1WkE0YkVkWHd5Z2YzaGVHeXd0dUlqMVoyd1lyVWFuZ0lEbjFra25YWjFoRlZQOGtLWUkyUHhqTUxxRC10bmtLYXFTMngxR2JGbmxCN252SUVURFJEUUdWLXdXZjVhQU5ZY2s3Q2dhNmE2cElWZjBHbmphVTBhODUtZkJVRnRKUG5BX013NldmSDRJM0NFZUU2bjNnWGxVVVVUV2c5NTRoSkJneV8yNHByMFdxbU1keWtERzFyYlhFSFp2bXVUenJrLVFwekY2V1RN",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "Beyond the flames: COP31 event spotlighted climate-resilient forests - Welcome to the United Nations",
+          "publisher": "Welcome to the United Nations",
+          "publishedAt": "2026-11-20T20:20:32.000Z",
+          "rssDescription": "Beyond the flames: COP31 event spotlighted climate-resilient forests Welcome to the United Nations",
+          "rssUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbDRDUVBxc2R1dFp5VjFFRGtCcGcwZVJEUVVvb2pyaFdQa0N3amVGZW5mZ3pMSlBQZTVlWjk4WlV5Q2VodDNDcXJWQlRTM05GaW51SFVQdG9faFdnc2FfRVlBMnlFUjZVZG1DWTJaRlFubVpkM3NXQk1FNTBCaEo4N0tfc2VLNXc1REFNMFV3MHhWV1RfdXRCclFB?oc=5",
+          "googleArticleId": "CBMimgFBVV95cUxNbDRDUVBxc2R1dFp5VjFFRGtCcGcwZVJEUVVvb2pyaFdQa0N3amVGZW5mZ3pMSlBQZTVlWjk4WlV5Q2VodDNDcXJWQlRTM05GaW51SFVQdG9faFdnc2FfRVlBMnlFUjZVZG1DWTJaRlFubVpkM3NXQk1FNTBCaEo4N0tfc2VLNXc1REFNMFV3MHhWV1RfdXRCclFB",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "Jérôme Bonnafont, Permanent Representative of France to the United Nations — Statement at the UN Security Council on the Situation in the Middle East (Syria) - The America Times",
+          "publisher": "The America Times",
+          "publishedAt": "2026-11-20T19:05:19.000Z",
+          "rssDescription": "Jérôme Bonnafont, Permanent Representative of France to the United Nations — Statement at the UN Security Council on the Situation in the Middle East (Syria) The America Times",
+          "rssUrl": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPY3N2bjJDNThaSzk1WUFVbzZrZ0JCY2N4S3VKRDE2NERfb1BodGYtY2FpbjMzcENTdXNqdTVGbVZFUmJNekRJVHJzSlRSWHBPbkR2Q3NWR1R6Z0ZKWmwxQkoxTko5R25rY29YTDItU1M4bVJsaG1XYUdNY3BVSVltMlNTdzlTdHdYYU01NGlQVUVPTEpfWUtYREgwTk9seW5ZVEZQanZEbHpzRDg5SHJnUC1ISTl0YWRmNkhBZDhhcFBIemNCVzJwb3liaUl1WEFDMk1uVUk5bG9SNHY5VGdvc0sxRVJzNEpHX0VCenh1OGg1WHc2M2JOdGRXUjhibzJuWGFXaXRpbU1OaDBuSTc5Yg?oc=5",
+          "googleArticleId": "CBMikAJBVV95cUxPY3N2bjJDNThaSzk1WUFVbzZrZ0JCY2N4S3VKRDE2NERfb1BodGYtY2FpbjMzcENTdXNqdTVGbVZFUmJNekRJVHJzSlRSWHBPbkR2Q3NWR1R6Z0ZKWmwxQkoxTko5R25rY29YTDItU1M4bVJsaG1XYUdNY3BVSVltMlNTdzlTdHdYYU01NGlQVUVPTEpfWUtYREgwTk9seW5ZVEZQanZEbHpzRDg5SHJnUC1ISTl0YWRmNkhBZDhhcFBIemNCVzJwb3liaUl1WEFDMk1uVUk5bG9SNHY5VGdvc0sxRVJzNEpHX0VCenh1OGg1WHc2M2JOdGRXUjhibzJuWGFXaXRpbU1OaDBuSTc5Yg",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "‘You will not be alone’: General Assembly President tells Rohingya refugees after genocide ruling - UN News",
+          "publisher": "UN News",
+          "publishedAt": "2026-11-20T20:01:17.000Z",
+          "rssDescription": "‘You will not be alone’: General Assembly President tells Rohingya refugees after genocide ruling UN News",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5uU2xtNklMZ1dfMTh6bEYtRE10RnI5cXV5eENaelZORkZ2dHVYcDJKXzNhYXE1NzZzaExFaUZGaFRTZUowYzNRUHFHdk1kdXBvTkxpel9LYw?oc=5",
+          "googleArticleId": "CBMiV0FVX3lxTE5uU2xtNklMZ1dfMTh6bEYtRE10RnI5cXV5eENaelZORkZ2dHVYcDJKXzNhYXE1NzZzaExFaUZGaFRTZUowYzNRUHFHdk1kdXBvTkxpel9LYw",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "Christina Markus Lassen, Permanent Representative of Denmark to the United Nations — Statement at the UN Security Council on the Situation in the Middle East (Syria) - The America Times",
+          "publisher": "The America Times",
+          "publishedAt": "2026-11-20T18:59:17.000Z",
+          "rssDescription": "Christina Markus Lassen, Permanent Representative of Denmark to the United Nations — Statement at the UN Security Council on the Situation in the Middle East (Syria) The America Times",
+          "rssUrl": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOR3ZGOVVrWTVXZEtPZnRUYVJVWXVqZlM0NVFraXNJNU1rZG1zUzlGTGdTcnphcjl3Zm5jTkFydXo2X010Qms1SnR1TGxYZjNia0lqMjJWQjZwQmx4dU1xQThZT25McU9CdXpldTNVSnR6Y0xUQ0haYTlHZ050MW1BenZuQTRuX0xCTHNDX1dpQS1jOTVHbDYwZ2NTcVZ3RGdOeWw2TDM1SUE3SWNmZWdZUE5PcDVFN21rR1hUcHdGSGpVLTRDV1BqYUxZSDNhZ0VQTWNMaFNUeFNnaFRZQVhrNjRtdFNLQWFmSVY0VmQ5ZmR4ZXc1TUtZZU83R0hsZkNvUlFLdktBcEF1ZmNQT0F6YlJlZ2IxUEIxQ1FR?oc=5",
+          "googleArticleId": "CBMimwJBVV95cUxOR3ZGOVVrWTVXZEtPZnRUYVJVWXVqZlM0NVFraXNJNU1rZG1zUzlGTGdTcnphcjl3Zm5jTkFydXo2X010Qms1SnR1TGxYZjNia0lqMjJWQjZwQmx4dU1xQThZT25McU9CdXpldTNVSnR6Y0xUQ0haYTlHZ050MW1BenZuQTRuX0xCTHNDX1dpQS1jOTVHbDYwZ2NTcVZ3RGdOeWw2TDM1SUE3SWNmZWdZUE5PcDVFN21rR1hUcHdGSGpVLTRDV1BqYUxZSDNhZ0VQTWNMaFNUeFNnaFRZQVhrNjRtdFNLQWFmSVY0VmQ5ZmR4ZXc1TUtZZU83R0hsZkNvUlFLdktBcEF1ZmNQT0F6YlJlZ2IxUEIxQ1FR",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "Special Envoy stresses accountability and rule of law in Myanmar - DPPA",
+          "publisher": "DPPA",
+          "publishedAt": "2026-11-20T22:16:22.000Z",
+          "rssDescription": "Special Envoy stresses accountability and rule of law in Myanmar DPPA",
+          "rssUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVkpBcERNdHBLQ1YtZmdXaXFqeVhyMDdJOEticWMtbjl2Ti1CaVAxY2RBNWdiOE8yWE5TX3N3Mzc1YjFRSThmLWw1QUhuM3UzYXlGb0RSSkpsUmdDdUhoUDdvUmxxVW5NZ3UxSTUyZGcxZWlPRDZIWEZCYlExZzhaQm14VXJBaWwxNXMwblJ5cGdpaTFVNndR?oc=5",
+          "googleArticleId": "CBMilwFBVV95cUxPVkpBcERNdHBLQ1YtZmdXaXFqeVhyMDdJOEticWMtbjl2Ti1CaVAxY2RBNWdiOE8yWE5TX3N3Mzc1YjFRSThmLWw1QUhuM3UzYXlGb0RSSkpsUmdDdUhoUDdvUmxxVW5NZ3UxSTUyZGcxZWlPRDZIWEZCYlExZzhaQm14VXJBaWwxNXMwblJ5cGdpaTFVNndR",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "From Islands to the Himalayas: UN Resident Coordinators Bring Urgency to Antalya - United Nations Sustainable Development Group",
+          "publisher": "United Nations Sustainable Development Group",
+          "publishedAt": "2026-11-21T01:57:05.000Z",
+          "rssDescription": "From Islands to the Himalayas: UN Resident Coordinators Bring Urgency to Antalya United Nations Sustainable Development Group",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaWFSNl9mTlI1eWxDUzhYWW14clNmVUNUQnNweGktU1pFT19UOWRfNEw1eGMwZjVnS2pTXzBiN0JrSkxBTEZkM1hrNHc4bmpBd0Z0UUhsRzZ3U21VekRWZXZ3QlFscFNpYVdJVWVtQ1E4d2dvalg2YzVCQXpTalhuQllfZXRpZlRSamZrdXM0bEZNbFlhT1BYLW5PS1pOOENPNVE?oc=5",
+          "googleArticleId": "CBMiogFBVV95cUxQaWFSNl9mTlI1eWxDUzhYWW14clNmVUNUQnNweGktU1pFT19UOWRfNEw1eGMwZjVnS2pTXzBiN0JrSkxBTEZkM1hrNHc4bmpBd0Z0UUhsRzZ3U21VekRWZXZ3QlFscFNpYVdJVWVtQ1E4d2dvalg2YzVCQXpTalhuQllfZXRpZlRSamZrdXM0bEZNbFlhT1BYLW5PS1pOOENPNVE",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "One planet, one water future: From COP31 to the 2026 UN Water Conference - Welcome to the United Nations",
+          "publisher": "Welcome to the United Nations",
+          "publishedAt": "2026-11-20T15:57:35.000Z",
+          "rssDescription": "One planet, one water future: From COP31 to the 2026 UN Water Conference Welcome to the United Nations",
+          "rssUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa1hlNmY2NTJPc3lIQ0s0cUl4ZmFlNkhCeXZNekY2MTJRRHFPdm14bG1YT0lVVEJOc1NFTktOdGZNeUR0SXNBcDVTSTZ3aVl5THNKdzN5TTlCZHlZRHltdnRqQnE4RmVob0J3T2VsQ2RPaFlFYjByMndlckkxQk5Ma0NjV3RjaXpZVlZLTi12WlVOSk4zSG1ITzVFbVJRQQ?oc=5",
+          "googleArticleId": "CBMingFBVV95cUxQa1hlNmY2NTJPc3lIQ0s0cUl4ZmFlNkhCeXZNekY2MTJRRHFPdm14bG1YT0lVVEJOc1NFTktOdGZNeUR0SXNBcDVTSTZ3aVl5THNKdzN5TTlCZHlZRHltdnRqQnE4RmVob0J3T2VsQ2RPaFlFYjByMndlckkxQk5Ma0NjV3RjaXpZVlZLTi12WlVOSk4zSG1ITzVFbVJRQQ",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "West Bank: Record settler attacks mar olive harvest as UN urges Israel to protect farmers - UN News",
+          "publisher": "UN News",
+          "publishedAt": "2026-11-20T17:41:50.000Z",
+          "rssDescription": "West Bank: Record settler attacks mar olive harvest as UN urges Israel to protect farmers UN News",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE96cDNOUW11Y1k1VXAyTnFZRG5LNzdNZmluUjZPWS0tS2JNTlpXRU1jaGtuQkRNOXg4OVZ3YXROam10TmhHMjFfVHBKaGtpX2tyRlNkV25VUQ?oc=5",
+          "googleArticleId": "CBMiV0FVX3lxTE96cDNOUW11Y1k1VXAyTnFZRG5LNzdNZmluUjZPWS0tS2JNTlpXRU1jaGtuQkRNOXg4OVZ3YXROam10TmhHMjFfVHBKaGtpX2tyRlNkV25VUQ",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "Shattered playgrounds and freezing classrooms: Inside Ukraine’s deadliest year for children - UN News",
+          "publisher": "UN News",
+          "publishedAt": "2026-11-20T14:50:17.000Z",
+          "rssDescription": "Shattered playgrounds and freezing classrooms: Inside Ukraine’s deadliest year for children UN News",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwNzAwQ1ptUlpDdF9UZnVQNWJKMmdtenB5SHVqOTFqVlVkeGVCdm5QT2FKdXdIdGJ6UkdPeF94QXA4NVpERGprR2YyV05EalpvOW5QWTZLQQ?oc=5",
+          "googleArticleId": "CBMiV0FVX3lxTFBwNzAwQ1ptUlpDdF9UZnVQNWJKMmdtenB5SHVqOTFqVlVkeGVCdm5QT2FKdXdIdGJ6UkdPeF94QXA4NVpERGprR2YyV05EalpvOW5QWTZLQQ",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "Dakar 2026: Africa’s first Olympic event celebrates youth, equality, inclusion - Welcome to the United Nations",
+          "publisher": "Welcome to the United Nations",
+          "publishedAt": "2026-11-20T13:41:19.000Z",
+          "rssDescription": "Dakar 2026: Africa’s first Olympic event celebrates youth, equality, inclusion Welcome to the United Nations",
+          "rssUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMUVDRHJRdW9xbTlDV0hiZGlzVU5IVHNacURiMjdGQ2RxQkl1R3M5ZHVfN29jVGZFeGppUU9QOVlPeEpxSWwxVWJTSkszd2V0NnZGai10ZEUtWmRHQU91eVBSbFRVeDVObzN6bW5xTEtxaVBKV0NNWXQzQ1prZkU1MHg4WlB0b1ZiQ0NDNFpuNGRWQVR2aEtfNDZpeVVQbjk4QllEaHVzT2I3WFVxcGZSVHNSYWY?oc=5",
+          "googleArticleId": "CBMitAFBVV95cUxNMUVDRHJRdW9xbTlDV0hiZGlzVU5IVHNacURiMjdGQ2RxQkl1R3M5ZHVfN29jVGZFeGppUU9QOVlPeEpxSWwxVWJTSkszd2V0NnZGai10ZEUtWmRHQU91eVBSbFRVeDVObzN6bW5xTEtxaVBKV0NNWXQzQ1prZkU1MHg4WlB0b1ZiQ0NDNFpuNGRWQVR2aEtfNDZpeVVQbjk4QllEaHVzT2I3WFVxcGZSVHNSYWY",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "Afghanistan restrictions prevent pregnant women from seeking medical help - UN News",
+          "publisher": "UN News",
+          "publishedAt": "2026-11-20T13:27:40.000Z",
+          "rssDescription": "Afghanistan restrictions prevent pregnant women from seeking medical help UN News",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE41bm8wak5TWHlZVjJURk4ycmZFUkJWellDb2k1M1kwYUhUVzZMTF92MktjRDg0STEyMGxYVGhMR0NhYlB2OXMtMGlueU9ndk1VZTV1XzBkMA?oc=5",
+          "googleArticleId": "CBMiV0FVX3lxTE41bm8wak5TWHlZVjJURk4ycmZFUkJWellDb2k1M1kwYUhUVzZMTF92MktjRDg0STEyMGxYVGhMR0NhYlB2OXMtMGlueU9ndk1VZTV1XzBkMA",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "WFP plans to assist 91 million in 2027 as hunger crisis deepens - UN News",
+          "publisher": "UN News",
+          "publishedAt": "2026-11-20T14:17:32.000Z",
+          "rssDescription": "WFP plans to assist 91 million in 2027 as hunger crisis deepens UN News",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1xNTNSRHZMY1JYRXZjYkZvWVdfQkR3Sks4UXR4MFFBSzZucC04bDlxUWdLWUxoQUh1ZWpWVGZxOUd1QVV5T3hJSzJwQlZ0SkphNHJyY1BzQQ?oc=5",
+          "googleArticleId": "CBMiV0FVX3lxTE1xNTNSRHZMY1JYRXZjYkZvWVdfQkR3Sks4UXR4MFFBSzZucC04bDlxUWdLWUxoQUh1ZWpWVGZxOUd1QVV5T3hJSzJwQlZ0SkphNHJyY1BzQQ",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "Two veto-wielding powers reject Costa Rica's Grynspan as UN chief in poll, sources say - Reuters",
+          "publisher": "Reuters",
+          "publishedAt": "2026-11-20T19:42:03.000Z",
+          "rssDescription": "Two veto-wielding powers reject Costa Rica's Grynspan as UN chief in poll, sources say Reuters",
+          "rssUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSDY4NjdrMXdBMnZVZEhOd0ZCR19VYk5LX3NCaDF5dHRHNENkUnJsQjhlTC1hLWpIdUdzbGMwYVNTWGhpUmVZX2hROTVSN3NTLXJVVXpGTlY4WmhwUWxHMGhvajhNelJoMmZVeEoxWU0tR0p2cjhJYWdFZUtWeWFickh4ZEt4QW0yY2tVUUU5MjB2eGRIMTFGLS11MXc5NWZqb3A0YTVNS0s1b0FRMmlaYUFVQUVrTnQ3U2prWWJUZUNMUjY1?oc=5",
+          "googleArticleId": "CBMixAFBVV95cUxNSDY4NjdrMXdBMnZVZEhOd0ZCR19VYk5LX3NCaDF5dHRHNENkUnJsQjhlTC1hLWpIdUdzbGMwYVNTWGhpUmVZX2hROTVSN3NTLXJVVXpGTlY4WmhwUWxHMGhvajhNelJoMmZVeEoxWU0tR0p2cjhJYWdFZUtWeWFickh4ZEt4QW0yY2tVUUU5MjB2eGRIMTFGLS11MXc5NWZqb3A0YTVNS0s1b0FRMmlaYUFVQUVrTnQ3U2prWWJUZUNMUjY1",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "Anna Evstigneeva, Chargé d’Affaires ad interim of the Russian Federation to the United Nations — Statement at the UN Security Council on the Situation in the Middle East (Syria) - The America Times",
+          "publisher": "The America Times",
+          "publishedAt": "2026-11-20T19:03:31.000Z",
+          "rssDescription": "Anna Evstigneeva, Chargé d’Affaires ad interim of the Russian Federation to the United Nations — Statement at the UN Security Council on the Situation in the Middle East (Syria) The America Times",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPQks0c0pmaTVHMEVDR0lrLURHY1Q3TW5JdDFSRzAwU1gybFllNjBiU2hnWWNMNUpyNVJfYnJxU3VkT0k1cHlNVWtGa05LZVBhRFN3QjU1dmk4eF92bnJDTWNCaWhTdE9jQ3QxeWN3Vjh4Qkx4V1VxNUg5SVJYTXpGZlVHbkdEaURyakVBQWFWTllGZmdySFZsZzFsbHRQdF9TR1B5cDlSdzBTV09SU2pjci1YZktORWdldWxZanIwd19TelY0M1I5blhzRlBneUg0Tkl1ZG51Q1pZZG94dUxxLU5ReFl1eGliM280V2dPUTJrSVVKNllDRlR4bVFuNXE0U1lRZkRsOGZBVWxheFUyWnRRQkVpc2RRY1Y3NU0zYkFackIxRTBNVU1B?oc=5",
+          "googleArticleId": "CBMiqgJBVV95cUxPQks0c0pmaTVHMEVDR0lrLURHY1Q3TW5JdDFSRzAwU1gybFllNjBiU2hnWWNMNUpyNVJfYnJxU3VkT0k1cHlNVWtGa05LZVBhRFN3QjU1dmk4eF92bnJDTWNCaWhTdE9jQ3QxeWN3Vjh4Qkx4V1VxNUg5SVJYTXpGZlVHbkdEaURyakVBQWFWTllGZmdySFZsZzFsbHRQdF9TR1B5cDlSdzBTV09SU2pjci1YZktORWdldWxZanIwd19TelY0M1I5blhzRlBneUg0Tkl1ZG51Q1pZZG94dUxxLU5ReFl1eGliM280V2dPUTJrSVVKNllDRlR4bVFuNXE0U1lRZkRsOGZBVWxheFUyWnRRQkVpc2RRY1Y3NU0zYkFackIxRTBNVU1B",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        },
+        {
+          "title": "COP31: Countries demand stronger climate deal as talks in Antalya reach final day - UN News",
+          "publisher": "UN News",
+          "publishedAt": "2026-11-20T14:06:50.000Z",
+          "rssDescription": "COP31: Countries demand stronger climate deal as talks in Antalya reach final day UN News",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5NR05aNkw0ZFMtZGNHeHJKWDJPVVpTclMxM3U3U3I0Tzg1enZ3NWUybUVZMjhUcVc4MWxBc2xKLWRBSG9VU2NaQURZZkQtRU9uNUoyTndicw?oc=5",
+          "googleArticleId": "CBMiV0FVX3lxTE5NR05aNkw0ZFMtZGNHeHJKWDJPVVpTclMxM3U3U3I0Tzg1enZ3NWUybUVZMjhUcVc4MWxBc2xKLWRBSG9VU2NaQURZZkQtRU9uNUoyTndicw",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "un"
+          ]
+        }
+      ]
+    },
+    {
+      "queryId": "usg-dpo",
+      "query": "(\"Jean-Pierre Lacroix\" OR \"DPO USG\" OR \"United Nations Under-Secretary-General for Peace Operations\" OR \"USG for Peace Operations\" OR \"Under-Secretary-General for Peace Operations\") when:1d",
+      "label": "USG for DPO",
+      "queryRevision": 3,
+      "configHash": "e14602fe841eea9632ed6a782a49788534eb1ce505a49a13781a601a731b8d12",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-21T12:06:07.577Z",
+      "feedFetchedAt": "2026-11-21T12:06:09.493Z",
+      "generatedAt": "2026-11-21T12:06:11.089Z",
+      "status": "partial",
+      "error": null,
+      "truncated": false,
+      "counts": {
+        "selected": 3,
+        "resolved": 0,
+        "unresolved": 3,
+        "cacheHits": 0
+      },
+      "articles": [
+        {
+          "title": "UN official tells Security Council that Lebanon is committed to 'extending state authority' - Naharnet",
+          "publisher": "Naharnet",
+          "publishedAt": "2026-11-21T10:44:00.000Z",
+          "rssDescription": "UN official tells Security Council that Lebanon is committed to 'extending state authority' Naharnet",
+          "rssUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPa3Voa2c5ejZid25PX2doZzNIQmlUbXdXZXRjWkZJaW4yZGZ5RVE1LW1sLUc2eWxqSzRRYmNULUVjcS1sV0FjM0VzUzRac0tkZl9uSzRFaHNpRWc5NVRRR19CalNJbkN1UmhlOUd0cThVVndhc1huUFVPQndfbF9RWjJtT2VxbFN0eTBCOXFpWFBaSjRtWVRQVnlKMWw2ZVU1M3lRX25EVnVlaWN0UlR1dkZRbF9vZmZCMXY1VW1tYUlNU3BOWFNROVZqSWo?oc=5",
+          "googleArticleId": "CBMizAFBVV95cUxPa3Voa2c5ejZid25PX2doZzNIQmlUbXdXZXRjWkZJaW4yZGZ5RVE1LW1sLUc2eWxqSzRRYmNULUVjcS1sV0FjM0VzUzRac0tkZl9uSzRFaHNpRWc5NVRRR19CalNJbkN1UmhlOUd0cThVVndhc1huUFVPQndfbF9RWjJtT2VxbFN0eTBCOXFpWFBaSjRtWVRQVnlKMWw2ZVU1M3lRX25EVnVlaWN0UlR1dkZRbF9vZmZCMXY1VW1tYUlNU3BOWFNROVZqSWo",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "usg-dpo"
+          ]
+        },
+        {
+          "title": "Arno Addresses Security Council on Resolution 1701, Weighs In on UNIFIL’s Role - MTV Lebanon",
+          "publisher": "MTV Lebanon",
+          "publishedAt": "2026-11-21T10:51:09.000Z",
+          "rssDescription": "Arno Addresses Security Council on Resolution 1701, Weighs In on UNIFIL’s Role MTV Lebanon",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrd1ZGNXg4eEZTTkJKOHJDcGxVdGZEd1ZUOVdoTXBPRjBQV1BsSkFQcUhVZURsdXFCSDZkWW9RbEZRcjBWa0ZYbndfM0VCU1E?oc=5",
+          "googleArticleId": "CBMiT0FVX3lxTFBrd1ZGNXg4eEZTTkJKOHJDcGxVdGZEd1ZUOVdoTXBPRjBQV1BsSkFQcUhVZURsdXFCSDZkWW9RbEZRcjBWa0ZYbndfM0VCU1E",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "usg-dpo"
+          ]
+        },
+        {
+          "title": "Arnaud Briefs Security Council on Implementation of Resolution 1701 in Lebanon - Daily Beirut",
+          "publisher": "Daily Beirut",
+          "publishedAt": "2026-11-21T06:11:49.000Z",
+          "rssDescription": "Arnaud Briefs Security Council on Implementation of Resolution 1701 in Lebanon Daily Beirut",
+          "rssUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZTY3ZkQwR1RwNHNoUDYtaTFPUlV6NEwza3V5aXAtOUtrMkxiVGlXYlVwX2lFdVFmRDByTmFHQmZETFdXMzVpQndORjR0alZvdE00Njc4bTRTOHJadEowVkdPTzlRNGlnUVBHYWZGRFV1UzNJQUNiRXlvY0N1dG9xSjVMb3pKbEN2SUQwVzZnXzliUFRSVU0xVG11eU9ZN3pXdWk5bk9jcE1DaGdYMkhGa3BlVTMyMzJXSUxr?oc=5",
+          "googleArticleId": "CBMiuwFBVV95cUxOZTY3ZkQwR1RwNHNoUDYtaTFPUlV6NEwza3V5aXAtOUtrMkxiVGlXYlVwX2lFdVFmRDByTmFHQmZETFdXMzVpQndORjR0alZvdE00Njc4bTRTOHJadEowVkdPTzlRNGlnUVBHYWZGRFV1UzNJQUNiRXlvY0N1dG9xSjVMb3pKbEN2SUQwVzZnXzliUFRSVU0xVG11eU9ZN3pXdWk5bk9jcE1DaGdYMkhGa3BlVTMyMzJXSUxr",
+          "publisherUrl": null,
+          "resolutionStatus": "unresolved",
+          "resolutionErrorCode": "CircuitOpen",
+          "resolutionHttpStatus": null,
+          "cause": "RateLimited",
+          "resolvedAt": null,
+          "cacheHit": false,
+          "matchedQueryIds": [
+            "usg-dpo"
+          ]
+        }
+      ]
+    },
+    {
+      "queryId": "peacekeeping",
+      "query": "(\"UN peacekeeping\" OR peacekeepers OR \"peace operations\" OR \"blue helmets\" OR \"maintien de la paix\" OR \"Casques bleus\" OR \"opérations de paix\") when:1d",
+      "label": "Peacekeeping",
+      "queryRevision": 5,
+      "configHash": "3209dd40818d08949d54081f3bfba72e62a86e1f2fc27347005b77c7e8af699e",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-21T12:06:07.577Z",
+      "feedFetchedAt": null,
+      "generatedAt": "2026-11-21T12:06:11.089Z",
+      "status": "failed",
+      "error": {
+        "code": "RateLimited",
+        "httpStatus": 429,
+        "retryAfter": null
+      },
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "wps",
+      "query": "(\"women peace and security\" OR \"resolution 1325\" OR \"women in peacekeeping\") when:1d",
+      "label": "WPS",
+      "queryRevision": 3,
+      "configHash": "1975b9b6edb01bac4771dce86434b71a7479cde3085f51e4ba017b0fe7c87459",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-21T12:06:07.577Z",
+      "feedFetchedAt": null,
+      "generatedAt": "2026-11-21T12:06:11.089Z",
+      "status": "failed",
+      "error": {
+        "code": "CircuitOpen",
+        "cause": "RateLimited"
+      },
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "haiti",
+      "query": "(Haiti gangs OR Haiti security OR Haiti UN OR Haiti mission OR Haiti police) when:1d",
+      "label": "Haiti",
+      "queryRevision": 3,
+      "configHash": "ccf1247fbf34d5748bda18afc6684048088b8554e3b2c55f5810307abf3a0bc7",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-21T12:06:07.577Z",
+      "feedFetchedAt": null,
+      "generatedAt": "2026-11-21T12:06:11.089Z",
+      "status": "failed",
+      "error": {
+        "code": "CircuitOpen",
+        "cause": "RateLimited"
+      },
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "unifil",
+      "query": "(UNIFIL OR \"south Lebanon\" OR \"southern Lebanon\" OR \"Lebanon ceasefire\" OR Hezbollah OR FINUL OR \"Liban sud\" OR \"sud du Liban\") when:1d",
+      "label": "UNIFIL / Lebanon",
+      "queryRevision": 6,
+      "configHash": "39d451c8cc295da118c66b8124c4e6e0c2b113fd2defaeb87b8084c2605a3b09",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-21T12:06:07.577Z",
+      "feedFetchedAt": null,
+      "generatedAt": "2026-11-21T12:06:11.089Z",
+      "status": "failed",
+      "error": {
+        "code": "CircuitOpen",
+        "cause": "RateLimited"
+      },
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "undof",
+      "query": "(UNDOF OR \"Golan Heights\" OR Quneitra OR \"occupied Syrian territory\") when:1d",
+      "label": "UNDOF / Syria / Golan",
+      "queryRevision": 5,
+      "configHash": "c88438ea0db8b1e7cbc863ce6549b16d241d2e3180d50e1929186153f6529085",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-21T12:06:07.577Z",
+      "feedFetchedAt": null,
+      "generatedAt": "2026-11-21T12:06:11.089Z",
+      "status": "failed",
+      "error": {
+        "code": "CircuitOpen",
+        "cause": "RateLimited"
+      },
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "untso",
+      "query": "(UNTSO OR \"UN Truce Supervision\" OR \"UN military observers\") when:1d",
+      "label": "UNTSO / Middle East",
+      "queryRevision": 5,
+      "configHash": "26d22c3339dcbde0e1fa919bb9c129d78c0fad35a664ec380b0806f7509782f3",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-21T12:06:07.577Z",
+      "feedFetchedAt": null,
+      "generatedAt": "2026-11-21T12:06:11.089Z",
+      "status": "failed",
+      "error": {
+        "code": "CircuitOpen",
+        "cause": "RateLimited"
+      },
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "monusco",
+      "query": "(MONUSCO OR \"DR Congo\" OR \"eastern Congo\" OR \"M23 rebels\" OR \"North Kivu\" OR \"South Kivu\" OR RDC OR \"Nord-Kivu\" OR \"Sud-Kivu\" OR Goma) when:1d",
+      "label": "MONUSCO / DRC",
+      "queryRevision": 6,
+      "configHash": "70365f5ca320c071958eb85b162f9ee958073e638f17a37ca1d6a123405f0cf8",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-21T12:06:07.577Z",
+      "feedFetchedAt": null,
+      "generatedAt": "2026-11-21T12:06:11.089Z",
+      "status": "failed",
+      "error": {
+        "code": "CircuitOpen",
+        "cause": "RateLimited"
+      },
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "minusca",
+      "query": "(MINUSCA OR \"Central African Republic\" OR Bangui OR Centrafrique OR \"République centrafricaine\") when:1d",
+      "label": "MINUSCA / CAR",
+      "queryRevision": 6,
+      "configHash": "70fc35081a3f31254e972854017c64471e9dc11bb34315c54a39adab70da6b8f",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-21T12:06:07.577Z",
+      "feedFetchedAt": null,
+      "generatedAt": "2026-11-21T12:06:11.089Z",
+      "status": "failed",
+      "error": {
+        "code": "CircuitOpen",
+        "cause": "RateLimited"
+      },
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "unmiss",
+      "query": "(UNMISS OR \"South Sudan\") when:1d",
+      "label": "UNMISS / South Sudan",
+      "queryRevision": 5,
+      "configHash": "c54d46954a9b353276e54f287e572c3ab964abe5403d89c6af801f295e477272",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-21T12:06:07.577Z",
+      "feedFetchedAt": null,
+      "generatedAt": "2026-11-21T12:06:11.089Z",
+      "status": "failed",
+      "error": {
+        "code": "CircuitOpen",
+        "cause": "RateLimited"
+      },
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "unisfa",
+      "query": "(UNISFA OR Abyei) when:1d",
+      "label": "UNISFA / Abyei",
+      "queryRevision": 5,
+      "configHash": "d3d815de887dce27b47997634fcb7c2f82db66f6bca00b76b8b607d67b3897e0",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-21T12:06:07.577Z",
+      "feedFetchedAt": null,
+      "generatedAt": "2026-11-21T12:06:11.089Z",
+      "status": "failed",
+      "error": {
+        "code": "CircuitOpen",
+        "cause": "RateLimited"
+      },
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "minurso",
+      "query": "(MINURSO OR \"Western Sahara\" OR Polisario OR Tindouf OR Laayoune OR \"Sahara occidental\") when:1d",
+      "label": "MINURSO / Western Sahara",
+      "queryRevision": 6,
+      "configHash": "fb21e0c83d004cc6db0e810fa21e25889384bb79359c3d32738c0595353b56f3",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-21T12:06:07.577Z",
+      "feedFetchedAt": null,
+      "generatedAt": "2026-11-21T12:06:11.089Z",
+      "status": "failed",
+      "error": {
+        "code": "CircuitOpen",
+        "cause": "RateLimited"
+      },
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "unmik",
+      "query": "(UNMIK OR Kosovo OR Pristina OR Mitrovica) when:1d",
+      "label": "UNMIK / Kosovo",
+      "queryRevision": 5,
+      "configHash": "364de26766286a7e9b8241f5c8462e0a65812c69428e9b11c436a2ba3c4fb01a",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-21T12:06:07.577Z",
+      "feedFetchedAt": null,
+      "generatedAt": "2026-11-21T12:06:11.089Z",
+      "status": "failed",
+      "error": {
+        "code": "CircuitOpen",
+        "cause": "RateLimited"
+      },
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "unficyp",
+      "query": "(UNFICYP OR \"Cyprus buffer zone\" OR \"Cyprus talks\" OR \"Cyprus settlement\") when:1d",
+      "label": "UNFICYP / Cyprus",
+      "queryRevision": 5,
+      "configHash": "a925e4967c4dc1d340318e7e20bc2cc876ee8d9a6ca2beddaa4e5ea48686a94c",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-21T12:06:07.577Z",
+      "feedFetchedAt": null,
+      "generatedAt": "2026-11-21T12:06:11.089Z",
+      "status": "failed",
+      "error": {
+        "code": "CircuitOpen",
+        "cause": "RateLimited"
+      },
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    },
+    {
+      "queryId": "unmogip",
+      "query": "(UNMOGIP OR \"Line of Control\" OR Kashmir \"United Nations\") when:1d",
+      "label": "UNMOGIP / Kashmir",
+      "queryRevision": 5,
+      "configHash": "3a22dca6c543fa18a0377ef3a3094d63922f43b49f4baf578b8651f649dc3fa8",
+      "source": "standard",
+      "lookbackHours": 24,
+      "locale": {
+        "language": "en-US",
+        "country": "US",
+        "edition": "US:en"
+      },
+      "startedAt": "2026-11-21T12:06:07.577Z",
+      "feedFetchedAt": null,
+      "generatedAt": "2026-11-21T12:06:11.089Z",
+      "status": "failed",
+      "error": {
+        "code": "CircuitOpen",
+        "cause": "RateLimited"
+      },
+      "truncated": false,
+      "counts": {
+        "selected": 0,
+        "resolved": 0,
+        "unresolved": 0,
+        "cacheHits": 0
+      },
+      "articles": []
+    }
+  ],
+  "runTimestamp": "20261121120607",
+  "githubRunId": "44902207722"
+}
